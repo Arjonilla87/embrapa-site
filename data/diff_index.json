@@ -1,0 +1,39 @@
+{
+  "diffs": [
+    {
+      "date": "2025-12-15",
+      "file": "diff_2025-12-15.csv",
+      "events": 8
+    },
+    {
+      "date": "2025-12-16",
+      "file": "diff_2025-12-16.csv",
+      "events": 4
+    },
+    {
+      "date": "2025-12-17",
+      "file": "diff_2025-12-17.csv",
+      "events": 9
+    },
+    {
+      "date": "2025-12-18",
+      "file": "diff_2025-12-18.csv",
+      "events": 6
+    },
+    {
+      "date": "2025-12-20",
+      "file": "diff_2025-12-20.csv",
+      "events": 15
+    },
+    {
+      "date": "2025-12-22",
+      "file": "diff_2025-12-22.csv",
+      "events": 14
+    },
+    {
+      "date": "2025-12-23",
+      "file": "diff_2025-12-23.csv",
+      "events": 5
+    }
+  ]
+}

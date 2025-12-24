@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo das contratações - EMBRAPA 2025</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PapaParse -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+    <style>
+        /* 🔧 CORREÇÃO GLOBAL DE LARGURA */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #eef5ee;
+            border-left: 4px solid #1b5e20;
+        }
+
+        .history-button {
+            background-color: #1b5e20;
+            color: white;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .history-button:hover {
+            background-color: #2e7d32;
+        }
+
+        /* ==============================
+           CAMPO DE BUSCA
+           ============================== */
+
+        .search-box {
+            margin: 10px 0 15px 0;
+            width: 100%;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 14px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            outline: none;
+            display: block;
+        }
+
+        .search-box input:focus {
+            border-color: #1b5e20;
+            box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0e0e0;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        /* ===============================
+           BARRAS DE PROGRESSO
+           =============================== */
+
+        .progress-container {
+            width: 100%;
+            background: #eee;
+            border-radius: 4px;
+            overflow: hidden;
+            height: 16px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            font-size: 11px;
+            color: white;
+            text-align: center;
+            line-height: 16px;
+            white-space: nowrap;
+        }
+
+        .progress-low {
+            background-color: #d32f2f;
+        }
+
+        .progress-mid {
+            background-color: #f9a825;
+        }
+
+        .progress-high {
+            background-color: #388e3c;
+        }
+
+        /* ==============================
+           MOBILE CARD LAYOUT
+           ============================== */
+
+        @media (max-width: 768px) {
+            table,
+            thead,
+            tbody,
+            th,
+            td,
+            tr {
+                display: block;
+            }
+
+            thead {
+                display: none;
+            }
+
+            table {
+                border: none;
+            }
+
+            tbody tr {
+                background: white;
+                margin-bottom: 16px;
+                border-radius: 6px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+                padding: 10px;
+            }
+
+            tbody td {
+                border: none;
+                padding: 6px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+            }
+
+            tbody td::before {
+                content: attr(data-label);
+                font-weight: bold;
+                color: #555;
+                margin-right: 10px;
+                text-align: left;
+                flex: 1;
+            }
+
+            tbody td > * {
+                flex: 1;
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Resumo das contratações - EMBRAPA 2025</h1>
+</header>
+
+<main>
+    <div class="content">
+        <div class="top-bar">
+            <span id="last-update">Última atualização: carregando...</span>
+            <a class="history-button" href="history.html">
+                Histórico de atualizações
+            </a>
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="search-input"
+                placeholder="🔍 Buscar por opção..."
+                autocomplete="off"
+            />
+        </div>
+
+        <table id="data-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</main>
+
+<script src="js/index.js?v=0002"></script>
+
+</body>
+</html>

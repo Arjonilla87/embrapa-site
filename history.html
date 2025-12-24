@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Histórico de atualizações - EMBRAPA 2025</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PapaParse -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 6px;
+            font-size: 14px;
+        }
+
+        a.button {
+            background-color: #1b5e20;
+            color: white;
+            padding: 8px 14px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0e0e0;
+        }
+
+        tr.novo {
+            background-color: #e8f5e9;
+        }
+
+        tr.removido {
+            background-color: #ffebee;
+        }
+
+        tr.alterado {
+            background-color: #fffde7;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Histórico de atualizações</h1>
+</header>
+
+<main>
+
+    <div class="toolbar">
+        <div>
+            <label for="diff-select">Selecione a data:</label>
+            <select id="diff-select"></select>
+        </div>
+
+        <a href="index.html" class="button">← Voltar ao resumo</a>
+    </div>
+
+    <table id="diff-table">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td colspan="20">📂 Selecione uma data</td>
+            </tr>
+        </tbody>
+    </table>
+
+</main>
+
+<footer></footer>
+
+<script src="js/history.js"></script>
+
+</body>
+</html>
