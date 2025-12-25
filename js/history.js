@@ -20,7 +20,7 @@ function loadCSV(url) {
             download: true,
             header: true,
             skipEmptyLines: true,
-            complete: results => resolve(results),
+            complete: results => resolve(results.data),
             error: err => reject(err)
         });
     });
@@ -30,87 +30,119 @@ function loadCSV(url) {
 // Renderização
 // ----------------------------------------
 
+function renderTable(container, title, rows) {
+    if (!rows || rows.length === 0) {
+        return;
+    }
+
+    const block = document.createElement("div");
+    block.className = "diff-block";
+
+    const h3 = document.createElement("div");
+    h3.className = "diff-title";
+    h3.textContent = `📅 ${title}`;
+    block.appendChild(h3);
+
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const tbody = document.createElement("tbody");
+
+    const headers = Object.keys(rows[0]);
+
+    const trHead = document.createElement("tr");
+    headers.forEach(h => {
+        const th = document.createElement("th");
+        th.textContent = h;
+        trHead.appendChild(th);
+    });
+    thead.appendChild(trHead);
+
+    rows.forEach(row => {
+        const tr = document.createElement("tr");
+        const evento = (row.EVENTO || "").toLowerCase();
+        if (["novo", "alterado", "removido"].includes(evento)) {
+            tr.classList.add(evento);
+        }
+
+        headers.forEach(h => {
+            const td = document.createElement("td");
+            td.textContent = row[h] || "";
+            tr.appendChild(td);
+        });
+
+        tbody.appendChild(tr);
+    });
+
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    block.appendChild(table);
+    container.appendChild(block);
+}
+
 async function initHistory() {
     const select = document.getElementById("diff-select");
-    const table = document.getElementById("diff-table");
-    const thead = table.querySelector("thead");
-    const tbody = table.querySelector("tbody");
+    const container = document.getElementById("diff-container");
 
     let index;
 
     try {
         index = await loadJSON("data/diff_index.json");
     } catch (e) {
-        tbody.innerHTML = `<tr><td>❌ Erro ao carregar histórico</td></tr>`;
+        container.innerHTML = "❌ Erro ao carregar histórico";
         console.error(e);
         return;
     }
 
     if (!index.diffs || index.diffs.length === 0) {
-        tbody.innerHTML = `<tr><td>📭 Nenhum diff disponível</td></tr>`;
+        container.innerHTML = "📭 Nenhum histórico disponível";
         return;
     }
 
-    // Preenche o select
-    index.diffs.forEach(diff => {
+    // Ordena do mais recente para o mais antigo
+    const diffs = [...index.diffs].sort((a, b) => b.date.localeCompare(a.date));
+
+    // Opção TODOS
+    const optAll = document.createElement("option");
+    optAll.value = "__ALL__";
+    optAll.textContent = "📚 Todos os dias";
+    select.appendChild(optAll);
+
+    // Datas individuais
+    diffs.forEach(diff => {
         const opt = document.createElement("option");
         opt.value = diff.file;
         opt.textContent = `${diff.date} (${diff.events} eventos)`;
         select.appendChild(opt);
     });
 
+    async function loadSingle(diff) {
+        const rows = await loadCSV(`data/diffs/${diff.file}`);
+        renderTable(container, diff.date, rows);
+    }
+
+    async function loadAll() {
+        container.innerHTML = "";
+        for (const diff of diffs) {
+            await loadSingle(diff);
+        }
+    }
+
     select.onchange = async () => {
-        const file = select.value;
-        if (!file) return;
+        container.innerHTML = "⏳ Carregando...";
 
-        thead.innerHTML = "";
-        tbody.innerHTML = `<tr><td>⏳ Carregando...</td></tr>`;
-
-        try {
-            const parsed = await loadCSV(`data/diffs/${file}`);
-            const rows = parsed.data;
-
-            if (rows.length === 0) {
-                tbody.innerHTML = `<tr><td>📭 Nenhum dado</td></tr>`;
-                return;
-            }
-
-            const headers = Object.keys(rows[0]);
-
-            // Cabeçalho
-            const trHead = document.createElement("tr");
-            headers.forEach(h => {
-                const th = document.createElement("th");
-                th.textContent = h;
-                trHead.appendChild(th);
-            });
-            thead.appendChild(trHead);
-
-            // Corpo
-            tbody.innerHTML = "";
-
-            rows.forEach(row => {
-                const tr = document.createElement("tr");
-
-                const evento = (row.EVENTO || "").toLowerCase();
-                if (["novo", "removido", "alterado"].includes(evento)) {
-                    tr.classList.add(evento);
-                }
-
-                headers.forEach(h => {
-                    const td = document.createElement("td");
-                    td.textContent = row[h] || "";
-                    tr.appendChild(td);
-                });
-
-                tbody.appendChild(tr);
-            });
-
-        } catch (e) {
-            tbody.innerHTML = `<tr><td>❌ Erro ao carregar CSV</td></tr>`;
-            console.error(e);
+        if (select.value === "__ALL__") {
+            await loadAll();
+        } else {
+            const diff = diffs.find(d => d.file === select.value);
+            container.innerHTML = "";
+            await loadSingle(diff);
         }
     };
+
+    // 🔥 Carrega automaticamente o mais recente
+    select.value = diffs[0].file;
+    container.innerHTML = "";
+    await loadSingle(diffs[0]);
 }
 
 // ----------------------------------------
