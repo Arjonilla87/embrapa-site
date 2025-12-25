@@ -35,7 +35,7 @@ Papa.parse("./data/opcao_status_summary.csv", {
     // Linha LAST_UPDATE
     if (data[0][0] === "LAST_UPDATE") {
       document.getElementById("last-update").innerText =
-        "Última atualização: " + data[0][1];
+        "Última checagem: " + data[0][1];
       data.shift();
     }
 
