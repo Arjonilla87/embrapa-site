@@ -88,6 +88,27 @@
             background-color: #fffde7;
         }
 
+        tr.expandable {
+            cursor: pointer;
+        }
+        
+        tr.details-row td {
+            background-color: #fafafa;
+            text-align: left;
+            padding: 10px;
+            font-size: 13px;
+        }
+        
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 6px 20px;
+        }
+        
+        .details-grid div {
+            white-space: nowrap;
+        }
+
         footer {
             margin-top: 30px;
             padding: 20px;
