@@ -225,6 +225,23 @@
                 margin-top: 8px;
                 padding-top: 8px;
             }
+
+            .toolbar {
+                align-items: stretch;
+            }
+        
+            .toolbar > div {
+                flex: 1;
+                min-width: 0;   /* permite encolher */
+            }
+        
+            .toolbar a.button {
+                flex: 1;
+                white-space: normal;
+                text-align: center;
+                line-height: 1.2;
+            }
+        }
         }
     </style>
 </head>
