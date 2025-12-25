@@ -1,0 +1,1325 @@
+{
+  "40000968": {
+    "opcao": "40000968",
+    "cargo": "Pesquisador",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos",
+    "total_vagas": 5
+  },
+  "40000775": {
+    "opcao": "40000775",
+    "cargo": "Pesquisador",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos de Origem Animal",
+    "total_vagas": 5
+  },
+  "40001403": {
+    "opcao": "40001403",
+    "cargo": "Pesquisador",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos de Pós-Colheita",
+    "total_vagas": 2
+  },
+  "40001791": {
+    "opcao": "40001791",
+    "cargo": "Pesquisador",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Enologia",
+    "total_vagas": 1
+  },
+  "40000134": {
+    "opcao": "40000134",
+    "cargo": "Pesquisador",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Tecnologia e Inovação Alimentar para Gastronomia",
+    "total_vagas": 3
+  },
+  "40001321": {
+    "opcao": "40001321",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Agentes Biológicos de Controle",
+    "total_vagas": 3
+  },
+  "40000457": {
+    "opcao": "40000457",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Ambiência e Bioclimatologia Animal",
+    "total_vagas": 2
+  },
+  "40001894": {
+    "opcao": "40001894",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Apicultura e Meliponicultura",
+    "total_vagas": 4
+  },
+  "40002408": {
+    "opcao": "40002408",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Armazenamento de Grãos e Sementes",
+    "total_vagas": 1
+  },
+  "40000519": {
+    "opcao": "40000519",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Bacteriologia Vegetal",
+    "total_vagas": 3
+  },
+  "40002541": {
+    "opcao": "40002541",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Ciência do Solo",
+    "total_vagas": 17
+  },
+  "40001144": {
+    "opcao": "40001144",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Controle Alternativo de Fitopatógenos",
+    "total_vagas": 3
+  },
+  "40001358": {
+    "opcao": "40001358",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Ecologia",
+    "total_vagas": 1
+  },
+  "40000062": {
+    "opcao": "40000062",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Entomologia Agrícola",
+    "total_vagas": 11
+  },
+  "40002101": {
+    "opcao": "40002101",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Fertilidade e Química do Solo",
+    "total_vagas": 4
+  },
+  "40000710": {
+    "opcao": "40000710",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Fisiologia de Plantas Cultivadas",
+    "total_vagas": 3
+  },
+  "40001565": {
+    "opcao": "40001565",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Fitopatologia",
+    "total_vagas": 10
+  },
+  "40000632": {
+    "opcao": "40000632",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Fitotecnia",
+    "total_vagas": 6
+  },
+  "40001592": {
+    "opcao": "40001592",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Forragicultura",
+    "total_vagas": 8
+  },
+  "40001479": {
+    "opcao": "40001479",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Matologia",
+    "total_vagas": 4
+  },
+  "40000268": {
+    "opcao": "40000268",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Melhoramento Genético Animal",
+    "total_vagas": 6
+  },
+  "40003706": {
+    "opcao": "40003706",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Melhoramento Genético Vegetal",
+    "total_vagas": 16
+  },
+  "40001921": {
+    "opcao": "40001921",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Microbiologia e Bioquímica do Solo",
+    "total_vagas": 4
+  },
+  "40000435": {
+    "opcao": "40000435",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Modelagem e Simulação em Sistemas Agrícolas",
+    "total_vagas": 1
+  },
+  "40001550": {
+    "opcao": "40001550",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Nematologia Vegetal",
+    "total_vagas": 4
+  },
+  "40001484": {
+    "opcao": "40001484",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Nutrição de Ruminantes",
+    "total_vagas": 4
+  },
+  "40000735": {
+    "opcao": "40000735",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Pedologia",
+    "total_vagas": 3
+  },
+  "40001001": {
+    "opcao": "40001001",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade Aquícola",
+    "total_vagas": 2
+  },
+  "40001472": {
+    "opcao": "40001472",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade de Abelhas",
+    "total_vagas": 1
+  },
+  "40002503": {
+    "opcao": "40002503",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade e Defesa Animal",
+    "total_vagas": 5
+  },
+  "40001071": {
+    "opcao": "40001071",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade e Defesa Vegetal",
+    "total_vagas": 1
+  },
+  "40000786": {
+    "opcao": "40000786",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Dados Georreferenciados",
+    "total_vagas": 2
+  },
+  "40000894": {
+    "opcao": "40000894",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Serviços Ambientais",
+    "total_vagas": 2
+  },
+  "40001834": {
+    "opcao": "40001834",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Silvicultura",
+    "total_vagas": 3
+  },
+  "40001752": {
+    "opcao": "40001752",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção Agroecológico e Orgânico",
+    "total_vagas": 7
+  },
+  "40001354": {
+    "opcao": "40001354",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção de Espécies Frutíferas",
+    "total_vagas": 4
+  },
+  "40000092": {
+    "opcao": "40000092",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção de Tuberosas",
+    "total_vagas": 1
+  },
+  "40000528": {
+    "opcao": "40000528",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção de Olerícolas",
+    "total_vagas": 3
+  },
+  "40001084": {
+    "opcao": "40001084",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção Integrado",
+    "total_vagas": 3
+  },
+  "40001744": {
+    "opcao": "40001744",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção Vegetal",
+    "total_vagas": 20
+  },
+  "40000118": {
+    "opcao": "40000118",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas Agrícolas Tradicionais (SATs)",
+    "total_vagas": 1
+  },
+  "40000402": {
+    "opcao": "40000402",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção Animal",
+    "total_vagas": 3
+  },
+  "40001074": {
+    "opcao": "40001074",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção Aquícola",
+    "total_vagas": 3
+  },
+  "40000361": {
+    "opcao": "40000361",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção de Caprinos e Ovinos",
+    "total_vagas": 1
+  },
+  "40000709": {
+    "opcao": "40000709",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção de Culturas Anuais",
+    "total_vagas": 5
+  },
+  "40001350": {
+    "opcao": "40001350",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção de Culturas Perenes",
+    "total_vagas": 1
+  },
+  "40000458": {
+    "opcao": "40000458",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção de Leite",
+    "total_vagas": 1
+  },
+  "40001749": {
+    "opcao": "40001749",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção de Ruminantes",
+    "total_vagas": 3
+  },
+  "40000959": {
+    "opcao": "40000959",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Sociobiodiversidade",
+    "total_vagas": 1
+  },
+  "40001887": {
+    "opcao": "40001887",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Tecnologia e Utilização de Produtos Florestais",
+    "total_vagas": 1
+  },
+  "40001860": {
+    "opcao": "40001860",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Uso Sustentável de Recursos Naturais",
+    "total_vagas": 5
+  },
+  "40000058": {
+    "opcao": "40000058",
+    "cargo": "Pesquisador",
+    "area": "Ciências Agrárias",
+    "subarea": "Virologia Vegetal",
+    "total_vagas": 3
+  },
+  "40002003": {
+    "opcao": "40002003",
+    "cargo": "Pesquisador",
+    "area": "Ciências Ambientais",
+    "subarea": "Gestão Ambiental",
+    "total_vagas": 1
+  },
+  "40000133": {
+    "opcao": "40000133",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Agro sociobiodiversidade e Sementes Crioulas",
+    "total_vagas": 1
+  },
+  "40001690": {
+    "opcao": "40001690",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Avançada",
+    "total_vagas": 14
+  },
+  "40000345": {
+    "opcao": "40000345",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Sintética e Ciências Ômicas",
+    "total_vagas": 2
+  },
+  "40002684": {
+    "opcao": "40002684",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Bioprocessos",
+    "total_vagas": 1
+  },
+  "40000015": {
+    "opcao": "40000015",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Conservação de Recursos Genéticos Vegetais",
+    "total_vagas": 1
+  },
+  "40000119": {
+    "opcao": "40000119",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Etnobotânica",
+    "total_vagas": 1
+  },
+  "40000502": {
+    "opcao": "40000502",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Fisiologia Vegetal",
+    "total_vagas": 1
+  },
+  "40001672": {
+    "opcao": "40001672",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Insumos Biológicos",
+    "total_vagas": 12
+  },
+  "40001179": {
+    "opcao": "40001179",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Recursos Genéticos Animais",
+    "total_vagas": 2
+  },
+  "40001045": {
+    "opcao": "40001045",
+    "cargo": "Pesquisador",
+    "area": "Ciências Biológicas",
+    "subarea": "Bioprospecção e Biotecnologia",
+    "total_vagas": 8
+  },
+  "40000131": {
+    "opcao": "40000131",
+    "cargo": "Pesquisador",
+    "area": "Ciências da Saúde",
+    "subarea": "Nutrição",
+    "total_vagas": 1
+  },
+  "40000338": {
+    "opcao": "40000338",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Agricultura Digital",
+    "total_vagas": 1
+  },
+  "40000373": {
+    "opcao": "40000373",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Agricultura e Climatologia",
+    "total_vagas": 7
+  },
+  "40000322": {
+    "opcao": "40000322",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Bioprocessos para Energias Renováveis",
+    "total_vagas": 1
+  },
+  "40002022": {
+    "opcao": "40002022",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Ciência de Dados",
+    "total_vagas": 6
+  },
+  "40000224": {
+    "opcao": "40000224",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Energias Renováveis",
+    "total_vagas": 1
+  },
+  "40000175": {
+    "opcao": "40000175",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Engenharia",
+    "total_vagas": 1
+  },
+  "40001733": {
+    "opcao": "40001733",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Geotecnologia",
+    "total_vagas": 1
+  },
+  "40000339": {
+    "opcao": "40000339",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Impactos Ambientais",
+    "total_vagas": 1
+  },
+  "40000346": {
+    "opcao": "40000346",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Química de Produtos Naturais",
+    "total_vagas": 1
+  },
+  "40005782": {
+    "opcao": "40005782",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Rastreabilidade e Certificação Digital",
+    "total_vagas": 1
+  },
+  "40000043": {
+    "opcao": "40000043",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Geoprocessamento",
+    "total_vagas": 1
+  },
+  "40000113": {
+    "opcao": "40000113",
+    "cargo": "Pesquisador",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Sistemas de Informação Geográfica (SIG) e Desenvolvimento Territorial",
+    "total_vagas": 1
+  },
+  "40000564": {
+    "opcao": "40000564",
+    "cargo": "Pesquisador",
+    "area": "Ciências Sociais Aplicadas",
+    "subarea": "Ciências Econômicas Aplicadas à Agropecuária",
+    "total_vagas": 2
+  },
+  "40002494": {
+    "opcao": "40002494",
+    "cargo": "Pesquisador",
+    "area": "Ciências Sociais Aplicadas",
+    "subarea": "Ciências Sociais Aplicadas à Agropecuária",
+    "total_vagas": 7
+  },
+  "40000115": {
+    "opcao": "40000115",
+    "cargo": "Pesquisador",
+    "area": "Ciências Sociais Aplicadas",
+    "subarea": "Desenvolvimento Territorial e Turismo",
+    "total_vagas": 1
+  },
+  "40000116": {
+    "opcao": "40000116",
+    "cargo": "Pesquisador",
+    "area": "Ciências Sociais Aplicadas",
+    "subarea": "Sociologia e Antropologia da Alimentação",
+    "total_vagas": 2
+  },
+  "40000980": {
+    "opcao": "40000980",
+    "cargo": "Pesquisador",
+    "area": "Engenharias",
+    "subarea": "Sociologia e Automação e Mecanização",
+    "total_vagas": 11
+  },
+  "40002098": {
+    "opcao": "40002098",
+    "cargo": "Pesquisador",
+    "area": "Engenharias",
+    "subarea": "Recursos Florestais e Engenharia Florestal",
+    "total_vagas": 1
+  },
+  "40000404": {
+    "opcao": "40000404",
+    "cargo": "Pesquisador",
+    "area": "Engenharias",
+    "subarea": "Robótica e Sensoriamento",
+    "total_vagas": 1
+  },
+  "40000405": {
+    "opcao": "40000405",
+    "cargo": "Pesquisador",
+    "area": "Espectroscopia Aplicada",
+    "subarea": "Instrumentação em Ressonância Magnética Nuclear",
+    "total_vagas": 1
+  },
+  "40004576": {
+    "opcao": "40004576",
+    "cargo": "Pesquisador",
+    "area": "Fotônica",
+    "subarea": "Instrumentação em Fotônica",
+    "total_vagas": 1
+  },
+  "40000065": {
+    "opcao": "40000065",
+    "cargo": "Pesquisador",
+    "area": "Nanotecnologia",
+    "subarea": "Nanotecnologia",
+    "total_vagas": 2
+  },
+  "40000271": {
+    "opcao": "40000271",
+    "cargo": "Pesquisador",
+    "area": "Produção Aquícola",
+    "subarea": "Manejo e Conservação de Recursos Pesqueiros",
+    "total_vagas": 2
+  },
+  "40001494": {
+    "opcao": "40001494",
+    "cargo": "Pesquisador",
+    "area": "Recursos Naturais",
+    "subarea": "Economia Ambiental",
+    "total_vagas": 1
+  },
+  "40003965": {
+    "opcao": "40003965",
+    "cargo": "Pesquisador",
+    "area": "Gestão da Informação",
+    "subarea": "Engenharia de Dados",
+    "total_vagas": 1
+  },
+  "40006431": {
+    "opcao": "40006431",
+    "cargo": "Pesquisador",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Inovação Social",
+    "total_vagas": 2
+  },
+  "40002042": {
+    "opcao": "40002042",
+    "cargo": "Analista",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Análise Sensorial",
+    "total_vagas": 1
+  },
+  "40001064": {
+    "opcao": "40001064",
+    "cargo": "Analista",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos",
+    "total_vagas": 7
+  },
+  "40000281": {
+    "opcao": "40000281",
+    "cargo": "Analista",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos de Organismos Aquáticos",
+    "total_vagas": 1
+  },
+  "40000150": {
+    "opcao": "40000150",
+    "cargo": "Analista",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Ciência de Alimentos de Origem Animal",
+    "total_vagas": 1
+  },
+  "40009493": {
+    "opcao": "40009493",
+    "cargo": "Analista",
+    "area": "Ciência e Tecnologia de Alimentos",
+    "subarea": "Tecnologia e Inovação Alimentar para Gastronomia",
+    "total_vagas": 2
+  },
+  "40002688": {
+    "opcao": "40002688",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Ciência do Solo",
+    "total_vagas": 6
+  },
+  "40000379": {
+    "opcao": "40000379",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Clínica e Cirurgia de Caprinos e Ovinos",
+    "total_vagas": 1
+  },
+  "40004353": {
+    "opcao": "40004353",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Clínica Veterinária",
+    "total_vagas": 3
+  },
+  "40001465": {
+    "opcao": "40001465",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Recursos Genéticos Microbianos",
+    "total_vagas": 1
+  },
+  "40001355": {
+    "opcao": "40001355",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Recursos Pesqueiros e Engenharia de Pesca",
+    "total_vagas": 2
+  },
+  "40000773": {
+    "opcao": "40000773",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade e Defesa Animal",
+    "total_vagas": 1
+  },
+  "40000724": {
+    "opcao": "40000724",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Sanidade e Defesa Vegetal",
+    "total_vagas": 6
+  },
+  "40001496": {
+    "opcao": "40001496",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Sensoriamento Remoto",
+    "total_vagas": 1
+  },
+  "40000932": {
+    "opcao": "40000932",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistema de Produção Vegetal",
+    "total_vagas": 19
+  },
+  "40003735": {
+    "opcao": "40003735",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Sistemas de Produção Animal",
+    "total_vagas": 4
+  },
+  "40001042": {
+    "opcao": "40001042",
+    "cargo": "Analista",
+    "area": "Ciências Agrárias",
+    "subarea": "Tecnologia de Sementes",
+    "total_vagas": 2
+  },
+  "40002139": {
+    "opcao": "40002139",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Avançada e Bioinformática",
+    "total_vagas": 7
+  },
+  "40001224": {
+    "opcao": "40001224",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Avançada e Química",
+    "total_vagas": 3
+  },
+  "40002166": {
+    "opcao": "40002166",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Avançada e Tecnologia da Informação",
+    "total_vagas": 1
+  },
+  "40003476": {
+    "opcao": "40003476",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Molecular e Genética Animal",
+    "total_vagas": 2
+  },
+  "40000605": {
+    "opcao": "40000605",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Biologia Sintética e Ciências Ômicas",
+    "total_vagas": 1
+  },
+  "40000042": {
+    "opcao": "40000042",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Botânica e Ecologia",
+    "total_vagas": 1
+  },
+  "40001028": {
+    "opcao": "40001028",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Insumos Biológicos",
+    "total_vagas": 8
+  },
+  "40000332": {
+    "opcao": "40000332",
+    "cargo": "Analista",
+    "area": "Ciências Biológicas",
+    "subarea": "Recursos Genéticos e Melhoramento Genético Vegetal",
+    "total_vagas": 4
+  },
+  "40001607": {
+    "opcao": "40001607",
+    "cargo": "Analista",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Agricultura e Climatologia",
+    "total_vagas": 3
+  },
+  "40002198": {
+    "opcao": "40002198",
+    "cargo": "Analista",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Ciência de Dados",
+    "total_vagas": 12
+  },
+  "40001642": {
+    "opcao": "40001642",
+    "cargo": "Analista",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Geomática",
+    "total_vagas": 2
+  },
+  "40002345": {
+    "opcao": "40002345",
+    "cargo": "Analista",
+    "area": "Ciências Exatas e da Terra",
+    "subarea": "Sistemas de Informação",
+    "total_vagas": 3
+  },
+  "40000176": {
+    "opcao": "40000176",
+    "cargo": "Analista",
+    "area": "Ciências Sociais Aplicadas",
+    "subarea": "Ciências Sociais Aplicadas à Agropecuária",
+    "total_vagas": 9
+  },
+  "40002311": {
+    "opcao": "40002311",
+    "cargo": "Analista",
+    "area": "Direito e Auditoria",
+    "subarea": "Assessoria Jurídica Advogado",
+    "total_vagas": 1
+  },
+  "40007169": {
+    "opcao": "40007169",
+    "cargo": "Analista",
+    "area": "Direito e Auditoria",
+    "subarea": "Auditoria Contábil",
+    "total_vagas": 1
+  },
+  "40002180": {
+    "opcao": "40002180",
+    "cargo": "Analista",
+    "area": "Engenharias",
+    "subarea": "Automação e Mecanização",
+    "total_vagas": 3
+  },
+  "40000642": {
+    "opcao": "40000642",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Avaliação de Impactos",
+    "total_vagas": 1
+  },
+  "40002220": {
+    "opcao": "40002220",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Engenharia de Dados",
+    "total_vagas": 3
+  },
+  "40002278": {
+    "opcao": "40002278",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
+    "total_vagas": 16
+  },
+  "40001066": {
+    "opcao": "40001066",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Engenharia de Software",
+    "total_vagas": 5
+  },
+  "40001150": {
+    "opcao": "40001150",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Gestão da Informação Edição Inglês/Português",
+    "total_vagas": 1
+  },
+  "40000981": {
+    "opcao": "40000981",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Gestão da Informação e da Programação Textos Técnico-Científicos",
+    "total_vagas": 1
+  },
+  "40002260": {
+    "opcao": "40002260",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Gestão da Informação Arquivística",
+    "total_vagas": 1
+  },
+  "40000909": {
+    "opcao": "40000909",
+    "cargo": "Analista",
+    "area": "Gestão da Informação",
+    "subarea": "Gestão da Informação Bibliográfica",
+    "total_vagas": 2
+  },
+  "40002284": {
+    "opcao": "40002284",
+    "cargo": "Analista",
+    "area": "Gestão de Pessoas",
+    "subarea": "Folha de Pagamento",
+    "total_vagas": 2
+  },
+  "40001098": {
+    "opcao": "40001098",
+    "cargo": "Analista",
+    "area": "Gestão de Pessoas",
+    "subarea": "Administração de Pessoas",
+    "total_vagas": 6
+  },
+  "40002319": {
+    "opcao": "40002319",
+    "cargo": "Analista",
+    "area": "Gestão de Pessoas",
+    "subarea": "Desenvolvimento Humano",
+    "total_vagas": 6
+  },
+  "40000012": {
+    "opcao": "40000012",
+    "cargo": "Analista",
+    "area": "Gestão de Pessoas",
+    "subarea": "Saúde Ocupacional",
+    "total_vagas": 1
+  },
+  "40002289": {
+    "opcao": "40002289",
+    "cargo": "Analista",
+    "area": "Gestão de Pessoas",
+    "subarea": "Segurança e Saúde do Trabalho",
+    "total_vagas": 3
+  },
+  "40002490": {
+    "opcao": "40002490",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Articulação Político-Institucional Internacional",
+    "total_vagas": 1
+  },
+  "40003250": {
+    "opcao": "40003250",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Articulação Político-Institucional Nacional",
+    "total_vagas": 1
+  },
+  "40000616": {
+    "opcao": "40000616",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Governança Sustentável ESG",
+    "total_vagas": 2
+  },
+  "40001201": {
+    "opcao": "40001201",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Gestão Integrada de Qualidade e Sustentabilidade",
+    "total_vagas": 1
+  },
+  "40000383": {
+    "opcao": "40000383",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Governança e Estratégia",
+    "total_vagas": 7
+  },
+  "40002367": {
+    "opcao": "40002367",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Inteligência e Planejamento Estratégico",
+    "total_vagas": 1
+  },
+  "40000202": {
+    "opcao": "40000202",
+    "cargo": "Analista",
+    "area": "Gestão Estratégica",
+    "subarea": "Riscos, Conformidade e Transparência",
+    "total_vagas": 2
+  },
+  "40000210": {
+    "opcao": "40000210",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Apoio a Campo Experimental",
+    "total_vagas": 7
+  },
+  "40000464": {
+    "opcao": "40000464",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Apoio a Campo Experimental Produção Animal",
+    "total_vagas": 4
+  },
+  "40000205": {
+    "opcao": "40000205",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Biofísica Ambiental",
+    "total_vagas": 1
+  },
+  "40000013": {
+    "opcao": "40000013",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Cultura de Tecidos",
+    "total_vagas": 3
+  },
+  "40000551": {
+    "opcao": "40000551",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Gestão da Qualidade Laboratorial",
+    "total_vagas": 7
+  },
+  "40001181": {
+    "opcao": "40001181",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Laboratório",
+    "total_vagas": 5
+  },
+  "40001060": {
+    "opcao": "40001060",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Microbiologia do Solo",
+    "total_vagas": 1
+  },
+  "40000141": {
+    "opcao": "40000141",
+    "cargo": "Analista",
+    "area": "Laboratórios e Campos Experimentais",
+    "subarea": "Química",
+    "total_vagas": 5
+  },
+  "40000237": {
+    "opcao": "40000237",
+    "cargo": "Analista",
+    "area": "Métodos Quantitativos Avançados",
+    "subarea": "Métodos Quantitativos",
+    "total_vagas": 4
+  },
+  "40000353": {
+    "opcao": "40000353",
+    "cargo": "Analista",
+    "area": "Nanotecnologia",
+    "subarea": "Nanotecnologia",
+    "total_vagas": 2
+  },
+  "40002223": {
+    "opcao": "40002223",
+    "cargo": "Analista",
+    "area": "Orçamento e Finanças",
+    "subarea": "Contabilidade",
+    "total_vagas": 13
+  },
+  "40000408": {
+    "opcao": "40000408",
+    "cargo": "Analista",
+    "area": "Orçamento e Finanças",
+    "subarea": "Orçamento e Finanças",
+    "total_vagas": 2
+  },
+  "40002271": {
+    "opcao": "40002271",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
+    "total_vagas": 55
+  },
+  "40006388": {
+    "opcao": "40006388",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Ativos Patrimoniais e Imobiliários",
+    "total_vagas": 2
+  },
+  "40008640": {
+    "opcao": "40008640",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Infraestrutura",
+    "total_vagas": 1
+  },
+  "40004441": {
+    "opcao": "40004441",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Infraestrutura Arquitetura",
+    "total_vagas": 1
+  },
+  "40004461": {
+    "opcao": "40004461",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Infraestrutura Engenharia Civil",
+    "total_vagas": 6
+  },
+  "40003340": {
+    "opcao": "40003340",
+    "cargo": "Analista",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Infraestrutura Engenharia Elétrica",
+    "total_vagas": 1
+  },
+  "40001648": {
+    "opcao": "40001648",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Análise de Dados",
+    "total_vagas": 7
+  },
+  "40000648": {
+    "opcao": "40000648",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Comunicação",
+    "total_vagas": 8
+  },
+  "40000432": {
+    "opcao": "40000432",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Jornalismo",
+    "total_vagas": 7
+  },
+  "40000463": {
+    "opcao": "40000463",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Designer Gráfico",
+    "total_vagas": 6
+  },
+  "40000497": {
+    "opcao": "40000497",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Gestão da Propriedade Intelectual para a Inovação",
+    "total_vagas": 5
+  },
+  "40004569": {
+    "opcao": "40004569",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Gestão de Instrumentos de Parcerias e Negócios",
+    "total_vagas": 10
+  },
+  "40001151": {
+    "opcao": "40001151",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Gestão de Parcerias, Portfólios e Negócios para a Inovação",
+    "total_vagas": 33
+  },
+  "40002144": {
+    "opcao": "40002144",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Gestão de Projetos",
+    "total_vagas": 3
+  },
+  "40001348": {
+    "opcao": "40001348",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Inovação Social",
+    "total_vagas": 12
+  },
+  "40002027": {
+    "opcao": "40002027",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Tecnologia de Alimentos",
+    "total_vagas": 1
+  },
+  "40002553": {
+    "opcao": "40002553",
+    "cargo": "Analista",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Transferência de Tecnologia",
+    "total_vagas": 10
+  },
+  "40000682": {
+    "opcao": "40000682",
+    "cargo": "Técnico",
+    "area": "Gestão da Informação",
+    "subarea": "Tecnologia da Informação",
+    "total_vagas": 3
+  },
+  "40001814": {
+    "opcao": "40001814",
+    "cargo": "Técnico",
+    "area": "Gestão de Pessoas",
+    "subarea": "Segurança e Saúde do Trabalho",
+    "total_vagas": 10
+  },
+  "40000262": {
+    "opcao": "40000262",
+    "cargo": "Técnico",
+    "area": "Laboratório e Campos Experimentais",
+    "subarea": "Bioquímica e Biologia Molecular",
+    "total_vagas": 1
+  },
+  "40000188": {
+    "opcao": "40000188",
+    "cargo": "Técnico",
+    "area": "Laboratório e Campos Experimentais",
+    "subarea": "Laboratório",
+    "total_vagas": 59
+  },
+  "40000002": {
+    "opcao": "40000002",
+    "cargo": "Técnico",
+    "area": "Laboratório e Campos Experimentais",
+    "subarea": "Manejo Animal",
+    "total_vagas": 18
+  },
+  "40001925": {
+    "opcao": "40001925",
+    "cargo": "Técnico",
+    "area": "Laboratório e Campos Experimentais",
+    "subarea": "Manejo Florestal",
+    "total_vagas": 6
+  },
+  "40000084": {
+    "opcao": "40000084",
+    "cargo": "Técnico",
+    "area": "Laboratório e Campos Experimentais",
+    "subarea": "Manejo Vegetal",
+    "total_vagas": 112
+  },
+  "40004381": {
+    "opcao": "40004381",
+    "cargo": "Técnico",
+    "area": "Mecânica",
+    "subarea": "Mecânica de Precisão",
+    "total_vagas": 1
+  },
+  "40002449": {
+    "opcao": "40002449",
+    "cargo": "Técnico",
+    "area": "Orçamento e Finanças",
+    "subarea": "Contabilidade",
+    "total_vagas": 1
+  },
+  "40000288": {
+    "opcao": "40000288",
+    "cargo": "Técnico",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Aquicultura",
+    "total_vagas": 3
+  },
+  "40001388": {
+    "opcao": "40001388",
+    "cargo": "Técnico",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Ativos Patrimoniais e Imobiliários",
+    "total_vagas": 2
+  },
+  "40000878": {
+    "opcao": "40000878",
+    "cargo": "Técnico",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Monitoramento Preditivo",
+    "total_vagas": 4
+  },
+  "40001393": {
+    "opcao": "40001393",
+    "cargo": "Técnico",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Novas Tecnologias",
+    "total_vagas": 2
+  },
+  "40000127": {
+    "opcao": "40000127",
+    "cargo": "Técnico",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Suporte à Gestão",
+    "total_vagas": 19
+  },
+  "40002348": {
+    "opcao": "40002348",
+    "cargo": "Técnico",
+    "area": "Transferência de Tecnologia e Comunicação",
+    "subarea": "Técnico Audiovisual",
+    "total_vagas": 1
+  },
+  "40003995": {
+    "opcao": "40003995",
+    "cargo": "Assistente",
+    "area": "Laboratório e Campos Experienciais",
+    "subarea": "Laboratório",
+    "total_vagas": 3
+  },
+  "40000007": {
+    "opcao": "40000007",
+    "cargo": "Assistente",
+    "area": "Laboratório e Campos Experienciais",
+    "subarea": "Manejo Animal",
+    "total_vagas": 22
+  },
+  "40000035": {
+    "opcao": "40000035",
+    "cargo": "Assistente",
+    "area": "Suprimento, Manutenção e Serviços",
+    "subarea": "Operador de Máquinas Agrícolas e Veículos",
+    "total_vagas": 37
+  }
+}
