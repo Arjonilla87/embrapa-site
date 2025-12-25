@@ -18,7 +18,7 @@ let currentSort = {
 // CARREGAMENTO DO CSV
 // ============================
 
-Papa.parse("./data/opcao_status_summary.csv" + Date.now();, {
+Papa.parse("./data/opcao_status_summary.csv", {
   download: true,
   encoding: "UTF-8",
   delimiter: ",",
