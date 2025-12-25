@@ -95,20 +95,32 @@
         tr.details-row td {
             background-color: #fafafa;
             text-align: left;
-            padding: 10px;
+            padding: 14px 16px;
             font-size: 13px;
+            line-height: 1.5;
         }
         
         .details-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 6px 20px;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px 24px;
         }
         
+        /* Cada campo */
         .details-grid div {
-            white-space: nowrap;
+            white-space: normal;          /* permite quebra de linha */
+            word-break: break-word;       /* quebra palavras longas */
+            overflow-wrap: anywhere;      /* evita overflow */
         }
-
+        
+        /* Destaque especial para ALTERAÇÕES */
+        .details-grid div.alteracoes {
+            grid-column: 1 / -1;          /* ocupa a linha inteira */
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px dashed #ccc;
+        }
+        
         footer {
             margin-top: 30px;
             padding: 20px;
