@@ -9,24 +9,24 @@
     <!-- PapaParse -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-    <style>
+        <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             background-color: #f5f5f5;
         }
-
+    
         header {
             background-color: #1b5e20;
             color: white;
             padding: 20px;
             text-align: center;
         }
-
+    
         main {
             padding: 20px;
         }
-
+    
         .toolbar {
             display: flex;
             justify-content: space-between;
@@ -35,12 +35,12 @@
             flex-wrap: wrap;
             gap: 10px;
         }
-
+    
         select {
             padding: 6px;
             font-size: 14px;
         }
-
+    
         a.button {
             background-color: #1b5e20;
             color: white;
@@ -48,50 +48,68 @@
             text-decoration: none;
             border-radius: 4px;
         }
-
+    
         .diff-block {
             margin-bottom: 40px;
         }
-
+    
         .diff-title {
             font-size: 18px;
             margin: 10px 0;
             font-weight: bold;
         }
-
+    
+        /* =========================
+           DESKTOP (tabela normal)
+           ========================= */
+    
         table {
             width: 100%;
             border-collapse: collapse;
             background: white;
             font-size: 14px;
         }
-
+    
+        thead {
+            display: table-header-group;
+        }
+    
+        tbody {
+            display: table-row-group;
+        }
+    
+        tr {
+            display: table-row;
+        }
+    
         th, td {
+            display: table-cell;
             border: 1px solid #ccc;
             padding: 6px;
             text-align: center;
+            vertical-align: middle;
         }
-
+    
         th {
             background-color: #e0e0e0;
         }
-
+    
         tr.novo {
             background-color: #e8f5e9;
         }
-
+    
         tr.removido {
             background-color: #ffebee;
         }
-
+    
         tr.alterado {
             background-color: #fffde7;
         }
-
+    
         tr.expandable {
             cursor: pointer;
         }
-        
+    
         tr.details-row td {
             background-color: #fafafa;
             text-align: left;
@@ -99,28 +117,26 @@
             font-size: 13px;
             line-height: 1.5;
         }
-        
+    
         .details-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 10px 24px;
         }
-        
-        /* Cada campo */
+    
         .details-grid div {
-            white-space: normal;          /* permite quebra de linha */
-            word-break: break-word;       /* quebra palavras longas */
-            overflow-wrap: anywhere;      /* evita overflow */
+            white-space: normal;
+            word-break: break-word;
+            overflow-wrap: anywhere;
         }
-        
-        /* Destaque especial para ALTERAÇÕES */
+    
         .details-grid div.alteracoes {
-            grid-column: 1 / -1;          /* ocupa a linha inteira */
+            grid-column: 1 / -1;
             margin-top: 6px;
             padding-top: 6px;
             border-top: 1px dashed #ccc;
         }
-        
+    
         footer {
             margin-top: 30px;
             padding: 20px;
@@ -128,47 +144,65 @@
             text-align: center;
             font-size: 14px;
         }
-
+    
+        /* =========================
+           MOBILE ONLY (cards)
+           ========================= */
         @media (max-width: 768px) {
-        
-            table, thead, tbody, tr, th, td {
-                display: block;
+    
+            table {
+                border: none;
             }
-        
+    
+            table,
+            thead,
+            tbody {
+                display: block;
+                width: 100%;
+            }
+    
             thead {
                 display: none;
             }
-        
+    
             tr.expandable {
+                display: block;
                 background: white;
                 margin-bottom: 12px;
                 border: 1px solid #ddd;
                 border-radius: 6px;
                 padding: 10px;
             }
-        
+    
             tr.expandable td {
+                display: block;
                 border: none;
                 padding: 6px 0;
                 text-align: left;
             }
-        
+    
             tr.expandable td::before {
                 content: attr(data-label);
                 font-weight: bold;
                 display: block;
                 font-size: 12px;
                 color: #555;
+                margin-bottom: 2px;
             }
-        
+    
+            tr.details-row {
+                display: block;
+            }
+    
             tr.details-row td {
+                display: block;
                 border-top: 1px dashed #ccc;
                 margin-top: 8px;
+                padding-top: 8px;
             }
         }
-
-        
     </style>
+
 </head>
 <body>
 
