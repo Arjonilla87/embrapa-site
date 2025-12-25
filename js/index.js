@@ -18,41 +18,43 @@ let currentSort = {
 // CARREGAMENTO DO CSV
 // ============================
 
-Papa.parse("./data/opcao_status_summary.csv", {
-  download: true,
-  encoding: "UTF-8",
-  delimiter: ",",
-  skipEmptyLines: true,
+Papa.parse(
+  "./data/opcao_status_summary.csv?v=" + Date.now(),
+  {
+    download: true,
+    encoding: "UTF-8",
+    delimiter: ",",
+    skipEmptyLines: true,
 
-  complete: function (results) {
-    let data = results.data.filter(r => Array.isArray(r) && r.length);
+    complete: function (results) {
+      let data = results.data.filter(r => Array.isArray(r) && r.length);
 
-    if (!data.length) {
-      console.error("CSV vazio");
-      return;
+      if (!data.length) {
+        console.error("CSV vazio");
+        return;
+      }
+
+      // Linha LAST_UPDATE
+      if (data[0][0] === "LAST_UPDATE") {
+        document.getElementById("last-update").innerText =
+          "Última atualização: " + data[0][1];
+        data.shift();
+      }
+
+      tableHeaders = data.shift();
+      tableData = data;
+      filteredData = [...tableData];
+
+      buildTableHeader();
+      renderTableBody();
+    },
+
+    error: function (err) {
+      console.error("Erro ao carregar CSV:", err);
     }
-
-    // Linha LAST_UPDATE
-    if (data[0][0] === "LAST_UPDATE") {
-      document.getElementById("last-update").innerText =
-        "Última atualização: " + data[0][1];
-      data.shift();
-    }
-
-    tableHeaders = data.shift();
-    tableData = data;
-
-    // 🔑 MOSTRA TUDO INICIALMENTE
-    filteredData = [...tableData];
-
-    buildTableHeader();
-    renderTableBody();
-  },
-
-  error: function (err) {
-    console.error("Erro ao carregar CSV:", err);
   }
-});
+);
+
 
 // ============================
 // HEADER
