@@ -30,6 +30,21 @@ function loadCSV(url) {
 // Renderização
 // ----------------------------------------
 
+const VISIBLE_COLUMNS = [
+    "DATA / HORA",
+    "OPÇÃO",
+    "NOME",
+    "COLOCAÇÃO",
+    "STATUS"
+];
+
+const HIDDEN_COLUMNS = [
+    "UNIDADE",
+    "LOTAÇÃO",
+    "EVENTO",
+    "ALTERACOES"
+];
+
 function renderTable(container, title, rows) {
     if (!rows || rows.length === 0) {
         return;
