@@ -18,7 +18,7 @@ let currentSort = {
 // CARREGAMENTO DO CSV
 // ============================
 
-Papa.parse(`./data/opcao_status_summary.csv?v=${Date.now()}`, {
+Papa.parse(`/embrapa-site/data/opcao_status_summary.csv?v=${Date.now()}`, {
   download: true,
   encoding: "UTF-8",
   delimiter: ",",
