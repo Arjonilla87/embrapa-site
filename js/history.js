@@ -100,6 +100,9 @@ function renderTable(container, title, rows) {
         HIDDEN_COLUMNS.forEach(col => {
             if (row[col]) {
                 const div = document.createElement("div");
+                if (col.toLowerCase() === "alterações" || col.toLowerCase() === "alteracoes") {
+                    div.classList.add("alteracoes");
+                }
                 div.innerHTML = `<strong>${col}:</strong> ${row[col]}`;
                 grid.appendChild(div);
             }
