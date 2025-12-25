@@ -9,107 +9,128 @@
     <!-- PapaParse -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-        <style>
+    <style>
+        /* 🔧 CORREÇÃO GLOBAL */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             background-color: #f5f5f5;
+            color: #333;
         }
-    
+
         header {
             background-color: #1b5e20;
             color: white;
             padding: 20px;
             text-align: center;
         }
-    
+
         main {
             padding: 20px;
+            max-width: 1400px;   /* 🔥 igual ao resumo */
+            margin: 0 auto;
         }
-    
-        .toolbar {
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        /* =========================
+           TOP BAR (igual ao resumo)
+           ========================= */
+
+        .top-bar {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 12px;
             margin-bottom: 20px;
+            padding: 10px;
+            background: #eef5ee;
+            border-left: 4px solid #1b5e20;
             flex-wrap: wrap;
-            gap: 10px;
         }
-    
+
+        .top-bar .left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
         select {
             padding: 6px;
             font-size: 14px;
         }
-    
+
         a.button {
             background-color: #1b5e20;
             color: white;
             padding: 8px 14px;
             text-decoration: none;
             border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap; /* 🔥 evita quebra feia */
         }
-    
+
+        a.button:hover {
+            background-color: #2e7d32;
+        }
+
         .diff-block {
             margin-bottom: 40px;
         }
-    
+
         .diff-title {
             font-size: 18px;
             margin: 10px 0;
             font-weight: bold;
         }
-    
+
         /* =========================
            DESKTOP (tabela normal)
            ========================= */
-    
+
         table {
             width: 100%;
             border-collapse: collapse;
             background: white;
             font-size: 14px;
         }
-    
-        thead {
-            display: table-header-group;
-        }
-    
-        tbody {
-            display: table-row-group;
-        }
-    
-        tr {
-            display: table-row;
-        }
-    
+
         th, td {
-            display: table-cell;
             border: 1px solid #ccc;
             padding: 6px;
             text-align: center;
             vertical-align: middle;
         }
-    
+
         th {
             background-color: #e0e0e0;
         }
-    
+
         tr.novo {
             background-color: #e8f5e9;
         }
-    
+
         tr.removido {
             background-color: #ffebee;
         }
-    
+
         tr.alterado {
             background-color: #fffde7;
         }
-    
+
         tr.expandable {
             cursor: pointer;
         }
-    
+
         tr.details-row td {
             background-color: #fafafa;
             text-align: left;
@@ -117,26 +138,26 @@
             font-size: 13px;
             line-height: 1.5;
         }
-    
+
         .details-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 10px 24px;
         }
-    
+
         .details-grid div {
             white-space: normal;
             word-break: break-word;
             overflow-wrap: anywhere;
         }
-    
+
         .details-grid div.alteracoes {
             grid-column: 1 / -1;
             margin-top: 6px;
             padding-top: 6px;
             border-top: 1px dashed #ccc;
         }
-    
+
         footer {
             margin-top: 30px;
             padding: 20px;
@@ -144,27 +165,27 @@
             text-align: center;
             font-size: 14px;
         }
-    
+
         /* =========================
            MOBILE ONLY (cards)
            ========================= */
         @media (max-width: 768px) {
-    
-            table {
-                border: none;
-            }
-    
+
             table,
             thead,
             tbody {
                 display: block;
                 width: 100%;
             }
-    
+
             thead {
                 display: none;
             }
-    
+
+            table {
+                border: none;
+            }
+
             tr.expandable {
                 display: block;
                 background: white;
@@ -173,14 +194,14 @@
                 border-radius: 6px;
                 padding: 10px;
             }
-    
+
             tr.expandable td {
                 display: block;
                 border: none;
                 padding: 6px 0;
                 text-align: left;
             }
-    
+
             tr.expandable td::before {
                 content: attr(data-label);
                 font-weight: bold;
@@ -189,11 +210,11 @@
                 color: #555;
                 margin-bottom: 2px;
             }
-    
+
             tr.details-row {
                 display: block;
             }
-    
+
             tr.details-row td {
                 display: block;
                 border-top: 1px dashed #ccc;
@@ -202,7 +223,6 @@
             }
         }
     </style>
-
 </head>
 <body>
 
@@ -211,20 +231,24 @@
 </header>
 
 <main>
+    <div class="content">
 
-    <div class="toolbar">
-        <div>
-            <label for="diff-select">Selecione a data:</label>
-            <select id="diff-select"></select>
+        <div class="top-bar">
+            <div class="left">
+                <label for="diff-select"><strong>Selecione a data:</strong></label>
+                <select id="diff-select"></select>
+            </div>
+
+            <a href="resumo.html" class="button">
+                Resumo por opção
+            </a>
         </div>
 
-        <a href="resumo.html" class="button">Resumo por opção</a>
-    </div>
+        <div id="diff-container">
+            <p>⏳ Carregando histórico...</p>
+        </div>
 
-    <div id="diff-container">
-        <p>⏳ Carregando histórico...</p>
     </div>
-
 </main>
 
 <footer></footer>
