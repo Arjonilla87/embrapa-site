@@ -6,6 +6,7 @@ let tableHeaders = [];
 let tableData = [];
 let filteredData = [];
 
+// A coluna OPÇÃO é SEMPRE a primeira (índice 0)
 let optionColumnIndex = 0;
 
 let currentSort = {
@@ -14,60 +15,44 @@ let currentSort = {
 };
 
 // ============================
-// INICIALIZAÇÃO
-// ============================
-
-document.addEventListener("DOMContentLoaded", () => {
-  loadCSV();
-});
-
-// ============================
 // CARREGAMENTO DO CSV
 // ============================
 
-function loadCSV() {
-  Papa.parse(`./data/opcao_status_summary.csv?v=${Date.now()}`, {
-    download: true,
-    encoding: "UTF-8",
-    delimiter: ",",
-    skipEmptyLines: true,
+Papa.parse("./data/opcao_status_summary.csv", {
+  download: true,
+  encoding: "UTF-8",
+  delimiter: ",",
+  skipEmptyLines: true,
 
-    complete: function (results) {
-      let data = results.data
-        .filter(r => Array.isArray(r) && r.length)
-        // 🔑 REMOVE BOM DO PRIMEIRO CAMPO
-        .map(row => {
-          if (typeof row[0] === "string") {
-            row[0] = row[0].replace(/^\uFEFF/, "").trim();
-          }
-          return row;
-        });
+  complete: function (results) {
+    let data = results.data.filter(r => Array.isArray(r) && r.length);
 
-      if (!data.length) {
-        console.error("CSV vazio");
-        return;
-      }
-
-      // Linha LAST_UPDATE
-      if (data[0][0] === "LAST_UPDATE") {
-        document.getElementById("last-update").innerText =
-          "Última atualização: " + data[0][1];
-        data.shift();
-      }
-
-      tableHeaders = data.shift();
-      tableData = data;
-      filteredData = [...tableData];
-
-      buildTableHeader();
-      renderTableBody();
-    },
-
-    error: function (err) {
-      console.error("Erro ao carregar CSV:", err);
+    if (!data.length) {
+      console.error("CSV vazio");
+      return;
     }
-  });
-}
+
+    // Linha LAST_UPDATE
+    if (data[0][0] === "LAST_UPDATE") {
+      document.getElementById("last-update").innerText =
+        "Última atualização: " + data[0][1];
+      data.shift();
+    }
+
+    tableHeaders = data.shift();
+    tableData = data;
+
+    // 🔑 MOSTRA TUDO INICIALMENTE
+    filteredData = [...tableData];
+
+    buildTableHeader();
+    renderTableBody();
+  },
+
+  error: function (err) {
+    console.error("Erro ao carregar CSV:", err);
+  }
+});
 
 // ============================
 // HEADER
@@ -83,7 +68,9 @@ function buildTableHeader() {
     const th = document.createElement("th");
     th.textContent = header;
     th.style.cursor = "pointer";
+
     th.addEventListener("click", () => handleSort(index));
+
     tr.appendChild(th);
   });
 
@@ -143,8 +130,11 @@ function renderTableBody() {
 
     row.forEach((cell, index) => {
       const td = document.createElement("td");
+
+      // 🔑 Essencial para o layout mobile (cards)
       td.setAttribute("data-label", tableHeaders[index]);
 
+      // Barra de progresso para %_PREENCHIDO
       if (index === percentColIndex) {
         const value = parseFloat(
           String(cell).replace("%", "").replace(",", ".")
@@ -199,20 +189,22 @@ function updateSortIcons() {
 }
 
 // ============================
-// FILTRO
+// FILTRO POR OPÇÃO (COLUNA 0)
 // ============================
 
 document.getElementById("search-input").addEventListener("input", function () {
   const query = this.value.trim().toLowerCase();
 
-  filteredData = query
-    ? tableData.filter(row =>
-        String(row[optionColumnIndex] || "")
-          .toLowerCase()
-          .includes(query)
-      )
-    : [...tableData];
+  if (!query) {
+    filteredData = [...tableData];
+  } else {
+    filteredData = tableData.filter(row =>
+      String(row[optionColumnIndex] || "")
+        .toLowerCase()
+        .includes(query)
+    );
+  }
 
-  sortData();
+  sortData();       // mantém ordenação atual
   renderTableBody();
 });
