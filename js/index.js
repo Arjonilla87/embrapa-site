@@ -6,7 +6,6 @@ let tableHeaders = [];
 let tableData = [];
 let filteredData = [];
 
-// A coluna OPÇÃO é SEMPRE a primeira (índice 0)
 let optionColumnIndex = 0;
 
 let currentSort = {
@@ -15,7 +14,7 @@ let currentSort = {
 };
 
 // ============================
-// INICIALIZAÇÃO SEGURA
+// INICIALIZAÇÃO
 // ============================
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -34,7 +33,15 @@ function loadCSV() {
     skipEmptyLines: true,
 
     complete: function (results) {
-      let data = results.data.filter(r => Array.isArray(r) && r.length);
+      let data = results.data
+        .filter(r => Array.isArray(r) && r.length)
+        // 🔑 REMOVE BOM DO PRIMEIRO CAMPO
+        .map(row => {
+          if (typeof row[0] === "string") {
+            row[0] = row[0].replace(/^\uFEFF/, "").trim();
+          }
+          return row;
+        });
 
       if (!data.length) {
         console.error("CSV vazio");
@@ -50,7 +57,6 @@ function loadCSV() {
 
       tableHeaders = data.shift();
       tableData = data;
-
       filteredData = [...tableData];
 
       buildTableHeader();
@@ -77,9 +83,7 @@ function buildTableHeader() {
     const th = document.createElement("th");
     th.textContent = header;
     th.style.cursor = "pointer";
-
     th.addEventListener("click", () => handleSort(index));
-
     tr.appendChild(th);
   });
 
