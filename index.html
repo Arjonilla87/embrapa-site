@@ -76,8 +76,12 @@
             text-decoration: none;
             border-radius: 4px;
             font-size: 14px;
-            white-space: nowrap; /* 🔥 evita quebra feia */
+        
+            white-space: normal;      /* permite quebra de linha */
+            text-align: center;       /* centraliza texto em múltiplas linhas */
+            line-height: 1.2;         /* melhora leitura quando quebra */
         }
+
 
         a.button:hover {
             background-color: #2e7d32;
