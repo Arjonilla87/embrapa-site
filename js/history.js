@@ -83,6 +83,7 @@ function renderTable(container, title, rows) {
         VISIBLE_COLUMNS.forEach(col => {
             const td = document.createElement("td");
             td.textContent = row[col] || "";
+            td.setAttribute("data-label", col);
             tr.appendChild(td);
         });
 
