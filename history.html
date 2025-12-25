@@ -32,6 +32,8 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         select {
@@ -45,6 +47,16 @@
             padding: 8px 14px;
             text-decoration: none;
             border-radius: 4px;
+        }
+
+        .diff-block {
+            margin-bottom: 40px;
+        }
+
+        .diff-title {
+            font-size: 18px;
+            margin: 10px 0;
+            font-weight: bold;
         }
 
         table {
@@ -76,10 +88,6 @@
             background-color: #fffde7;
         }
 
-        .status {
-            font-weight: bold;
-        }
-
         footer {
             margin-top: 30px;
             padding: 20px;
@@ -106,14 +114,9 @@
         <a href="index.html" class="button">← Voltar ao resumo</a>
     </div>
 
-    <table id="diff-table">
-        <thead></thead>
-        <tbody>
-            <tr>
-                <td colspan="20">📂 Selecione uma data</td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="diff-container">
+        <p>⏳ Carregando histórico...</p>
+    </div>
 
 </main>
 
