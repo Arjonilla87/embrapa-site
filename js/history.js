@@ -46,9 +46,7 @@ const HIDDEN_COLUMNS = [
 ];
 
 function renderTable(container, title, rows) {
-    if (!rows || rows.length === 0) {
-        return;
-    }
+    if (!rows || rows.length === 0) return;
 
     const block = document.createElement("div");
     block.className = "diff-block";
@@ -62,30 +60,62 @@ function renderTable(container, title, rows) {
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
 
-    const headers = Object.keys(rows[0]);
-
+    // Cabeçalho
     const trHead = document.createElement("tr");
-    headers.forEach(h => {
+    VISIBLE_COLUMNS.forEach(col => {
         const th = document.createElement("th");
-        th.textContent = h;
+        th.textContent = col;
         trHead.appendChild(th);
     });
     thead.appendChild(trHead);
 
+    // Corpo
     rows.forEach(row => {
         const tr = document.createElement("tr");
+        tr.classList.add("expandable");
+
         const evento = (row.EVENTO || "").toLowerCase();
         if (["novo", "alterado", "removido"].includes(evento)) {
             tr.classList.add(evento);
         }
 
-        headers.forEach(h => {
+        // Colunas visíveis
+        VISIBLE_COLUMNS.forEach(col => {
             const td = document.createElement("td");
-            td.textContent = row[h] || "";
+            td.textContent = row[col] || "";
             tr.appendChild(td);
         });
 
+        // Linha de detalhes (inicialmente oculta)
+        const detailsTr = document.createElement("tr");
+        detailsTr.className = "details-row";
+        detailsTr.style.display = "none";
+
+        const detailsTd = document.createElement("td");
+        detailsTd.colSpan = VISIBLE_COLUMNS.length;
+
+        const grid = document.createElement("div");
+        grid.className = "details-grid";
+
+        HIDDEN_COLUMNS.forEach(col => {
+            if (row[col]) {
+                const div = document.createElement("div");
+                div.innerHTML = `<strong>${col}:</strong> ${row[col]}`;
+                grid.appendChild(div);
+            }
+        });
+
+        detailsTd.appendChild(grid);
+        detailsTr.appendChild(detailsTd);
+
+        // Toggle
+        tr.addEventListener("click", () => {
+            detailsTr.style.display =
+                detailsTr.style.display === "none" ? "table-row" : "none";
+        });
+
         tbody.appendChild(tr);
+        tbody.appendChild(detailsTr);
     });
 
     table.appendChild(thead);
