@@ -128,6 +128,46 @@
             text-align: center;
             font-size: 14px;
         }
+
+        @media (max-width: 768px) {
+        
+            table, thead, tbody, tr, th, td {
+                display: block;
+            }
+        
+            thead {
+                display: none;
+            }
+        
+            tr.expandable {
+                background: white;
+                margin-bottom: 12px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 10px;
+            }
+        
+            tr.expandable td {
+                border: none;
+                padding: 6px 0;
+                text-align: left;
+            }
+        
+            tr.expandable td::before {
+                content: attr(data-label);
+                font-weight: bold;
+                display: block;
+                font-size: 12px;
+                color: #555;
+            }
+        
+            tr.details-row td {
+                border-top: 1px dashed #ccc;
+                margin-top: 8px;
+            }
+        }
+
+        
     </style>
 </head>
 <body>
