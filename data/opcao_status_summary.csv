@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,05/01/2026 - 08:30:35
+﻿LAST_UPDATE,05/01/2026 - 08:47:44
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,0,1,6%,1,0
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,12,4,73%,23,7
@@ -61,7 +61,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000497,Analista,Transferência de Tecnologia e Comunicação,Gestão da Propriedade Intelectual para a Inovação,5,0,0,1,20%,1,0
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
 40000519,Pesquisador,Ciências Agrárias,Bacteriologia Vegetal,3,0,1,2,100%,3,0
-40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,3,0,100%,3,0
+40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,2,0,67%,3,1
 40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,0,0,1,14%,1,0
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,2,0,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
