@@ -1,7 +1,7 @@
-﻿LAST_UPDATE,05/01/2026 - 14:01:49
+﻿LAST_UPDATE,05/01/2026 - 14:41:09
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,0,1,6%,1,0
-40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,12,4,73%,23,7
+40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,12,4,73%,24,7
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,1,0,100%,1,0
@@ -43,7 +43,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000339,Pesquisador,Ciências Exatas e da Terra,Impactos Ambientais,1,0,0,1,100%,1,0
 40000345,Pesquisador,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,2,0,1,1,100%,3,1
 40000346,Pesquisador,Ciências Exatas e da Terra,Química de Produtos Naturais,1,0,0,1,100%,1,0
-40000353,Analista,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
+40000353,Analista,Nanotecnologia,Nanotecnologia,2,0,0,1,50%,1,0
 40000361,Pesquisador,Ciências Agrárias,Sistemas de Produção de Caprinos e Ovinos,1,0,0,1,100%,1,0
 40000373,Pesquisador,Ciências Exatas e da Terra,Agricultura e Climatologia,7,0,0,0,0%,0,0
 40000379,Analista,Ciências Agrárias,Clínica e Cirurgia de Caprinos e Ovinos,1,0,0,1,100%,1,0
@@ -73,7 +73,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,0,0,0%,0,0
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,3,0,100%,3,0
 40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,0,0,1,17%,1,0
-40000735,Pesquisador,Ciências Agrárias,Pedologia,3,0,0,0,0%,0,0
+40000735,Pesquisador,Ciências Agrárias,Pedologia,3,3,0,0,0%,3,0
 40000773,Analista,Ciências Agrárias,Sanidade e Defesa Animal,1,0,0,1,100%,1,0
 40000775,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,5,0,5,0,100%,6,1
 40000786,Pesquisador,Ciências Agrárias,Sistemas de Dados Georreferenciados,2,0,0,2,100%,2,0
@@ -98,7 +98,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001098,Analista,Gestão de Pessoas,Administração de Pessoas,6,0,0,6,100%,6,0
 40001144,Pesquisador,Ciências Agrárias,Controle Alternativo de Fitopatógenos,3,0,2,1,100%,3,0
 40001150,Analista,Gestão da Informação,Gestão da Informação Edição Inglês/Português,1,0,0,1,100%,1,0
-40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,0,19,4,70%,23,0
+40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,1,19,4,70%,24,0
 40001179,Pesquisador,Ciências Biológicas,Recursos Genéticos Animais,2,0,1,1,100%,2,0
 40001181,Analista,Laboratórios e Campos Experimentais,Laboratório,5,0,0,5,100%,5,0
 40001201,Analista,Gestão Estratégica,Gestão Integrada de Qualidade e Sustentabilidade,1,0,0,1,100%,1,0
@@ -181,7 +181,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40004381,Técnico,Mecânica,Mecânica de Precisão,1,0,0,1,100%,2,1
 40004441,Analista,"Suprimento, Manutenção e Serviços",Infraestrutura Arquitetura,1,0,0,1,100%,1,0
 40004461,Analista,"Suprimento, Manutenção e Serviços",Infraestrutura Engenharia Civil,6,0,0,6,100%,6,0
-40004569,Analista,Transferência de Tecnologia e Comunicação,Gestão de Instrumentos de Parcerias e Negócios,10,0,3,6,90%,12,3
+40004569,Analista,Transferência de Tecnologia e Comunicação,Gestão de Instrumentos de Parcerias e Negócios,10,1,3,6,90%,13,3
 40004576,Pesquisador,Fotônica,Instrumentação em Fotônica,1,0,0,1,100%,1,0
 40005782,Pesquisador,Ciências Exatas e da Terra,Rastreabilidade e Certificação Digital,1,0,0,1,100%,1,0
 40006388,Analista,"Suprimento, Manutenção e Serviços",Ativos Patrimoniais e Imobiliários,2,0,1,1,100%,3,1
