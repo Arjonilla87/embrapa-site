@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,07/01/2026 - 13:00:17
+﻿LAST_UPDATE,07/01/2026 - 13:45:59
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,1,0,1,6%,2,0
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,8,8,73%,25,8
@@ -61,7 +61,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000497,Analista,Transferência de Tecnologia e Comunicação,Gestão da Propriedade Intelectual para a Inovação,5,0,0,1,20%,1,0
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
 40000519,Pesquisador,Ciências Agrárias,Bacteriologia Vegetal,3,0,1,2,100%,3,0
-40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,1,2,100%,3,0
+40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,0,2,67%,3,1
 40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,0,0,1,14%,1,0
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,1,1,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
@@ -91,7 +91,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001045,Pesquisador,Ciências Biológicas,Bioprospecção e Biotecnologia,8,0,0,0,0%,0,0
 40001060,Analista,Laboratórios e Campos Experimentais,Microbiologia do Solo,1,0,0,1,100%,1,0
 40001064,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos,7,0,0,1,14%,2,1
-40001066,Analista,Gestão da Informação,Engenharia de Software,5,0,1,4,100%,7,2
+40001066,Analista,Gestão da Informação,Engenharia de Software,5,0,0,4,80%,7,3
 40001071,Pesquisador,Ciências Agrárias,Sanidade e Defesa Vegetal,1,0,0,1,100%,1,0
 40001074,Pesquisador,Ciências Agrárias,Sistemas de Produção Aquícola,3,0,0,3,100%,3,0
 40001084,Pesquisador,Ciências Agrárias,Sistema de Produção Integrado,3,0,0,3,100%,4,1
@@ -134,7 +134,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,1,0,1,10%,3,1
 40001834,Pesquisador,Ciências Agrárias,Silvicultura,3,0,0,3,100%,3,0
 40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,4,1,100%,6,1
-40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,1,0,100%,1,0
+40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,0,0,0%,1,1
 40001894,Pesquisador,Ciências Agrárias,Apicultura e Meliponicultura,4,0,4,0,100%,4,0
 40001921,Pesquisador,Ciências Agrárias,Microbiologia e Bioquímica do Solo,4,0,4,0,100%,4,0
 40001925,Técnico,Laboratório e Campos Experimentais,Manejo Florestal,6,0,0,6,100%,6,0
@@ -167,7 +167,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002494,Pesquisador,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,7,0,0,0,0%,0,0
 40002503,Pesquisador,Ciências Agrárias,Sanidade e Defesa Animal,5,0,5,0,100%,5,0
 40002541,Pesquisador,Ciências Agrárias,Ciência do Solo,17,0,0,0,0%,0,0
-40002553,Analista,Transferência de Tecnologia e Comunicação,Transferência de Tecnologia,10,0,4,6,100%,12,2
+40002553,Analista,Transferência de Tecnologia e Comunicação,Transferência de Tecnologia,10,0,3,6,90%,12,3
 40002684,Pesquisador,Ciências Biológicas,Bioprocessos,1,0,0,1,100%,1,0
 40002688,Analista,Ciências Agrárias,Ciência do Solo,6,0,0,1,17%,1,0
 40003250,Analista,Gestão Estratégica,Articulação Político-Institucional Nacional,1,0,0,1,100%,1,0
