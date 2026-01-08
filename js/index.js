@@ -26,16 +26,21 @@ function loadCSV(url) {
     });
 }
 
-// 🔹 Lê LAST_UPDATE da primeira linha do CSV
-async function updateLastUpdateFromCSV(url) {
+// 🔹 Lê LAST_UPDATE do arquivo GLOBAL (fonte única da verdade)
+async function updateLastUpdate() {
     try {
-        const raw = await fetch(cacheBust(url)).then(r => r.text());
+        const raw = await fetch(
+            cacheBust("data/opcao_status_summary.csv")
+        ).then(r => r.text());
+
         const firstLine = raw.split("\n")[0].trim();
         const parts = firstLine.split(",");
 
         if (parts[0] === "LAST_UPDATE" && parts[1]) {
             document.getElementById("last-update").innerText =
                 "Última checagem: " + parts[1].trim();
+        } else {
+            console.warn("LAST_UPDATE não encontrado na primeira linha");
         }
     } catch (e) {
         console.warn("Não foi possível atualizar LAST_UPDATE:", e);
@@ -173,6 +178,9 @@ async function initHistory() {
     const statusFilter = document.getElementById("status-filter");
     const container = document.getElementById("diff-container");
 
+    // ✅ Atualiza timestamp UMA ÚNICA VEZ (global)
+    await updateLastUpdate();
+
     let index;
 
     try {
@@ -183,7 +191,9 @@ async function initHistory() {
         return;
     }
 
-    const diffs = [...index.diffs].sort((a, b) => b.date.localeCompare(a.date));
+    const diffs = [...index.diffs].sort((a, b) =>
+        b.date.localeCompare(a.date)
+    );
 
     // opções do seletor
     const optAll = document.createElement("option");
@@ -202,8 +212,6 @@ async function initHistory() {
         const url = `data/diffs/${diff.file}`;
         container.innerHTML = "";
 
-        await updateLastUpdateFromCSV(url);
-
         const rows = await loadCSV(url);
 
         loadedBlocks = [{
@@ -217,10 +225,6 @@ async function initHistory() {
     async function loadAll() {
         container.innerHTML = "";
         loadedBlocks = [];
-
-        // 🔥 timestamp sempre do mais recente
-        const latestUrl = `data/diffs/${diffs[0].file}`;
-        await updateLastUpdateFromCSV(latestUrl);
 
         for (const diff of diffs) {
             const url = `data/diffs/${diff.file}`;
