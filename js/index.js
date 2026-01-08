@@ -26,6 +26,22 @@ function loadCSV(url) {
     });
 }
 
+// 🔹 Lê LAST_UPDATE da primeira linha do CSV
+async function updateLastUpdateFromCSV(url) {
+    try {
+        const raw = await fetch(cacheBust(url)).then(r => r.text());
+        const firstLine = raw.split("\n")[0].trim();
+        const parts = firstLine.split(",");
+
+        if (parts[0] === "LAST_UPDATE" && parts[1]) {
+            document.getElementById("last-update").innerText =
+                "Última checagem: " + parts[1].trim();
+        }
+    } catch (e) {
+        console.warn("Não foi possível atualizar LAST_UPDATE:", e);
+    }
+}
+
 // ----------------------------------------
 // Configuração de colunas
 // ----------------------------------------
@@ -184,22 +200,12 @@ async function initHistory() {
 
     async function loadSingle(diff) {
         const url = `data/diffs/${diff.file}`;
-
         container.innerHTML = "";
 
-        // 🔹 Busca CSV bruto para LAST_UPDATE
-        const raw = await fetch(cacheBust(url)).then(r => r.text());
-        const firstLine = raw.split("\n")[0].split(",");
+        await updateLastUpdateFromCSV(url);
 
-        if (firstLine[0] === "LAST_UPDATE") {
-            document.getElementById("last-update").innerText =
-                "Última checagem: " + firstLine[1];
-        }
-
-        // 🔹 Parse normal
         const rows = await loadCSV(url);
 
-        // 🔥 registra corretamente
         loadedBlocks = [{
             date: diff.date,
             rows: rows
@@ -211,6 +217,10 @@ async function initHistory() {
     async function loadAll() {
         container.innerHTML = "";
         loadedBlocks = [];
+
+        // 🔥 timestamp sempre do mais recente
+        const latestUrl = `data/diffs/${diffs[0].file}`;
+        await updateLastUpdateFromCSV(latestUrl);
 
         for (const diff of diffs) {
             const url = `data/diffs/${diff.file}`;
