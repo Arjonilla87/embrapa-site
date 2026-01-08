@@ -169,6 +169,7 @@ async function initHistory() {
 
     const diffs = [...index.diffs].sort((a, b) => b.date.localeCompare(a.date));
 
+    // opções do seletor
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
@@ -184,28 +185,44 @@ async function initHistory() {
     async function loadSingle(diff) {
         const url = `data/diffs/${diff.file}`;
 
-        // 🔹 lê CSV bruto para LAST_UPDATE
+        container.innerHTML = "";
+
+        // 🔹 Busca CSV bruto para LAST_UPDATE
         const raw = await fetch(cacheBust(url)).then(r => r.text());
         const firstLine = raw.split("\n")[0].split(",");
 
-        if (firstLine[0].trim() === "LAST_UPDATE") {
+        if (firstLine[0] === "LAST_UPDATE") {
             document.getElementById("last-update").innerText =
-                "Última checagem: " + firstLine[1].trim();
+                "Última checagem: " + firstLine[1];
         }
 
+        // 🔹 Parse normal
         const rows = await loadCSV(url);
 
-        loadedBlocks.push({
+        // 🔥 registra corretamente
+        loadedBlocks = [{
             date: diff.date,
-            rows
-        });
+            rows: rows
+        }];
+
+        renderTable(container, diff.date, rows);
     }
 
     async function loadAll() {
+        container.innerHTML = "";
         loadedBlocks = [];
+
         for (const diff of diffs) {
-            await loadSingle(diff);
+            const url = `data/diffs/${diff.file}`;
+            const rows = await loadCSV(url);
+
+            loadedBlocks.push({
+                date: diff.date,
+                rows: rows
+            });
         }
+
+        applyStatusFilter();
     }
 
     select.onchange = async () => {
@@ -217,15 +234,17 @@ async function initHistory() {
         } else {
             const diff = diffs.find(d => d.file === select.value);
             await loadSingle(diff);
+            applyStatusFilter();
         }
-
-        applyStatusFilter();
     };
 
     statusFilter.onchange = applyStatusFilter;
 
-    // 🔥 Load inicial
+    // 🔥 LOAD INICIAL — sempre data mais recente
+    select.value = diffs[0].file;
+    container.innerHTML = "⏳ Carregando...";
     loadedBlocks = [];
+
     await loadSingle(diffs[0]);
     applyStatusFilter();
 }
