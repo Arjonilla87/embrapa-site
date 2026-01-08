@@ -39,8 +39,6 @@ async function updateLastUpdate() {
         if (parts[0] === "LAST_UPDATE" && parts[1]) {
             document.getElementById("last-update").innerText =
                 "Última checagem: " + parts[1].trim();
-        } else {
-            console.warn("LAST_UPDATE não encontrado na primeira linha");
         }
     } catch (e) {
         console.warn("Não foi possível atualizar LAST_UPDATE:", e);
@@ -66,7 +64,6 @@ const HIDDEN_COLUMNS = [
     "ALTERACOES"
 ];
 
-// cache correto dos blocos carregados
 let loadedBlocks = [];
 
 // ----------------------------------------
@@ -178,11 +175,9 @@ async function initHistory() {
     const statusFilter = document.getElementById("status-filter");
     const container = document.getElementById("diff-container");
 
-    // ✅ Atualiza timestamp UMA ÚNICA VEZ (global)
     await updateLastUpdate();
 
     let index;
-
     try {
         index = await loadJSON("data/diff_index.json");
     } catch (e) {
@@ -195,7 +190,6 @@ async function initHistory() {
         b.date.localeCompare(a.date)
     );
 
-    // opções do seletor
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
@@ -210,33 +204,12 @@ async function initHistory() {
 
     async function loadSingle(diff) {
         const url = `data/diffs/${diff.file}`;
-        container.innerHTML = "";
-
         const rows = await loadCSV(url);
 
         loadedBlocks = [{
             date: diff.date,
-            rows: rows
+            rows
         }];
-
-        renderTable(container, diff.date, rows);
-    }
-
-    async function loadAll() {
-        container.innerHTML = "";
-        loadedBlocks = [];
-
-        for (const diff of diffs) {
-            const url = `data/diffs/${diff.file}`;
-            const rows = await loadCSV(url);
-
-            loadedBlocks.push({
-                date: diff.date,
-                rows: rows
-            });
-        }
-
-        applyStatusFilter();
     }
 
     select.onchange = async () => {
@@ -244,22 +217,34 @@ async function initHistory() {
         loadedBlocks = [];
 
         if (select.value === "__ALL__") {
-            await loadAll();
+            for (const diff of diffs) {
+                const rows = await loadCSV(`data/diffs/${diff.file}`);
+                loadedBlocks.push({ date: diff.date, rows });
+            }
         } else {
             const diff = diffs.find(d => d.file === select.value);
             await loadSingle(diff);
-            applyStatusFilter();
         }
+
+        applyStatusFilter();
     };
 
     statusFilter.onchange = applyStatusFilter;
 
-    // 🔥 LOAD INICIAL — sempre data mais recente
+    // 🔥 LOAD INICIAL — data mais recente
     select.value = diffs[0].file;
     container.innerHTML = "⏳ Carregando...";
     loadedBlocks = [];
 
     await loadSingle(diffs[0]);
+
+    // 🔥 AUTO-FILTRO: Convocado se existir
+    const hasConvocado = loadedBlocks[0].rows.some(
+        r => (r.STATUS || "") === "Convocado"
+    );
+
+    statusFilter.value = hasConvocado ? "Convocado" : "__ALL__";
+
     applyStatusFilter();
 }
 
