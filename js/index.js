@@ -45,6 +45,27 @@ const HIDDEN_COLUMNS = [
     "ALTERACOES"
 ];
 
+// cache dos dados renderizados
+let loadedBlocks = [];
+
+function applyStatusFilter() {
+    const filter = document.getElementById("status-filter").value;
+    const container = document.getElementById("diff-container");
+
+    container.innerHTML = "";
+
+    loadedBlocks.forEach(block => {
+        const filteredRows =
+            filter === "__ALL__"
+                ? block.rows
+                : block.rows.filter(r => (r.STATUS || "") === filter);
+
+        if (filteredRows.length > 0) {
+            renderTable(container, block.date, filteredRows);
+        }
+    });
+}
+
 function renderTable(container, title, rows) {
     if (!rows || rows.length === 0) return;
 
@@ -79,7 +100,6 @@ function renderTable(container, title, rows) {
             tr.classList.add(evento);
         }
 
-        // Colunas visíveis
         VISIBLE_COLUMNS.forEach(col => {
             const td = document.createElement("td");
             td.textContent = row[col] || "";
@@ -87,7 +107,6 @@ function renderTable(container, title, rows) {
             tr.appendChild(td);
         });
 
-        // Linha de detalhes (inicialmente oculta)
         const detailsTr = document.createElement("tr");
         detailsTr.className = "details-row";
         detailsTr.style.display = "none";
@@ -101,7 +120,7 @@ function renderTable(container, title, rows) {
         HIDDEN_COLUMNS.forEach(col => {
             if (row[col]) {
                 const div = document.createElement("div");
-                if (col.toLowerCase() === "alterações" || col.toLowerCase() === "alteracoes") {
+                if (col.toLowerCase().includes("alterac")) {
                     div.classList.add("alteracoes");
                 }
                 div.innerHTML = `<strong>${col}:</strong> ${row[col]}`;
@@ -112,7 +131,6 @@ function renderTable(container, title, rows) {
         detailsTd.appendChild(grid);
         detailsTr.appendChild(detailsTd);
 
-        // Toggle
         tr.addEventListener("click", () => {
             detailsTr.style.display =
                 detailsTr.style.display === "none" ? "table-row" : "none";
@@ -128,8 +146,13 @@ function renderTable(container, title, rows) {
     container.appendChild(block);
 }
 
+// ----------------------------------------
+// Init
+// ----------------------------------------
+
 async function initHistory() {
     const select = document.getElementById("diff-select");
+    const statusFilter = document.getElementById("status-filter");
     const container = document.getElementById("diff-container");
 
     let index;
@@ -142,21 +165,14 @@ async function initHistory() {
         return;
     }
 
-    if (!index.diffs || index.diffs.length === 0) {
-        container.innerHTML = "📭 Nenhum histórico disponível";
-        return;
-    }
-
-    // Ordena do mais recente para o mais antigo
     const diffs = [...index.diffs].sort((a, b) => b.date.localeCompare(a.date));
 
-    // Opção TODOS
+    // opções do seletor de data
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
     select.appendChild(optAll);
 
-    // Datas individuais
     diffs.forEach(diff => {
         const opt = document.createElement("option");
         opt.value = diff.file;
@@ -166,11 +182,11 @@ async function initHistory() {
 
     async function loadSingle(diff) {
         const rows = await loadCSV(`data/diffs/${diff.file}`);
-        renderTable(container, diff.date, rows);
+        loadedBlocks.push({ date: diff.date, rows });
     }
 
     async function loadAll() {
-        container.innerHTML = "";
+        loadedBlocks = [];
         for (const diff of diffs) {
             await loadSingle(diff);
         }
@@ -178,20 +194,34 @@ async function initHistory() {
 
     select.onchange = async () => {
         container.innerHTML = "⏳ Carregando...";
+        loadedBlocks = [];
 
         if (select.value === "__ALL__") {
             await loadAll();
         } else {
             const diff = diffs.find(d => d.file === select.value);
-            container.innerHTML = "";
             await loadSingle(diff);
         }
+
+        applyStatusFilter();
     };
 
-    // 🔥 Carrega automaticamente o mais recente
+    statusFilter.onchange = applyStatusFilter;
+
+    // 🔥 Load inicial
     select.value = diffs[0].file;
-    container.innerHTML = "";
     await loadSingle(diffs[0]);
+
+    // 🔍 Auto-filtro Convocado
+    const hasConvocado = loadedBlocks.some(b =>
+        b.rows.some(r => r.STATUS === "Convocado")
+    );
+
+    if (hasConvocado) {
+        statusFilter.value = "Convocado";
+    }
+
+    applyStatusFilter();
 }
 
 // ----------------------------------------
