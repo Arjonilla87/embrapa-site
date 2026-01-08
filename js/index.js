@@ -66,6 +66,14 @@ function applyStatusFilter() {
     });
 }
 
+function extractLastUpdateFromCSVRows(rows) {
+    if (!rows || !rows.length) return null;
+
+    // PapaParse com header:true não inclui a linha LAST_UPDATE
+    // então precisamos buscar via fetch manual se quisermos o timestamp real
+    return null;
+}
+
 function renderTable(container, title, rows) {
     if (!rows || rows.length === 0) return;
 
@@ -181,9 +189,22 @@ async function initHistory() {
     });
 
     async function loadSingle(diff) {
-        const rows = await loadCSV(`data/diffs/${diff.file}`);
-        loadedBlocks.push({ date: diff.date, rows });
+        const url = `data/diffs/${diff.file}`;
+    
+        // 🔹 Busca o CSV bruto para pegar LAST_UPDATE
+        const raw = await fetch(cacheBust(url)).then(r => r.text());
+    
+        const firstLine = raw.split("\n")[0].split(",");
+        if (firstLine[0] === "LAST_UPDATE") {
+            document.getElementById("last-update").innerText =
+                "Última checagem: " + firstLine[1];
+        }
+    
+        // 🔹 Agora parseia normalmente
+        const rows = await loadCSV(url);
+        renderTable(container, diff.date, rows);
     }
+
 
     async function loadAll() {
         loadedBlocks = [];
