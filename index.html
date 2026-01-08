@@ -243,6 +243,15 @@
             }
         }
         }
+
+        /* Mantém label + select juntos no mobile */
+        .filter-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+
     </style>
 </head>
 <body>
@@ -259,15 +268,17 @@
                 <label for="diff-select"><strong>Selecione a data:</strong></label>
                 <select id="diff-select"></select>
             
-                <label for="status-filter"><strong>Filtrar:</strong></label>
-                <select id="status-filter">
-                    <option value="__ALL__">Tudo</option>
-                    <option value="Convocado">Convocado</option>
-                    <option value="Contratado">Contratado</option>
-                    <option value="Aceitou">Aceitou</option>
-                    <option value="Desistente">Desistente</option>
-                    <option value="Desclassificado">Desclassificado</option>
-                </select>
+                <div class="filter-group">
+                    <label for="status-filter"><strong>Filtrar:</strong></label>
+                    <select id="status-filter">
+                        <option value="__ALL__">Tudo</option>
+                        <option value="Convocado">Convocado</option>
+                        <option value="Contratado">Contratado</option>
+                        <option value="Aceitou">Aceitou</option>
+                        <option value="Desistente">Desistente</option>
+                        <option value="Desclassificado">Desclassificado</option>
+                    </select>
+                </div>
             </div>
 
             <a href="resumo.html" class="button">
