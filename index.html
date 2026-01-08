@@ -265,18 +265,31 @@
 
         <div class="top-bar">
             <div class="left">
-                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+        
+                <!-- Bloco superior: timestamp + botões -->
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">   
+                    <a href="about:blank" class="button">
+                        Estatísticas
+                    </a>
+        
+                    <a href="resumo.html" class="button">
+                        Resumo por opção
+                    </a>
+                </div>
+
+                <div class="filter-group">
                     <span id="last-update" style="font-size:13px; color:#333;">
                         Última checagem: carregando...
                     </span>
-            
-                    <a href="resumo.html" class="button">
-                        Resumo por opção >
-                    </a>
                 </div>
-                <label for="diff-select"><strong>Data:</strong></label>
-                <select id="diff-select"></select>
-            
+                
+                <!-- Data (label + select juntos, igual ao Filtrar) -->
+                <div class="filter-group">
+                    <label for="diff-select"><strong>Data:</strong></label>
+                    <select id="diff-select"></select>
+                </div>
+        
+                <!-- Filtro de status -->
                 <div class="filter-group">
                     <label for="status-filter"><strong>Filtrar:</strong></label>
                     <select id="status-filter">
@@ -288,6 +301,7 @@
                         <option value="Desclassificado">Desclassificado</option>
                     </select>
                 </div>
+        
             </div>
         </div>
 
