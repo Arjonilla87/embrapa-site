@@ -27,7 +27,7 @@ function loadCSV(url) {
 }
 
 // ----------------------------------------
-// Renderização
+// Configuração de colunas
 // ----------------------------------------
 
 const VISIBLE_COLUMNS = [
@@ -45,8 +45,12 @@ const HIDDEN_COLUMNS = [
     "ALTERACOES"
 ];
 
-// cache dos dados renderizados
+// cache correto dos blocos carregados
 let loadedBlocks = [];
+
+// ----------------------------------------
+// Renderização
+// ----------------------------------------
 
 function applyStatusFilter() {
     const filter = document.getElementById("status-filter").value;
@@ -66,14 +70,6 @@ function applyStatusFilter() {
     });
 }
 
-function extractLastUpdateFromCSVRows(rows) {
-    if (!rows || !rows.length) return null;
-
-    // PapaParse com header:true não inclui a linha LAST_UPDATE
-    // então precisamos buscar via fetch manual se quisermos o timestamp real
-    return null;
-}
-
 function renderTable(container, title, rows) {
     if (!rows || rows.length === 0) return;
 
@@ -89,7 +85,6 @@ function renderTable(container, title, rows) {
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
 
-    // Cabeçalho
     const trHead = document.createElement("tr");
     VISIBLE_COLUMNS.forEach(col => {
         const th = document.createElement("th");
@@ -98,7 +93,6 @@ function renderTable(container, title, rows) {
     });
     thead.appendChild(trHead);
 
-    // Corpo
     rows.forEach(row => {
         const tr = document.createElement("tr");
         tr.classList.add("expandable");
@@ -175,7 +169,6 @@ async function initHistory() {
 
     const diffs = [...index.diffs].sort((a, b) => b.date.localeCompare(a.date));
 
-    // opções do seletor de data
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
@@ -190,21 +183,23 @@ async function initHistory() {
 
     async function loadSingle(diff) {
         const url = `data/diffs/${diff.file}`;
-    
-        // 🔹 Busca o CSV bruto para pegar LAST_UPDATE
-        const raw = await fetch(cacheBust(url)).then(r => r.text());
-    
-        const firstLine = raw.split("\n")[0].split(",");
-        if (firstLine[0] === "LAST_UPDATE") {
-            document.getElementById("last-update").innerText =
-                "Última checagem: " + firstLine[1];
-        }
-    
-        // 🔹 Agora parseia normalmente
-        const rows = await loadCSV(url);
-        renderTable(container, diff.date, rows);
-    }
 
+        // 🔹 lê CSV bruto para LAST_UPDATE
+        const raw = await fetch(cacheBust(url)).then(r => r.text());
+        const firstLine = raw.split("\n")[0].split(",");
+
+        if (firstLine[0].trim() === "LAST_UPDATE") {
+            document.getElementById("last-update").innerText =
+                "Última checagem: " + firstLine[1].trim();
+        }
+
+        const rows = await loadCSV(url);
+
+        loadedBlocks.push({
+            date: diff.date,
+            rows
+        });
+    }
 
     async function loadAll() {
         loadedBlocks = [];
@@ -230,23 +225,9 @@ async function initHistory() {
     statusFilter.onchange = applyStatusFilter;
 
     // 🔥 Load inicial
-    select.value = diffs[0].file;
+    loadedBlocks = [];
     await loadSingle(diffs[0]);
-
-    // 🔍 Auto-filtro Convocado
-    const hasConvocado = loadedBlocks.some(b =>
-        b.rows.some(r => r.STATUS === "Convocado")
-    );
-
-    if (hasConvocado) {
-        statusFilter.value = "Convocado";
-    }
-
     applyStatusFilter();
 }
-
-// ----------------------------------------
-// Start
-// ----------------------------------------
 
 document.addEventListener("DOMContentLoaded", initHistory);
