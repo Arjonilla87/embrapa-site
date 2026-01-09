@@ -1,7 +1,7 @@
-﻿LAST_UPDATE,09/01/2026 - 14:03:28
+﻿LAST_UPDATE,09/01/2026 - 14:41:52
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,1,1,11%,2,0
-40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,8,8,73%,25,9
+40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,8,8,73%,26,9
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
@@ -98,7 +98,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001098,Analista,Gestão de Pessoas,Administração de Pessoas,6,0,0,6,100%,6,0
 40001144,Pesquisador,Ciências Agrárias,Controle Alternativo de Fitopatógenos,3,0,2,1,100%,3,0
 40001150,Analista,Gestão da Informação,Gestão da Informação Edição Inglês/Português,1,0,0,1,100%,1,0
-40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,0,12,11,70%,25,2
+40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,1,12,11,70%,26,2
 40001179,Pesquisador,Ciências Biológicas,Recursos Genéticos Animais,2,0,0,2,100%,2,0
 40001181,Analista,Laboratórios e Campos Experimentais,Laboratório,5,0,0,5,100%,5,0
 40001201,Analista,Gestão Estratégica,Gestão Integrada de Qualidade e Sustentabilidade,1,0,0,1,100%,1,0
@@ -152,8 +152,8 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002220,Analista,Gestão da Informação,Engenharia de Dados,3,0,1,2,100%,6,3
 40002223,Analista,Orçamento e Finanças,Contabilidade,13,0,4,9,100%,16,3
 40002260,Analista,Gestão da Informação,Gestão da Informação Arquivística,1,0,0,1,100%,1,0
-40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,0,0,1,2%,1,0
-40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,0,5,1,38%,11,5
+40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,1,0,1,2%,2,0
+40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,1,5,1,38%,12,5
 40002284,Analista,Gestão de Pessoas,Folha de Pagamento,2,0,0,2,100%,2,0
 40002289,Analista,Gestão de Pessoas,Segurança e Saúde do Trabalho,3,0,0,3,100%,3,0
 40002311,Analista,Direito e Auditoria,Assessoria Jurídica Advogado,1,0,0,1,100%,1,0
