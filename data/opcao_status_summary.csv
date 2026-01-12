@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,12/01/2026 - 14:49:34
+﻿LAST_UPDATE,12/01/2026 - 15:43:15
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,1,1,11%,2,0
-40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,8,8,73%,27,10
+40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,8,7,68%,26,10
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,5,13,49%,22,4
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,5,12,46%,21,4
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,2,1,100%,3,0
@@ -98,7 +98,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001098,Analista,Gestão de Pessoas,Administração de Pessoas,6,0,0,6,100%,6,0
 40001144,Pesquisador,Ciências Agrárias,Controle Alternativo de Fitopatógenos,3,0,2,1,100%,3,0
 40001150,Analista,Gestão da Informação,Gestão da Informação Edição Inglês/Português,1,0,0,1,100%,1,0
-40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,1,13,11,73%,27,2
+40001151,Analista,Transferência de Tecnologia e Comunicação,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",33,0,14,11,76%,27,2
 40001179,Pesquisador,Ciências Biológicas,Recursos Genéticos Animais,2,0,0,2,100%,2,0
 40001181,Analista,Laboratórios e Campos Experimentais,Laboratório,5,0,0,5,100%,5,0
 40001201,Analista,Gestão Estratégica,Gestão Integrada de Qualidade e Sustentabilidade,1,0,0,1,100%,1,0
@@ -131,7 +131,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001749,Pesquisador,Ciências Agrárias,Sistemas de Produção de Ruminantes,3,0,1,2,100%,3,0
 40001752,Pesquisador,Ciências Agrárias,Sistema de Produção Agroecológico e Orgânico,7,0,0,0,0%,0,0
 40001791,Pesquisador,Ciência e Tecnologia de Alimentos,Enologia,1,0,1,0,100%,1,0
-40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,1,1,1,20%,5,2
+40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,0,2,1,30%,5,2
 40001834,Pesquisador,Ciências Agrárias,Silvicultura,3,0,0,3,100%,3,0
 40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,4,1,100%,6,1
 40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,0,0,0%,1,1
