@@ -8,9 +8,7 @@ function cacheBust(url) {
 
 async function loadJSON(url) {
     const res = await fetch(cacheBust(url));
-    if (!res.ok) {
-        throw new Error(`Erro ao carregar ${url}`);
-    }
+    if (!res.ok) throw new Error(`Erro ao carregar ${url}`);
     return await res.json();
 }
 
@@ -33,12 +31,10 @@ async function updateLastUpdate() {
             cacheBust("data/opcao_status_summary.csv")
         ).then(r => r.text());
 
-        const firstLine = raw.split("\n")[0].trim();
-        const parts = firstLine.split(",");
-
-        if (parts[0] === "LAST_UPDATE" && parts[1]) {
+        const [key, value] = raw.split("\n")[0].split(",");
+        if (key === "LAST_UPDATE" && value) {
             document.getElementById("last-update").innerText =
-                "Última checagem: " + parts[1].trim();
+                "Última checagem: " + value.trim();
         }
     } catch (e) {
         console.warn("Não foi possível atualizar LAST_UPDATE:", e);
@@ -46,7 +42,7 @@ async function updateLastUpdate() {
 }
 
 // ----------------------------------------
-// Configuração de colunas
+// Configuração
 // ----------------------------------------
 
 const VISIBLE_COLUMNS = [
@@ -67,24 +63,21 @@ const HIDDEN_COLUMNS = [
 let loadedBlocks = [];
 
 // ----------------------------------------
-// Filtro de status (centralizado aqui)
+// Lógica de filtro (STATUS + EVENTO)
 // ----------------------------------------
 
-function rowMatchesFilter(row, filter) {
+function matchesStatusFilter(row, filter) {
     const status = (row.STATUS || "").trim();
-    const evento = (row.EVENTO || "").trim();
+    const evento = (row.EVENTO || "").trim().toUpperCase();
 
     if (filter === "__ALL__") return true;
 
     if (filter === "CONVOCADO_NOVO") {
-        return status === "Convocado" && evento === "Novo";
+        return status === "Convocado" && evento === "NOVO";
     }
 
     if (filter === "CONVOCADO_ALTERADO") {
-        return (
-            status === "Convocado" &&
-            (evento === "Alterado" || evento === "Removido")
-        );
+        return status === "Convocado" && evento !== "NOVO";
     }
 
     return status === filter;
@@ -101,19 +94,17 @@ function applyStatusFilter() {
     container.innerHTML = "";
 
     loadedBlocks.forEach(block => {
-        const filteredRows = block.rows.filter(r =>
-            rowMatchesFilter(r, filter)
+        const rows = block.rows.filter(r =>
+            matchesStatusFilter(r, filter)
         );
 
-        if (filteredRows.length > 0) {
-            renderTable(container, block.date, filteredRows);
+        if (rows.length > 0) {
+            renderTable(container, block.date, rows);
         }
     });
 }
 
 function renderTable(container, title, rows) {
-    if (!rows || rows.length === 0) return;
-
     const block = document.createElement("div");
     block.className = "diff-block";
 
@@ -200,19 +191,12 @@ async function initHistory() {
 
     await updateLastUpdate();
 
-    let index;
-    try {
-        index = await loadJSON("data/diff_index.json");
-    } catch (e) {
-        container.innerHTML = "❌ Erro ao carregar histórico";
-        console.error(e);
-        return;
-    }
-
+    const index = await loadJSON("data/diff_index.json");
     const diffs = [...index.diffs].sort((a, b) =>
         b.date.localeCompare(a.date)
     );
 
+    select.innerHTML = "";
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
@@ -230,38 +214,22 @@ async function initHistory() {
         loadedBlocks = [{ date: diff.date, rows }];
     }
 
-    select.onchange = async () => {
-        container.innerHTML = "⏳ Carregando...";
-        loadedBlocks = [];
-
-        if (select.value === "__ALL__") {
-            for (const diff of diffs) {
-                const rows = await loadCSV(`data/diffs/${diff.file}`);
-                loadedBlocks.push({ date: diff.date, rows });
-            }
-        } else {
-            const diff = diffs.find(d => d.file === select.value);
-            await loadSingle(diff);
-        }
-
-        applyStatusFilter();
-    };
-
-    statusFilter.onchange = applyStatusFilter;
-
-    // 🔥 LOAD INICIAL — data mais recente
+    // 🔥 LOAD INICIAL — mais recente
     select.value = diffs[0].file;
     container.innerHTML = "⏳ Carregando...";
     await loadSingle(diffs[0]);
 
+    // 🔥 AUTO-FILTRO INTELIGENTE
     const rows = loadedBlocks[0].rows;
 
     const hasNovo = rows.some(r =>
-        rowMatchesFilter(r, "CONVOCADO_NOVO")
+        r.STATUS === "Convocado" &&
+        (r.EVENTO || "").toUpperCase() === "NOVO"
     );
 
     const hasAlterado = rows.some(r =>
-        rowMatchesFilter(r, "CONVOCADO_ALTERADO")
+        r.STATUS === "Convocado" &&
+        (r.EVENTO || "").toUpperCase() !== "NOVO"
     );
 
     if (hasNovo) {
@@ -273,6 +241,23 @@ async function initHistory() {
     }
 
     applyStatusFilter();
+
+    select.onchange = async () => {
+        container.innerHTML = "⏳ Carregando...";
+        if (select.value === "__ALL__") {
+            loadedBlocks = [];
+            for (const diff of diffs) {
+                const rows = await loadCSV(`data/diffs/${diff.file}`);
+                loadedBlocks.push({ date: diff.date, rows });
+            }
+        } else {
+            const diff = diffs.find(d => d.file === select.value);
+            await loadSingle(diff);
+        }
+        applyStatusFilter();
+    };
+
+    statusFilter.onchange = applyStatusFilter;
 }
 
 document.addEventListener("DOMContentLoaded", initHistory);
