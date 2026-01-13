@@ -26,7 +26,7 @@ function loadCSV(url) {
     });
 }
 
-// 🔹 Lê LAST_UPDATE do arquivo GLOBAL (fonte única da verdade)
+// 🔹 Lê LAST_UPDATE do arquivo GLOBAL
 async function updateLastUpdate() {
     try {
         const raw = await fetch(
@@ -67,6 +67,30 @@ const HIDDEN_COLUMNS = [
 let loadedBlocks = [];
 
 // ----------------------------------------
+// Filtro de status (centralizado aqui)
+// ----------------------------------------
+
+function rowMatchesFilter(row, filter) {
+    const status = (row.STATUS || "").trim();
+    const evento = (row.EVENTO || "").trim();
+
+    if (filter === "__ALL__") return true;
+
+    if (filter === "CONVOCADO_NOVO") {
+        return status === "Convocado" && evento === "Novo";
+    }
+
+    if (filter === "CONVOCADO_ALTERADO") {
+        return (
+            status === "Convocado" &&
+            (evento === "Alterado" || evento === "Removido")
+        );
+    }
+
+    return status === filter;
+}
+
+// ----------------------------------------
 // Renderização
 // ----------------------------------------
 
@@ -77,10 +101,9 @@ function applyStatusFilter() {
     container.innerHTML = "";
 
     loadedBlocks.forEach(block => {
-        const filteredRows =
-            filter === "__ALL__"
-                ? block.rows
-                : block.rows.filter(r => (r.STATUS || "") === filter);
+        const filteredRows = block.rows.filter(r =>
+            rowMatchesFilter(r, filter)
+        );
 
         if (filteredRows.length > 0) {
             renderTable(container, block.date, filteredRows);
@@ -203,13 +226,8 @@ async function initHistory() {
     });
 
     async function loadSingle(diff) {
-        const url = `data/diffs/${diff.file}`;
-        const rows = await loadCSV(url);
-
-        loadedBlocks = [{
-            date: diff.date,
-            rows
-        }];
+        const rows = await loadCSV(`data/diffs/${diff.file}`);
+        loadedBlocks = [{ date: diff.date, rows }];
     }
 
     select.onchange = async () => {
@@ -234,16 +252,25 @@ async function initHistory() {
     // 🔥 LOAD INICIAL — data mais recente
     select.value = diffs[0].file;
     container.innerHTML = "⏳ Carregando...";
-    loadedBlocks = [];
-
     await loadSingle(diffs[0]);
 
-    // 🔥 AUTO-FILTRO: Convocado se existir
-    const hasConvocado = loadedBlocks[0].rows.some(
-        r => (r.STATUS || "") === "Convocado"
+    const rows = loadedBlocks[0].rows;
+
+    const hasNovo = rows.some(r =>
+        rowMatchesFilter(r, "CONVOCADO_NOVO")
     );
 
-    statusFilter.value = hasConvocado ? "Convocado" : "__ALL__";
+    const hasAlterado = rows.some(r =>
+        rowMatchesFilter(r, "CONVOCADO_ALTERADO")
+    );
+
+    if (hasNovo) {
+        statusFilter.value = "CONVOCADO_NOVO";
+    } else if (hasAlterado) {
+        statusFilter.value = "CONVOCADO_ALTERADO";
+    } else {
+        statusFilter.value = "__ALL__";
+    }
 
     applyStatusFilter();
 }
