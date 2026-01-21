@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,21/01/2026 - 10:39:05
+﻿LAST_UPDATE,21/01/2026 - 11:22:09
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,3,1,22%,5,1
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,11,8,86%,31,12
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,0,0,0,0%,1,1
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,1,1,3%,4,1
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,2,1,5%,4,1
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,1,1,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,0,1,14%,2,1
@@ -73,7 +73,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,0,0,0%,0,0
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,1,2,100%,3,0
 40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,0,0,1,17%,1,0
-40000735,Pesquisador,Ciências Agrárias,Pedologia,3,1,2,0,67%,5,2
+40000735,Pesquisador,Ciências Agrárias,Pedologia,3,0,2,0,67%,5,3
 40000773,Analista,Ciências Agrárias,Sanidade e Defesa Animal,1,0,0,1,100%,1,0
 40000775,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,5,0,2,3,100%,6,1
 40000786,Pesquisador,Ciências Agrárias,Sistemas de Dados Georreferenciados,2,0,0,2,100%,2,0
