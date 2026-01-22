@@ -48,6 +48,8 @@ async function updateLastUpdate() {
 const VISIBLE_COLUMNS = [
     "DATA / HORA",
     "OPÇÃO",
+    "CARGO",
+    "SUBÁREA",
     "NOME",
     "COLOCAÇÃO",
     "STATUS"
@@ -117,6 +119,7 @@ function renderTable(container, title, rows) {
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
 
+    // Cabeçalho
     const trHead = document.createElement("tr");
     VISIBLE_COLUMNS.forEach(col => {
         const th = document.createElement("th");
@@ -125,6 +128,7 @@ function renderTable(container, title, rows) {
     });
     thead.appendChild(trHead);
 
+    // Linhas
     rows.forEach(row => {
         const tr = document.createElement("tr");
         tr.classList.add("expandable");
@@ -141,6 +145,7 @@ function renderTable(container, title, rows) {
             tr.appendChild(td);
         });
 
+        // Linha expandida (detalhes)
         const detailsTr = document.createElement("tr");
         detailsTr.className = "details-row";
         detailsTr.style.display = "none";
@@ -154,9 +159,11 @@ function renderTable(container, title, rows) {
         HIDDEN_COLUMNS.forEach(col => {
             if (row[col]) {
                 const div = document.createElement("div");
+
                 if (col.toLowerCase().includes("alterac")) {
                     div.classList.add("alteracoes");
                 }
+
                 div.innerHTML = `<strong>${col}:</strong> ${row[col]}`;
                 grid.appendChild(div);
             }
@@ -197,6 +204,7 @@ async function initHistory() {
     );
 
     select.innerHTML = "";
+
     const optAll = document.createElement("option");
     optAll.value = "__ALL__";
     optAll.textContent = "📚 Todos os dias";
@@ -214,12 +222,12 @@ async function initHistory() {
         loadedBlocks = [{ date: diff.date, rows }];
     }
 
-    // 🔥 LOAD INICIAL — mais recente
+    // 🔥 Load inicial
     select.value = diffs[0].file;
     container.innerHTML = "⏳ Carregando...";
     await loadSingle(diffs[0]);
 
-    // 🔥 AUTO-FILTRO INTELIGENTE
+    // 🔥 Auto filtro inteligente
     const rows = loadedBlocks[0].rows;
 
     const hasNovo = rows.some(r =>
@@ -244,8 +252,10 @@ async function initHistory() {
 
     select.onchange = async () => {
         container.innerHTML = "⏳ Carregando...";
+
         if (select.value === "__ALL__") {
             loadedBlocks = [];
+
             for (const diff of diffs) {
                 const rows = await loadCSV(`data/diffs/${diff.file}`);
                 loadedBlocks.push({ date: diff.date, rows });
@@ -254,6 +264,7 @@ async function initHistory() {
             const diff = diffs.find(d => d.file === select.value);
             await loadSingle(diff);
         }
+
         applyStatusFilter();
     };
 
