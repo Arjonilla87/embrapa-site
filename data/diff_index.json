@@ -3,7 +3,7 @@
     {
       "date": "2025-12-15",
       "file": "diff_2025-12-15.csv",
-      "events": 8
+      "events": 7
     },
     {
       "date": "2025-12-16",
@@ -48,7 +48,7 @@
     {
       "date": "2026-01-05",
       "file": "diff_2026-01-05.csv",
-      "events": 15
+      "events": 14
     },
     {
       "date": "2026-01-06",
@@ -63,22 +63,22 @@
     {
       "date": "2026-01-08",
       "file": "diff_2026-01-08.csv",
-      "events": 107
+      "events": 9
     },
     {
       "date": "2026-01-09",
       "file": "diff_2026-01-09.csv",
-      "events": 193
+      "events": 13
     },
     {
       "date": "2026-01-10",
       "file": "diff_2026-01-10.csv",
-      "events": 247
+      "events": 3
     },
     {
       "date": "2026-01-12",
       "file": "diff_2026-01-12.csv",
-      "events": 12
+      "events": 10
     },
     {
       "date": "2026-01-13",
@@ -98,7 +98,7 @@
     {
       "date": "2026-01-16",
       "file": "diff_2026-01-16.csv",
-      "events": 367
+      "events": 18
     },
     {
       "date": "2026-01-17",
@@ -113,17 +113,17 @@
     {
       "date": "2026-01-20",
       "file": "diff_2026-01-20.csv",
-      "events": 397
+      "events": 12
     },
     {
       "date": "2026-01-21",
       "file": "diff_2026-01-21.csv",
-      "events": 24
+      "events": 23
     },
     {
       "date": "2026-01-22",
       "file": "diff_2026-01-22.csv",
-      "events": 488
+      "events": 3
     }
   ]
 }
