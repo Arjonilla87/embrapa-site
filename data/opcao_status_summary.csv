@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,22/01/2026 - 08:17:04
+﻿LAST_UPDATE,22/01/2026 - 09:45:02
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,4,1,28%,6,1
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,11,8,86%,32,12
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,1,9,13,59%,27,4
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,10,13,62%,27,4
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,2,1,100%,3,0
@@ -66,7 +66,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,1,1,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
 40000616,Analista,Gestão Estratégica,Governança Sustentável ESG,2,0,0,2,100%,2,0
-40000632,Pesquisador,Ciências Agrárias,Fitotecnia,6,4,2,0,33%,6,0
+40000632,Pesquisador,Ciências Agrárias,Fitotecnia,6,3,3,0,50%,6,0
 40000642,Analista,Gestão da Informação,Avaliação de Impactos,1,0,0,1,100%,1,0
 40000648,Analista,Transferência de Tecnologia e Comunicação,Comunicação,8,0,0,1,12%,1,0
 40000682,Técnico,Gestão da Informação,Tecnologia da Informação,3,0,1,2,100%,6,3

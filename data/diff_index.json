@@ -58,12 +58,12 @@
     {
       "date": "2026-01-07",
       "file": "diff_2026-01-07.csv",
-      "events": 86
+      "events": 87
     },
     {
       "date": "2026-01-08",
       "file": "diff_2026-01-08.csv",
-      "events": 9
+      "events": 8
     },
     {
       "date": "2026-01-09",
@@ -108,18 +108,22 @@
     {
       "date": "2026-01-19",
       "file": "diff_2026-01-19.csv",
-      "events": 12
+      "events": 13
     },
     {
       "date": "2026-01-20",
       "file": "diff_2026-01-20.csv",
-      "events": 12
+      "events": 15
     },
     {
       "date": "2026-01-21",
       "file": "diff_2026-01-21.csv",
-      "events": 23
+      "events": 22
+    },
+    {
+      "date": "2026-01-22",
+      "file": "diff_2026-01-22.csv",
+      "events": 2
     }
   ]
-
 }
