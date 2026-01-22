@@ -1,6 +1,6 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-6º AC,TAUÃ MAGALHAES VITAL,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,STATUS: Aceitou → Desistente; UNIDADE: CTAA - Agro Alimentos → ; LOTAÇÃO: Rio de Janeiro → 
-14º AC,HUMBERTO DE SOUSA ALMEIDA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-10º AC,MARCOS VINICIUS DE SOUSA FARIAS,40002198,Analista,Ciência de Dados,Aceitou,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPACT - Clima Temp; LOTAÇÃO:  → Pelotas
-2º AC,LEANDRO FONSECA DE SOUZA,40001921,Pesquisador,Microbiologia e Bioquímica do Solo,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
-9º AC,MÁRCIO ROGÉRIO COSME,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+23/12/2025 - 23:08:25,6º AC,TAUÃ MAGALHAES VITAL,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,STATUS: Aceitou → Desistente; UNIDADE: CTAA - Agro Alimentos → ; LOTAÇÃO: Rio de Janeiro → 
+23/12/2025 - 23:08:25,14º AC,HUMBERTO DE SOUSA ALMEIDA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+23/12/2025 - 23:08:25,10º AC,MARCOS VINICIUS DE SOUSA FARIAS,40002198,Analista,Ciência de Dados,Aceitou,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPACT - Clima Temp; LOTAÇÃO:  → Pelotas
+23/12/2025 - 23:08:25,2º AC,LEANDRO FONSECA DE SOUZA,40001921,Pesquisador,Microbiologia e Bioquímica do Solo,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
+23/12/2025 - 23:08:25,9º AC,MÁRCIO ROGÉRIO COSME,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Desistente,,,ALTERADO,STATUS: Convocado → Desistente

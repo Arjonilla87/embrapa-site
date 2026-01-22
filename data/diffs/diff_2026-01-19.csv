@@ -1,13 +1,14 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-4º PCD,PAULO RENATO DE OLIVEIRA FAGUNDES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
-4º AC,LEONARDO GOMES REIS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPGL - Gado Leite,Juiz de Fora,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGL - Gado Leite; LOTAÇÃO:  → Juiz de Fora
-19º AC,ISABELA REZENDE PEDROSA NEVES,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-2º AC,ARAM ROSA PALOMAR,40000188,Técnico,Laboratório,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-7º PPP,ANDREZA ARAÚJO DE SOUSA,40000007,Assistente,Manejo Animal,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
-17º AC,FILIPE GUSTAVO BRITO SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPMS - Milho e Sorgo,Nova Porteirinha,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Nova Porteirinha
-6º AC,FREDERICO GONCALVES CHAVES NEVES,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,CPAP - Pantanal,,ALTERADO,UNIDADE:  → CPAP - Pantanal
-3º PCD,PEDRO DE CASTRO SILVA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CPATSA - Semiárido,Petrolina,ALTERADO,COLOCAÇÃO: 2º PCD → 3º PCD
-1º PP,RAQUEL EDUARDA CANDIDA DA SILVA NASCIMENTO,40000127,Técnico,Suporte à Gestão,Convocado,CNAT - Alimentos,Maceió,NOVO,
-3º AC,KATIELEN MOTA DA SILVA,40000188,Técnico,Laboratório,Convocado,,,NOVO,
-4º PCD,MAURO FRANKLIN DE OLIVEIRA TAVARES,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
-20º AC,GUSTAVO VARGAS DA SILVA,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+19/01/2026 - 07:19:57,4º PCD,PAULO RENATO DE OLIVEIRA FAGUNDES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+19/01/2026 - 07:19:57,4º AC,LEONARDO GOMES REIS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPGL - Gado Leite,Juiz de Fora,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGL - Gado Leite; LOTAÇÃO:  → Juiz de Fora
+19/01/2026 - 09:29:01,19º AC,ISABELA REZENDE PEDROSA NEVES,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+19/01/2026 - 09:29:01,2º AC,ARAM ROSA PALOMAR,40000188,Técnico,Laboratório,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+19/01/2026 - 09:29:01,7º PPP,ANDREZA ARAÚJO DE SOUSA,40000007,Assistente,Manejo Animal,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
+19/01/2026 - 13:18:17,17º AC,FILIPE GUSTAVO BRITO SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPMS - Milho e Sorgo,Nova Porteirinha,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Nova Porteirinha
+19/01/2026 - 13:18:17,6º AC,FREDERICO GONCALVES CHAVES NEVES,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,CPAP - Pantanal,,ALTERADO,UNIDADE:  → CPAP - Pantanal
+19/01/2026 - 15:20:00,3º PCD,PEDRO DE CASTRO SILVA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CPATSA - Semiárido,Petrolina,ALTERADO,COLOCAÇÃO: 2º PCD → 3º PCD
+19/01/2026 - 17:15:04,1º PP,RAQUEL EDUARDA CANDIDA DA SILVA NASCIMENTO,40000127,Técnico,Suporte à Gestão,Convocado,CNAT - Alimentos,Maceió,NOVO,
+19/01/2026 - 20:13:00,3º AC,KATIELEN MOTA DA SILVA,40000188,Técnico,Laboratório,Convocado,,,NOVO,
+19/01/2026 - 20:13:00,4º PCD,MAURO FRANKLIN DE OLIVEIRA TAVARES,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
+19/01/2026 - 20:13:00,20º AC,GUSTAVO VARGAS DA SILVA,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+19/01/2026 - 22:00:35,5º AC,ROANE PEREIRA VERICIMO DOS SANTOS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,

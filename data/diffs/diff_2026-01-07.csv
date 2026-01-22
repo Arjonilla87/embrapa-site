@@ -1,87 +1,88 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-7º AC,MATEUS DE OLIVEIRA GONCALVES,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-3º AC,JOAO VICTOR BARROS DA SILVA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desclassificado,,,ALTERADO,UNIDADE: CNPAT - Agro Tropical → ; LOTAÇÃO: Fortaleza → 
-15º AC,MAIARA SALES DE MATOS,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-11º AC,MATHEUS SCHMIDT TAGOMORI,40002198,Analista,Ciência de Dados,Convocado,,,NOVO,
-16º AC,ASAFE DAYAN RODRIGUES ARAGAO,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
-1º AC,FABIO LAURINDO DA SILVA,40001494,Pesquisador,Economia Ambiental,Convocado,CPAMN - Meio Norte,Teresina,NOVO,
-2º AC,FRANCISCO DA COSTA RODRIGUES TERCEIRO,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
-2º AC,JOSE AUGUSTO DA COSTA,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-8º AC,RICARDO NEIL SCHAFFER,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-1º AC,CARLOS RODOLFO PIEROZAN,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,MARIELA MATTOS DA SILVA,40000710,Pesquisador,Fisiologia de Plantas Cultivadas,Contratado,CNPMS - Milho e Sorgo,Balsas,ALTERADO,STATUS: Aceitou → Contratado
-4º AC,CAMILA SOUSA DA SILVA,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,JAIRE ALVES FERREIRA FILHO,40000345,Pesquisador,Biologia Sintética e Ciências Ômicas,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
-5º AC,GABRIEL TEIXEIRA ANTUNES,40002198,Analista,Ciência de Dados,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
-6º PPP,MATEUS OLIVEIRA DA SILVA,40000007,Assistente,Manejo Animal,Contratado,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
-4º AC,ADEMIR MARTINS LIMA,40000332,Analista,Recursos Genéticos e Melhoramento Genético Vegetal,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
-4º AC,CLELDER FRANCISCO DO NASCIMENTO,40000084,Técnico,Manejo Vegetal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
-2º PPP,LUAN OTÁVIO LOPES SILVA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
-2º PPP,ISABELLE DA SILVA CORREIA,40000134,Pesquisador,Tecnologia e Inovação Alimentar para Gastronomia,Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
-2º PCD,BRISA ROSATTI PEREIRA GONÇALVES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
-8º AC,OTTON CESAR SILVA DE LOIOLA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,MARILIA APARECIDA FIDELIS E MOURA,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
-1º PCD,HELOISA BONILHA DA SILVA,40001066,Analista,Engenharia de Software,Contratado,CNPTIA - Agro Digital,Balsas,ALTERADO,STATUS: Aceitou → Contratado
-3º PPP,MOISES DO NASCIMENTO MELO,40000878,Técnico,Monitoramento Preditivo,Contratado,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,EDUARDO JOSE HAVERROTH,40000710,Pesquisador,Fisiologia de Plantas Cultivadas,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,JOSE CARLOS RODRIGUES SOARES,40001834,Pesquisador,Silvicultura,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
-4º AC,CHRYSTIAN GABRIEL DE SOUZA DOILE,40000007,Assistente,Manejo Animal,Contratado,CPAC - Cerrados,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,MARIANA ANDRE POMPEU,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,DOUGLAS MATHEUS DAS NEVES SANTOS,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,Contratado,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Aceitou → Contratado
-6º AC,DOUGLAS ENDRIGO PETERSEN,40000084,Técnico,Manejo Vegetal,Contratado,CNPUV - Uva,Bento Gonçalves,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,ORLANDO GONCALVES BRITO,40000528,Pesquisador,Sistema de Produção de Olerícolas,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,WALDEMIR SANTIAGO NETO,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou
-6º AC,LUCAS SLAMA VIEIRA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,GGINT,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,MARLEI DE SOUZA COSTA,40003995,Assistente,Laboratório,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,ADRIANA MARIA ESPINOZA FERNANDO,40000894,Pesquisador,Serviços Ambientais,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,LUCIANA FREITAS GUEDES,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
-8º AC,PEDRO HENRIQUE CARRILHO,40002223,Analista,Contabilidade,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,HOSANA AGUIAR FREITAS DE ANDRADE,40001084,Pesquisador,Sistema de Produção Integrado,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,MAYRA FERREIRA NETTO PARRO TEIXEIRA,40000281,Analista,Ciência de Alimentos de Organismos Aquáticos,Contratado,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,BRIGIDA DUARTE,40002553,Analista,Transferência de Tecnologia,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-1ª AC,JULIANA LOPES SOUZA,40000015,Pesquisador,Conservação de Recursos Genéticos Vegetais,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,REINALDO RODRIGUES PIMENTEL,40001550,Pesquisador,Nematologia Vegetal,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,ALEXANDRE EDUARDO DE SOUZA DORMUNDO,40000084,Técnico,Manejo Vegetal,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-2º PCD,IGOR DIEGO DE OLIVEIRA XAXA,40002553,Analista,Transferência de Tecnologia,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
-1º PCD,LARISSA BASTOS KAEHLER,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPUV - Uva,Bento Gonçalves,ALTERADO,STATUS: Aceitou → Contratado
-3º PPP,ANDRÉ DOS SANTOS AMÂNCIO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,GGINT,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,JULIANA MACEDO VIANA,40002553,Analista,Transferência de Tecnologia,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
-2º PPP,FELIPE AUGUSTO DE MORAES ALVARENGA,40002223,Analista,Contabilidade,Contratado,CNPS - Solos,Rio de Janeiro,ALTERADO,STATUS: Aceitou → Contratado
-7º AC,MAURO ROGERIO DE OLIVEIRA CAVALIM,40002223,Analista,Contabilidade,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
-7º AC,ANA CAROLINA RODRIGUES DEFANTE,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-6º AC,WILSON NUNES DO SANTOS JUNIOR,40000007,Assistente,Manejo Animal,Contratado,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,FELIPE DE OLIVEIRA DIAS,40000528,Pesquisador,Sistema de Produção de Olerícolas,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,TIAGO MARTINS DE OLIVEIRA,40001393,Técnico,Novas Tecnologias,Contratado,CPAF/RO - Rondônia,Ouro Preto do Oeste,ALTERADO,STATUS: Aceitou → Contratado
-1º PCD,DANILO JONAS SILVA SOUZA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPAC - Cerrados,Planaltina,ALTERADO,STATUS: Aceitou → Contratado
-2º PCD,EMERSON DE LIMA DIAS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desclassificado,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Aceitou → Desclassificado
-1º PCD,LIDIA TIGGEMANN,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,CARMEM LUCIA PEREIRA ABADE DO NASCIMENTO,40001550,Pesquisador,Nematologia Vegetal,Contratado,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,DENIS YUKIO OTAKA,40004353,Analista,Clínica Veterinária,Contratado,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Aceitou → Contratado
-5º AC,GUILHERME ANTONIO DEUSDARA BANCI,40001066,Analista,Engenharia de Software,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,JUNIO RONEY LIMA DANTAS,40000288,Técnico,Aquicultura,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-5º AC,PABLO PIMENTEL PESSOA,40002553,Analista,Transferência de Tecnologia,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
-2º PCD,HIGOR HYLLAN CARDOSO DE OLIVEIRA,40000007,Assistente,Manejo Animal,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
-2º PPP,ADEVAN DA SILVA PUGAS,40006431,Pesquisador,Inovação Social,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,DANIELA OLIVEIRA BRANDAO,40000464,Analista,Apoio a Campo Experimental Produção Animal,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-5º AC,JOÃO VICTOR FERREIRA CALISTA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,MAC LEONARDO DA SILVA SOUTO,40001834,Pesquisador,Silvicultura,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-2º PPP,ADENILTON CICERO SANTOS DA SILVA,40000084,Técnico,Manejo Vegetal,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,ALANA BATISTA DOS SANTOS,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,EDUARDO MOURA DE LIMA,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
-2° AC,LUCAS RIBAS SOARES JURADO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPMA - Meio Ambiente,Jaguariúna,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,JORGE CARLOS DIAS DE SOUSA JUNIOR,40000564,Pesquisador,Ciências Econômicas Aplicadas à Agropecuária,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,DEBORA ARAUJO DE CARVALHO,40001179,Pesquisador,Recursos Genéticos Animais,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,ADENILSON PEREIRA CAVALCANTE,40000084,Técnico,Manejo Vegetal,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
-2º AC,JULIA REBELLO DOTTORI,40002553,Analista,Transferência de Tecnologia,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
-9º AC,GUSTAVO HENRIQUE DE ALMEIDA DOS ANJOS,40000084,Técnico,Manejo Vegetal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
-3º PPP,ANTONIO FRANCISCO DA SILVA JUNIOR,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-3º AC,JESSICA FERNANDES CARVALHAIS,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CNPC - Caprinos,Campina Grande,ALTERADO,STATUS: Aceitou → Contratado
-10º AC,MARCOS MANOLO DE BARROS SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CNPT - Trigo,Uberaba,ALTERADO,STATUS: Aceitou → Contratado
-1º PCD,VICTOR DE SOUSA ROCHA,40002198,Analista,Ciência de Dados,Contratado,CNPSO - Soja,Londrina,ALTERADO,STATUS: Aceitou → Contratado
-7º AC,ANDRESSA VIGHI SCHIAVON,40000084,Técnico,Manejo Vegetal,Contratado,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Aceitou → Contratado
-1º AC,HUMBERTO SAMPAIO DE ARAUJO,40000092,Pesquisador,Sistema de Produção de Tuberosas,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
-1º PPP,THAYSA FARIAS ESTEFANIN SCHELCK,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-1º AC,NICOLAS AUGUSTO ROSIN,40000735,Pesquisador,Pedologia,Aceitou,CNPS - Solos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou
-1º AC,AMARILIS BERALDO ROS,40000528,Pesquisador,Sistema de Produção de Olerícolas,Aceitou,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Desistente → Aceitou
-4º AC,JULIO DE OLIVEIRA TURCATTO,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Desistente → Aceitou
-1º AC,BRUNO MONTEIRO BALBONI,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,Desistente,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Desistente
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+07/01/2026 - 06:44:24,7º AC,MATEUS DE OLIVEIRA GONCALVES,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+07/01/2026 - 06:44:24,3º AC,JOAO VICTOR BARROS DA SILVA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desclassificado,,,ALTERADO,UNIDADE: CNPAT - Agro Tropical → ; LOTAÇÃO: Fortaleza → 
+07/01/2026 - 08:47:57,15º AC,MAIARA SALES DE MATOS,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+07/01/2026 - 10:01:11,11º AC,MATHEUS SCHMIDT TAGOMORI,40002198,Analista,Ciência de Dados,Convocado,,,NOVO,
+07/01/2026 - 10:01:11,16º AC,ASAFE DAYAN RODRIGUES ARAGAO,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+07/01/2026 - 10:01:11,1º AC,FABIO LAURINDO DA SILVA,40001494,Pesquisador,Economia Ambiental,Convocado,CPAMN - Meio Norte,Teresina,NOVO,
+07/01/2026 - 10:01:11,2º AC,FRANCISCO DA COSTA RODRIGUES TERCEIRO,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
+07/01/2026 - 10:01:11,2º AC,JOSE AUGUSTO DA COSTA,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
+07/01/2026 - 10:01:11,8º AC,RICARDO NEIL SCHAFFER,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+07/01/2026 - 10:01:11,1º AC,CARLOS RODOLFO PIEROZAN,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,MARIELA MATTOS DA SILVA,40000710,Pesquisador,Fisiologia de Plantas Cultivadas,Contratado,CNPMS - Milho e Sorgo,Balsas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,4º AC,CAMILA SOUSA DA SILVA,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,JAIRE ALVES FERREIRA FILHO,40000345,Pesquisador,Biologia Sintética e Ciências Ômicas,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,5º AC,GABRIEL TEIXEIRA ANTUNES,40002198,Analista,Ciência de Dados,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,6º PPP,MATEUS OLIVEIRA DA SILVA,40000007,Assistente,Manejo Animal,Contratado,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,4º AC,ADEMIR MARTINS LIMA,40000332,Analista,Recursos Genéticos e Melhoramento Genético Vegetal,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,4º AC,CLELDER FRANCISCO DO NASCIMENTO,40000084,Técnico,Manejo Vegetal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PPP,LUAN OTÁVIO LOPES SILVA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PPP,ISABELLE DA SILVA CORREIA,40000134,Pesquisador,Tecnologia e Inovação Alimentar para Gastronomia,Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PCD,BRISA ROSATTI PEREIRA GONÇALVES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,8º AC,OTTON CESAR SILVA DE LOIOLA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,MARILIA APARECIDA FIDELIS E MOURA,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PCD,HELOISA BONILHA DA SILVA,40001066,Analista,Engenharia de Software,Contratado,CNPTIA - Agro Digital,Balsas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º PPP,MOISES DO NASCIMENTO MELO,40000878,Técnico,Monitoramento Preditivo,Contratado,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,EDUARDO JOSE HAVERROTH,40000710,Pesquisador,Fisiologia de Plantas Cultivadas,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,JOSE CARLOS RODRIGUES SOARES,40001834,Pesquisador,Silvicultura,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,4º AC,CHRYSTIAN GABRIEL DE SOUZA DOILE,40000007,Assistente,Manejo Animal,Contratado,CPAC - Cerrados,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,MARIANA ANDRE POMPEU,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,DOUGLAS MATHEUS DAS NEVES SANTOS,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,Contratado,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,6º AC,DOUGLAS ENDRIGO PETERSEN,40000084,Técnico,Manejo Vegetal,Contratado,CNPUV - Uva,Bento Gonçalves,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,ORLANDO GONCALVES BRITO,40000528,Pesquisador,Sistema de Produção de Olerícolas,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,WALDEMIR SANTIAGO NETO,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou
+07/01/2026 - 10:01:11,6º AC,LUCAS SLAMA VIEIRA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,GGINT,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,MARLEI DE SOUZA COSTA,40003995,Assistente,Laboratório,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,ADRIANA MARIA ESPINOZA FERNANDO,40000894,Pesquisador,Serviços Ambientais,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,LUCIANA FREITAS GUEDES,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,8º AC,PEDRO HENRIQUE CARRILHO,40002223,Analista,Contabilidade,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,HOSANA AGUIAR FREITAS DE ANDRADE,40001084,Pesquisador,Sistema de Produção Integrado,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,MAYRA FERREIRA NETTO PARRO TEIXEIRA,40000281,Analista,Ciência de Alimentos de Organismos Aquáticos,Contratado,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,BRIGIDA DUARTE,40002553,Analista,Transferência de Tecnologia,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1ª AC,JULIANA LOPES SOUZA,40000015,Pesquisador,Conservação de Recursos Genéticos Vegetais,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,REINALDO RODRIGUES PIMENTEL,40001550,Pesquisador,Nematologia Vegetal,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,ALEXANDRE EDUARDO DE SOUZA DORMUNDO,40000084,Técnico,Manejo Vegetal,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PCD,IGOR DIEGO DE OLIVEIRA XAXA,40002553,Analista,Transferência de Tecnologia,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PCD,LARISSA BASTOS KAEHLER,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPUV - Uva,Bento Gonçalves,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º PPP,ANDRÉ DOS SANTOS AMÂNCIO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,GGINT,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,JULIANA MACEDO VIANA,40002553,Analista,Transferência de Tecnologia,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PPP,FELIPE AUGUSTO DE MORAES ALVARENGA,40002223,Analista,Contabilidade,Contratado,CNPS - Solos,Rio de Janeiro,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,7º AC,MAURO ROGERIO DE OLIVEIRA CAVALIM,40002223,Analista,Contabilidade,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,7º AC,ANA CAROLINA RODRIGUES DEFANTE,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,6º AC,WILSON NUNES DO SANTOS JUNIOR,40000007,Assistente,Manejo Animal,Contratado,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,FELIPE DE OLIVEIRA DIAS,40000528,Pesquisador,Sistema de Produção de Olerícolas,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,TIAGO MARTINS DE OLIVEIRA,40001393,Técnico,Novas Tecnologias,Contratado,CPAF/RO - Rondônia,Ouro Preto do Oeste,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PCD,DANILO JONAS SILVA SOUZA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPAC - Cerrados,Planaltina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PCD,EMERSON DE LIMA DIAS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desclassificado,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Aceitou → Desclassificado
+07/01/2026 - 10:01:11,1º PCD,LIDIA TIGGEMANN,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,CARMEM LUCIA PEREIRA ABADE DO NASCIMENTO,40001550,Pesquisador,Nematologia Vegetal,Contratado,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,DENIS YUKIO OTAKA,40004353,Analista,Clínica Veterinária,Contratado,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,5º AC,GUILHERME ANTONIO DEUSDARA BANCI,40001066,Analista,Engenharia de Software,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,JUNIO RONEY LIMA DANTAS,40000288,Técnico,Aquicultura,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,5º AC,PABLO PIMENTEL PESSOA,40002553,Analista,Transferência de Tecnologia,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PCD,HIGOR HYLLAN CARDOSO DE OLIVEIRA,40000007,Assistente,Manejo Animal,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PPP,ADEVAN DA SILVA PUGAS,40006431,Pesquisador,Inovação Social,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,DANIELA OLIVEIRA BRANDAO,40000464,Analista,Apoio a Campo Experimental Produção Animal,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,5º AC,JOÃO VICTOR FERREIRA CALISTA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,MAC LEONARDO DA SILVA SOUTO,40001834,Pesquisador,Silvicultura,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º PPP,ADENILTON CICERO SANTOS DA SILVA,40000084,Técnico,Manejo Vegetal,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,ALANA BATISTA DOS SANTOS,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,EDUARDO MOURA DE LIMA,40001484,Pesquisador,Nutrição de Ruminantes,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2° AC,LUCAS RIBAS SOARES JURADO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPMA - Meio Ambiente,Jaguariúna,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,JORGE CARLOS DIAS DE SOUSA JUNIOR,40000564,Pesquisador,Ciências Econômicas Aplicadas à Agropecuária,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,DEBORA ARAUJO DE CARVALHO,40001179,Pesquisador,Recursos Genéticos Animais,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,ADENILSON PEREIRA CAVALCANTE,40000084,Técnico,Manejo Vegetal,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,2º AC,JULIA REBELLO DOTTORI,40002553,Analista,Transferência de Tecnologia,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,9º AC,GUSTAVO HENRIQUE DE ALMEIDA DOS ANJOS,40000084,Técnico,Manejo Vegetal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º PPP,ANTONIO FRANCISCO DA SILVA JUNIOR,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,3º AC,JESSICA FERNANDES CARVALHAIS,40000775,Pesquisador,Ciência de Alimentos de Origem Animal,Contratado,CNPC - Caprinos,Campina Grande,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,10º AC,MARCOS MANOLO DE BARROS SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CNPT - Trigo,Uberaba,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PCD,VICTOR DE SOUSA ROCHA,40002198,Analista,Ciência de Dados,Contratado,CNPSO - Soja,Londrina,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,7º AC,ANDRESSA VIGHI SCHIAVON,40000084,Técnico,Manejo Vegetal,Contratado,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º AC,HUMBERTO SAMPAIO DE ARAUJO,40000092,Pesquisador,Sistema de Produção de Tuberosas,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:01:11,1º PPP,THAYSA FARIAS ESTEFANIN SCHELCK,40000402,Pesquisador,Sistemas de Produção Animal,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+07/01/2026 - 10:52:52,1º AC,NICOLAS AUGUSTO ROSIN,40000735,Pesquisador,Pedologia,Aceitou,CNPS - Solos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou
+07/01/2026 - 10:52:52,1º AC,AMARILIS BERALDO ROS,40000528,Pesquisador,Sistema de Produção de Olerícolas,Aceitou,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Desistente → Aceitou
+07/01/2026 - 10:52:52,4º AC,JULIO DE OLIVEIRA TURCATTO,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Desistente → Aceitou
+07/01/2026 - 13:45:59,1º AC,BRUNO MONTEIRO BALBONI,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,Desistente,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Desistente
+07/01/2026 - 23:12:48,10º AC,LUCAS FREDERICO FERREIRA PEREIRA DE PAIVA,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Desistente,,,ALTERADO,STATUS: Convocado → Desistente; UNIDADE: CPAF/RO - Rondônia → ; LOTAÇÃO: Porto Velho →

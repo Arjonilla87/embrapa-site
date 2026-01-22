@@ -1,24 +1,23 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-14º AC,EDILVANDO PEREIRA EUFRAZIO,40002198,Analista,Ciência de Dados,Convocado,CPAMT - Agrossilvipastoril,Sinop,NOVO,
-3º PPP,JOSIVALDO DOS SANTOS ALMEIDA,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-3º PPP,GRACY KELLY DE SANTANA RODRIGUES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
-12º AC,GIOVANI GHENO BOMBARDIERI,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,CPACT - Clima Temp,Pelotas,ALTERADO,UNIDADE:  → CPACT - Clima Temp; LOTAÇÃO:  → Pelotas
-1º AC,JULIO TAGLIARI BALESTRIN,40000632,Pesquisador,Fitotecnia,Convocado,CPATU - Amaz. Oriental,Belém,NOVO,
-3º AC,HELOISA OLIVEIRA DOS SANTOS,40000632,Pesquisador,Fitotecnia,Convocado,CNPSO - Soja,Balsas,NOVO,
-13º AC,GABRIEL OYA NOZAWA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-2º AC,LAURO STRAPASSON NETO,40000632,Pesquisador,Fitotecnia,Convocado,CPACP - Maranhão,São Luis,NOVO,
-4º AC,MAURÍCIO KADOOKA SHIMIZU,40000632,Pesquisador,Fitotecnia,Convocado,CPATU - Amaz. Oriental,Belém,NOVO,
-1º PCD,ERICA DE OLIVEIRA ARAUJO,40000632,Pesquisador,Fitotecnia,Convocado,CPAF/RO - Rondônia,Vilhena,NOVO,
-1º PPP,PATRICIA RESPLANDES ROCHA DOS SANTOS,40000632,Pesquisador,Fitotecnia,Convocado,CNPASA - Pesca,Palmas,NOVO,
-21° AC,ARTHUR SILVEIRA AZEVEDO,40000007,Assistente,Manejo Animal,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGC - Gado Corte; LOTAÇÃO:  → Campo Grande
-1º PCD,VICENTE BATISTA DE SOUSA JUNIOR,40000002,Técnico,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-4º PCD,PAULO RENATO DE OLIVEIRA FAGUNDES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
-1º PPP,CELESTE DE JESUS PEREIRA FRANCO,40000188,Técnico,Laboratório,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPATU - Amaz. Oriental; LOTAÇÃO:  → Belém
-3º AC,LUIS FERNANDO DA SILVA,40000735,Pesquisador,Pedologia,Desistente,CNPS - Solos,Recife,ALTERADO,STATUS: Convocado → Desistente
-18º AC,SAMUEL OLIVEIRA MATEUS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPT - Trigo; LOTAÇÃO:  → Passo Fundo
-5º PPP,CHARLES ALVES CALIXTO MONTENEGRO,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
-22º AC,GILBERTO JOSE DE OLIVEIRA JUNIOR,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
-3º PCD,VALDEIR AGUILERA NOGUEIRA DA SILVA,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
-4º AC,CARLA CROCOLI ROMIO,40000188,Técnico,Laboratório,Convocado,,,NOVO,
-3º AC,EDUARDO DE ALMEIDA MARQUES,40000127,Técnico,Suporte à Gestão,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
-24º AC,RAFAEL ARAUJO MEDEIROS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+21/01/2026 - 09:28:43,1º AC,JULIO TAGLIARI BALESTRIN,40000632,Pesquisador,Fitotecnia,Convocado,CPATU - Amaz. Oriental,Belém,NOVO,
+21/01/2026 - 09:28:43,3º AC,HELOISA OLIVEIRA DOS SANTOS,40000632,Pesquisador,Fitotecnia,Convocado,CNPSO - Soja,Balsas,NOVO,
+21/01/2026 - 09:28:43,13º AC,GABRIEL OYA NOZAWA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+21/01/2026 - 09:28:43,2º AC,LAURO STRAPASSON NETO,40000632,Pesquisador,Fitotecnia,Convocado,CPACP - Maranhão,São Luis,NOVO,
+21/01/2026 - 09:28:43,4º AC,MAURÍCIO KADOOKA SHIMIZU,40000632,Pesquisador,Fitotecnia,Convocado,CPATU - Amaz. Oriental,Belém,NOVO,
+21/01/2026 - 09:28:43,1º PCD,ERICA DE OLIVEIRA ARAUJO,40000632,Pesquisador,Fitotecnia,Convocado,CPAF/RO - Rondônia,Vilhena,NOVO,
+21/01/2026 - 09:28:43,1º PPP,PATRICIA RESPLANDES ROCHA DOS SANTOS,40000632,Pesquisador,Fitotecnia,Convocado,CNPASA - Pesca,Palmas,NOVO,
+21/01/2026 - 09:28:43,21° AC,ARTHUR SILVEIRA AZEVEDO,40000007,Assistente,Manejo Animal,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGC - Gado Corte; LOTAÇÃO:  → Campo Grande
+21/01/2026 - 09:28:43,1º PCD,VICENTE BATISTA DE SOUSA JUNIOR,40000002,Técnico,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+21/01/2026 - 10:39:05,4º PCD,PAULO RENATO DE OLIVEIRA FAGUNDES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
+21/01/2026 - 11:22:09,1º PPP,CELESTE DE JESUS PEREIRA FRANCO,40000188,Técnico,Laboratório,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPATU - Amaz. Oriental; LOTAÇÃO:  → Belém
+21/01/2026 - 11:22:09,3º AC,LUIS FERNANDO DA SILVA,40000735,Pesquisador,Pedologia,Desistente,CNPS - Solos,Recife,ALTERADO,STATUS: Convocado → Desistente
+21/01/2026 - 12:22:06,18º AC,SAMUEL OLIVEIRA MATEUS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPT - Trigo; LOTAÇÃO:  → Passo Fundo
+21/01/2026 - 15:31:26,5º PPP,CHARLES ALVES CALIXTO MONTENEGRO,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
+21/01/2026 - 15:31:26,22º AC,GILBERTO JOSE DE OLIVEIRA JUNIOR,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+21/01/2026 - 15:31:26,3º PCD,VALDEIR AGUILERA NOGUEIRA DA SILVA,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
+21/01/2026 - 15:31:26,4º AC,CARLA CROCOLI ROMIO,40000188,Técnico,Laboratório,Convocado,,,NOVO,
+21/01/2026 - 15:31:26,3º AC,EDUARDO DE ALMEIDA MARQUES,40000127,Técnico,Suporte à Gestão,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
+21/01/2026 - 18:21:28,24º AC,RAFAEL ARAUJO MEDEIROS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+21/01/2026 - 22:02:24,1º AC,WILLIAM DAVID LIMA DA SILVA,40002449,Técnico,Contabilidade,Desistente,,,ALTERADO,COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →
+21/01/2026 - 22:02:24,13º AC,WALLACE FERREIRA DA SILVA,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,COLOCAÇÃO: 2º PPP → 13º AC
+21/01/2026 - 22:02:24,5º PPP,CHARLES ALVES CALIXTO MONTENEGRO,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas

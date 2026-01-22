@@ -1,14 +1,14 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-2º AC,JOÃO PEDRO PACHECO,40002688,Analista,Ciência do Solo,Convocado,CPAC - Cerrados,Planaltina,ALTERADO,UNIDADE:  → CPAC - Cerrados; LOTAÇÃO:  → Planaltina
-11º AC,MATHEUS SCHMIDT TAGOMORI,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-9º AC,CLEIRTON MONTE DE SOUSA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-10º AC,MARCELO NASCIMENTO MOUTINHO,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-12º AC,TACIO CAVALCANTE XAVIER,40002198,Analista,Ciência de Dados,Convocado,,,NOVO,
-1º PPP,EMANOEL LIMA MARTINS,40002688,Analista,Ciência do Solo,Convocado,CNPAT - Agro Tropical,Fortaleza,NOVO,
-21º AC,SAVYO TEIXEIRA REZENDE DE OLIVEIRA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CPAF/RR - Roraima,Boa Vista,NOVO,
-10º AC,ALYSSON ROBERTO DE ALMEIDA,40002553,Analista,Transferência de Tecnologia,Convocado,CPAF/RO - Rondônia,Porto Velho,NOVO,
-1º PPP,RAMON SAMPAIO PONTES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-3º AC,JOÃO CLAUDIO BUENO COSTA,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
-6º PPP,JHONNY DOS SANTOS RAMOS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
-2º PPP,KARL FRANKLIN DE OLIVEIRA COSTA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
-18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Convocado,CPATU - Amaz. Oriental,,ALTERADO,UNIDADE:  → CPATU - Amaz. Oriental
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+13/01/2026 - 07:00:08,2º AC,JOÃO PEDRO PACHECO,40002688,Analista,Ciência do Solo,Convocado,CPAC - Cerrados,Planaltina,ALTERADO,UNIDADE:  → CPAC - Cerrados; LOTAÇÃO:  → Planaltina
+13/01/2026 - 08:31:30,11º AC,MATHEUS SCHMIDT TAGOMORI,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+13/01/2026 - 08:54:56,9º AC,CLEIRTON MONTE DE SOUSA,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+13/01/2026 - 10:54:13,10º AC,MARCELO NASCIMENTO MOUTINHO,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+13/01/2026 - 10:54:13,12º AC,TACIO CAVALCANTE XAVIER,40002198,Analista,Ciência de Dados,Convocado,,,NOVO,
+13/01/2026 - 10:54:13,1º PPP,EMANOEL LIMA MARTINS,40002688,Analista,Ciência do Solo,Convocado,CNPAT - Agro Tropical,Fortaleza,NOVO,
+13/01/2026 - 10:54:13,21º AC,SAVYO TEIXEIRA REZENDE DE OLIVEIRA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CPAF/RR - Roraima,Boa Vista,NOVO,
+13/01/2026 - 10:54:13,10º AC,ALYSSON ROBERTO DE ALMEIDA,40002553,Analista,Transferência de Tecnologia,Convocado,CPAF/RO - Rondônia,Porto Velho,NOVO,
+13/01/2026 - 10:54:13,1º PPP,RAMON SAMPAIO PONTES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+13/01/2026 - 14:34:25,3º AC,JOÃO CLAUDIO BUENO COSTA,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
+13/01/2026 - 14:34:25,6º PPP,JHONNY DOS SANTOS RAMOS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+13/01/2026 - 14:34:25,2º PPP,KARL FRANKLIN DE OLIVEIRA COSTA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
+13/01/2026 - 17:34:24,18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Convocado,CPATU - Amaz. Oriental,,ALTERADO,UNIDADE:  → CPATU - Amaz. Oriental

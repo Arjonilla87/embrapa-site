@@ -1,11 +1,11 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-17º AC,JORGE LUIS FELIX DE FRANCA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-2º AC,LEANDRO CANABRAVA DAMAS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
-1º PPP,EDSON TEOFILO FERNANDES JUNIOR,40001814,Técnico,Segurança e Saúde do Trabalho,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-1º PPP,RAMON SAMPAIO PONTES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
-2º PPP,LUCAS MENDES DE LIMA,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
-19º AC,BRUNA GRANDI,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
-2º AC,JOÃO PEDRO PACHECO,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
-4º AC,PHILIPPE DE MIRANDA ANTONIOLI,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-20º AC,JAQUELINE AGNES PILATTI,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+12/01/2026 - 07:35:16,17º AC,JORGE LUIS FELIX DE FRANCA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+12/01/2026 - 07:59:40,2º AC,LEANDRO CANABRAVA DAMAS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
+12/01/2026 - 08:54:52,1º PPP,EDSON TEOFILO FERNANDES JUNIOR,40001814,Técnico,Segurança e Saúde do Trabalho,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+12/01/2026 - 13:48:03,1º PPP,RAMON SAMPAIO PONTES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
+12/01/2026 - 13:48:03,2º PPP,LUCAS MENDES DE LIMA,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
+12/01/2026 - 13:48:03,18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+12/01/2026 - 13:48:03,19º AC,BRUNA GRANDI,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+12/01/2026 - 16:04:02,2º AC,JOÃO PEDRO PACHECO,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
+12/01/2026 - 16:04:02,4º AC,PHILIPPE DE MIRANDA ANTONIOLI,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
+12/01/2026 - 16:04:02,20º AC,JAQUELINE AGNES PILATTI,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,

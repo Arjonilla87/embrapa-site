@@ -1,10 +1,10 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-13º AC,VICTOR GABRIEL COSTA CARVALHO,40000007,Assistente,Manejo Animal,Convocado,CPPSE - Pec Sudeste,São Carlos,NOVO,
-8º AC,EZIO DOS SANTOS PINTO JUNIOR,40002553,Analista,Transferência de Tecnologia,Convocado,,,NOVO,
-14º AC,VINICIUS DUQUE CARVALHO DE SOUSA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CNPAT - Agro Tropical,Fortaleza,NOVO,
-6º AC,ROMARIO OLIVEIRA SANTOS,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-12º AC,ADRIANA BATISTA DE SOUZA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-15º AC,JOSE FERNANDES FILHO,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
-4º PPP,PEDRO HENRIQUE ARAUJO TERRA,40000682,Técnico,Tecnologia da Informação,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou
-7° AC,LUCAS HENRIQUE VIEIRA LENCI,40002553,Analista,Transferência de Tecnologia,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-8º AC,CAIO RENATO LEITÃO MENDES,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Convocado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,UNIDADE:  → CPAMT - Agrossilvipastoril; LOTAÇÃO:  → Sinop
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+,13º AC,VICTOR GABRIEL COSTA CARVALHO,40000007,Assistente,Manejo Animal,Convocado,CPPSE - Pec Sudeste,São Carlos,NOVO,
+,8º AC,EZIO DOS SANTOS PINTO JUNIOR,40002553,Analista,Transferência de Tecnologia,Convocado,,,NOVO,
+,14º AC,VINICIUS DUQUE CARVALHO DE SOUSA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CNPAT - Agro Tropical,Fortaleza,NOVO,
+,6º AC,ROMARIO OLIVEIRA SANTOS,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+,12º AC,ADRIANA BATISTA DE SOUZA,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+,15º AC,JOSE FERNANDES FILHO,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
+,4º PPP,PEDRO HENRIQUE ARAUJO TERRA,40000682,Técnico,Tecnologia da Informação,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou
+,7° AC,LUCAS HENRIQUE VIEIRA LENCI,40002553,Analista,Transferência de Tecnologia,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+,8º AC,CAIO RENATO LEITÃO MENDES,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Convocado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,UNIDADE:  → CPAMT - Agrossilvipastoril; LOTAÇÃO:  → Sinop

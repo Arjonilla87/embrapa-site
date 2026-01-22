@@ -1,14 +1,14 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
-3º AC,MARIANA BISINOTTO PEREIRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,GADM,Brasília,NOVO,
-1º PCD,ROBERSON SANTOS MARCELO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",,,,NOVO,
-3º AC,JOÃO CLAUDIO BUENO COSTA,40002688,Analista,Ciência do Solo,Convocado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
-3º AC,JOSE AUGUSTO DA COSTA,40001814,Técnico,Segurança e Saúde do Trabalho,Aceitou,CPAMN - Meio Norte,Teresina,ALTERADO,COLOCAÇÃO: 2º AC → 3º AC
-4º AC,PHILIPPE DE MIRANDA ANTONIOLI,40001814,Técnico,Segurança e Saúde do Trabalho,Aceitou,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CTAA - Agro Alimentos; LOTAÇÃO:  → Rio de Janeiro
-10º AC,ALYSSON ROBERTO DE ALMEIDA,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Convocado → Aceitou
-1º PCD,ANA PAULA CARRARA VINHA,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
-1º PCD,CESAR FAYER DE CAMPOS,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-7º PPP,ANDREZA ARAÚJO DE SOUSA,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
-2º AC,ARAM ROSA PALOMAR,40000188,Técnico,Laboratório,Convocado,,,NOVO,
-1º PPP,RUDNEY DA SILVA MAIA JUNIOR,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
-2º AC,ÁTILA DE SOUSA ALVES,40000127,Técnico,Suporte à Gestão,Convocado,,,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+14/01/2026 - 08:28:42,18º AC,PAULO ROBERTO DA SILVA ARAUJO,40000007,Assistente,Manejo Animal,Aceitou,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Convocado → Aceitou
+14/01/2026 - 12:01:40,3º AC,MARIANA BISINOTTO PEREIRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,GADM,Brasília,NOVO,
+14/01/2026 - 13:46:32,1º PCD,ROBERSON SANTOS MARCELO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",,,,NOVO,
+14/01/2026 - 13:46:32,3º AC,JOÃO CLAUDIO BUENO COSTA,40002688,Analista,Ciência do Solo,Convocado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
+14/01/2026 - 14:34:37,3º AC,JOSE AUGUSTO DA COSTA,40001814,Técnico,Segurança e Saúde do Trabalho,Aceitou,CPAMN - Meio Norte,Teresina,ALTERADO,COLOCAÇÃO: 2º AC → 3º AC
+14/01/2026 - 14:34:37,4º AC,PHILIPPE DE MIRANDA ANTONIOLI,40001814,Técnico,Segurança e Saúde do Trabalho,Aceitou,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CTAA - Agro Alimentos; LOTAÇÃO:  → Rio de Janeiro
+14/01/2026 - 15:49:18,10º AC,ALYSSON ROBERTO DE ALMEIDA,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Convocado → Aceitou
+14/01/2026 - 18:31:55,1º PCD,ANA PAULA CARRARA VINHA,40002688,Analista,Ciência do Solo,Convocado,,,NOVO,
+14/01/2026 - 18:31:55,1º PCD,CESAR FAYER DE CAMPOS,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
+14/01/2026 - 18:56:03,7º PPP,ANDREZA ARAÚJO DE SOUSA,40000007,Assistente,Manejo Animal,Convocado,,,NOVO,
+14/01/2026 - 18:56:03,2º AC,ARAM ROSA PALOMAR,40000188,Técnico,Laboratório,Convocado,,,NOVO,
+14/01/2026 - 18:56:03,1º PPP,RUDNEY DA SILVA MAIA JUNIOR,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
+14/01/2026 - 18:56:03,2º AC,ÁTILA DE SOUSA ALVES,40000127,Técnico,Suporte à Gestão,Convocado,,,NOVO,

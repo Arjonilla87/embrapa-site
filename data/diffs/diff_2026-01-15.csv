@@ -1,10 +1,10 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-10º AC,MARCELO NASCIMENTO MOUTINHO,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Aceitou,CNPF - Florestas,Colombo,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPF - Florestas; LOTAÇÃO:  → Colombo
-6º PPP,JHONNY DOS SANTOS RAMOS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,CPATU - Amaz. Oriental,Belém,ALTERADO,UNIDADE:  → CPATU - Amaz. Oriental; LOTAÇÃO:  → Belém
-2º AC,ÁTILA DE SOUSA ALVES,40000127,Técnico,Suporte à Gestão,Aceitou,CNPAT - Agro Tropical,Fortaleza,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPAT - Agro Tropical; LOTAÇÃO:  → Fortaleza
-12º AC,TACIO CAVALCANTE XAVIER,40002198,Analista,Ciência de Dados,Aceitou,CPAO - Agro Oeste,Dourados,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAO - Agro Oeste; LOTAÇÃO:  → Dourados
-1º PPP,RUDNEY DA SILVA MAIA JUNIOR,40000002,Técnico,Manejo Animal,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/RO - Rondônia; LOTAÇÃO:  → Porto Velho
-1º PCD,ROBERSON SANTOS MARCELO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPM - Territorial,Campinas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPM - Territorial; LOTAÇÃO:  → Campinas
-3º PPP,FRANCISCO WALBERG BARBOSA DOS SANTOS,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-22º AC,THYAGO JOSE ARRUDA PACHECO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CPAA - Amaz. Ocidental,Manaus,NOVO,
-6º PPP,VITORIA MARIA CARNEIRO MATHIAS,40002198,Analista,Ciência de Dados,Convocado,CPAMT - Agrossilvipastoril,Sinop,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+15/01/2026 - 07:38:39,10º AC,MARCELO NASCIMENTO MOUTINHO,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Aceitou,CNPF - Florestas,Colombo,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPF - Florestas; LOTAÇÃO:  → Colombo
+15/01/2026 - 07:38:39,6º PPP,JHONNY DOS SANTOS RAMOS,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,CPATU - Amaz. Oriental,Belém,ALTERADO,UNIDADE:  → CPATU - Amaz. Oriental; LOTAÇÃO:  → Belém
+15/01/2026 - 10:01:21,2º AC,ÁTILA DE SOUSA ALVES,40000127,Técnico,Suporte à Gestão,Aceitou,CNPAT - Agro Tropical,Fortaleza,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPAT - Agro Tropical; LOTAÇÃO:  → Fortaleza
+15/01/2026 - 11:33:19,12º AC,TACIO CAVALCANTE XAVIER,40002198,Analista,Ciência de Dados,Aceitou,CPAO - Agro Oeste,Dourados,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAO - Agro Oeste; LOTAÇÃO:  → Dourados
+15/01/2026 - 13:56:46,1º PPP,RUDNEY DA SILVA MAIA JUNIOR,40000002,Técnico,Manejo Animal,Aceitou,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/RO - Rondônia; LOTAÇÃO:  → Porto Velho
+15/01/2026 - 15:56:36,1º PCD,ROBERSON SANTOS MARCELO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPM - Territorial,Campinas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPM - Territorial; LOTAÇÃO:  → Campinas
+15/01/2026 - 16:56:47,3º PPP,FRANCISCO WALBERG BARBOSA DOS SANTOS,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+15/01/2026 - 16:56:47,22º AC,THYAGO JOSE ARRUDA PACHECO,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CPAA - Amaz. Ocidental,Manaus,NOVO,
+15/01/2026 - 16:56:47,6º PPP,VITORIA MARIA CARNEIRO MATHIAS,40002198,Analista,Ciência de Dados,Convocado,CPAMT - Agrossilvipastoril,Sinop,NOVO,

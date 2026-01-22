@@ -1,10 +1,9 @@
-COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-10º AC,LUCAS FREDERICO FERREIRA PEREIRA DE PAIVA,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Desistente,,,ALTERADO,STATUS: Convocado → Desistente; UNIDADE: CPAF/RO - Rondônia → ; LOTAÇÃO: Porto Velho → 
-16º AC,ASAFE DAYAN RODRIGUES ARAGAO,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-1º PCD,HELOISA BONILHA DA SILVA,40001066,Analista,Engenharia de Software,Aceitou,CNPTIA - Agro Digital,Balsas,ALTERADO,STATUS: Desistente → Aceitou
-1º PPP,LUIS FERNANDO DA SILVA,40000735,Pesquisador,Pedologia,Desistente,CNPS - Solos,Balsas,ALTERADO,STATUS: Convocado → Desistente
-1º PPP,CAROLINA ROCHA MOREIRA DE OLIVEIRA,40001321,Pesquisador,Agentes Biológicos de Controle,Desistente,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Desistente
-17º AC,BRUNA CRISTINA DE SANTANA BORGES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
-1º PPP,EDSON TEOFILO FERNANDES JUNIOR,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
-11º AC,GABRIEL SUNSI ALMADA DE ABREU,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Aceitou,CPAF/RO - Rondônia,Porto Velho,NOVO,
-2º PPP,SARA RAMOS DOS SANTOS,40000735,Pesquisador,Pedologia,Convocado,CNPS - Solos,Balsas,NOVO,
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+08/01/2026 - 08:48:33,16º AC,ASAFE DAYAN RODRIGUES ARAGAO,40000007,Assistente,Manejo Animal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+08/01/2026 - 10:01:39,1º PCD,HELOISA BONILHA DA SILVA,40001066,Analista,Engenharia de Software,Aceitou,CNPTIA - Agro Digital,Balsas,ALTERADO,STATUS: Desistente → Aceitou
+08/01/2026 - 10:53:48,1º PPP,LUIS FERNANDO DA SILVA,40000735,Pesquisador,Pedologia,Desistente,CNPS - Solos,Balsas,ALTERADO,STATUS: Convocado → Desistente
+08/01/2026 - 14:34:30,1º PPP,CAROLINA ROCHA MOREIRA DE OLIVEIRA,40001321,Pesquisador,Agentes Biológicos de Controle,Desistente,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Desistente
+08/01/2026 - 17:36:15,17º AC,BRUNA CRISTINA DE SANTANA BORGES,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Convocado,,,NOVO,
+08/01/2026 - 17:36:15,1º PPP,EDSON TEOFILO FERNANDES JUNIOR,40001814,Técnico,Segurança e Saúde do Trabalho,Convocado,,,NOVO,
+08/01/2026 - 17:36:15,11º AC,GABRIEL SUNSI ALMADA DE ABREU,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Aceitou,CPAF/RO - Rondônia,Porto Velho,NOVO,
+08/01/2026 - 17:36:15,2º PPP,SARA RAMOS DOS SANTOS,40000735,Pesquisador,Pedologia,Convocado,CNPS - Solos,Balsas,NOVO,
