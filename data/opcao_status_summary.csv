@@ -1,7 +1,7 @@
-﻿LAST_UPDATE,22/01/2026 - 09:45:02
+﻿LAST_UPDATE,22/01/2026 - 10:40:26
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,4,1,28%,6,1
-40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,11,8,86%,32,12
+40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,11,8,86%,32,13
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
@@ -73,7 +73,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,0,0,0%,0,0
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,1,2,100%,3,0
 40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,0,0,1,17%,1,0
-40000735,Pesquisador,Ciências Agrárias,Pedologia,3,0,2,0,67%,5,3
+40000735,Pesquisador,Ciências Agrárias,Pedologia,3,1,2,0,67%,6,3
 40000773,Analista,Ciências Agrárias,Sanidade e Defesa Animal,1,0,0,1,100%,1,0
 40000775,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,5,0,2,3,100%,6,1
 40000786,Pesquisador,Ciências Agrárias,Sistemas de Dados Georreferenciados,2,0,0,2,100%,2,0
@@ -114,7 +114,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001403,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Pós-Colheita,2,0,0,2,100%,2,0
 40001465,Analista,Ciências Agrárias,Recursos Genéticos Microbianos,1,0,0,1,100%,1,0
 40001472,Pesquisador,Ciências Agrárias,Sanidade de Abelhas,1,0,0,1,100%,1,0
-40001479,Pesquisador,Ciências Agrárias,Matologia,4,0,0,0,0%,0,0
+40001479,Pesquisador,Ciências Agrárias,Matologia,4,3,1,0,25%,4,0
 40001484,Pesquisador,Ciências Agrárias,Nutrição de Ruminantes,4,0,0,4,100%,5,1
 40001494,Pesquisador,Recursos Naturais,Economia Ambiental,1,0,1,0,100%,1,0
 40001496,Analista,Ciências Agrárias,Sensoriamento Remoto,1,0,0,1,100%,2,1
