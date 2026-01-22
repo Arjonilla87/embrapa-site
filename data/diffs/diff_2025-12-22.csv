@@ -1,15 +1,15 @@
-﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-22/12/2025 - 22:22:51,7º AC,MATEUS DE OLIVEIRA GONCALVES,40002278,Convocado,,,NOVO,
-22/12/2025 - 22:22:51,16ª AC,MARIO ROBERTO DOS SANTOS MARTINS,40000035,Aceitou,CNPUV - Uva,Bento Gonçalves,NOVO,
-22/12/2025 - 22:22:51,5º PPP,ROBSON GUEDES DE SOUSA,40001151,Aceitou,CPAMT - Agrossilvipastoril,Sinop,NOVO,
-22/12/2025 - 22:22:51,10º AC,MARCOS VINICIUS DE SOUSA FARIAS,40002198,Convocado,,,NOVO,
-22/12/2025 - 22:22:51,8º AC,JOÃO GABRIEL CARLOS RIBAS,40002198,Aceitou,CNPH - Hortaliças,Brasília,ALTERADO,STATUS:  → Aceitou; UNIDADE:  → CNPH - Hortaliças; LOTAÇÃO:  → Brasília
-22/12/2025 - 22:22:51,4º PPP,DANIEL DE OLIVEIRA RIBEIRO,40002198,Desistente,,,ALTERADO,COLOCAÇÃO: 3º PPP → 4º PPP
-22/12/2025 - 22:22:51,1º PPP,ALEX PAULO LEMOS DA SILVA,40001921,Aceitou,CPAO - Agro Oeste,Dourados,ALTERADO,STATUS: Convocado → Aceitou
-22/12/2025 - 22:22:51,9º AC,JOANA DUBOC BASTOS,40002553,Aceitou,CPAF/AC - Acre,Cruzeiro do Sul,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Cruzeiro do Sul
-22/12/2025 - 22:22:51,9º AC,MÁRCIO ROGÉRIO COSME,40004569,Convocado,,,ALTERADO,UNIDADE: CPAF/RO - Rondônia → ; LOTAÇÃO: Porto Velho → 
-22/12/2025 - 22:22:51,5º PPP,JOÃO GUILHERME ALVES SANTOS,40002198,Aceitou,CNPSA - Suinos e Aves,Concórida,ALTERADO,COLOCAÇÃO: 3º PPP → 5º PPP
-22/12/2025 - 22:22:51,1º  PPP,RODOLFO ALVES DA LUZ,40000786,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,COLOCAÇÃO: 2° AC → 1º  PPP
-22/12/2025 - 22:22:51,3º PPP,CLAUDIA DANIELLY DE SOUSA,40002223,Aceitou,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
-22/12/2025 - 22:22:51,15º AC,FLAVIA LONDRES DA CUNHA,40001151,Aceitou,CNPAT - Agro Tropical,Fortaleza,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPAT - Agro Tropical; LOTAÇÃO:  → Fortaleza
-22/12/2025 - 22:22:51,1º AC,WILLIAN YUITI TAKAHASHI,40001921,Aceitou,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Convocado → Aceitou
+COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+7º AC,MATEUS DE OLIVEIRA GONCALVES,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
+16ª AC,MARIO ROBERTO DOS SANTOS MARTINS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPUV - Uva,Bento Gonçalves,NOVO,
+5º PPP,ROBSON GUEDES DE SOUSA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CPAMT - Agrossilvipastoril,Sinop,NOVO,
+10º AC,MARCOS VINICIUS DE SOUSA FARIAS,40002198,Analista,Ciência de Dados,Convocado,,,NOVO,
+8º AC,JOÃO GABRIEL CARLOS RIBAS,40002198,Analista,Ciência de Dados,Aceitou,CNPH - Hortaliças,Brasília,ALTERADO,STATUS:  → Aceitou; UNIDADE:  → CNPH - Hortaliças; LOTAÇÃO:  → Brasília
+4º PPP,DANIEL DE OLIVEIRA RIBEIRO,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,COLOCAÇÃO: 3º PPP → 4º PPP
+1º PPP,ALEX PAULO LEMOS DA SILVA,40001921,Pesquisador,Microbiologia e Bioquímica do Solo,Aceitou,CPAO - Agro Oeste,Dourados,ALTERADO,STATUS: Convocado → Aceitou
+9º AC,JOANA DUBOC BASTOS,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/AC - Acre,Cruzeiro do Sul,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Cruzeiro do Sul
+9º AC,MÁRCIO ROGÉRIO COSME,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Convocado,,,ALTERADO,UNIDADE: CPAF/RO - Rondônia → ; LOTAÇÃO: Porto Velho → 
+5º PPP,JOÃO GUILHERME ALVES SANTOS,40002198,Analista,Ciência de Dados,Aceitou,CNPSA - Suinos e Aves,Concórida,ALTERADO,COLOCAÇÃO: 3º PPP → 5º PPP
+1º  PPP,RODOLFO ALVES DA LUZ,40000786,Pesquisador,Sistemas de Dados Georreferenciados,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,COLOCAÇÃO: 2° AC → 1º  PPP
+3º PPP,CLAUDIA DANIELLY DE SOUSA,40002223,Analista,Contabilidade,Aceitou,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
+15º AC,FLAVIA LONDRES DA CUNHA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Aceitou,CNPAT - Agro Tropical,Fortaleza,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPAT - Agro Tropical; LOTAÇÃO:  → Fortaleza
+1º AC,WILLIAN YUITI TAKAHASHI,40001921,Pesquisador,Microbiologia e Bioquímica do Solo,Aceitou,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Convocado → Aceitou

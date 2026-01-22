@@ -1,7 +1,7 @@
-﻿COLOCAÇÃO,NOME,OPÇÃO,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-11º AC,DANIEL WILLIAM LEITE DE MELO,40002223,Aceitou,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé
-3º PPP,JOÃO GUILHERME ALVES SANTOS,40002198,Aceitou,CNPSA - Suinos e Aves,Concórida,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPSA - Suinos e Aves; LOTAÇÃO:  → Concórida
-8º AC,EZIO DOS SANTOS PINTO JUNIOR,40002553,Aceitou,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Rio Branco
-13º AC,VICTOR GABRIEL COSTA CARVALHO,40000007,Aceitou,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Convocado → Aceitou
-8º AC,CAIO RENATO LEITÃO MENDES,40004569,Aceitou,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Convocado → Aceitou
-4º AC,LUCIANO JORGE SEREJO DOS ANJOS,40001860,Aceitou,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Convocado → Aceitou
+COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+11º AC,DANIEL WILLIAM LEITE DE MELO,40002223,Analista,Contabilidade,Aceitou,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé
+3º PPP,JOÃO GUILHERME ALVES SANTOS,40002198,Analista,Ciência de Dados,Aceitou,CNPSA - Suinos e Aves,Concórida,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPSA - Suinos e Aves; LOTAÇÃO:  → Concórida
+8º AC,EZIO DOS SANTOS PINTO JUNIOR,40002553,Analista,Transferência de Tecnologia,Aceitou,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Rio Branco
+13º AC,VICTOR GABRIEL COSTA CARVALHO,40000007,Assistente,Manejo Animal,Aceitou,CPPSE - Pec Sudeste,São Carlos,ALTERADO,STATUS: Convocado → Aceitou
+8º AC,CAIO RENATO LEITÃO MENDES,40004569,Analista,Gestão de Instrumentos de Parcerias e Negócios,Aceitou,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Convocado → Aceitou
+4º AC,LUCIANO JORGE SEREJO DOS ANJOS,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,Aceitou,CPAF/AP - Amapá,Macapá,ALTERADO,STATUS: Convocado → Aceitou

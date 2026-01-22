@@ -1,7 +1,7 @@
-﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-06/01/2026 - 18:56:49,1º PPP,JOILSON FERREIRA BATISTA,40002503,Aceitou,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Convocado → Aceitou
-06/01/2026 - 18:56:49,4º AC,NATHALIA DE BEM BIDONE BIACCHI,40002503,Aceitou,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Convocado → Aceitou
-06/01/2026 - 18:56:49,2º PCD,MATHEUS CARLOS LIMA E SILVA,40002198,Aceitou,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CTAA - Agro Alimentos; LOTAÇÃO:  → Rio de Janeiro
-06/01/2026 - 18:56:49,1º AC,ALINE ALBERTI MORGADO,40002503,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
-06/01/2026 - 18:56:49,3º AC,TEANE MILAGRES AUGUSTO GOMES,40002503,Aceitou,CNPSA - Suinos e Aves,Concordia,ALTERADO,STATUS: Convocado → Aceitou
-06/01/2026 - 18:56:49,4º AC,JULIO DE OLIVEIRA TURCATTO,40002553,Desistente,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Desistente
+COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+1º PPP,JOILSON FERREIRA BATISTA,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Convocado → Aceitou
+4º AC,NATHALIA DE BEM BIDONE BIACCHI,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Convocado → Aceitou
+2º PCD,MATHEUS CARLOS LIMA E SILVA,40002198,Analista,Ciência de Dados,Aceitou,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CTAA - Agro Alimentos; LOTAÇÃO:  → Rio de Janeiro
+1º AC,ALINE ALBERTI MORGADO,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
+3º AC,TEANE MILAGRES AUGUSTO GOMES,40002503,Pesquisador,Sanidade e Defesa Animal,Aceitou,CNPSA - Suinos e Aves,Concordia,ALTERADO,STATUS: Convocado → Aceitou
+4º AC,JULIO DE OLIVEIRA TURCATTO,40002553,Analista,Transferência de Tecnologia,Desistente,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Desistente
