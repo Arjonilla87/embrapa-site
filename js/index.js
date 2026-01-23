@@ -50,6 +50,7 @@ const VISIBLE_COLUMNS = [
     "OPÇÃO",
     "CARGO",
     "SUBÁREA",
+    "LOTAÇÃO",        //<--------------
     "NOME",
     "COLOCAÇÃO",
     "STATUS"
@@ -57,7 +58,7 @@ const VISIBLE_COLUMNS = [
 
 const HIDDEN_COLUMNS = [
     "UNIDADE",
-    "LOTAÇÃO",
+    
     "EVENTO",
     "ALTERACOES"
 ];
