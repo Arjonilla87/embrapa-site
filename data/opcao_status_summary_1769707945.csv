@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,29/01/2026 - 13:32:13
+﻿LAST_UPDATE,29/01/2026 - 14:30:52
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,9,1,56%,11,1
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,12,8,91%,34,13
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,1,0,11%,3,1
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,5,1,10%,10,3
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,6,1,12%,10,3
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,1,1,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,0,1,14%,2,1
@@ -117,7 +117,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001479,Pesquisador,Ciências Agrárias,Matologia,4,0,4,0,100%,5,1
 40001484,Pesquisador,Ciências Agrárias,Nutrição de Ruminantes,4,0,0,4,100%,5,1
 40001494,Pesquisador,Recursos Naturais,Economia Ambiental,1,0,1,0,100%,1,0
-40001496,Analista,Ciências Agrárias,Sensoriamento Remoto,1,0,0,0,0%,1,1
+40001496,Analista,Ciências Agrárias,Sensoriamento Remoto,1,0,0,1,100%,2,1
 40001550,Pesquisador,Ciências Agrárias,Nematologia Vegetal,4,0,2,2,100%,4,0
 40001565,Pesquisador,Ciências Agrárias,Fitopatologia,10,0,0,0,0%,0,0
 40001592,Pesquisador,Ciências Agrárias,Forragicultura,8,0,0,0,0%,0,0
@@ -133,7 +133,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001791,Pesquisador,Ciência e Tecnologia de Alimentos,Enologia,1,0,1,0,100%,1,0
 40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,0,9,1,100%,13,3
 40001834,Pesquisador,Ciências Agrárias,Silvicultura,3,0,0,3,100%,3,0
-40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,3,1,80%,5,1
+40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,4,1,100%,6,1
 40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,0,0,0%,1,1
 40001894,Pesquisador,Ciências Agrárias,Apicultura e Meliponicultura,4,0,4,0,100%,4,0
 40001921,Pesquisador,Ciências Agrárias,Microbiologia e Bioquímica do Solo,4,0,4,0,100%,4,0
