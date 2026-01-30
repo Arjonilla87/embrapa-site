@@ -241,6 +241,7 @@
                 text-align: center;
                 line-height: 1.2;
             }
+            
         }
         }
 
@@ -250,6 +251,26 @@
             align-items: center;
             gap: 6px;
             white-space: nowrap;
+        }
+        .btn-wrapper {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .badge-notify {
+          position: absolute;
+          top: -6px;
+          right: -6px;
+        
+          width: 10px;
+          height: 10px;
+        
+          background-color: #e53935; /* vermelho bonito */
+          border-radius: 50%;
+        
+          border: 2px solid #fff;
+        
+          pointer-events: none; /* não atrapalha clique */
         }
 
     </style>
@@ -268,9 +289,14 @@
         
                 <!-- Botões -->
                 <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">   
-                    <a href="about:blank" class="button">
-                        Estatísticas
-                    </a>
+                    <div class="btn-wrapper">
+                      <a href="about:blank" class="button" id="btn-estatisticas">
+                          Estatísticas
+                      </a>
+                    
+                      <span class="badge-notify"></span>
+                    </div>
+
         
                     <a href="resumo.html" class="button">
                         Resumo por opção
