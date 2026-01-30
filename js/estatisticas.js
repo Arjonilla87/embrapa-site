@@ -69,7 +69,7 @@ let histogramChart = null;
 let periodChart = null;
 let monthlyChart = null;
 let remainingDaysData = null;
-
+let desistenciasChart = null;
 
 // ----------------------------------------
 // INIT
@@ -125,6 +125,11 @@ async function loadGeneralStats() {
 
     document.getElementById("kpi-convocados-hoje").innerText =
         generalData.convocados_hoje ?? "--";
+
+    document.getElementById("kpi-desistencias").innerText =
+    generalData.pct_desistencias !== null && generalData.pct_desistencias !== undefined
+        ? generalData.pct_desistencias.toFixed(1) + " %"
+        : "--";
 
     document.getElementById("kpi-mm10").innerText =
         generalData.media_diaria_mm10 !== null &&
@@ -436,9 +441,6 @@ async function loadCumulative() {
 }
 
 // ----------------------------------------
-// CUMULATIVO MENSAL (Contratados) COM SIGLA DE MESES
-// ----------------------------------------
-// ----------------------------------------
 // CUMULATIVO MENSAL (Contratados)
 // ----------------------------------------
 async function loadMonthlyCumulative() {
@@ -636,6 +638,267 @@ function renderHistogram() {
                 }
             }
         }
+    });
+}
+
+// =====================================
+// CONTRATADOS POR CARGO
+// =====================================
+let contratadosPorCargoData = [];
+let contratadosPorCargoChart = null;
+
+async function loadContratadosPorCargo() {
+    try {
+        const res = await fetch("data/stats/percent_contratado.csv");
+        const text = await res.text();
+
+        const lines = text.split("\n").filter(l => l.trim() !== "");
+        const headers = lines[0].split(",");
+
+        contratadosPorCargoData = lines.slice(1).map(line => {
+            const values = line.split(",");
+            const obj = {};
+            headers.forEach((h, i) => {
+                obj[h.trim()] = values[i].trim();
+            });
+            return obj;
+        });
+
+        renderContratadosPorCargoChart();
+
+        // atualiza ao mudar o select
+        const select = document.getElementById("contratadosViewSelect");
+        select.addEventListener("change", () => renderContratadosPorCargoChart());
+
+    } catch (e) {
+        console.error("Erro ao carregar percent_contratado.csv:", e);
+    }
+}
+
+function renderContratadosPorCargoChart() {
+    const select = document.getElementById("contratadosViewSelect");
+    const view = select.value; // "percent" ou "absolute"
+
+    const labels = contratadosPorCargoData.map(d => d.Cargo);
+
+    if (contratadosPorCargoChart) contratadosPorCargoChart.destroy();
+
+    const ctx = document.getElementById("contratadosPorCargoChart").getContext("2d");
+
+    if (view === "absolute") {
+        // BARRAS HORIZONTAIS EMPILHADAS
+        const datasets = [
+            {
+                label: "Contratados",
+                data: contratadosPorCargoData.map(d => Number(d.Contratados)),
+                backgroundColor: "#1b5e20"
+            },
+            {
+                label: "Em Contratação",
+                data: contratadosPorCargoData.map(d => Number(d["Em Contratação"])),
+                backgroundColor: "#4caf50"
+            },
+            {
+                label: "Vagas abertas",
+                data: contratadosPorCargoData.map(d => Number(d["Vagas abertas"])),
+                backgroundColor: "#c8e6c9"
+            }
+        ];
+
+        contratadosPorCargoChart = new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels,
+                datasets
+            },
+            options: {
+                indexAxis: 'y', // horizontal
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',       // mantém no topo
+                        align: 'start',        // todas na mesma linha, sem quebrar
+                        labels: {
+                            boxWidth: 20,      // tamanho da caixinha de cor
+                            padding: 10,       // espaçamento entre legendas
+                            color: "#000000",  // cor do texto
+                            font: {
+                                size: 10       // tamanho da fonte
+                            }
+                        },
+                        fullSize: false        // evita que o container da legenda ocupe toda a largura
+                    },
+                    tooltip: { enabled: false, mode: 'index', intersect: false },
+                    datalabels: {
+                        color: "#000000",   // rótulos pretos
+                        anchor: "center",
+                        align: "center",
+                        formatter: (value) => value
+                    }
+                },
+                scales: {
+                    x: {
+                        stacked: true,  // habilita empilhamento horizontal
+                        beginAtZero: true,
+                        ticks: { display: false, stepSize: 1 },
+                        grid: { display: false },
+                        max: 450,
+                    },
+                    y: {
+                        stacked: true,  // necessário para barras empilhadas corretamente
+                        ticks: { color: "#000000" }
+                    }
+                }
+            }
+        });
+    } else {
+        // BARRAS DE PROGRESSO RELATIVAS (0-100%) COM TRANSPARÊNCIA
+        const datasets = [
+            {
+                label: "% Contratado",
+                data: contratadosPorCargoData.map(d => Number(d["% Contratado"])),
+                backgroundColor: contratadosPorCargoData.map(d => {
+                    const p = Number(d["% Contratado"]) / 100;
+                    // cor verde (#1b5e20) com alpha proporcional ao percentual
+                    return `rgba(0, 128, 0, ${Math.max(0.2, p)})`;
+                    // mínimo 0.2 para barras muito pequenas
+                })
+            }
+        ];
+
+        contratadosPorCargoChart = new Chart(ctx, {
+            type: "bar",
+            data: { labels, datasets },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        enabled: false,
+                        callbacks: { label: (context) => context.raw + "%" }
+                    },
+                    datalabels: {
+                        anchor: 'center',
+                        align: 'center',
+                        color: '#000000',
+                        font: { weight: 'normal' },
+                        formatter: (value) => value + '%'
+                    }
+                },
+                scales: {
+                    x: {
+                        min: 0,
+                        max: 100,
+                        ticks: { display: false },
+                        grid: { display: false }
+                    },
+                    y: { ticks: { color: "#000000" } }
+                }
+            },
+            plugins: [ChartDataLabels] // ativa o plugin datalabels
+        });
+    }
+}
+
+// chama ao carregar a página
+document.addEventListener("DOMContentLoaded", loadContratadosPorCargo);
+
+// ----------------------------------------
+// GRÁFICO DE DESISTÊNCIAS
+// ----------------------------------------
+async function loadDesistencias() {
+    try {
+        const res = await fetch('data/stats/desistencias.csv?v=' + Date.now());
+        const text = await res.text();
+        const rows = text.split('\n').filter(r => r.trim() !== '');
+        const headers = rows.shift().split(',');
+
+        const data = rows.map(r => {
+            const cols = r.split(',');
+            return {
+                Cargo: cols[0],
+                Desistências: Number(cols[1]),
+                Convocações: Number(cols[2]),
+                "% Desistências": Number(cols[3])
+            };
+        });
+
+        renderDesistenciasChart(data);
+    } catch (err) {
+        console.error("Erro ao carregar desistências:", err);
+    }
+}
+
+// chama quando a página carregar
+document.addEventListener("DOMContentLoaded", loadDesistencias);
+
+function renderDesistenciasChart(desistenciasData) {
+    const labels = desistenciasData.map(d => d.Cargo);
+
+    if (desistenciasChart) desistenciasChart.destroy();
+
+    const ctx = document.getElementById("desistenciasChart").getContext("2d");
+
+    const datasets = [
+        {
+            label: "Desistências",
+            data: desistenciasData.map(d => Number(d.Desistências)),
+            backgroundColor: "#1b5e20", // vermelho
+        },
+        {
+            label: "Convocações",
+            data: desistenciasData.map(d => Number(d.Convocações)),
+            backgroundColor: "#4caf50" // verde claro (barra de fundo)
+        }
+    ];
+
+    desistenciasChart = new Chart(ctx, {
+        type: "bar",
+        data: { labels, datasets },
+        options: {
+            indexAxis: 'y',  // barras horizontais
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: { color: "#000000", font: { size: 12 } }
+                },
+                datalabels: {
+                    color: "#000000",
+                    anchor: "end",
+                    align: "end",
+                    formatter: (value, context) => {
+                        const datasetIndex = context.datasetIndex;
+
+                        // Dataset 0 = Desistências → mostrar "valor (percent%)"
+                        if (datasetIndex === 0) {
+                            const total = context.chart.data.datasets[1].data[context.dataIndex];
+                            const pct = total ? (value / total * 100).toFixed(1) : 0;
+                            return `${value} (${pct}%)`;
+                        }
+
+                        // Dataset 1 = Convocações → mostrar valor absoluto
+                        if (datasetIndex === 1) {
+                            return value;
+                        }
+
+                        return value; // fallback
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    display: false,  // esconde a escala e grid
+                    max: Math.max(...datasets[1].data) * 1.1  // aumenta 10% sobre o valor máximo de "Convocações"
+                },
+                y: {
+                    ticks: { color: "#000000" },
+                    grid: { display: false }
+                }
+            }
+        },
+        plugins: [ChartDataLabels]
     });
 }
 
@@ -1159,167 +1422,4 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
-
-// =====================================
-// CONTRATADOS POR CARGO
-// =====================================
-let contratadosPorCargoData = [];
-let contratadosPorCargoChart = null;
-
-async function loadContratadosPorCargo() {
-    try {
-        const res = await fetch("data/stats/percent_contratado.csv");
-        const text = await res.text();
-
-        const lines = text.split("\n").filter(l => l.trim() !== "");
-        const headers = lines[0].split(",");
-
-        contratadosPorCargoData = lines.slice(1).map(line => {
-            const values = line.split(",");
-            const obj = {};
-            headers.forEach((h, i) => {
-                obj[h.trim()] = values[i].trim();
-            });
-            return obj;
-        });
-
-        renderContratadosPorCargoChart();
-
-        // atualiza ao mudar o select
-        const select = document.getElementById("contratadosViewSelect");
-        select.addEventListener("change", () => renderContratadosPorCargoChart());
-
-    } catch (e) {
-        console.error("Erro ao carregar percent_contratado.csv:", e);
-    }
-}
-
-function renderContratadosPorCargoChart() {
-    const select = document.getElementById("contratadosViewSelect");
-    const view = select.value; // "percent" ou "absolute"
-
-    const labels = contratadosPorCargoData.map(d => d.Cargo);
-
-    if (contratadosPorCargoChart) contratadosPorCargoChart.destroy();
-
-    const ctx = document.getElementById("contratadosPorCargoChart").getContext("2d");
-
-    if (view === "absolute") {
-        // BARRAS HORIZONTAIS EMPILHADAS
-        const datasets = [
-            {
-                label: "Contratados",
-                data: contratadosPorCargoData.map(d => Number(d.Contratados)),
-                backgroundColor: "#1b5e20"
-            },
-            {
-                label: "Em Contratação",
-                data: contratadosPorCargoData.map(d => Number(d["Em Contratação"])),
-                backgroundColor: "#4caf50"
-            },
-            {
-                label: "Vagas abertas",
-                data: contratadosPorCargoData.map(d => Number(d["Vagas abertas"])),
-                backgroundColor: "#c8e6c9"
-            }
-        ];
-
-        contratadosPorCargoChart = new Chart(ctx, {
-            type: "bar",
-            data: {
-                labels,
-                datasets
-            },
-            options: {
-                indexAxis: 'y', // horizontal
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'top',       // mantém no topo
-                        align: 'start',        // todas na mesma linha, sem quebrar
-                        labels: {
-                            boxWidth: 20,      // tamanho da caixinha de cor
-                            padding: 10,       // espaçamento entre legendas
-                            color: "#000000",  // cor do texto
-                            font: {
-                                size: 10       // tamanho da fonte
-                            }
-                        },
-                        fullSize: false        // evita que o container da legenda ocupe toda a largura
-                    },
-                    tooltip: { enabled: false, mode: 'index', intersect: false },
-                    datalabels: {
-                        color: "#000000",   // rótulos pretos
-                        anchor: "center",
-                        align: "center",
-                        formatter: (value) => value
-                    }
-                },
-                scales: {
-                    x: {
-                        stacked: true,  // habilita empilhamento horizontal
-                        beginAtZero: true,
-                        ticks: { display: false, stepSize: 1 },
-                        grid: { display: false },
-                        max: 450,
-                    },
-                    y: {
-                        stacked: true,  // necessário para barras empilhadas corretamente
-                        ticks: { color: "#000000" }
-                    }
-                }
-            }
-        });
-    } else {
-        // BARRAS DE PROGRESSO RELATIVAS (0-100%) COM TRANSPARÊNCIA
-        const datasets = [
-            {
-                label: "% Contratado",
-                data: contratadosPorCargoData.map(d => Number(d["% Contratado"])),
-                backgroundColor: contratadosPorCargoData.map(d => {
-                    const p = Number(d["% Contratado"]) / 100;
-                    // cor verde (#1b5e20) com alpha proporcional ao percentual
-                    return `rgba(0, 128, 0, ${Math.max(0.2, p)})`;
-                    // mínimo 0.2 para barras muito pequenas
-                })
-            }
-        ];
-
-        contratadosPorCargoChart = new Chart(ctx, {
-            type: "bar",
-            data: { labels, datasets },
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                plugins: {
-                    legend: { display: false },
-                    tooltip: {
-                        enabled: false,
-                        callbacks: { label: (context) => context.raw + "%" }
-                    },
-                    datalabels: {
-                        anchor: 'center',
-                        align: 'center',
-                        color: '#000000',
-                        font: { weight: 'normal' },
-                        formatter: (value) => value + '%'
-                    }
-                },
-                scales: {
-                    x: {
-                        min: 0,
-                        max: 100,
-                        ticks: { display: false },
-                        grid: { display: false }
-                    },
-                    y: { ticks: { color: "#000000" } }
-                }
-            },
-            plugins: [ChartDataLabels] // ativa o plugin datalabels
-        });
-    }
-}
-
-// chama ao carregar a página
-document.addEventListener("DOMContentLoaded", loadContratadosPorCargo);
 
