@@ -80,7 +80,7 @@
 
         .general-bar {
             display: grid;
-            grid-template-columns: repeat(7, 1fr);
+            grid-template-columns: repeat(8, 1fr);
             gap: 12px;
             margin: 15px 0 20px 0;
         }
@@ -102,18 +102,24 @@
             border-left: 4px solid #1b5e20;
             padding: 12px;
             border-radius: 4px;
+            position: relative;      /* necessário para os valores absolutos */
+            height: 80px;            /* altura fixa para permitir alinhar o value */
         }
 
+
         .kpi-title {
-            font-size: 12px;
+            font-size: 13px;
+            font-weight: bold;
             color: #555;
         }
 
         .kpi-value {
             font-size: 20px;
             font-weight: bold;
-            margin-top: 4px;
             color: #1b5e20;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
         }
 
         .dashboard-grid {
@@ -280,7 +286,7 @@
         </div>
 
         <div class="kpi-box">
-            <div class="kpi-title">Média de convocações diárias (MM10)</div>
+            <div class="kpi-title">Convocações diárias (MM10)</div>
             <div class="kpi-value" id="kpi-mm10">--</div>
         </div>
 
@@ -292,6 +298,11 @@
         <div class="kpi-box">
             <div class="kpi-title">Tempo médio para o aceite</div>
             <div class="kpi-value" id="kpi-avg-time">--</div>
+        </div>
+
+        <div class="kpi-box">
+            <div class="kpi-title">Desistências (%)</div>
+            <div class="kpi-value" id="kpi-desistencias">--</div>
         </div>
 
     </div>
@@ -357,6 +368,19 @@
                 <button class="details-btn" onclick="openDetails('histograma')">Detalhes</button>
             </div>
             <canvas id="optionsHistogram"></canvas>
+        </div>
+
+        <!-- DESISTÊNCIAS -->
+        <div class="dashboard-box">
+
+            <div class="box-header">
+                <div class="box-title">Desistências</div>
+                <!-- sem botão de detalhes -->
+            </div>
+
+            <!-- canvas do gráfico -->
+            <canvas id="desistenciasChart"></canvas>
+
         </div>
 
         <div class="dashboard-box">
@@ -500,8 +524,7 @@
     </div>
 </div>
 
-<script src="js/estatisticas.js"></script>
+<script src="estatisticas.js"></script>
 
 </body>
 </html>
-
