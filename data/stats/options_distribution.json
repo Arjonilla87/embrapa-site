@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -121,16 +121,6 @@
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000268",
-      "cargo": "Pesquisador",
-      "subarea": "Melhoramento Genético Animal",
-      "convocados": 6,
-      "aceitou": 5,
-      "contratados": 0,
-      "vagas_abertas": 1
     },
     {
       "bucket": "6-10",

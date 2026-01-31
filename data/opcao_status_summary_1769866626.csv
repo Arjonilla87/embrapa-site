@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,31/01/2026 - 09:27:04
+﻿LAST_UPDATE,31/01/2026 - 10:35:31
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,9,1,56%,11,1
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,12,8,91%,34,13
@@ -33,7 +33,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000224,Pesquisador,Ciências Exatas e da Terra,Energias Renováveis,1,0,0,1,100%,1,0
 40000237,Analista,Métodos Quantitativos Avançados,Métodos Quantitativos,4,0,0,4,100%,4,0
 40000262,Técnico,Laboratório e Campos Experimentais,Bioquímica e Biologia Molecular,1,0,0,1,100%,1,0
-40000268,Pesquisador,Ciências Agrárias,Melhoramento Genético Animal,6,1,5,0,83%,6,0
+40000268,Pesquisador,Ciências Agrárias,Melhoramento Genético Animal,6,0,6,0,100%,6,0
 40000271,Pesquisador,Produção Aquícola,Manejo e Conservação de Recursos Pesqueiros,2,0,0,2,100%,2,0
 40000281,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Organismos Aquáticos,1,0,0,1,100%,2,1
 40000288,Técnico,"Suprimento, Manutenção e Serviços",Aquicultura,3,0,0,3,100%,3,0
