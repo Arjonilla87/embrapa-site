@@ -419,11 +419,11 @@ async function loadCumulative() {
                 },
                 y: {
                     beginAtZero: true,
-                    max: Math.max(...datasets[1].data) * 1.1,  // aumenta 10% sobre o valor máximo de "Convocações"
+                    max: Math.max(...values) * 1.1, // usa o dataset correto
                     ticks: {
                         color: "#000000",
                         font: {
-                            size: 10 // ← tamanho menor para os rótulos
+                            size: 10
                         }
                     },
                     title: {
@@ -1424,6 +1424,7 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
+
 
 
 
