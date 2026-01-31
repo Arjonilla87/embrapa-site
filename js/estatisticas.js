@@ -891,7 +891,7 @@ function renderDesistenciasChart(desistenciasData) {
             scales: {
                 x: {
                     display: false,  // esconde a escala e grid
-                    max: Math.max(...datasets[1].data) * 1.1  // aumenta 10% sobre o valor máximo de "Convocações"
+                    max: Math.max(...datasets[1].data) * 1.12  // aumenta 12% sobre o valor máximo de "Convocações"
                 },
                 y: {
                     ticks: { color: "#000000" },
@@ -1423,5 +1423,6 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
+
 
 
