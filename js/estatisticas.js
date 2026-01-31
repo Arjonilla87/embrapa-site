@@ -427,6 +427,7 @@ async function loadCumulative() {
                     },
                     title: {
                         display: true,
+                        max: Math.max(...datasets[1].data) * 1.1  // aumenta 10% sobre o valor máximo de "Convocações"
                         text: "Convocações",
                         color: "#000000",
                         font: {
@@ -1423,6 +1424,7 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
+
 
 
 
