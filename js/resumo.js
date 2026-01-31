@@ -215,31 +215,22 @@ document.getElementById("search-input").addEventListener("input", function () {
 
 async function updateViewCounter() {
 
-    const namespace = "embrapa-site-lfam";
-    const key = "resumo";
+    const workerURL = "https://embrapa-counter.arjonilla-lf.workers.dev/?page=resumo";
 
     try {
 
-        const el = document.getElementById("viewCounter");
-
-        // Segurança: só executa se o footer existir
-        if (!el) {
-            console.warn("Elemento viewCounter não encontrado");
-            return;
-        }
-
-        const res = await fetch(
-            `https://api.countapi.xyz/hit/${namespace}/${key}`
-        );
-
+        const res = await fetch(workerURL, { cache: "no-store" });
         const data = await res.json();
 
-        el.innerText = data.value;
+        const el = document.getElementById("viewCounter");
+
+        if (el && data.views !== undefined) {
+            el.innerText = data.views;
+        }
 
     } catch (err) {
-        console.warn("Contador indisponível", err);
+        console.warn("Erro contador:", err);
     }
 }
 
-// Aguarda DOM completo (footer carregado)
 document.addEventListener("DOMContentLoaded", updateViewCounter);
