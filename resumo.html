@@ -216,21 +216,26 @@
         
             /* TOP BAR */
         
-           .top-bar {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .top-buttons {
-                width: 100%;
-                display: flex;
+            .top-bar {
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
                 justify-content: space-between;
                 gap: 8px;
             }
-            
+    
+            .top-buttons {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 8px;
+            }
+    
             .button {
+                width: auto;
                 flex: 1;
                 text-align: center;
+                white-space: nowrap;
             }
         }
         
