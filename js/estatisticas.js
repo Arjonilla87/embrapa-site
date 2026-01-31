@@ -1429,22 +1429,28 @@ document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
 // ============================
 // Contador de visualizações
 // ============================
+// ============================
+// Contador de visualizações
+// ============================
+
 async function updateViewCounter() {
 
-    const namespace = "embrapa-site-LFAM";
-    const key = "estatisticas";
+    const workerURL = "https://embrapa-counter.arjonilla-lf.workers.dev/?page=estatisticas";
 
     try {
-        const res = await fetch(
-            `https://api.countapi.xyz/hit/${namespace}/${key}`
-        );
 
+        const res = await fetch(workerURL, { cache: "no-store" });
         const data = await res.json();
 
-        document.getElementById("viewCounter").innerText = data.value;
+        const el = document.getElementById("viewCounter");
+
+        if (el && data.views !== undefined) {
+            el.innerText = data.views;
+        }
 
     } catch (err) {
-        console.warn("Contador indisponível");
+        console.warn("Erro contador:", err);
     }
 }
-updateViewCounter();
+
+document.addEventListener("DOMContentLoaded", updateViewCounter);
