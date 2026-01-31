@@ -174,7 +174,29 @@
            MOBILE ONLY (cards)
            ========================= */
         @media (max-width: 768px) {
+
+           .top-bar {
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+            }
         
+            .top-buttons {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 8px;
+            }
+        
+            .button {
+                width: auto;
+                flex: 1;
+                text-align: center;
+                white-space: nowrap;
+            }
+            
             /* Reduz padding lateral geral */
             main {
                 padding: 10px;
