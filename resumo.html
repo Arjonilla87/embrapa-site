@@ -233,14 +233,22 @@
             font-weight: bold;
         }
         
-        /* Contador camuflado */
         .footer-views {
-            user-select: text;
             position: absolute;
-            right: 50px;
+            right: 40px;
             font-size: 14px;
-            color: transparent; 
-            opacity: 0.9;
+            user-select: text;
+        }
+        
+        /* Camufla somente o número */
+        #viewCounter {
+            color: transparent;
+        }
+        
+        /* Faz aparecer ao selecionar */
+        #viewCounter::selection {
+            color: #ffffff;
+            background: rgba(0,0,255,1);
         }
 
     </style>
