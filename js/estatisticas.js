@@ -866,6 +866,7 @@ function renderDesistenciasChart(desistenciasData) {
                 },
                 datalabels: {
                     color: "#000000",
+                    font: { size: 10, weight: "normal" },
                     anchor: "end",
                     align: "end",
                     formatter: (value, context) => {
@@ -1422,4 +1423,5 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
+
 
