@@ -235,10 +235,11 @@
         
         /* Contador camuflado */
         .footer-views {
+            user-select: text;
             position: absolute;
             right: 15px;
             font-size: 20px;
-            color: #111111; /* mesma cor do fundo */
+            color: transparent; 
             opacity: 0.9;
             user-select: none;
         }
@@ -295,7 +296,7 @@
     </div>
 
     <div class="footer-views">
-        <span id="viewCounter">0</span>
+        Views: <span id="viewCounter">0</span>
     </div>
 </footer>
 
