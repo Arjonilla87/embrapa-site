@@ -212,22 +212,34 @@ document.getElementById("search-input").addEventListener("input", function () {
 // ============================
 // Contador de visualizações
 // ============================
+
 async function updateViewCounter() {
 
-    const namespace = "embrapa-site-LFAM";
+    const namespace = "embrapa-site-lfam";
     const key = "resumo";
 
     try {
+
+        const el = document.getElementById("viewCounter");
+
+        // Segurança: só executa se o footer existir
+        if (!el) {
+            console.warn("Elemento viewCounter não encontrado");
+            return;
+        }
+
         const res = await fetch(
             `https://api.countapi.xyz/hit/${namespace}/${key}`
         );
 
         const data = await res.json();
 
-        document.getElementById("viewCounter").innerText = data.value;
+        el.innerText = data.value;
 
     } catch (err) {
-        console.warn("Contador indisponível");
+        console.warn("Contador indisponível", err);
     }
 }
-updateViewCounter();
+
+// Aguarda DOM completo (footer carregado)
+document.addEventListener("DOMContentLoaded", updateViewCounter);
