@@ -419,7 +419,7 @@ async function loadCumulative() {
                 },
                 y: {
                     beginAtZero: true,
-                    max: Math.max(...values) * 1.1, // usa o dataset correto
+                    max: Math.ceil((Math.max(...values) * 1.1) / 5) * 5,    //aumenta a escala em 10% e arredonda os ticks para multiplos de 5.
                     ticks: {
                         color: "#000000",
                         font: {
@@ -1424,6 +1424,7 @@ function updateOptionsTable(selectedBucket) {
 
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
+
 
 
 
