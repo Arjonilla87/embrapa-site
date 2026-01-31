@@ -215,6 +215,33 @@
         
           pointer-events: none; /* não atrapalha clique */
         }
+        
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            font-size: 14px;
+        }
+        
+        /* Texto central */
+        .footer-text {
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        /* Contador camuflado */
+        .footer-views {
+            position: absolute;
+            right: 15px;
+            font-size: 12px;
+            color: #1b5e20; /* mesma cor do fundo */
+            opacity: 0.9;
+            user-select: none;
+        }
 
     </style>
 </head>
@@ -261,12 +288,22 @@
         </table>
     </div>
 </main>
+    
+<footer>
+    <div class="footer-text">
+        Desenvolvido por LFAMattos
+    </div>
+
+    <div class="footer-views">
+        <span id="viewCounter">0</span>
+    </div>
+</footer>
 
 <script src="js/resumo.js"></script>
     
 <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3850447794c74c6c93825bdac91f15d1"}'></script>
 <!-- End Cloudflare Web Analytics -->
-    
+
 </body>
 </html>
