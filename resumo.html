@@ -154,6 +154,15 @@
            ============================== */
 
         @media (max-width: 768px) {
+        
+            main {
+                padding: 10px;
+            }
+        
+            .content {
+                padding: 12px;
+            }
+        
             table,
             thead,
             tbody,
@@ -161,46 +170,52 @@
             td,
             tr {
                 display: block;
+                width: 100%;
             }
-
+        
             thead {
                 display: none;
             }
-
+        
             table {
                 border: none;
             }
-
+        
             tbody tr {
-                background: white;
-                margin-bottom: 16px;
+                background: #ffffff;
+                margin-bottom: 14px;
                 border-radius: 6px;
                 box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-                padding: 10px;
+                padding: 12px;
+                width: 100%;
             }
-
+        
             tbody td {
                 border: none;
-                padding: 6px 0;
+                padding: 8px 0;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 font-size: 14px;
+                width: 100%;
             }
-
+        
             tbody td::before {
                 content: attr(data-label);
                 font-weight: bold;
                 color: #555;
-                margin-right: 10px;
+                margin-right: 8px;
                 text-align: left;
                 flex: 1;
             }
-
+        
             tbody td > * {
                 flex: 1;
                 text-align: right;
             }
+        
+            /* TOP BAR */
+        
             .top-bar {
                 flex-direction: column;
                 align-items: stretch;
