@@ -1426,14 +1426,25 @@ function updateOptionsTable(selectedBucket) {
 // Chama o loader ao iniciar a página
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
 
+// ============================
+// Contador de visualizações
+// ============================
+async function updateViewCounter() {
 
+    const namespace = "embrapa-site-LFAM";
+    const key = "estatisticas";
 
+    try {
+        const res = await fetch(
+            `https://api.countapi.xyz/hit/${namespace}/${key}`
+        );
 
+        const data = await res.json();
 
+        document.getElementById("viewCounter").innerText = data.value;
 
-
-
-
-
-
-
+    } catch (err) {
+        console.warn("Contador indisponível");
+    }
+}
+updateViewCounter();
