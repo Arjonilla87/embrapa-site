@@ -273,3 +273,27 @@ async function initHistory() {
 }
 
 document.addEventListener("DOMContentLoaded", initHistory);
+
+// ============================
+// Contador de visualizações
+// ============================
+async function updateViewCounter() {
+
+    const namespace = "embrapa-site-LFAM";
+    const key = "index";
+
+    try {
+        const res = await fetch(
+            `https://api.countapi.xyz/hit/${namespace}/${key}`
+        );
+
+        const data = await res.json();
+
+        document.getElementById("viewCounter").innerText = data.value;
+
+    } catch (err) {
+        console.warn("Contador indisponível");
+    }
+}
+updateViewCounter();
+
