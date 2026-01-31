@@ -176,25 +176,26 @@
         @media (max-width: 768px) {
 
            .top-bar {
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-                gap: 8px;
+                flex-direction: column;
+                align-items: flex-start;
             }
-        
+            
             .top-buttons {
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
                 gap: 8px;
             }
-        
-            .button {
-                width: auto;
+            
+            .top-buttons .btn-wrapper {
                 flex: 1;
+            }
+            
+            .button {
+                width: 100%;
                 text-align: center;
-                white-space: nowrap;
+                white-space: normal;
+                line-height: 1.2;
             }
             
             /* Reduz padding lateral geral */
@@ -351,7 +352,7 @@
             <div class="left">
                
                 <!-- Botões -->
-                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">   
+                <div style="top-buttons">           //display:flex; align-items:center; gap:12px; flex-wrap:wrap;
                     <div class="btn-wrapper">
                         <a href="estatisticas.html" class="button" id="btn-estatisticas">
                             Estatísticas
