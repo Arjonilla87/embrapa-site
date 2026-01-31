@@ -174,75 +174,91 @@
            MOBILE ONLY (cards)
            ========================= */
         @media (max-width: 768px) {
-
+        
+            /* Reduz padding lateral geral */
+            main {
+                padding: 10px;
+            }
+        
+            .content {
+                padding: 12px;
+            }
+        
             table,
             thead,
-            tbody {
+            tbody,
+            tr,
+            td {
                 display: block;
                 width: 100%;
             }
-
+        
             thead {
                 display: none;
             }
-
+        
             table {
                 border: none;
             }
-
+        
             tr.expandable {
-                display: block;
-                background: white;
-                margin-bottom: 12px;
-                border: 1px solid #ddd;
+                background: #ffffff;
+                margin-bottom: 14px;
                 border-radius: 6px;
-                padding: 10px;
-            }
-
-            tr.expandable td {
-                display: block;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+                padding: 12px;
+                width: 100%;
                 border: none;
-                padding: 6px 0;
-                text-align: left;
             }
-
+        
+            tr.expandable td {
+                border: none;
+                padding: 8px 0;
+                text-align: left;
+                width: 100%;
+            }
+        
             tr.expandable td::before {
                 content: attr(data-label);
                 font-weight: bold;
                 display: block;
-                font-size: 12px;
+                font-size: 13px;
                 color: #555;
                 margin-bottom: 2px;
             }
-
+        
             tr.details-row {
                 display: block;
+                width: 100%;
             }
-
+        
             tr.details-row td {
                 display: block;
                 border-top: 1px dashed #ccc;
                 margin-top: 8px;
                 padding-top: 8px;
+                width: 100%;
             }
-
+        
+            /* Toolbar responsiva */
+        
             .toolbar {
+                flex-direction: column;
+                gap: 8px;
                 align-items: stretch;
             }
         
             .toolbar > div {
-                flex: 1;
-                min-width: 0;   /* permite encolher */
+                width: 100%;
             }
         
             .toolbar a.button {
-                flex: 1;
-                white-space: normal;
+                width: 100%;
                 text-align: center;
-                line-height: 1.2;
+                line-height: 1.3;
+                padding: 10px;
             }
-            
-        }
+        
         }
 
         /* Mantém label + select juntos no mobile */
@@ -311,7 +327,12 @@
 
         <div class="top-bar">
             <div class="left">
-        
+                
+                <!-- Timestamp -->
+                <span id="last-update" style="font-size:14px; color:#333;">
+                    Última checagem: carregando...
+                </span>
+                
                 <!-- Botões -->
                 <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">   
                     <div class="btn-wrapper">
@@ -328,12 +349,7 @@
                     </div>
                 </div>
                 <br>
-                
-                <!-- Timestamp -->
-                <span id="last-update" style="font-size:14px; color:#333;">
-                    Última checagem: carregando...
-                </span>
-        
+                       
                 <!-- Data -->
                 <div class="filter-group">
                     <label for="diff-select"><strong>Data:</strong></label>
