@@ -2,15 +2,15 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 12
     },
     {
       "range": "6-10",
-      "count": 17
+      "count": 18
     },
     {
       "range": "11-15",
-      "count": 7
+      "count": 6
     },
     {
       "range": "16-20",
@@ -73,14 +73,14 @@
       "vagas_abertas": 101
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 11,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 1,
-      "vagas_abertas": 11
+      "vagas_abertas": 10
     },
     {
       "bucket": "1-5",
@@ -381,16 +381,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 6
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002101",
-      "cargo": "Pesquisador",
-      "subarea": "Fertilidade e Química do Solo",
-      "convocados": 5,
-      "aceitou": 3,
-      "contratados": 0,
-      "vagas_abertas": 1
     },
     {
       "bucket": "6-10",
