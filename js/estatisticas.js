@@ -906,40 +906,89 @@ function renderDesistenciasChart(desistenciasData) {
 }
 
 // ----------------------------------------
-// WEEK FORMAT
+// WEEK FORMAT (segunda → domingo)
 // ----------------------------------------
 function formatWeekLabel(isoLabel) {
-    // Siglas dos meses em português
-    const monthNames = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
+
+    const monthNames = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
+                        "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
     const [yearStr, weekStr] = isoLabel.split("-W");
+
     const year = parseInt(yearStr, 10);
     const isoWeek = parseInt(weekStr, 10);
 
-    // Pega a data da segunda-feira da semana ISO
-    const simpleDate = new Date(Date.UTC(year, 0, 1 + (isoWeek - 1) * 7));
-    const dayOfWeek = simpleDate.getUTCDay();
-    const mondayDate = new Date(simpleDate);
-    mondayDate.setUTCDate(simpleDate.getUTCDate() - ((dayOfWeek + 6) % 7)); // ajusta para segunda
+    const today = new Date();
 
-    const monthIndex = mondayDate.getUTCMonth(); // 0-11
-    const monthName = monthNames[monthIndex];
-    const yearShort = String(mondayDate.getUTCFullYear()).slice(-2);
+    // ============================
+    // ISO Monday (of week)
+    // ============================
 
-    // calcula weekSuffix padrão
-    let weekSuffix = isoWeek % 4;
-    if (weekSuffix === 0) weekSuffix = 4;
+    const jan4 = new Date(Date.UTC(year, 0, 4));
+    const jan4Day = jan4.getUTCDay() || 7;
 
-    // regra especial: se mês ainda não mudou e weekSuffix = 1 → S5
-    if (weekSuffix === 1) {
-        const nextMonday = new Date(mondayDate);
-        nextMonday.setUTCDate(mondayDate.getUTCDate() + 7);
-        if (nextMonday.getUTCMonth() === monthIndex) { // ainda é o mesmo mês
-            weekSuffix = 5;
+    const monday = new Date(jan4);
+    monday.setUTCDate(
+        jan4.getUTCDate() - (jan4Day - 1) + (isoWeek - 1) * 7
+    );
+
+    // ============================
+    // ISO Sunday
+    // ============================
+
+    const sunday = new Date(monday);
+    sunday.setUTCDate(monday.getUTCDate() + 6);
+
+    const mondayMonth = monday.getUTCMonth();
+    const sundayMonth = sunday.getUTCMonth();
+
+    let referenceDate;
+
+    // ============================
+    // Semana cruza mês?
+    // ============================
+
+    if (mondayMonth !== sundayMonth) {
+
+        const lastDayOfOldMonth = new Date(Date.UTC(
+            monday.getUTCFullYear(),
+            mondayMonth + 1,
+            0
+        ));
+
+        // Enquanto ainda estamos no mês antigo → mantém mês antigo
+        if (today <= lastDayOfOldMonth) {
+            referenceDate = lastDayOfOldMonth;
+        } else {
+            referenceDate = monday; // nova semana pertence ao novo mês
         }
+
+    } else {
+        referenceDate = monday;
     }
 
-    return `${monthName}_${yearShort}_S${weekSuffix}`;
+    // ============================
+    // Conta SEGUNDAS do mês
+    // ============================
+
+    const monthIndex = referenceDate.getUTCMonth();
+    const yearRef = referenceDate.getUTCFullYear();
+
+    const firstDayOfMonth = new Date(Date.UTC(yearRef, monthIndex, 1));
+    const firstMonday = new Date(firstDayOfMonth);
+
+    const dow = firstMonday.getUTCDay() || 7;
+    firstMonday.setUTCDate(firstMonday.getUTCDate() + (8 - dow) % 7);
+
+    const diffMs = referenceDate - firstMonday;
+
+    const weekNumber =
+        Math.floor(diffMs / (7 * 24 * 60 * 60 * 1000)) + 1;
+
+    const monthName = monthNames[monthIndex];
+    const yearShort = String(yearRef).slice(-2);
+
+    return `${monthName}_${yearShort}_S${weekNumber}`;
 }
 
 // ----------------------------------------
