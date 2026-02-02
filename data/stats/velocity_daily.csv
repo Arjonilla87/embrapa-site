@@ -1,5 +1,4 @@
 date,convocados_ALL,mm5_ALL,mm10_ALL,convocados_Pesquisador,mm5_Pesquisador,mm10_Pesquisador,convocados_Analista,mm5_Analista,mm10_Analista,convocados_Tecnico,mm5_Tecnico,mm10_Tecnico,convocados_Assistente,mm5_Assistente,mm10_Assistente
-2026-01-18,0,4,4,0,0,0,0,2,2,0,1,1,0,0,0
 2026-01-19,6,4,4,0,0,0,2,1,2,2,1,1,2,1,0
 2026-01-20,7,4,4,0,0,0,2,1,2,3,1,1,2,1,1
 2026-01-21,12,6,5,6,1,0,2,1,2,2,2,1,2,1,1
@@ -14,3 +13,4 @@ date,convocados_ALL,mm5_ALL,mm10_ALL,convocados_Pesquisador,mm5_Pesquisador,mm10
 2026-01-30,4,7,8,1,2,2,1,1,1,2,2,2,0,0,1
 2026-01-31,0,3,7,0,1,2,0,0,1,0,1,2,0,0,0
 2026-02-01,0,3,7,0,1,2,0,0,1,0,1,2,0,0,0
+2026-02-02,0,2,6,0,1,2,0,0,1,0,0,2,0,0,0
