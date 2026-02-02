@@ -227,7 +227,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 17
@@ -267,7 +267,7 @@
       "opcao": "40001064",
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -277,7 +277,7 @@
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 11
@@ -407,7 +407,7 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 15,
+      "convocados": 16,
       "aceitou": 10,
       "contratados": 1,
       "vagas_abertas": 44
