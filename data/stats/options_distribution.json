@@ -398,9 +398,9 @@
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -418,9 +418,9 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 17,
-      "aceitou": 6,
+      "aceitou": 7,
       "contratados": 6,
-      "vagas_abertas": 43
+      "vagas_abertas": 42
     },
     {
       "bucket": "1-5",
