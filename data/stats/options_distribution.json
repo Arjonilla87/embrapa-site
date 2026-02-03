@@ -117,7 +117,7 @@
       "opcao": "40000210",
       "cargo": "Analista",
       "subarea": "Apoio a Campo Experimental",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 5
@@ -227,7 +227,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 14
@@ -287,7 +287,7 @@
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 9
@@ -397,7 +397,7 @@
       "opcao": "40002139",
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 4
@@ -417,7 +417,7 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 17,
+      "convocados": 18,
       "aceitou": 7,
       "contratados": 6,
       "vagas_abertas": 42
