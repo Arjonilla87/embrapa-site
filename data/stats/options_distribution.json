@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 15
     },
     {
       "range": "6-10",
-      "count": 18
+      "count": 17
     },
     {
       "range": "11-15",
@@ -37,7 +37,7 @@
       "opcao": "40000007",
       "cargo": "Assistente",
       "subarea": "Manejo Animal",
-      "convocados": 34,
+      "convocados": 35,
       "aceitou": 9,
       "contratados": 12,
       "vagas_abertas": 1
@@ -47,7 +47,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 32,
+      "convocados": 33,
       "aceitou": 7,
       "contratados": 18,
       "vagas_abertas": 12
@@ -107,7 +107,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 12,
+      "convocados": 13,
       "aceitou": 6,
       "contratados": 1,
       "vagas_abertas": 52
@@ -137,7 +137,7 @@
       "opcao": "40000383",
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -167,7 +167,7 @@
       "opcao": "40000497",
       "cargo": "Analista",
       "subarea": "Gestão da Propriedade Intelectual para a Inovação",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 4
@@ -227,7 +227,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 3,
       "contratados": 1,
       "vagas_abertas": 15
@@ -393,14 +393,14 @@
       "vagas_abertas": 6
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40002139",
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
-      "convocados": 2,
-      "aceitou": 0,
+      "convocados": 3,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
