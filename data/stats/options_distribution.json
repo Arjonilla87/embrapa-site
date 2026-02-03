@@ -6,11 +6,11 @@
     },
     {
       "range": "6-10",
-      "count": 17
+      "count": 18
     },
     {
       "range": "11-15",
-      "count": 6
+      "count": 5
     },
     {
       "range": "16-20",
@@ -228,9 +228,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 4,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 17
+      "vagas_abertas": 16
     },
     {
       "bucket": "11-15",
@@ -273,14 +273,14 @@
       "vagas_abertas": 5
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 11
+      "vagas_abertas": 10
     },
     {
       "bucket": "1-5",
