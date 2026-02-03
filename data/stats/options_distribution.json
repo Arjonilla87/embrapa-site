@@ -10,11 +10,11 @@
     },
     {
       "range": "11-15",
-      "count": 5
+      "count": 6
     },
     {
       "range": "16-20",
-      "count": 4
+      "count": 3
     },
     {
       "range": ">20",
@@ -117,7 +117,7 @@
       "opcao": "40000210",
       "cargo": "Analista",
       "subarea": "Apoio a Campo Experimental",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -223,14 +223,14 @@
       "vagas_abertas": 5
     },
     {
-      "bucket": "16-20",
+      "bucket": "11-15",
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 4,
-      "aceitou": 2,
+      "convocados": 5,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 16
+      "vagas_abertas": 15
     },
     {
       "bucket": "11-15",
@@ -267,7 +267,7 @@
       "opcao": "40001064",
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 5
@@ -287,7 +287,7 @@
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 10
@@ -397,7 +397,7 @@
       "opcao": "40002139",
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -417,7 +417,7 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 16,
+      "convocados": 17,
       "aceitou": 6,
       "contratados": 6,
       "vagas_abertas": 43
