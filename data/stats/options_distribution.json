@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 17
     },
     {
       "range": "6-10",
-      "count": 17
+      "count": 15
     },
     {
       "range": "11-15",
@@ -108,19 +108,19 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 13,
-      "aceitou": 6,
+      "aceitou": 7,
       "contratados": 1,
-      "vagas_abertas": 52
+      "vagas_abertas": 51
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000210",
       "cargo": "Analista",
       "subarea": "Apoio a Campo Experimental",
       "convocados": 3,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "6-10",
@@ -133,14 +133,14 @@
       "vagas_abertas": 7
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000383",
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "6-10",
@@ -228,9 +228,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 6,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 15
+      "vagas_abertas": 14
     },
     {
       "bucket": "11-15",
@@ -288,9 +288,9 @@
       "cargo": "Analista",
       "subarea": "Inovação Social",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 10
+      "vagas_abertas": 9
     },
     {
       "bucket": "1-5",
