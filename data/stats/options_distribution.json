@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Apoio a Campo Experimental",
       "convocados": 4,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "6-10",
@@ -228,9 +228,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 7,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 14
+      "vagas_abertas": 13
     },
     {
       "bucket": "11-15",
@@ -398,9 +398,9 @@
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
       "convocados": 5,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
