@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 16
+      "count": 17
     },
     {
       "range": "6-10",
@@ -68,9 +68,9 @@
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 12,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 2,
-      "vagas_abertas": 10
+      "vagas_abertas": 9
     },
     {
       "bucket": "1-5",
@@ -193,6 +193,16 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40000642",
+      "cargo": "Analista",
+      "subarea": "Avaliação de Impactos",
+      "convocados": 0,
+      "aceitou": 0,
+      "contratados": 0,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "6-10",
       "opcao": "40000648",
       "cargo": "Analista",
@@ -217,7 +227,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 8,
+      "convocados": 9,
       "aceitou": 6,
       "contratados": 1,
       "vagas_abertas": 12
@@ -258,9 +268,9 @@
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
       "convocados": 4,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
