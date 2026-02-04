@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 17
+      "count": 16
     },
     {
       "range": "6-10",
@@ -31,16 +31,6 @@
       "aceitou": 8,
       "contratados": 2,
       "vagas_abertas": 8
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000007",
-      "cargo": "Assistente",
-      "subarea": "Manejo Animal",
-      "convocados": 35,
-      "aceitou": 9,
-      "contratados": 12,
-      "vagas_abertas": 1
     },
     {
       "bucket": "11-15",
@@ -138,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "6-10",
@@ -228,9 +218,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 8,
-      "aceitou": 5,
+      "aceitou": 6,
       "contratados": 1,
-      "vagas_abertas": 13
+      "vagas_abertas": 12
     },
     {
       "bucket": "11-15",
@@ -398,9 +388,9 @@
       "cargo": "Analista",
       "subarea": "Biologia Avançada e Bioinformática",
       "convocados": 6,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -418,9 +408,9 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 19,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 6,
-      "vagas_abertas": 42
+      "vagas_abertas": 41
     },
     {
       "bucket": "1-5",
