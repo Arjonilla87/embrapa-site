@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 17
+      "count": 16
     },
     {
       "range": "6-10",
@@ -189,16 +189,6 @@
       "subarea": "Fitotecnia",
       "convocados": 9,
       "aceitou": 5,
-      "contratados": 0,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000642",
-      "cargo": "Analista",
-      "subarea": "Avaliação de Impactos",
-      "convocados": 0,
-      "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 1
     },
@@ -417,7 +407,7 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 19,
+      "convocados": 20,
       "aceitou": 8,
       "contratados": 6,
       "vagas_abertas": 41
