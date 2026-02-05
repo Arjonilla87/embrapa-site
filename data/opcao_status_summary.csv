@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,05/02/2026 - 09:38:49
+﻿LAST_UPDATE,05/02/2026 - 11:00:23
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,1,8,2,56%,12,1
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,35,13
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,1,7,18,68%,33,7
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,8,18,70%,33,7
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
@@ -29,7 +29,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,7,1,14%,13,5
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
-40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,1,2,1,43%,5,1
+40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,3,1,57%,5,1
 40000224,Pesquisador,Ciências Exatas e da Terra,Energias Renováveis,1,0,0,1,100%,1,0
 40000237,Analista,Métodos Quantitativos Avançados,Métodos Quantitativos,4,0,0,4,100%,4,0
 40000262,Técnico,Laboratório e Campos Experimentais,Bioquímica e Biologia Molecular,1,0,0,1,100%,1,0
@@ -80,7 +80,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000878,Técnico,"Suprimento, Manutenção e Serviços",Monitoramento Preditivo,4,0,0,4,100%,7,3
 40000894,Pesquisador,Ciências Agrárias,Serviços Ambientais,2,0,0,2,100%,2,0
 40000909,Analista,Gestão da Informação,Gestão da Informação Bibliográfica,2,0,0,2,100%,2,0
-40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,1,6,1,37%,9,1
+40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,0,7,1,42%,9,1
 40000959,Pesquisador,Ciências Agrárias,Sociobiodiversidade,1,0,0,1,100%,1,0
 40000968,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos,5,0,0,5,100%,6,1
 40000980,Pesquisador,Engenharias,Sociologia e Automação e Mecanização,11,0,0,0,0%,0,0
