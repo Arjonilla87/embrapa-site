@@ -37,7 +37,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 33,
+      "convocados": 34,
       "aceitou": 8,
       "contratados": 18,
       "vagas_abertas": 11
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 12,
+      "convocados": 13,
       "aceitou": 8,
       "contratados": 2,
       "vagas_abertas": 9
@@ -87,7 +87,7 @@
       "opcao": "40000176",
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 1,
       "contratados": 0,
       "vagas_abertas": 8
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 13,
+      "convocados": 14,
       "aceitou": 7,
       "contratados": 1,
       "vagas_abertas": 51
@@ -127,7 +127,7 @@
       "opcao": "40000383",
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 4
