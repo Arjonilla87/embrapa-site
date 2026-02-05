@@ -6,11 +6,11 @@
     },
     {
       "range": "6-10",
-      "count": 15
+      "count": 16
     },
     {
       "range": "11-15",
-      "count": 6
+      "count": 5
     },
     {
       "range": "16-20",
@@ -213,14 +213,14 @@
       "vagas_abertas": 5
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 10,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 1,
-      "vagas_abertas": 11
+      "vagas_abertas": 10
     },
     {
       "bucket": "11-15",
