@@ -1,8 +1,7 @@
 ﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
 05/02/2026 - 08:29:37,4º AC,PEDRO MARIANO MARTINS,40002139,Analista,Biologia Avançada e Bioinformática,Aceitou,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAMN - Meio Norte; LOTAÇÃO:  → Teresina
 05/02/2026 - 08:29:37,4º AC,CLEITON BARROSO BITTENCOURT,40000210,Analista,Apoio a Campo Experimental,Convocado,CNPAT - Agro Tropical,Fortaleza,ALTERADO,UNIDADE:  → CNPAT - Agro Tropical; LOTAÇÃO:  → Fortaleza
-05/02/2026 - 08:29:37,14º AC,JULIENE DE SOUZA MARINHO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
-05/02/2026 - 09:38:49,14º AC,JULIENE DE SOUZA MARINHO NASCIMENTO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CPAA - Amaz. Ocidental,Manaus,NOVO,
+05/02/2026 - 08:29:37,14º AC,JULIENE DE SOUZA MARINHO NASCIMENTO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAA - Amaz. Ocidental; LOTAÇÃO:  → Manaus
 05/02/2026 - 09:38:49,2º PPP,MANOEL AFONSO ASSUNCAO SERRA,40000932,Analista,Sistema de Produção Vegetal,Convocado,CNPAF - Arroz e Feijão,Sinop,ALTERADO,UNIDADE:  → CNPAF - Arroz e Feijão; LOTAÇÃO:  → Sinop
 05/02/2026 - 11:00:23,24º AC,DANIEL TEIXEIRA MARTINS JUNIOR,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CNPSO - Soja,Ponta Grossa,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPSO - Soja; LOTAÇÃO:  → Ponta Grossa
 05/02/2026 - 11:45:15,4º AC,GABRIEL CICALESE BEVILAQUA,40001064,Analista,Ciência de Alimentos,Convocado,,,NOVO,
@@ -15,3 +14,4 @@
 05/02/2026 - 16:32:40,10º AC,BIANCA COMINOTI CARNEIRO,40000188,Técnico,Laboratório,Convocado,,,NOVO,
 05/02/2026 - 16:32:40,25º AC,JONATHAN JUNIO ALMEIDA SOUZA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
 05/02/2026 - 16:32:40,3º AC,RHANDERSON LUIZ SOARES GOMES,40000383,Analista,Governança e Estratégia,Convocado,,,NOVO,
+
