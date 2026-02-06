@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,06/02/2026 - 09:37:45
+﻿LAST_UPDATE,06/02/2026 - 10:56:11
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,8,2,56%,12,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,35,13
@@ -47,7 +47,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000361,Pesquisador,Ciências Agrárias,Sistemas de Produção de Caprinos e Ovinos,1,0,0,1,100%,1,0
 40000373,Pesquisador,Ciências Exatas e da Terra,Agricultura e Climatologia,7,0,0,0,0%,0,0
 40000379,Analista,Ciências Agrárias,Clínica e Cirurgia de Caprinos e Ovinos,1,0,0,1,100%,1,0
-40000383,Analista,Gestão Estratégica,Governança e Estratégia,7,1,2,1,43%,4,0
+40000383,Analista,Gestão Estratégica,Governança e Estratégia,7,0,3,1,57%,4,0
 40000402,Pesquisador,Ciências Agrárias,Sistemas de Produção Animal,3,0,0,3,100%,3,0
 40000404,Pesquisador,Engenharias,Robótica e Sensoriamento,1,0,0,1,100%,1,0
 40000405,Pesquisador,Espectroscopia Aplicada,Instrumentação em Ressonância Magnética Nuclear,1,0,0,1,100%,1,0
@@ -152,7 +152,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002220,Analista,Gestão da Informação,Engenharia de Dados,3,0,0,3,100%,6,3
 40002223,Analista,Orçamento e Finanças,Contabilidade,13,0,0,13,100%,16,3
 40002260,Analista,Gestão da Informação,Gestão da Informação Arquivística,1,0,0,1,100%,1,0
-40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,2,9,6,27%,21,4
+40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,1,10,6,29%,21,4
 40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,1,5,6,69%,19,7
 40002284,Analista,Gestão de Pessoas,Folha de Pagamento,2,0,0,2,100%,2,0
 40002289,Analista,Gestão de Pessoas,Segurança e Saúde do Trabalho,3,0,0,3,100%,3,0

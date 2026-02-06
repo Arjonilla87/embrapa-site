@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
       "convocados": 4,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "6-10",
@@ -398,9 +398,9 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 21,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 6,
-      "vagas_abertas": 40
+      "vagas_abertas": 39
     },
     {
       "bucket": "1-5",
