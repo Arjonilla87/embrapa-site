@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
       "convocados": 5,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "6-10",
@@ -228,9 +228,9 @@
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
     },
     {
       "bucket": "6-10",
