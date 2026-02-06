@@ -70,6 +70,7 @@ let periodChart = null;
 let monthlyChart = null;
 let remainingDaysData = null;
 let desistenciasChart = null;
+let aceitesPendentesData = [];
 
 // ----------------------------------------
 // INIT
@@ -127,9 +128,9 @@ async function loadGeneralStats() {
         generalData.convocados_hoje ?? "--";
 
     document.getElementById("kpi-desistencias").innerText =
-    generalData.pct_desistencias !== null && generalData.pct_desistencias !== undefined
-        ? generalData.pct_desistencias.toFixed(1) + " %"
-        : "--";
+        generalData.pct_desistencias !== null && generalData.pct_desistencias !== undefined
+            ? generalData.pct_desistencias.toFixed(1) + " %"
+            : "--";
 
     document.getElementById("kpi-mm10").innerText =
         generalData.media_diaria_mm10 !== null &&
@@ -143,12 +144,19 @@ async function loadGeneralStats() {
     document.getElementById("kpi-contratados").innerText =
         generalData.total_contratados;
 
-    const avg = generalData.avg_days_convocado_to_aceitou;
+    // ============================
+    // KPI - ACEITES PENDENTES
+    // ============================
 
-    document.getElementById("kpi-avg-time").innerText =
-        avg !== null && avg !== undefined
-            ? avg.toFixed(1) + " dias"
-            : "--";
+    try {
+        const aceitesPendentesData = await loadCSV("data/stats/aceites_pendentes.csv");
+
+        document.getElementById("kpi-aceites-pendentes").innerText =
+            aceitesPendentesData.length;
+    } catch (e) {
+        console.error("Erro ao carregar aceites pendentes:", e);
+        document.getElementById("kpi-aceites-pendentes").innerText = "0";
+    }
 }
 
 // ----------------------------------------
@@ -1042,6 +1050,15 @@ function openDetails(type) {
         document.getElementById("histograma-details").style.display = "block";
         renderVelocityTable();
     }
+
+    // ===============================
+    // Aceites pendentes
+    // ===============================
+
+    if (type === "aceites_pendentes") {
+        document.getElementById("aceites-details").style.display = "block";
+        updateAceitesPendentesTable();
+    }
 }
 
 function closeDetails(event) {
@@ -1476,8 +1493,48 @@ function updateOptionsTable(selectedBucket) {
 document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
 
 // ============================
-// Contador de visualizações
+// ACEITES PENDENTES - MODAL
 // ============================
+
+// Loader principal
+async function loadAceitesPendentes() {
+    try {
+        aceitesPendentesData = await loadCSV("data/stats/aceites_pendentes.csv");
+        updateAceitesPendentesTable();
+    } catch (e) {
+        console.error("Erro ao carregar aceites pendentes:", e);
+    }
+}
+
+function updateAceitesPendentesTable() {
+    const tbody = document.getElementById("aceitesPendentesTableBody");
+    if (!tbody) return;
+
+    tbody.innerHTML = ""; // limpa tabela
+
+    if (!aceitesPendentesData.length) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td colspan="6" style="text-align:center">Nenhum registro</td>`;
+        tbody.appendChild(tr);
+        return;
+    }
+
+    aceitesPendentesData.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${row["OPÇÃO"]}</td>
+            <td>${row["CARGO"]}</td>
+            <td>${row["SUBÁREA"]}</td>
+            <td>${row["NOME"]}</td>
+            <td>${row["UNIDADE"]}</td>
+            <td>${row["LOTAÇÃO"]}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", loadAceitesPendentes);
+
 // ============================
 // Contador de visualizações
 // ============================
