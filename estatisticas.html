@@ -167,16 +167,23 @@
         }
 
         .details-circle {
-            padding: 0;
             width: 18px;
             height: 18px;
-            border-radius: 50%;
-            font-size: 11px;
-            line-height: 18px;
-            text-align: center;
+            transform: translateY(0.5px);
+
             display: flex;
             align-items: center;
             justify-content: center;
+
+            padding: 0;
+            margin: 0;
+
+            border-radius: 50%;
+
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1;          /* 🔑 isso é o segredo */
+
             position: absolute;
             bottom: 10px;
             right: 15px;
@@ -411,10 +418,7 @@
                 title="Ver detalhes"
                 onclick="openDetails('aceites_pendentes')"
                 aria-label="Ver detalhes">
-                <svg viewBox="0 0 24 24" width="12" height="12">
-                    <circle cx="11" cy="11" r="7" stroke="white" stroke-width="2" fill="none"></circle>
-                    <line x1="16" y1="16" x2="21" y2="21" stroke="white" stroke-width="2"></line>
-                </svg>
+                ▼
             </button>
         </div>
 
@@ -685,7 +689,6 @@
     
 </body>
 </html>
-
 
 
 
