@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 14
     },
     {
       "range": "6-10",
@@ -371,16 +371,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 6
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002139",
-      "cargo": "Analista",
-      "subarea": "Biologia Avançada e Bioinformática",
-      "convocados": 7,
-      "aceitou": 5,
-      "contratados": 1,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
