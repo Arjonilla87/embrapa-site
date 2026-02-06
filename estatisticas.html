@@ -122,7 +122,7 @@
             bottom: 10px;
             left: 10px;
         }
-        
+
         /* ================= DASHBOARD ================= */
         
         .dashboard-grid {
@@ -160,12 +160,28 @@
             cursor: pointer;
             transition: background-color 0.2s ease;
             white-space: nowrap;
-        }
+                    }
         
         .details-btn:hover {
             background-color: #2e7d32;
         }
-        
+
+        .details-circle {
+            padding: 0;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            font-size: 11px;
+            line-height: 18px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+        }
+
         /* ================= CHART ================= */
         
         canvas {
@@ -376,7 +392,7 @@
         </div>
 
         <div class="kpi-box">
-            <div class="kpi-title">Convocações diárias (média)</div>
+            <div class="kpi-title">Convocações diárias (MM10)</div>
             <div class="kpi-value" id="kpi-mm10">--</div>
         </div>
 
@@ -386,8 +402,20 @@
         </div>
 
         <div class="kpi-box">
-            <div class="kpi-title">Tempo médio para o aceite</div>
-            <div class="kpi-value" id="kpi-avg-time">--</div>
+            <div class="kpi-title">Aceites pendentes</div>
+
+            <div class="kpi-value" id="kpi-aceites-pendentes">--</div>
+
+            <button
+                class="details-btn details-circle kpi-details-btn"
+                title="Ver detalhes"
+                onclick="openDetails('aceites_pendentes')"
+                aria-label="Ver detalhes">
+                <svg viewBox="0 0 24 24" width="12" height="12">
+                    <circle cx="11" cy="11" r="7" stroke="white" stroke-width="2" fill="none"></circle>
+                    <line x1="16" y1="16" x2="21" y2="21" stroke="white" stroke-width="2"></line>
+                </svg>
+            </button>
         </div>
 
         <div class="kpi-box">
@@ -578,7 +606,7 @@
                 </div>
             </div>
 
-            <!-- ===== MODAL HISTOGRAMA DE OPÇÕES ===== -->
+            <!-- ===== HISTOGRAMA DE OPÇÕES ===== -->
             <div id="histograma-details" class="convocados-details-container" style="display:none">
 
                 <h3>Distribuição de vagas</h3>
@@ -610,6 +638,31 @@
                 </div>
             </div>
 
+            <!-- ===== ACEITES PENDENTES ===== -->
+            <div id="aceites-details" class="convocados-details-container" style="display:none">
+
+                <h3>Aceites pendentes</h3>
+
+                <!-- Tabela de detalhes -->
+                <div class="velocity-table-wrapper">
+                    <table class="velocity-table">
+                        <thead>
+                            <tr>
+                                <th>Opção</th>
+                                <th>Cargo</th>
+                                <th>Subárea</th>
+                                <th>Nome</th>
+                                <th>Unidade</th>
+                                <th>Lotação</th>
+                            </tr>
+                        </thead>
+                        <tbody id="aceitesPendentesTableBody">
+                            <!-- JS irá preencher com linhas filtradas -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
@@ -632,7 +685,6 @@
     
 </body>
 </html>
-
 
 
 
