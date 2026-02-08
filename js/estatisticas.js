@@ -56,6 +56,98 @@ function loadCSV(url) {
     });
 }
 
+function renderTabela({
+    data,
+    tbodyId,
+    colunas,
+    colspan,
+    option
+}) {
+    const tbody = document.getElementById(tbodyId);
+    if (!tbody) return;
+
+    tbody.innerHTML = "";
+
+    if (!data.length) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td colspan="${colspan}" style="text-align:center">
+            Nenhum registro
+        </td>`;
+        tbody.appendChild(tr);
+        return;
+    }
+
+    if(option == 1){
+        ordenarPorDataENome(data);
+    }else {
+        ordenarPorCargoENome(data);
+    }
+
+    data.forEach(row => {
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = colunas
+            .map(col => `<td>${row[col] ?? ""}</td>`)
+            .join("");
+
+        tbody.appendChild(tr);
+    });
+}
+
+function ordenarPorCargoENome(data) {
+    data.sort((a, b) => {
+        const cargoCmp = a["CARGO"].localeCompare(
+            b["CARGO"],
+            "pt-BR",
+            { sensitivity: "base" }
+        );
+
+        if (cargoCmp !== 0) return cargoCmp;
+
+        return a["NOME"].localeCompare(
+            b["NOME"],
+            "pt-BR",
+            { sensitivity: "base" }
+        );
+    });
+}
+
+function ordenarPorDataENome(data) {
+    return data.sort((a, b) => {
+        const rawA = (a["DATA"] || "").trim();
+        const rawB = (b["DATA"] || "").trim();
+
+        function parseData(valor) {
+            if (valor === "" || valor === "Indeterminado") {
+                return -Infinity; // mais antigo possível
+            }
+
+            // Esperado: YYYY-MM-DD
+            const [y, m, d] = valor.split("-").map(Number);
+            return new Date(y, m - 1, d).getTime();
+        }
+
+        const dateA = parseData(rawA);
+        const dateB = parseData(rawB);
+
+        // 1️⃣ Ordena por DATA
+        if (dateA !== dateB) {
+            return dateA - dateB;
+        }
+
+        // 2️⃣ Datas iguais → ordena por NOME
+        return (a["NOME"] || "").localeCompare(
+            b["NOME"] || "",
+            "pt-BR",
+            { sensitivity: "base" }
+        );
+    });
+}
+
+function formatarDataOuIndeterminado(valor) {
+    return valor && valor.trim() !== "" ? valor : "Indeterminado";
+}
+
 // ----------------------------------------
 // Variáveis globais
 // ----------------------------------------
@@ -1030,7 +1122,7 @@ function openDetails(type) {
 
     if (type === "convocados_sem") {
         document.getElementById("convocados-semanal-details").style.display = "block";
-        renderVelocityTable();
+        loadConvocadosSemanal();
     }
 
     // ===============================
@@ -1039,16 +1131,16 @@ function openDetails(type) {
 
     if (type === "contratados_mes") {
         document.getElementById("contratados-mensal-details").style.display = "block";
-        renderVelocityTable();
+        loadContratadosMensal();
     }
 
     // ===============================
-    // Contratados(Mês)
+    // HISTOGRAMA VAGAS
     // ===============================
 
     if (type === "histograma") {
         document.getElementById("histograma-details").style.display = "block";
-        renderVelocityTable();
+        loadOptionsDistribution();
     }
 
     // ===============================
@@ -1059,6 +1151,23 @@ function openDetails(type) {
         document.getElementById("aceites-details").style.display = "block";
         updateAceitesPendentesTable();
     }
+    // ===============================
+    // Contratações em curso
+    // ===============================
+
+    if (type === "contratando") {
+        document.getElementById("contratando-details").style.display = "block";
+        loadContratando();
+    }
+    // ===============================
+    // Contratados
+    // ===============================
+
+    if (type === "contratados") {
+        document.getElementById("contratados-mensal-details").style.display = "block";
+        loadContratadosMensal();
+    }
+
 }
 
 function closeDetails(event) {
@@ -1250,7 +1359,7 @@ function updateConvocadosTable(data, weekLabel) {
         const tr = document.createElement('tr');
 
         const dateCell = document.createElement('td');
-        dateCell.textContent = formatDateBR(row['DATE']);
+        dateCell.textContent = extractISODate(row['DATE']);
         tr.appendChild(dateCell);
 
         const opcaoCell = document.createElement('td');
@@ -1363,9 +1472,9 @@ function updateContratadosTable(data, monthLabel) {
 
         const tr = document.createElement('tr');
 
-        // DATA
+        // DATA (YYYY-MM-DD)
         const dateCell = document.createElement('td');
-        dateCell.textContent = formatDateBR(row['DATE']);
+        dateCell.textContent = extractISODate(row['DATE']);
         tr.appendChild(dateCell);
 
         // OPÇÃO
@@ -1387,21 +1496,14 @@ function updateContratadosTable(data, monthLabel) {
     });
 }
 
-
 // Chama ao carregar página
 document.addEventListener('DOMContentLoaded', loadContratadosMensal);
 
-function formatDateBR(dateStr) {
-
+function extractISODate(dateStr) {
     if (!dateStr) return '';
 
-    const parts = dateStr.split('-');
-
-    if (parts.length !== 3) return dateStr;
-
-    const [year, month, day] = parts;
-
-    return `${day}/${month}/${year}`;
+    // Extrai apenas YYYY-MM-DD (antes do espaço ou 'T')
+    return dateStr.split(/[ T]/)[0];
 }
 
 // ----------------------------------------
@@ -1495,45 +1597,63 @@ document.addEventListener("DOMContentLoaded", loadOptionsDistribution);
 // ============================
 // ACEITES PENDENTES - MODAL
 // ============================
-
-// Loader principal
 async function loadAceitesPendentes() {
     try {
         aceitesPendentesData = await loadCSV("data/stats/aceites_pendentes.csv");
-        updateAceitesPendentesTable();
+
+        renderTabela({
+            data: aceitesPendentesData,
+            tbodyId: "aceitesPendentesTableBody",
+            colunas: ["OPÇÃO", "CARGO", "SUBÁREA", "NOME", "UNIDADE", "LOTAÇÃO"],
+            colspan: 6,
+            option: 0
+        });
     } catch (e) {
         console.error("Erro ao carregar aceites pendentes:", e);
     }
 }
 
-function updateAceitesPendentesTable() {
-    const tbody = document.getElementById("aceitesPendentesTableBody");
-    if (!tbody) return;
-
-    tbody.innerHTML = ""; // limpa tabela
-
-    if (!aceitesPendentesData.length) {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `<td colspan="6" style="text-align:center">Nenhum registro</td>`;
-        tbody.appendChild(tr);
-        return;
-    }
-
-    aceitesPendentesData.forEach(row => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-            <td>${row["OPÇÃO"]}</td>
-            <td>${row["CARGO"]}</td>
-            <td>${row["SUBÁREA"]}</td>
-            <td>${row["NOME"]}</td>
-            <td>${row["UNIDADE"]}</td>
-            <td>${row["LOTAÇÃO"]}</td>
-        `;
-        tbody.appendChild(tr);
-    });
-}
-
 document.addEventListener("DOMContentLoaded", loadAceitesPendentes);
+
+// ============================
+// CONTRATAÇÕES EM CURSO - MODAL
+// ============================
+async function loadContratando() {
+    try {
+        const dadosCSV = await loadCSV(
+            "data/stats/aceites_mensal_detalhes.csv"
+        );
+
+        // 🔑 Ordenação centralizada
+        ordenarPorDataENome(dadosCSV);
+
+        const dadosRender = dadosCSV.map(row => ({
+            ...row,
+            DATA:
+                row["DATA"] && row["DATA"].trim() !== ""
+                    ? row["DATA"]
+                    : "Anterior a 18/12/2025 (?)"
+        }));
+
+console.log("DADOS ENVIADOS AO RENDER:");
+dadosRender.forEach(d => console.log(d.DATA, d.NOME));
+
+        renderTabela({
+            data: dadosRender,
+            tbodyId: "contratandoTableBody",
+            colunas: ["DATA", "OPÇÃO", "CARGO", "SUBÁREA", "NOME", "UNIDADE"],
+            colspan: 6,
+            option: 1
+        });
+
+    } catch (e) {
+        console.error(
+            "Erro ao carregar aceites_mensal_detalhes.csv:",
+            e
+        );
+    }
+}
+document.addEventListener("DOMContentLoaded", loadContratando);
 
 // ============================
 // Contador de visualizações
