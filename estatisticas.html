@@ -391,11 +391,27 @@
         <div class="kpi-box">
             <div class="kpi-title">Contratações em curso</div>
             <div class="kpi-value" id="kpi-aceitou">--</div>
+
+            <button
+                class="details-btn details-circle kpi-details-btn"
+                title="Ver detalhes"
+                onclick="openDetails('contratando')"
+                aria-label="Ver detalhes">
+                ▼
+            </button>
         </div>
 
         <div class="kpi-box">
             <div class="kpi-title">Total de contratados</div>
             <div class="kpi-value" id="kpi-contratados">--</div>
+
+            <button
+                class="details-btn details-circle kpi-details-btn"
+                title="Ver detalhes"
+                onclick="openDetails('contratados')"
+                aria-label="Ver detalhes">
+                ▼
+            </button>
         </div>
 
         <div class="kpi-box">
@@ -661,6 +677,31 @@
                             </tr>
                         </thead>
                         <tbody id="aceitesPendentesTableBody">
+                            <!-- JS irá preencher com linhas filtradas -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ===== CONTRATAÇÕES EM CURSO ===== -->
+            <div id="contratando-details" class="convocados-details-container" style="display:none">
+
+                <h3>Contratações em curso</h3>
+
+                <!-- Tabela de detalhes -->
+                <div class="velocity-table-wrapper">
+                    <table class="velocity-table">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Opção</th>
+                                <th>Cargo</th>
+                                <th>Subárea</th>
+                                <th>Nome</th>
+                                <th>Unidade</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contratandoTableBody">
                             <!-- JS irá preencher com linhas filtradas -->
                         </tbody>
                     </table>
