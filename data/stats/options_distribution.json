@@ -27,7 +27,7 @@
       "opcao": "40000002",
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
-      "convocados": 13,
+      "convocados": 14,
       "aceitou": 9,
       "contratados": 2,
       "vagas_abertas": 7
@@ -37,7 +37,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 34,
+      "convocados": 35,
       "aceitou": 9,
       "contratados": 18,
       "vagas_abertas": 10
@@ -87,7 +87,7 @@
       "opcao": "40000176",
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 2,
       "contratados": 0,
       "vagas_abertas": 7
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 15,
+      "convocados": 16,
       "aceitou": 8,
       "contratados": 1,
       "vagas_abertas": 50
@@ -117,7 +117,7 @@
       "opcao": "40000383",
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 2
@@ -147,7 +147,7 @@
       "opcao": "40000497",
       "cargo": "Analista",
       "subarea": "Gestão da Propriedade Intelectual para a Inovação",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 2
