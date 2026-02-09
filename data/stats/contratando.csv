@@ -4,6 +4,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,MARCELO NASCIMENTO MOUTINHO,CNPF - Florestas,Colombo
 40002553,Analista,Transferência de Tecnologia,ALYSSON ROBERTO DE ALMEIDA,CPAF/RO - Rondônia,Porto Velho
 40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",WELTON CLEBER RIBEIRO,CNPF - Florestas,Colombo
+40000188,Técnico,Laboratório,ELAINE CAMARAO DE SOUSA,CPATU - Amaz. Oriental,Belém
 40002198,Analista,Ciência de Dados,TACIO CAVALCANTE XAVIER,CPAO - Agro Oeste,Dourados
 40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,GIOVANI GHENO BOMBARDIERI,CPACT - Clima Temp,Pelotas
 40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",GIL DUQUE ESTRADA DE BARROS,CNPAB - Agrobiologia,Seropédica
@@ -12,6 +13,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",WILLIAM DOS SANTOS LIMA,CNPSO - Soja,Londrina
 40002198,Analista,Ciência de Dados,EDILVANDO PEREIRA EUFRAZIO,CPAMT - Agrossilvipastoril,Sinop
 40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JULIENE DE SOUZA MARINHO NASCIMENTO,CPAA - Amaz. Ocidental,Manaus
+40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,LEANDRO MORGADO PINTO CORREA,CNPA - Algodão,Campina Grande
 40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,FILIPE GUSTAVO BRITO SANTOS,CNPMS - Milho e Sorgo,Nova Porteirinha
 40000007,Assistente,Manejo Animal,PAULO ROBERTO DA SILVA ARAUJO,CPATU - Amaz. Oriental,Belém
 40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",WILLIAM MEDINA,CNPSA - Suinos e Aves,Concórdia
@@ -54,6 +56,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40000007,Assistente,Manejo Animal,GUILHERME SANTOS LAGO,CNPGC - Gado Corte,Campo Grande
 40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,DANIEL TEIXEIRA MARTINS JUNIOR,CNPSO - Soja,Ponta Grossa
 40000007,Assistente,Manejo Animal,TELMA CARVALHO DOURADO,CPATU - Amaz. Oriental,Belém
+40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,JONATHAN JUNIO ALMEIDA SOUZA,CNPDIA - Instrumentação,São Carlos
 40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",IGOR CAVALCANTE FLORENTINO LOPES,CPAF/AC - Acre,Rio Branco
 40002503,Pesquisador,Sanidade e Defesa Animal,WALDEMIR SANTIAGO NETO,CNPGC - Gado Corte,Campo Grande
 40002688,Analista,Ciência do Solo,JOÃO PEDRO PACHECO,CPAC - Cerrados,Planaltina
@@ -142,4 +145,5 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JESSICA ALEXIA BURKE TINOCO,CTAA - Agro Alimentos,Rio de Janeiro
 40001814,Técnico,Segurança e Saúde do Trabalho,SAMUEL FERNANDES CARNEIRO VELOSO BARBOSA,CPAF/RR - Roraima,Boa Vista
 40000188,Técnico,Laboratório,CAROLINE PAES DOS SANTOS,CNPGC - Gado Corte,Campo Grande
+40000002,Técnico,Manejo Animal,RENATO PERIARD ALVES,CNPSA - Suinos e Aves,Concórdia
 40000127,Técnico,Suporte à Gestão,IAGO COSTA DE SA MEDINA,CPAP - Pantanal,Corumbá

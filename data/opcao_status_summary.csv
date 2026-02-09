@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,09/02/2026 - 08:40:16
+﻿LAST_UPDATE,09/02/2026 - 09:44:25
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
-40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,1,8,2,56%,13,2
+40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,9,2,61%,13,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,35,13
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,1,8,18,70%,34,7
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,9,18,73%,34,7
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,0,2,0,22%,4,2
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,7,1,14%,15,6
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,8,1,15%,15,6
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,2,4,1,71%,8,1
@@ -153,7 +153,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002223,Analista,Orçamento e Finanças,Contabilidade,13,0,0,13,100%,16,3
 40002260,Analista,Gestão da Informação,Gestão da Informação Arquivística,1,0,0,1,100%,1,0
 40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,1,10,6,29%,21,4
-40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,1,5,6,69%,20,8
+40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,0,6,6,75%,20,8
 40002284,Analista,Gestão de Pessoas,Folha de Pagamento,2,0,0,2,100%,2,0
 40002289,Analista,Gestão de Pessoas,Segurança e Saúde do Trabalho,3,0,0,3,100%,3,0
 40002311,Analista,Direito e Auditoria,Assessoria Jurídica Advogado,1,0,0,1,100%,1,0
