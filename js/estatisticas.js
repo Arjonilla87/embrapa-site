@@ -265,6 +265,9 @@ async function loadVelocity() {
 
 function updateVelocityChart(group = "ALL") {
 
+    // 🔤 Meses em português (escopo local)
+    const monthNames = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
+
     const dates = velocityData.map(r => {
         const [y, m, d] = r.date.split("-");
         return new Date(y, m - 1, d);
@@ -352,7 +355,6 @@ function updateVelocityChart(group = "ALL") {
                     pointRadius: 3,
                     pointHoverRadius: 5
                 }
-
             ]
         },
 
@@ -369,12 +371,9 @@ function updateVelocityChart(group = "ALL") {
                 legend: {
                     position: "bottom"
                 },
-
                 tooltip: {
                     enabled: true
                 },
-
-                // REMOVE RÓTULOS DE VALOR
                 datalabels: {
                     display: false
                 }
@@ -397,7 +396,7 @@ function updateVelocityChart(group = "ALL") {
                         text: "Dia",
                         color: "#000000",
                         font: {
-                            size: 14,        // ← aumenta o tamanho
+                            size: 14,
                             weight: "bold"
                         }
                     },
@@ -405,7 +404,13 @@ function updateVelocityChart(group = "ALL") {
                     ticks: {
                         color: "#000000",
                         font: {
-                            size: 14        // ← tamanho dos rótulos do eixo X
+                            size: 14
+                        },
+                        callback: function(value) {
+                            const d = new Date(value);
+                            const day = String(d.getDate()).padStart(2, "0");
+                            const month = monthNames[d.getMonth()];
+                            return `${month} ${day} `;
                         }
                     }
                 },
@@ -418,7 +423,7 @@ function updateVelocityChart(group = "ALL") {
                         text: "Convocados",
                         color: "#000000",
                         font: {
-                            size: 14,       // ← aumenta o tamanho
+                            size: 14,
                             weight: "bold"
                         }
                     },
@@ -427,7 +432,7 @@ function updateVelocityChart(group = "ALL") {
                         precision: 0,
                         color: "#000000",
                         font: {
-                            size: 14        // ← tamanho dos rótulos do eixo Y
+                            size: 14
                         }
                     }
                 }
@@ -1634,9 +1639,6 @@ async function loadContratando() {
                     ? row["DATA"]
                     : "Anterior a 18/12/2025 (?)"
         }));
-
-console.log("DADOS ENVIADOS AO RENDER:");
-dadosRender.forEach(d => console.log(d.DATA, d.NOME));
 
         renderTabela({
             data: dadosRender,
