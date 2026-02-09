@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -103,16 +103,6 @@
       "vagas_abertas": 50
     },
     {
-      "bucket": "1-5",
-      "opcao": "40000210",
-      "cargo": "Analista",
-      "subarea": "Apoio a Campo Experimental",
-      "convocados": 8,
-      "aceitou": 4,
-      "contratados": 1,
-      "vagas_abertas": 2
-    },
-    {
       "bucket": "6-10",
       "opcao": "40000373",
       "cargo": "Pesquisador",
@@ -158,9 +148,9 @@
       "cargo": "Analista",
       "subarea": "Gestão da Propriedade Intelectual para a Inovação",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -227,7 +217,7 @@
       "opcao": "40001028",
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 6
@@ -397,10 +387,10 @@
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 20,
-      "aceitou": 6,
+      "convocados": 21,
+      "aceitou": 7,
       "contratados": 6,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "6-10",
