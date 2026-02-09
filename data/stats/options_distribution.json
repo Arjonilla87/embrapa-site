@@ -217,7 +217,7 @@
       "opcao": "40001028",
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 5
@@ -238,9 +238,9 @@
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
       "convocados": 5,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
