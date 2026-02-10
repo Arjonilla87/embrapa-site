@@ -61,7 +61,8 @@ function renderTabela({
     tbodyId,
     colunas,
     colspan,
-    option
+    ordenar,
+    crescente
 }) {
     const tbody = document.getElementById(tbodyId);
     if (!tbody) return;
@@ -76,11 +77,8 @@ function renderTabela({
         tbody.appendChild(tr);
         return;
     }
-
-    if(option == 1){
-        ordenarPorDataENome(data);
-    }else {
-        ordenarPorCargoENome(data);
+    if (ordenar == true){
+        ordenarTabela(data, crescente);
     }
 
     data.forEach(row => {
@@ -94,58 +92,62 @@ function renderTabela({
     });
 }
 
-function ordenarPorCargoENome(data) {
-    data.sort((a, b) => {
-        const cargoCmp = a["CARGO"].localeCompare(
-            b["CARGO"],
+function ordenarTabela(data, crescente = true) {
+
+    function formatarData(valor) {
+        return valor && valor.trim() !== ""
+            ? valor.trim()
+            : "Indeterminado";
+    }
+
+    function parseData(valor) {
+
+        if (!valor || valor === "Indeterminado") {
+            return -Infinity; // mais antiga possível
+        }
+
+        const [y, m, d] = valor.split("-").map(Number);
+
+        if (!y || !m || !d) {
+            return -Infinity;
+        }
+
+        return new Date(y, m - 1, d).getTime();
+    }
+
+    // normaliza DATA antes de ordenar
+    data.forEach(item => {
+        item["DATA"] = formatarData(item["DATA"]);
+    });
+
+    return data.sort((a, b) => {
+
+        const dateA = parseData(a["DATA"]);
+        const dateB = parseData(b["DATA"]);
+
+        // 1️⃣ Ordenação por DATA
+        if (dateA !== dateB) {
+            return crescente
+                ? dateA - dateB
+                : dateB - dateA;
+        }
+
+        // 2️⃣ DATA igual → CARGO
+        const cargoCmp = (a["CARGO"] || "").localeCompare(
+            b["CARGO"] || "",
             "pt-BR",
             { sensitivity: "base" }
         );
 
         if (cargoCmp !== 0) return cargoCmp;
 
-        return a["NOME"].localeCompare(
-            b["NOME"],
-            "pt-BR",
-            { sensitivity: "base" }
-        );
-    });
-}
-
-function ordenarPorDataENome(data) {
-    return data.sort((a, b) => {
-        const rawA = (a["DATA"] || "").trim();
-        const rawB = (b["DATA"] || "").trim();
-
-        function parseData(valor) {
-            if (valor === "" || valor === "Indeterminado") {
-                return -Infinity; // mais antigo possível
-            }
-
-            // Esperado: YYYY-MM-DD
-            const [y, m, d] = valor.split("-").map(Number);
-            return new Date(y, m - 1, d).getTime();
-        }
-
-        const dateA = parseData(rawA);
-        const dateB = parseData(rawB);
-
-        // 1️⃣ Ordena por DATA
-        if (dateA !== dateB) {
-            return dateA - dateB;
-        }
-
-        // 2️⃣ Datas iguais → ordena por NOME
+        // 3️⃣ DATA + CARGO iguais → NOME
         return (a["NOME"] || "").localeCompare(
             b["NOME"] || "",
             "pt-BR",
             { sensitivity: "base" }
         );
     });
-}
-
-function formatarDataOuIndeterminado(valor) {
-    return valor && valor.trim() !== "" ? valor : "Indeterminado";
 }
 
 // ----------------------------------------
@@ -1154,7 +1156,7 @@ function openDetails(type) {
 
     if (type === "aceites_pendentes") {
         document.getElementById("aceites-details").style.display = "block";
-        updateAceitesPendentesTable();
+        loadAceitesPendentes();
     }
     // ===============================
     // Contratações em curso
@@ -1606,12 +1608,31 @@ async function loadAceitesPendentes() {
     try {
         aceitesPendentesData = await loadCSV("data/stats/aceites_pendentes.csv");
 
+        // 🔧 Ajuste visual da DATA: YYYY-MM-DD → DD/MM/YY
+        aceitesPendentesData = aceitesPendentesData.map(row => {
+            const raw = row["DATA"];
+
+            if (!raw || raw.trim() === "") {
+                return { ...row, DATA: "" };
+            }
+
+            const [y, m, d] = raw.split("-");
+
+            return {
+                ...row,
+                DATA: (y && m && d)
+                    ? `${d}/${m}/${y.slice(-2)}`
+                    : raw
+            };
+        });
+
         renderTabela({
             data: aceitesPendentesData,
             tbodyId: "aceitesPendentesTableBody",
-            colunas: ["OPÇÃO", "CARGO", "SUBÁREA", "NOME", "UNIDADE", "LOTAÇÃO"],
-            colspan: 6,
-            option: 0
+            colunas: ["DATA", "OPÇÃO", "CARGO", "SUBÁREA", "NOME"],
+            colspan: 5,
+            ordenar: false,
+            crescente: false
         });
     } catch (e) {
         console.error("Erro ao carregar aceites pendentes:", e);
@@ -1629,9 +1650,6 @@ async function loadContratando() {
             "data/stats/aceites_mensal_detalhes.csv"
         );
 
-        // 🔑 Ordenação centralizada
-        ordenarPorDataENome(dadosCSV);
-
         const dadosRender = dadosCSV.map(row => ({
             ...row,
             DATA:
@@ -1645,7 +1663,8 @@ async function loadContratando() {
             tbodyId: "contratandoTableBody",
             colunas: ["DATA", "OPÇÃO", "CARGO", "SUBÁREA", "NOME", "UNIDADE"],
             colspan: 6,
-            option: 1
+            ordenar: true,
+            crescente: true
         });
 
     } catch (e) {
