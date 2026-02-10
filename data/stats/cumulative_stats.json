@@ -3,35 +3,35 @@
     "convocado": [
       {
         "label": "2025-W51",
-        "value": 16
+        "value": 17
       },
       {
         "label": "2025-W52",
-        "value": 2
+        "value": 3
       },
       {
         "label": "2026-W02",
-        "value": 25
+        "value": 27
       },
       {
         "label": "2026-W03",
-        "value": 31
+        "value": 45
       },
       {
         "label": "2026-W04",
-        "value": 54
+        "value": 63
       },
       {
         "label": "2026-W05",
-        "value": 36
+        "value": 41
       },
       {
         "label": "2026-W06",
-        "value": 54
+        "value": 66
       },
       {
         "label": "2026-W07",
-        "value": 9
+        "value": 12
       }
     ]
   },
@@ -39,15 +39,15 @@
     "convocado": [
       {
         "label": "2025-12",
-        "value": 18
+        "value": 20
       },
       {
         "label": "2026-01",
-        "value": 146
+        "value": 176
       },
       {
         "label": "2026-02",
-        "value": 63
+        "value": 78
       }
     ]
   },
