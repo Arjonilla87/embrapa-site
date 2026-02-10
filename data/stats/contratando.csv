@@ -33,6 +33,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40000932,Analista,Sistema de Produção Vegetal,GUILHERME JOSÉ DE CASTRO,CNPH - Hortaliças,Brasília
 40002139,Analista,Biologia Avançada e Bioinformática,OTAVIO HENRIQUE BEZERRA PINTO,CENARGEN,Brasília
 40000210,Analista,Apoio a Campo Experimental,RODRIGO SOUZA E SOUZA,CPACP - Maranhão,São Luis
+40001348,Analista,Inovação Social,ANNA PAULA TELES ARRABAL,CPACP - Maranhão,São Luis
 40000383,Analista,Governança e Estratégia,LUIZ EDUARDO SOUZA COELHO PEREIRA,CNPC - Caprinos,Sobral
 40000127,Técnico,Suporte à Gestão,RAQUEL EDUARDA CANDIDA DA SILVA NASCIMENTO,CNAT - Alimentos,Maceió
 40002688,Analista,Ciência do Solo,EMANOEL LIMA MARTINS,CNPAT - Agro Tropical,Fortaleza
@@ -100,6 +101,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40002139,Analista,Biologia Avançada e Bioinformática,LUIZA CESCA PIVA,CNPAE - Agroenergia,Brasília
 40001348,Analista,Inovação Social,EDUARDO SANCHES TAFFAREL,CPACT - Clima Temp,Pelotas
 40000383,Analista,Governança e Estratégia,RHANDERSON LUIZ SOARES GOMES,CNPAB - Agrobiologia,Seropédica
+40001028,Analista,Insumos Biológicos,THIAGO LOURO FERNANDES,CNPSO - Soja,Londrina
 40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre,Rio Branco
 40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,PEDRO DE CASTRO SILVA,CPATSA - Semiárido,Petrolina
 40000002,Técnico,Manejo Animal,VALDEIR AGUILERA NOGUEIRA DA SILVA,CPAP - Pantanal,Corumbá
@@ -119,6 +121,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40000210,Analista,Apoio a Campo Experimental,CLEITON BARROSO BITTENCOURT,CNPAT - Agro Tropical,Fortaleza
 40002139,Analista,Biologia Avançada e Bioinformática,PEDRO MARIANO MARTINS,CPAMN - Meio Norte,Teresina
 40001064,Analista,Ciência de Alimentos,GABRIEL CICALESE BEVILAQUA,CPACP - Maranhão,São Luís
+40000383,Analista,Governança e Estratégia,FLAVIO RENATO SILVA SENA,CPACP - Maranhão,São Luis
 40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",PAULO RENATO DE OLIVEIRA FAGUNDES,CNPMF - Mandioca,Cruz das Almas
 40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,MAURO FRANKLIN DE OLIVEIRA TAVARES,CPAMN - Meio Norte,Teresina
 40000007,Assistente,Manejo Animal,GILBERTO LUIZ BARBOSA MADEIRO,CPAP - Pantanal,Corumbá
@@ -141,6 +144,7 @@ OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE,LOTAÇÃO
 40000932,Analista,Sistema de Produção Vegetal,VANESSA DUARTE DIAS,CNPAF - Arroz e Feijão,Santo Antônio de Goiás
 40000210,Analista,Apoio a Campo Experimental,GABRIEL LUIZ PADOAN GONÇALVES,CPAMT - Agrossilvipastoril,Sinop
 40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",JHONNY DOS SANTOS RAMOS,CPATU - Amaz. Oriental,Belém
+40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,EVANDRO DE SOUZA FRANCO,CPPSE - Pec Sudeste,São Carlos
 40001814,Técnico,Segurança e Saúde do Trabalho,JOANA GONÇALVES OLIVEIRA DA SILVA,CPACT - Clima Temp,Pelotas
 40000188,Técnico,Laboratório,CAMILA FERNANDES MORO,CNPSO - Soja,Londrina
 40000002,Técnico,Manejo Animal,AMANDA REGES GUEDES,CPACP - Maranhão,São Luis

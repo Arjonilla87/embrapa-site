@@ -38,9 +38,9 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 35,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 18,
-      "vagas_abertas": 10
+      "vagas_abertas": 9
     },
     {
       "bucket": "11-15",
@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
       "convocados": 6,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "6-10",
@@ -218,9 +218,9 @@
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
       "convocados": 4,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "6-10",
@@ -237,7 +237,7 @@
       "opcao": "40001064",
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 3,
       "contratados": 1,
       "vagas_abertas": 3
@@ -258,9 +258,9 @@
       "cargo": "Analista",
       "subarea": "Inovação Social",
       "convocados": 5,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 8
+      "vagas_abertas": 7
     },
     {
       "bucket": "1-5",
