@@ -37,7 +37,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 35,
+      "convocados": 36,
       "aceitou": 10,
       "contratados": 18,
       "vagas_abertas": 9
@@ -68,9 +68,9 @@
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 14,
-      "aceitou": 9,
+      "aceitou": 8,
       "contratados": 2,
-      "vagas_abertas": 8
+      "vagas_abertas": 9
     },
     {
       "bucket": "1-5",
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 16,
+      "convocados": 17,
       "aceitou": 8,
       "contratados": 1,
       "vagas_abertas": 50
@@ -117,7 +117,7 @@
       "opcao": "40000383",
       "cargo": "Analista",
       "subarea": "Governança e Estratégia",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 5,
       "contratados": 1,
       "vagas_abertas": 1

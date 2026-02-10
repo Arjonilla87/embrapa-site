@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,10/02/2026 - 15:05:37
+﻿LAST_UPDATE,10/02/2026 - 16:55:56
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,1,9,2,61%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,35,13
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,10,18,76%,35,7
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,1,10,18,76%,36,7
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
@@ -18,7 +18,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,9,2,58%,14,2
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,8,2,53%,14,3
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,2,0,22%,5,2
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,8,1,15%,16,7
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,8,1,15%,17,7
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,6,1,100%,8,1
@@ -47,7 +47,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000361,Pesquisador,Ciências Agrárias,Sistemas de Produção de Caprinos e Ovinos,1,0,0,1,100%,1,0
 40000373,Pesquisador,Ciências Exatas e da Terra,Agricultura e Climatologia,7,0,0,0,0%,0,0
 40000379,Analista,Ciências Agrárias,Clínica e Cirurgia de Caprinos e Ovinos,1,0,0,1,100%,1,0
-40000383,Analista,Gestão Estratégica,Governança e Estratégia,7,0,5,1,86%,6,0
+40000383,Analista,Gestão Estratégica,Governança e Estratégia,7,1,5,1,86%,7,0
 40000402,Pesquisador,Ciências Agrárias,Sistemas de Produção Animal,3,0,0,3,100%,3,0
 40000404,Pesquisador,Engenharias,Robótica e Sensoriamento,1,0,0,1,100%,1,0
 40000405,Pesquisador,Espectroscopia Aplicada,Instrumentação em Ressonância Magnética Nuclear,1,0,0,1,100%,1,0
