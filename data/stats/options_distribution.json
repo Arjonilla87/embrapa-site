@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 15
     },
     {
       "range": "6-10",
-      "count": 16
+      "count": 15
     },
     {
       "range": "11-15",
@@ -173,14 +173,14 @@
       "vagas_abertas": 6
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000648",
       "cargo": "Analista",
       "subarea": "Comunicação",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
