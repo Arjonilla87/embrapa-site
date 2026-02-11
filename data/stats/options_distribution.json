@@ -38,9 +38,9 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 36,
-      "aceitou": 10,
+      "aceitou": 11,
       "contratados": 18,
-      "vagas_abertas": 9
+      "vagas_abertas": 8
     },
     {
       "bucket": "11-15",
@@ -98,9 +98,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 17,
-      "aceitou": 8,
+      "aceitou": 9,
       "contratados": 1,
-      "vagas_abertas": 50
+      "vagas_abertas": 49
     },
     {
       "bucket": "6-10",
