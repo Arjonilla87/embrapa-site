@@ -28,9 +28,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
       "convocados": 14,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 2,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
     },
     {
       "bucket": "6-10",
@@ -68,9 +68,9 @@
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 14,
-      "aceitou": 8,
+      "aceitou": 9,
       "contratados": 2,
-      "vagas_abertas": 9
+      "vagas_abertas": 8
     },
     {
       "bucket": "1-5",
@@ -88,9 +88,9 @@
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 5,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
     },
     {
       "bucket": ">20",

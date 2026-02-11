@@ -1,6 +1,6 @@
-﻿LAST_UPDATE,11/02/2026 - 08:38:14
+﻿LAST_UPDATE,11/02/2026 - 09:44:59
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
-40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,1,9,2,61%,14,2
+40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,35,13
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
@@ -18,14 +18,14 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,8,2,53%,14,3
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,9,2,58%,14,3
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
 40000141,Analista,Laboratórios e Campos Experimentais,Química,5,0,0,4,80%,5,1
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
-40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,2,0,22%,5,2
+40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,0,3,0,33%,5,2
 40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,9,1,17%,17,7
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
