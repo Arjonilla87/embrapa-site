@@ -37,7 +37,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 36,
+      "convocados": 37,
       "aceitou": 11,
       "contratados": 18,
       "vagas_abertas": 8
@@ -87,7 +87,7 @@
       "opcao": "40000176",
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 3,
       "contratados": 0,
       "vagas_abertas": 6
@@ -147,7 +147,7 @@
       "opcao": "40000497",
       "cargo": "Analista",
       "subarea": "Gestão da Propriedade Intelectual para a Inovação",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 3,
       "contratados": 1,
       "vagas_abertas": 1
@@ -178,9 +178,9 @@
       "cargo": "Analista",
       "subarea": "Comunicação",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
     },
     {
       "bucket": "1-5",
@@ -387,7 +387,7 @@
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 21,
+      "convocados": 22,
       "aceitou": 7,
       "contratados": 6,
       "vagas_abertas": 3
