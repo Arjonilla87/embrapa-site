@@ -227,7 +227,7 @@
       "opcao": "40001064",
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 2
@@ -377,10 +377,10 @@
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 23,
-      "aceitou": 7,
+      "convocados": 24,
+      "aceitou": 8,
       "contratados": 6,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "6-10",
