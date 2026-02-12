@@ -4,67 +4,165 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 ,40000007,Assistente,Manejo Animal,MARCELO DE SOUZA RUAS,CPACT - Clima Temp
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
 2025-12-18,40000007,Assistente,Manejo Animal,VICTOR GABRIEL COSTA CARVALHO,CPPSE - Pec Sudeste
+2025-12-18,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,LUCIANO JORGE SEREJO DOS ANJOS,CPAF/AP - Amapá
 2025-12-23,40002198,Analista,Ciência de Dados,MARCOS VINICIUS DE SOUSA FARIAS,CPACT - Clima Temp
 2026-01-06,40002503,Pesquisador,Sanidade e Defesa Animal,ALINE ALBERTI MORGADO,CNPC - Caprinos
+2026-01-07,40002503,Pesquisador,Sanidade e Defesa Animal,WALDEMIR SANTIAGO NETO,CNPGC - Gado Corte
 2026-01-09,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",WILLIAM MEDINA,CNPSA - Suinos e Aves
 2026-01-12,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",JAQUELINE AGNES PILATTI,CPPSUL - Pec Sul
 2026-01-13,40002688,Analista,Ciência do Solo,EMANOEL LIMA MARTINS,CNPAT - Agro Tropical
+2026-01-13,40002688,Analista,Ciência do Solo,JOÃO PEDRO PACHECO,CPAC - Cerrados
+2026-01-13,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",KARL FRANKLIN DE OLIVEIRA COSTA,CNAT - Alimentos
 2026-01-14,40002553,Analista,Transferência de Tecnologia,ALYSSON ROBERTO DE ALMEIDA,CPAF/RO - Rondônia
+2026-01-14,40002688,Analista,Ciência do Solo,JOÃO CLAUDIO BUENO COSTA,CPAA - Amaz. Ocidental
 2026-01-14,40000007,Assistente,Manejo Animal,PAULO ROBERTO DA SILVA ARAUJO,CPATU - Amaz. Oriental
+2026-01-15,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",JHONNY DOS SANTOS RAMOS,CPATU - Amaz. Oriental
 2026-01-15,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,MARCELO NASCIMENTO MOUTINHO,CNPF - Florestas
 2026-01-15,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ROBERSON SANTOS MARCELO,CNPM - Territorial
 2026-01-15,40002198,Analista,Ciência de Dados,TACIO CAVALCANTE XAVIER,CPAO - Agro Oeste
 2026-01-15,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",THYAGO JOSE ARRUDA PACHECO,CPAA - Amaz. Ocidental
 2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
+2026-01-15,40000127,Tecnico,Suporte à Gestão,ÁTILA DE SOUSA ALVES,CNPAT - Agro Tropical
 2026-01-16,40002688,Analista,Ciência do Solo,ANA PAULA CARRARA VINHA,CPAF/RO - Rondônia
+2026-01-16,40002688,Analista,Ciência do Solo,JORGE XAVIER DA SILVA,CPAF/AP - Amapá
 2026-01-16,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",MIQUEIAS GOMES DOS SANTOS,CPAA - Amaz. Ocidental
+2026-01-16,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,PEDRO DE CASTRO SILVA,CPATSA - Semiárido
 2026-01-16,40001814,Tecnico,Segurança e Saúde do Trabalho,CESAR FAYER DE CAMPOS,CNPGC - Gado Corte
+2026-01-16,40000002,Tecnico,Manejo Animal,JOÃO GABRIEL MELO RODRIGUES,CPATSA - Semiárido
+2026-01-19,40000007,Assistente,Manejo Animal,ANDREZA ARAÚJO DE SOUSA,CPATU - Amaz. Oriental
 2026-01-19,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,FILIPE GUSTAVO BRITO SANTOS,CNPMS - Milho e Sorgo
+2026-01-19,40001814,Tecnico,Segurança e Saúde do Trabalho,FREDERICO GONCALVES CHAVES NEVES,CPAP - Pantanal
 2026-01-19,40000127,Tecnico,Suporte à Gestão,RAQUEL EDUARDA CANDIDA DA SILVA NASCIMENTO,CNAT - Alimentos
+2026-01-20,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,MAURO FRANKLIN DE OLIVEIRA TAVARES,CPAMN - Meio Norte
+2026-01-20,40000188,Tecnico,Laboratório,KATIELEN MOTA DA SILVA,CPACT - Clima Temp
+2026-01-21,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",PAULO RENATO DE OLIVEIRA FAGUNDES,CNPMF - Mandioca
 2026-01-21,40000007,Assistente,Manejo Animal,ARTHUR SILVEIRA AZEVEDO,CNPGC - Gado Corte
 2026-01-21,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,SAMUEL OLIVEIRA MATEUS,CNPT - Trigo
 2026-01-21,40000632,Pesquisador,Fitotecnia,ERICA DE OLIVEIRA ARAUJO,CPAF/RO - Rondônia
 2026-01-21,40000632,Pesquisador,Fitotecnia,PATRICIA RESPLANDES ROCHA DOS SANTOS,CNPASA - Pesca
 2026-01-21,40000188,Tecnico,Laboratório,CELESTE DE JESUS PEREIRA FRANCO,CPATU - Amaz. Oriental
+2026-01-21,40000002,Tecnico,Manejo Animal,VALDEIR AGUILERA NOGUEIRA DA SILVA,CPAP - Pantanal
 2026-01-22,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,GABRIEL OYA NOZAWA,CPPSUL - Pec Sul
+2026-01-22,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,CHARLES ALVES CALIXTO MONTENEGRO,CNPMS - Milho e Sorgo
 2026-01-22,40000632,Pesquisador,Fitotecnia,JULIO TAGLIARI BALESTRIN,CPATU - Amaz. Oriental
 2026-01-22,40001479,Pesquisador,Matologia,LUAN MATEUS SILVA DONATO,CPAMN - Meio Norte
+2026-01-22,40001479,Pesquisador,Matologia,RAFAEL ROMERO MENDES,CNPSO - Soja
+2026-01-23,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,CLARA CHAVES MARQUES FARIA,CNPS - Solos
+2026-01-23,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",GRACY KELLY DE SANTANA RODRIGUES,CNAT - Alimentos
+2026-01-23,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,MILTON RODRIGUES BAHIA,CPAC - Cerrados
 2026-01-23,40001479,Pesquisador,Matologia,ADEMILSON DE OLIVEIRA ALECRIM,CNPAF - Arroz e Feijão
+2026-01-23,40001321,Pesquisador,Agentes Biológicos de Controle,AMANDA DO CARMO ALVES,CNPMS - Milho e Sorgo
+2026-01-23,40000735,Pesquisador,Pedologia,EDUARDO CARVALHO DA SILVA NETO,CNPS - Solos
+2026-01-23,40000709,Pesquisador,Sistemas de Produção de Culturas Anuais,GILMA ALVES DA SILVA,CPAF/RO - Rondônia
 2026-01-23,40000709,Pesquisador,Sistemas de Produção de Culturas Anuais,HELCIO DUARTE PEREIRA,CNPMS - Milho e Sorgo
 2026-01-23,40000709,Pesquisador,Sistemas de Produção de Culturas Anuais,JUARA RODRIGUES CARDOSO SANTOS,CPAC - Cerrados
+2026-01-23,40000709,Pesquisador,Sistemas de Produção de Culturas Anuais,LAERCIO AUGUSTO PIVETTA,CPAO - Agro Oeste
+2026-01-23,40000002,Tecnico,Manejo Animal,CLARA PEREIRA SCHAIDT,CENARGEN
+2026-01-23,40000002,Tecnico,Manejo Animal,NATHALIA JULIA MARAFON GRUHLKE,CNPSA - Suinos e Aves
+2026-01-23,40001814,Tecnico,Segurança e Saúde do Trabalho,NELSON MATOS DE JESUS JÚNIOR,CNPASA - Pesca
+2026-01-23,40000127,Tecnico,Suporte à Gestão,RODRIGO MARTINS CANUTO ROCHA,
+2026-01-23,40000127,Tecnico,Suporte à Gestão,SUZANNE ALMEIDA SILVA,CPATSA - Semiárido
 2026-01-26,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,ISRAEL GUSTAVO DE OLIVEIRA ASSIS,CPAF/AC - Acre
+2026-01-26,40001479,Pesquisador,Matologia,DAVI ROSA MOREIRA DE FREITAS,CPAO - Agro Oeste
+2026-01-26,40000632,Pesquisador,Fitotecnia,LAURO STRAPASSON NETO,CPACP - Maranhão
+2026-01-26,40000632,Pesquisador,Fitotecnia,LUCIANA DE ARRUDA GARCIA,CPATU - Amaz. Oriental
+2026-01-26,40001814,Tecnico,Segurança e Saúde do Trabalho,JOANA GONÇALVES OLIVEIRA DA SILVA,CPACT - Clima Temp
+2026-01-26,40000127,Tecnico,Suporte à Gestão,LUIZ ANDRE ROCHA BASTOS,CTAA - Agro Alimentos
+2026-01-26,40000002,Tecnico,Manejo Animal,MATHEUS MENDES BELO,CNPMS - Milho e Sorgo
+2026-01-26,40000188,Tecnico,Laboratório,MATHEUS MIRANDA FRACETTI,CNPGL - Gado Leite
 2026-01-26,40000188,Tecnico,Laboratório,RAMON BRITO DA CRUZ,CPATU - Amaz. Oriental
+2026-01-26,40001814,Tecnico,Segurança e Saúde do Trabalho,SAMUEL FERNANDES CARNEIRO VELOSO BARBOSA,CPAF/RR - Roraima
+2026-01-27,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JESSICA ALEXIA BURKE TINOCO,CTAA - Agro Alimentos
+2026-01-27,40000932,Analista,Sistema de Produção Vegetal,LAERTE GUSTAVO PIVETTA,CNPSO - Soja
 2026-01-27,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,JOAO FILOMENO DA SILVA CANHADA,CNPSO - Soja
+2026-01-27,40002101,Pesquisador,Fertilidade e Química do Solo,EDINEI JOSE ARMANI BORGHI,CPATU - Amaz. Oriental
+2026-01-27,40000709,Pesquisador,Sistemas de Produção de Culturas Anuais,JEFERSON GIEHL,CPAF/AC - Acre
 2026-01-27,40002101,Pesquisador,Fertilidade e Química do Solo,THIAGO COSTA VIANA,CPAF/AC - Acre
 2026-01-28,40000007,Assistente,Manejo Animal,GUILHERME SANTOS LAGO,CNPGC - Gado Corte
+2026-01-28,40000002,Tecnico,Manejo Animal,AMANDA REGES GUEDES,CPACP - Maranhão
+2026-01-28,40000188,Tecnico,Laboratório,CAMILA FERNANDES MORO,CNPSO - Soja
+2026-01-28,40000002,Tecnico,Manejo Animal,ISAIAS SILVA CHIANCA,
 2026-01-29,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",IGOR CAVALCANTE FLORENTINO LOPES,CPAF/AC - Acre
+2026-01-29,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",JULIO CESAR KLIPEL SILVA,CPACP - Maranhão
 2026-01-29,40000268,Pesquisador,Melhoramento Genético Animal,DIANA CARLA FERNANDES OLIVEIRA,CNPC - Caprinos
+2026-01-29,40000268,Pesquisador,Melhoramento Genético Animal,LUDMILLA COSTA BRUNES,CNPC - Caprinos
+2026-01-29,40002101,Pesquisador,Fertilidade e Química do Solo,MARCOS RODRIGUES,CNPASA - Pesca
+2026-01-29,40000127,Tecnico,Suporte à Gestão,ANDERSON DA SILVA BORGES,CNPAB - Agrobiologia
+2026-01-29,40000188,Tecnico,Laboratório,CAROLINE PAES DOS SANTOS,CNPGC - Gado Corte
+2026-01-30,40000268,Pesquisador,Melhoramento Genético Animal,JULIANA PETRINI,CNPGL - Gado Leite
 2026-01-30,40000268,Pesquisador,Melhoramento Genético Animal,TIAGO DO PRADO PAIM,CNPASA - Pesca
+2026-01-30,40000268,Pesquisador,Melhoramento Genético Animal,VALDECY APARECIDA ROCHA DA CRUZ,CPPSUL - Pec Sul
+2026-01-30,40000127,Tecnico,Suporte à Gestão,LETICIA MATTIELLO MUCCI,CNPAE - Agroenergia
+2026-01-31,40000268,Pesquisador,Melhoramento Genético Animal,FABIELI LOISE BRAGA FEITOSA,CPAMN - Meio Norte
+2026-02-02,40001064,Analista,Ciência de Alimentos,LUIZ FELIPE ARJONILLA DE MATTOS,CTAA - Agro Alimentos
+2026-02-02,40000007,Assistente,Manejo Animal,GILBERTO LUIZ BARBOSA MADEIRO,CPAP - Pantanal
+2026-02-02,40002101,Pesquisador,Fertilidade e Química do Solo,RUAN FRANCISCO FIRMANO,CPAO - Agro Oeste
+2026-02-02,40000127,Tecnico,Suporte à Gestão,GEOVANE LIMA DE PAULO,CPAC - Cerrados
+2026-02-03,40001348,Analista,Inovação Social,ARTHUR MARTINELLI IANASE,CNPGL - Gado Leite
 2026-02-03,40002139,Analista,Biologia Avançada e Bioinformática,BRUNO COSTA EVANGELISTA DE SOUZA,CNPAT - Agro Tropical
 2026-02-03,40000932,Analista,Sistema de Produção Vegetal,FERNANDA CAMILO DA CRUZ,CNPUV - Uva
 2026-02-03,40000932,Analista,Sistema de Produção Vegetal,GUILHERME JOSÉ DE CASTRO,CNPH - Hortaliças
+2026-02-03,40000210,Analista,Apoio a Campo Experimental,MARIANE CAMYLA ALMEIDA,CNPSO - Soja
+2026-02-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MISAEL BATISTA FARIAS ARAUJO,CPACP - Maranhão
+2026-02-03,40002139,Analista,Biologia Avançada e Bioinformática,RAFAEL RODRIGUES FERRARI,CNPMS - Milho e Sorgo
+2026-02-03,40000932,Analista,Sistema de Produção Vegetal,RAFAEL TEIXEIRA DE ALMEIDA,CNPMS - Milho e Sorgo
+2026-02-03,40000383,Analista,Governança e Estratégia,RENATA ALECRIM DE AMORIM VIANA,CPATSA - Semiárido
 2026-02-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",WELTON CLEBER RIBEIRO,CNPF - Florestas
 2026-02-03,40001348,Analista,Inovação Social,YURI ALEXANDRINO BANDEIRA,CPATU - Amaz. Oriental
+2026-02-03,40000188,Tecnico,Laboratório,WILLIAM FABRICIO LIMA CABRAL,CPATC - Tabuleiros
 2026-02-04,40000210,Analista,Apoio a Campo Experimental,DANILO MACIEL DE OLIVEIRA,CNPAE - Agroenergia
+2026-02-04,40000932,Analista,Sistema de Produção Vegetal,DJULIA TAIS BROCH,CNPAF - Arroz e Feijão
 2026-02-04,40000383,Analista,Governança e Estratégia,JADSON FARIAS DOS SANTOS,CPAF/RO - Rondônia
 2026-02-04,40001064,Analista,Ciência de Alimentos,LETICIA ASCENDINO SILVA,CNPAT - Agro Tropical
+2026-02-04,40002139,Analista,Biologia Avançada e Bioinformática,LUIZA CESCA PIVA,CNPAE - Agroenergia
 2026-02-04,40002139,Analista,Biologia Avançada e Bioinformática,OTAVIO HENRIQUE BEZERRA PINTO,CENARGEN
+2026-02-04,40000932,Analista,Sistema de Produção Vegetal,VANESSA DUARTE DIAS,CNPAF - Arroz e Feijão
 2026-02-04,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",WILLIAM DOS SANTOS LIMA,CNPSO - Soja
 2026-02-04,40000007,Assistente,Manejo Animal,TELMA CARVALHO DOURADO,CPATU - Amaz. Oriental
+2026-02-04,40000127,Tecnico,Suporte à Gestão,IAGO COSTA DE SA MEDINA,CPAP - Pantanal
+2026-02-05,40000932,Analista,Sistema de Produção Vegetal,ALICE TEODORIO LIXA,CPAMN - Meio Norte
+2026-02-05,40000210,Analista,Apoio a Campo Experimental,CLEITON BARROSO BITTENCOURT,CNPAT - Agro Tropical
 2026-02-05,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JULIENE DE SOUZA MARINHO NASCIMENTO,CPAA - Amaz. Ocidental
+2026-02-05,40000932,Analista,Sistema de Produção Vegetal,MANOEL AFONSO ASSUNCAO SERRA,CNPAF - Arroz e Feijão
+2026-02-05,40002139,Analista,Biologia Avançada e Bioinformática,PEDRO MARIANO MARTINS,CPAMN - Meio Norte
 2026-02-05,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,DANIEL TEIXEIRA MARTINS JUNIOR,CNPSO - Soja
+2026-02-06,40002139,Analista,Biologia Avançada e Bioinformática,ALINE BELMOK DE ARAUJO DIAS,CPAF/AC - Acre
+2026-02-06,40001348,Analista,Inovação Social,EDUARDO SANCHES TAFFAREL,CPACT - Clima Temp
 2026-02-06,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",GIL DUQUE ESTRADA DE BARROS,CNPAB - Agrobiologia
+2026-02-06,40001028,Analista,Insumos Biológicos,LAURA ROCHA DE OLIVEIRA,CNPMA - Meio Ambiente
 2026-02-06,40000383,Analista,Governança e Estratégia,LUIZ EDUARDO SOUZA COELHO PEREIRA,CNPC - Caprinos
+2026-02-06,40000210,Analista,Apoio a Campo Experimental,MATEUS SCHWANZ KUHN,CNPH - Hortaliças
+2026-02-06,40000497,Analista,Gestão da Propriedade Intelectual para a Inovação,MATHEUS LIDUINO MOREIRA,CNPMS - Milho e Sorgo
+2026-02-06,40000383,Analista,Governança e Estratégia,RHANDERSON LUIZ SOARES GOMES,CNPAB - Agrobiologia
+2026-02-06,40000632,Pesquisador,Fitotecnia,OSVALDO JOSE FERREIRA JUNIOR,CNPSO - Soja
+2026-02-09,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,CLARA DOS SANTOS BARROS,CNPA - Algodão
 2026-02-09,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",DANIEL DE SOUZA BARROS,CNPAB - Agrobiologia
 2026-02-09,40000497,Analista,Gestão da Propriedade Intelectual para a Inovação,ELAINE CAVALCANTE DA SILVA,CPATU - Amaz. Oriental
+2026-02-09,40001064,Analista,Ciência de Alimentos,GABRIEL CICALESE BEVILAQUA,CPACP - Maranhão
+2026-02-09,40000210,Analista,Apoio a Campo Experimental,GABRIEL LUIZ PADOAN GONÇALVES,CPAMT - Agrossilvipastoril
 2026-02-09,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,LEANDRO MORGADO PINTO CORREA,CNPA - Algodão
 2026-02-09,40001028,Analista,Insumos Biológicos,LUCIANA SAMPAIO LIMA,CPACP - Maranhão
 2026-02-09,40000210,Analista,Apoio a Campo Experimental,RODRIGO SOUZA E SOUZA,CPACP - Maranhão
+2026-02-09,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,THALES DANTAS DO NASCIMENTO,CNPAT - Agro Tropical
 2026-02-09,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,JONATHAN JUNIO ALMEIDA SOUZA,CNPDIA - Instrumentação
 2026-02-09,40000188,Tecnico,Laboratório,ELAINE CAMARAO DE SOUSA,CPATU - Amaz. Oriental
+2026-02-09,40000002,Tecnico,Manejo Animal,RENATO PERIARD ALVES,CNPSA - Suinos e Aves
 2026-02-10,40001348,Analista,Inovação Social,ANNA PAULA TELES ARRABAL,CPACP - Maranhão
+2026-02-10,40000383,Analista,Governança e Estratégia,FLAVIO RENATO SILVA SENA,CPACP - Maranhão
+2026-02-10,40001028,Analista,Insumos Biológicos,THIAGO LOURO FERNANDES,CNPSO - Soja
+2026-02-10,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,EVANDRO DE SOUZA FRANCO,CPPSE - Pec Sudeste
 2026-02-11,40001028,Analista,Insumos Biológicos,ALINE CRISTINA WORNATH,CNPAB - Agrobiologia
+2026-02-11,40000648,Analista,Comunicação,GUSTAVO MENEGALDO TURATTI,CNPH - Hortaliças
 2026-02-11,40000648,Analista,Comunicação,RODRIGO FELIPE FARIA FERREIRA,CNPT - Trigo
 2026-02-11,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,SIMARA SA COSTA,CNPA - Algodão
+2026-02-11,40000497,Analista,Gestão da Propriedade Intelectual para a Inovação,YASMIN ETIENNE ALBUQUERQUE,CPACT - Clima Temp
 2026-02-11,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,ARTHUR VIEIRA DE LIMA,CPPSE - Pec Sudeste
 2026-02-11,40000188,Tecnico,Laboratório,CAROLLINE RODRIGUES MOTA BORGES,CPATSA - Semiárido
+2026-02-11,40000002,Tecnico,Manejo Animal,GILBERTO BATISTA VIANA FILHO,CPATU - Amaz. Oriental
+2026-02-11,40000127,Tecnico,Suporte à Gestão,LUCAS GABRIEL DA SILVA,CNPH - Hortaliças
+2026-02-12,40000408,Analista,Orçamento e Finanças,ANNA BEATRIZ SOBRAL PINTO,CNPDIA - Instrumentação
+2026-02-12,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,JOSE DA CONCEICAO FERREIRA NETO,CNPASA - Pesca
+2026-02-12,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
+2026-02-12,40000007,Assistente,Manejo Animal,IVANILDO FONTENELE DOS SANTOS,CPATSA - Semiárido
+2026-02-12,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
+2026-02-12,40000084,Tecnico,Manejo Vegetal,GUIDO BRANDÃO PIANTA,CNPGL - Gado Leite
