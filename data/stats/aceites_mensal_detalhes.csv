@@ -1,8 +1,14 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
+,40000408,Analista,Orçamento e Finanças,ANNA BEATRIZ SOBRAL PINTO,CNPDIA - Instrumentação
 ,40002198,Analista,Ciência de Dados,EDILVANDO PEREIRA EUFRAZIO,CPAMT - Agrossilvipastoril
 ,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,GIOVANI GHENO BOMBARDIERI,CPACT - Clima Temp
+,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,JOSE DA CONCEICAO FERREIRA NETO,CNPASA - Pesca
+,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
+,40000007,Assistente,Manejo Animal,IVANILDO FONTENELE DOS SANTOS,CPATSA - Semiárido
+,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
 ,40000007,Assistente,Manejo Animal,MARCELO DE SOUZA RUAS,CPACT - Clima Temp
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
+,40000084,Técnico,Manejo Vegetal,GUIDO BRANDÃO PIANTA,CNPGL - Gado Leite
 2025-12-18,40000007,Assistente,Manejo Animal,VICTOR GABRIEL COSTA CARVALHO,CPPSE - Pec Sudeste
 2025-12-18,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,LUCIANO JORGE SEREJO DOS ANJOS,CPAF/AP - Amapá
 2025-12-23,40002198,Analista,Ciência de Dados,MARCOS VINICIUS DE SOUSA FARIAS,CPACT - Clima Temp
@@ -160,9 +166,3 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-02-11,40000188,Tecnico,Laboratório,CAROLLINE RODRIGUES MOTA BORGES,CPATSA - Semiárido
 2026-02-11,40000002,Tecnico,Manejo Animal,GILBERTO BATISTA VIANA FILHO,CPATU - Amaz. Oriental
 2026-02-11,40000127,Tecnico,Suporte à Gestão,LUCAS GABRIEL DA SILVA,CNPH - Hortaliças
-2026-02-12,40000408,Analista,Orçamento e Finanças,ANNA BEATRIZ SOBRAL PINTO,CNPDIA - Instrumentação
-2026-02-12,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,JOSE DA CONCEICAO FERREIRA NETO,CNPASA - Pesca
-2026-02-12,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
-2026-02-12,40000007,Assistente,Manejo Animal,IVANILDO FONTENELE DOS SANTOS,CPATSA - Semiárido
-2026-02-12,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
-2026-02-12,40000084,Tecnico,Manejo Vegetal,GUIDO BRANDÃO PIANTA,CNPGL - Gado Leite
