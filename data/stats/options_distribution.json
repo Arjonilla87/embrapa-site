@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 15
     },
     {
       "range": "6-10",
-      "count": 15
+      "count": 14
     },
     {
       "range": "11-15",
@@ -83,14 +83,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000176",
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 6,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 0,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": ">20",
@@ -344,6 +344,16 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40002139",
+      "cargo": "Analista",
+      "subarea": "Biologia Avançada e Bioinformática",
+      "convocados": 6,
+      "aceitou": 5,
+      "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40002144",
       "cargo": "Analista",
       "subarea": "Gestão de Projetos",
@@ -358,9 +368,9 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 21,
-      "aceitou": 11,
+      "aceitou": 10,
       "contratados": 6,
-      "vagas_abertas": 38
+      "vagas_abertas": 39
     },
     {
       "bucket": "1-5",
