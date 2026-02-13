@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -38,9 +38,9 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 37,
-      "aceitou": 11,
+      "aceitou": 12,
       "contratados": 18,
-      "vagas_abertas": 8
+      "vagas_abertas": 7
     },
     {
       "bucket": "11-15",
@@ -131,16 +131,6 @@
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 5
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000497",
-      "cargo": "Analista",
-      "subarea": "Gestão da Propriedade Intelectual para a Inovação",
-      "convocados": 5,
-      "aceitou": 3,
-      "contratados": 1,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
