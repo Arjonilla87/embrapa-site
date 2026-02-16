@@ -338,43 +338,12 @@
             }
         }
 
-        /* 📱 Mobile em landscape — abraça a tabela como no desktop */
-        @media (max-width: 1023px) and (orientation: landscape) {
-
-            .details-overlay {
-                align-items: flex-start;   /* evita modal centralizado demais */
-                padding: 8px;
-            }
-
-            .details-modal {
-                width: max-content;        /* abraça a tabela */
-                max-width: 90vw;           /* nunca estoura a tela */
-                max-height: 90vh;          /* 🔑 segurança vertical */
-                overflow-y: auto;
-                padding: 16px;
-            }
-
-            .search-table-wrapper {
-                max-height: none;          /* deixa o modal controlar a altura */
-              /*overflow-x: visible;        sem scroll horizontal */
-            }
-
-            table.search-table {
-                width: max-content;
-                table-layout: auto;
-            }
-
-        /*  table.search-table th,
-            table.search-table td {
-                white-space: nowrap;       /* evita quebra forçada */
-            }                           */
-
-            /* 💡 Esconde aviso de rotação em landscape */
+        /* 📱 Garante que some em landscape */
+        @media (orientation: landscape) {
             .rotate-hint {
                 display: none;
             }
         }
-
 
         @media (max-width: 768px) {
             .search-box input,
