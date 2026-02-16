@@ -260,7 +260,7 @@ function renderizarBusca(resultados) {
     if (resultados.length === 0) {
         searchTableBody.innerHTML = `
             <tr>
-                <td colspan="8">Nenhum resultado encontrado</td>
+                <td colspan="7">Nenhum resultado encontrado</td>
             </tr>
         `;
         return;
@@ -273,7 +273,6 @@ function renderizarBusca(resultados) {
             <td>${item["DATA / HORA"] || ""}</td>
             <td>${item["OPÇÃO"] || ""}</td>
             <td>${item["CARGO"] || ""}</td>
-            <td>${item["SUBÁREA"] || ""}</td>
             <td>${item["NOME"] || ""}</td>
             <td>${item["STATUS"] || ""}</td>
             <td>${item["EVENTO"] || ""}</td>
@@ -283,7 +282,6 @@ function renderizarBusca(resultados) {
         searchTableBody.appendChild(tr);
     });
 }
-
 
 // ======================================================
 // 8. INICIALIZAÇÃO
