@@ -298,14 +298,61 @@
             top: 0;
         }
 
+        .rotate-hint {
+            display: none;
+            font-size: 13px;
+            color: #666;
+            text-align: center;
+            margin: 8px 0 10px 0;
+            gap: 6px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rotate-arrow {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        @media (min-width: 1024px) {
+            .details-modal {
+                width: max-content;     /* 🔥 abraça a tabela */
+                max-width: 90vw;
+            }
+
+            table.search-table {
+                width: max-content;
+                table-layout: auto;
+            }
+
+        }
+
         /* =========================
            MOBILE ONLY (cards)
            ========================= */
-    
+
+        /* 📱 Mostra SOMENTE em portrait */
+        @media (orientation: portrait) {
+            .rotate-hint {
+                display: flex;
+            }
+        }
+
+        /* 📱 Garante que some em landscape */
+        @media (orientation: landscape) {
+            .rotate-hint {
+                display: none;
+            }
+        }
+
         @media (max-width: 768px) {
             .search-box input,
             .details-modal input {
                 font-size: 16px;
+            }
+
+            .rotate-hint {
+                display: flex;
             }
 
             .top-bar {
@@ -607,13 +654,18 @@
                     <input
                         type="text"
                         id="search-input-modal"
-                        placeholder="🔍 Buscar nome"
+                        placeholder="🔍 Buscar Opção ou Nome"
                         autocomplete="off"
                     />
                     <button id="search-btn-modal" class="button" type="button">
                         Buscar
                     </button>
 
+                </div>
+
+                <div class="rotate-hint">
+                    <span class="rotate-arrow">⤵︎</span>
+                    <span class="rotate-text">para melhor visualização, vire o celular</span>
                 </div>
 
                 <!-- Tabela de detalhes -->
