@@ -92,6 +92,19 @@
   },
   {
     "DATA / HORA": "12/02/2026 - 20:20:47",
+    "COLOCAÇÃO": "5º AC",
+    "NOME": "BRUENNA LOPES VASCONCELOS",
+    "OPÇÃO": "40000383",
+    "CARGO": "Analista",
+    "SUBÁREA": "Governança e Estratégia",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAF/AC - Acre",
+    "LOTAÇÃO": "Rio Branco",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "12/02/2026 - 20:20:47",
     "COLOCAÇÃO": "4º AC",
     "NOME": "BRUNO BENEVIT",
     "OPÇÃO": "40001348",
@@ -102,6 +115,45 @@
     "LOTAÇÃO": "Francisco Beltrão",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "12/02/2026 - 20:20:47",
+    "COLOCAÇÃO": "5º AC",
+    "NOME": "JOAO ROGERIO BORGES DE AMORIM RODRIGUES",
+    "OPÇÃO": "40001064",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciência de Alimentos",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CTAA - Agro Alimentos",
+    "LOTAÇÃO": "Rio de Janeiro",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou |  → CTAA - Agro Alimentos |  → Rio de Janeiro"
+  },
+  {
+    "DATA / HORA": "12/02/2026 - 20:20:47",
+    "COLOCAÇÃO": "18º AC",
+    "NOME": "MANOEL VITOR MACEDO FRANÇA",
+    "OPÇÃO": "40002278",
+    "CARGO": "Analista",
+    "SUBÁREA": "Engenharia de Infraestrutura e Tecnologia da Informação",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMS - Milho e Sorgo",
+    "LOTAÇÃO": "Sete Lagoas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "12/02/2026 - 20:20:47",
+    "COLOCAÇÃO": "3º AC",
+    "NOME": "RAFAEL GONÇALEZ CARNEIRO",
+    "OPÇÃO": "40000648",
+    "CARGO": "Analista",
+    "SUBÁREA": "Comunicação",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPC - Caprinos",
+    "LOTAÇÃO": "Sobral",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou |  → CNPC - Caprinos |  → Sobral"
   },
   {
     "DATA / HORA": "12/02/2026 - 19:22:42",
@@ -323,6 +375,45 @@
     "LOTAÇÃO": "",
     "EVENTO": "NOVO",
     "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "11/02/2026 - 20:23:46",
+    "COLOCAÇÃO": "2º AC",
+    "NOME": "GUSTAVO MENEGALDO TURATTI",
+    "OPÇÃO": "40000648",
+    "CARGO": "Analista",
+    "SUBÁREA": "Comunicação",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPH - Hortaliças",
+    "LOTAÇÃO": "Brasília",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "11/02/2026 - 20:23:46",
+    "COLOCAÇÃO": "1º PPP",
+    "NOME": "RODRIGO FELIPE FARIA FERREIRA",
+    "OPÇÃO": "40000648",
+    "CARGO": "Analista",
+    "SUBÁREA": "Comunicação",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPT - Trigo",
+    "LOTAÇÃO": "Passo Fundo",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou |  → CNPT - Trigo |  → Passo Fundo"
+  },
+  {
+    "DATA / HORA": "11/02/2026 - 20:23:46",
+    "COLOCAÇÃO": "1º AC",
+    "NOME": "ANDREIA FERREIRA MACHADO",
+    "OPÇÃO": "40001484",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Nutrição de Ruminantes",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPAMN - Meio Norte",
+    "LOTAÇÃO": "Teresina",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Contratado → Desistente | CNPGL - Gado Leite → CPAMN - Meio Norte | Coronel Pacheco → Teresina"
   },
   {
     "DATA / HORA": "11/02/2026 - 19:21:23",
