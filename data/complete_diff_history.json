@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "16/02/2026 - 11:43:53",
+    "COLOCAÇÃO": "5º AC",
+    "NOME": "FERNANDA PRIETO BRUCKNER",
+    "OPÇÃO": "40001028",
+    "CARGO": "Analista",
+    "SUBÁREA": "Insumos Biológicos",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "16/02/2026 - 11:43:53",
+    "COLOCAÇÃO": "19º AC",
+    "NOME": "VALFRIDO DA PONTE PRADO JUNIOR",
+    "OPÇÃO": "40002278",
+    "CARGO": "Analista",
+    "SUBÁREA": "Engenharia de Infraestrutura e Tecnologia da Informação",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNAT - Alimentos",
+    "LOTAÇÃO": "Maceió",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CNAT - Alimentos; LOTAÇÃO:  → Maceió"
+  },
+  {
     "DATA / HORA": "13/02/2026 - 15:34:20",
     "COLOCAÇÃO": "5º AC",
     "NOME": "GABRIEL FUSCO",
