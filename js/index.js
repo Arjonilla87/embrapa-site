@@ -406,30 +406,23 @@ searchBtnModal.addEventListener("click", () => {
     renderizarBusca(resultados);
 });
 
-
 // ----------------------------------------
-// Modal (abrir / fechar)
+// Modal (abrir / fechar) — versão correta
 // ----------------------------------------
 
 function openDetails() {
-    const buscador = document.getElementById("buscador");
-    const overlay  = document.getElementById("details-overlay");
-
-    if (buscador) buscador.style.display = "block";
-    if (overlay)  overlay.style.display = "flex";
+    const overlay = document.getElementById("details-overlay");
+    if (overlay) overlay.classList.add("active");
 }
 
 function closeDetails(event) {
-    const overlay  = document.getElementById("details-overlay");
-    const buscador = document.getElementById("buscador");
+    const overlay = document.getElementById("details-overlay");
+    if (!overlay) return;
 
-    // Fecha apenas se:
-    // - clicou no X
-    // - clicou fora do modal (overlay)
+    // fecha apenas se clicou no overlay ou no X
     if (event && event.target !== overlay) return;
 
-    if (overlay)  overlay.style.display = "none";
-    if (buscador) buscador.style.display = "none";
+    overlay.classList.remove("active");
 }
 
 function bindEnterToButton(inputEl, buttonEl) {
