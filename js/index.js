@@ -1,6 +1,50 @@
-// ----------------------------------------
-// Utilidades
-// ----------------------------------------
+// ======================================================
+// 1. REFERÊNCIAS AO DOM
+// ======================================================
+
+const searchInputMain  = document.getElementById("search-input-main");
+const searchBtnMain    = document.getElementById("search-btn-main");
+
+const searchInputModal = document.getElementById("search-input-modal");
+const searchBtnModal   = document.getElementById("search-btn-modal");
+
+const overlay         = document.getElementById("details-overlay");
+const searchTableBody = document.getElementById("searchTableBody");
+
+
+// ======================================================
+// 2. ESTADO GLOBAL
+// ======================================================
+
+let completeHistory = [];
+let loadedBlocks    = [];
+
+
+// ======================================================
+// 3. CONFIGURAÇÃO ESTÁTICA
+// ======================================================
+
+const VISIBLE_COLUMNS = [
+    "DATA / HORA",
+    "OPÇÃO",
+    "CARGO",
+    "SUBÁREA",
+    "LOTAÇÃO",
+    "NOME",
+    "COLOCAÇÃO",
+    "STATUS"
+];
+
+const HIDDEN_COLUMNS = [
+    "UNIDADE",
+    "EVENTO",
+    "ALTERACOES"
+];
+
+
+// ======================================================
+// 4. UTILIDADES (HELPERS)
+// ======================================================
 
 function cacheBust(url) {
     return `${url}?v=${Date.now()}`;
@@ -24,6 +68,32 @@ function loadCSV(url) {
     });
 }
 
+function normalizarTexto(texto) {
+    return texto
+        .toString()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
+}
+
+function isNumeric(value) {
+    return /^[0-9]+$/.test(value.trim());
+}
+
+// ======================================================
+// 5. CARREGAMENTO DE DADOS GLOBAIS
+// ======================================================
+
+loadJSON("data/complete_diff_history.json")
+    .then(data => {
+        completeHistory = data;
+    })
+    .catch(err => {
+        console.error("Erro ao carregar complete_diff_history.json", err);
+    });
+
+
 // 🔹 Lê LAST_UPDATE do arquivo GLOBAL
 async function updateLastUpdate() {
     try {
@@ -41,33 +111,31 @@ async function updateLastUpdate() {
     }
 }
 
-// ----------------------------------------
-// Configuração
-// ----------------------------------------
 
-const VISIBLE_COLUMNS = [
-    "DATA / HORA",
-    "OPÇÃO",
-    "CARGO",
-    "SUBÁREA",
-    "LOTAÇÃO",        //<--------------
-    "NOME",
-    "COLOCAÇÃO",
-    "STATUS"
-];
+// ======================================================
+// 6. LÓGICA DE NEGÓCIO (BUSCA / FILTROS)
+// ======================================================
 
-const HIDDEN_COLUMNS = [
-    "UNIDADE",
-    
-    "EVENTO",
-    "ALTERACOES"
-];
+function buscar(term) {
+    const termoBruto = term.trim();
+    if (!termoBruto) return [];
 
-let loadedBlocks = [];
+    // 🔢 Busca por OPÇÃO
+    if (isNumeric(termoBruto)) {
+        return completeHistory.filter(item => {
+            const opcao = (item["OPÇÃO"] || "").toString().trim();
+            return opcao.includes(termoBruto);
+        });
+    }
 
-// ----------------------------------------
-// Lógica de filtro (STATUS + EVENTO)
-// ----------------------------------------
+    // 🔤 Busca por NOME
+    const termoNormalizado = normalizarTexto(termoBruto);
+
+    return completeHistory.filter(item => {
+        const nome = item["NOME"] || "";
+        return normalizarTexto(nome).includes(termoNormalizado);
+    });
+}
 
 function matchesStatusFilter(row, filter) {
     const status = (row.STATUS || "").trim();
@@ -86,9 +154,10 @@ function matchesStatusFilter(row, filter) {
     return status === filter;
 }
 
-// ----------------------------------------
-// Renderização
-// ----------------------------------------
+
+// ======================================================
+// 7. RENDERIZAÇÃO
+// ======================================================
 
 function applyStatusFilter() {
     const filter = document.getElementById("status-filter").value;
@@ -120,7 +189,6 @@ function renderTable(container, title, rows) {
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
 
-    // Cabeçalho
     const trHead = document.createElement("tr");
     VISIBLE_COLUMNS.forEach(col => {
         const th = document.createElement("th");
@@ -129,7 +197,6 @@ function renderTable(container, title, rows) {
     });
     thead.appendChild(trHead);
 
-    // Linhas
     rows.forEach(row => {
         const tr = document.createElement("tr");
         tr.classList.add("expandable");
@@ -146,7 +213,6 @@ function renderTable(container, title, rows) {
             tr.appendChild(td);
         });
 
-        // Linha expandida (detalhes)
         const detailsTr = document.createElement("tr");
         detailsTr.className = "details-row";
         detailsTr.style.display = "none";
@@ -188,9 +254,40 @@ function renderTable(container, title, rows) {
     container.appendChild(block);
 }
 
-// ----------------------------------------
-// Init
-// ----------------------------------------
+function renderizarBusca(resultados) {
+    searchTableBody.innerHTML = "";
+
+    if (resultados.length === 0) {
+        searchTableBody.innerHTML = `
+            <tr>
+                <td colspan="8">Nenhum resultado encontrado</td>
+            </tr>
+        `;
+        return;
+    }
+
+    resultados.forEach(item => {
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+            <td>${item["DATA / HORA"] || ""}</td>
+            <td>${item["OPÇÃO"] || ""}</td>
+            <td>${item["CARGO"] || ""}</td>
+            <td>${item["SUBÁREA"] || ""}</td>
+            <td>${item["NOME"] || ""}</td>
+            <td>${item["STATUS"] || ""}</td>
+            <td>${item["EVENTO"] || ""}</td>
+            <td>${item["UNIDADE"] || ""}</td>
+        `;
+
+        searchTableBody.appendChild(tr);
+    });
+}
+
+
+// ======================================================
+// 8. INICIALIZAÇÃO
+// ======================================================
 
 async function initHistory() {
     const select = document.getElementById("diff-select");
@@ -223,12 +320,10 @@ async function initHistory() {
         loadedBlocks = [{ date: diff.date, rows }];
     }
 
-    // 🔥 Load inicial
     select.value = diffs[0].file;
     container.innerHTML = "⏳ Carregando...";
     await loadSingle(diffs[0]);
 
-    // 🔥 Auto filtro inteligente
     const rows = loadedBlocks[0].rows;
 
     const hasNovo = rows.some(r =>
@@ -256,7 +351,6 @@ async function initHistory() {
 
         if (select.value === "__ALL__") {
             loadedBlocks = [];
-
             for (const diff of diffs) {
                 const rows = await loadCSV(`data/diffs/${diff.file}`);
                 loadedBlocks.push({ date: diff.date, rows });
@@ -274,31 +368,77 @@ async function initHistory() {
 
 document.addEventListener("DOMContentLoaded", initHistory);
 
-// ============================
-// Contador de visualizações
-// ============================
-// ============================
-// Contador de visualizações
-// ============================
 
-async function updateViewCounter() {
+// ======================================================
+// 9. INTERAÇÃO / EVENTOS
+// ======================================================
 
-    const workerURL = "https://embrapa-counter.arjonilla-lf.workers.dev/?page=index";
-
-    try {
-
-        const res = await fetch(workerURL, { cache: "no-store" });
-        const data = await res.json();
-
-        const el = document.getElementById("viewCounter");
-
-        if (el && data.views !== undefined) {
-            el.innerText = data.views;
-        }
-
-    } catch (err) {
-        console.warn("Erro contador:", err);
-    }
+function abrirModalBusca(valor) {
+    searchInputModal.value = valor;
+    openDetails();
 }
 
-document.addEventListener("DOMContentLoaded", updateViewCounter);
+searchBtnMain.addEventListener("click", () => {
+    if (!completeHistory.length) {
+        alert("Dados ainda estão sendo carregados, tente novamente.");
+        return;
+    }
+
+    const termo = searchInputMain.value.trim();
+    if (!termo) return;
+
+    const resultados = buscar(termo);
+
+    abrirModalBusca(termo);     // copia o valor + abre modal
+    renderizarBusca(resultados);
+});
+
+searchBtnModal.addEventListener("click", () => {
+    if (!completeHistory.length) {
+        alert("Dados ainda estão sendo carregados, tente novamente.");
+        return;
+    }
+
+    const termo = searchInputModal.value.trim(); // ✅ CORRETO
+    if (!termo) return;
+
+    const resultados = buscar(termo);
+    renderizarBusca(resultados);
+});
+
+
+// ----------------------------------------
+// Modal (abrir / fechar)
+// ----------------------------------------
+
+function openDetails() {
+    const buscador = document.getElementById("buscador");
+    const overlay  = document.getElementById("details-overlay");
+
+    if (buscador) buscador.style.display = "block";
+    if (overlay)  overlay.style.display = "flex";
+}
+
+function closeDetails(event) {
+    const overlay  = document.getElementById("details-overlay");
+    const buscador = document.getElementById("buscador");
+
+    // Fecha apenas se:
+    // - clicou no X
+    // - clicou fora do modal (overlay)
+    if (event && event.target !== overlay) return;
+
+    if (overlay)  overlay.style.display = "none";
+    if (buscador) buscador.style.display = "none";
+}
+
+function bindEnterToButton(inputEl, buttonEl) {
+    inputEl.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+            buttonEl.click();
+        }
+    });
+}
+
+bindEnterToButton(searchInputMain,  searchBtnMain);
+bindEnterToButton(searchInputModal, searchBtnModal);
