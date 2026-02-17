@@ -12,553 +12,448 @@
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
     <style>
-    
-        /* 🔧 CORREÇÃO GLOBAL */
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-    
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-    
-        header {
-            background-color: #1b5e20;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    
-        main {
-            padding: 20px;
-            max-width: 1400px; /* 🔥 igual ao resumo */
-            margin: 0 auto;
-        }
-    
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 4px;
-        }
-    
-        /* =========================
-           TOP BAR (igual ao resumo)
-           ========================= */
-    
-        .top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 10px;
-            padding: 10px;
-            background: #eef5ee;
-            border-left: 4px solid #1b5e20;
-            flex-wrap: wrap;
-            position: relative;
-        }
-    
-        .top-bar .left {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
 
-        /* limita o conjunto input + botão */
-        .search-box {
-            flex-basis: 50%;
-            max-width: 50%;
+    /* =====================================================
+       🔧 RESET / BASE
+       ===================================================== */
 
-            display: flex;
-            gap: 8px;
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
 
-            margin: 10px 0 15px 0;
-        }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
 
-        #last-update {
+    header {
+        background-color: #1b5e20;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
 
-            top: 10px;
-            right: 10px;
-            font-size: 14px;
-            color: #333;
-        }
+    main {
+        padding: 20px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
 
-        select {
-            padding: 6px;
-            font-size: 14px;
-        }
-    
-        .button {
-            background-color: #1b5e20;
-            color: white;
-            padding: 8px 14px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 14px;
-    
-            white-space: normal; /* permite quebra de linha */
-            text-align: center;  /* centraliza texto em múltiplas linhas */
-            line-height: 1.2;    /* melhora leitura quando quebra */
-        }
-    
-        .button:hover {
-            background-color: #2e7d32;
-        }
-    
-        .diff-block {
-            margin-bottom: 40px;
-        }
-    
-        .diff-title {
-            font-size: 18px;
-            margin: 10px 0;
-            font-weight: bold;
-        }
-    
-        /* =========================
-           DESKTOP (tabela normal)
-           ========================= */
-    
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            font-size: 14px;
-        }
-    
-        th,
-        td {
-            border: 1px solid #ccc;
-            padding: 6px;
-            text-align: center;
-            vertical-align: middle;
-        }
-    
-        th {
-            background-color: #e0e0e0;
-        }
-    
-        tr.novo {
-            background-color: #e8f5e9;
-        }
-    
-        tr.removido {
-            background-color: #ffebee;
-        }
-    
-        tr.alterado {
-            background-color: #fffde7;
-        }
-    
-        tr.expandable {
-            cursor: pointer;
-        }
-    
-        tr.details-row td {
-            background-color: #fafafa;
-            text-align: left;
-            padding: 14px 16px;
-            font-size: 13px;
-            line-height: 1.5;
-        }
-    
-        .details-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 10px 24px;
-        }
-    
-        .details-grid div {
-            white-space: normal;
-            word-break: break-word;
-            overflow-wrap: anywhere;
-        }
-    
-        .details-grid div.alteracoes {
-            grid-column: 1 / -1;
-            margin-top: 6px;
-            padding-top: 6px;
-            border-top: 1px dashed #ccc;
-        }
-    
-        footer {
-            margin-top: 30px;
-            padding: 20px;
-            background: white;
-            text-align: center;
-            font-size: 14px;
-        }
+    .content {
+        background: white;
+        padding: 20px;
+        border-radius: 4px;
+    }
 
-        /* ==============================
-           CAMPO DE BUSCA
-           ============================== */
 
-        .search-box {
-            margin: 10px 0 15px 0;
-            width: 100%;
-            display: flex;
-            gap: 8px;
-        }
+    /* =====================================================
+       TOP BAR
+       ===================================================== */
 
-        .search-box input {
-            flex: 1;
-            padding: 10px 12px;
-            font-size: 14px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            outline: none;
-        }
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background: #eef5ee;
+        border-left: 4px solid #1b5e20;
+        flex-wrap: wrap;
+    }
 
-        .search-box input:focus {
-            border-color: #1b5e20;
-            box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.2);
-        }
+    .top-bar .left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        flex: 1;
+    }
 
-        .search-box .button {
-            border: none;
-            cursor: pointer;
-        }
+    #last-update {
+        font-size: 14px;
+        color: #333;
+    }
 
-        /* ================= MODAL ================= */
+    .filter-group {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+    }
 
-        .details-overlay {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0,0,0,.5);
-            z-index: 9999;
+    select {
+        padding: 6px;
+        font-size: 14px;
+    }
 
-            justify-content: center;
-            align-items: center;
+    /* =====================================================
+       BOTÕES
+       ===================================================== */
 
-            padding: 12px;
-            overflow-y: auto;
-        }
+    .button {
+        background-color: #1b5e20;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.2;
+        white-space: normal;
+    }
 
-        .details-overlay.active {
-            display: flex;
-        }
+    .button:hover {
+        background-color: #2e7d32;
+    }
 
+    .btn-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+
+    /* =====================================================
+       BUSCA (BASE)
+       ===================================================== */
+
+    .search-box {
+        display: flex;
+        gap: 0.5rem;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .search-box input {
+        flex: 4;
+        padding: 10px 12px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+    .search-box input:focus {
+        border-color: #1b5e20;
+        box-shadow: 0 0 0 1px rgba(27, 94, 32, 0.2);
+    }
+
+    .search-box .button {
+        flex: 0.5;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* =====================================================
+       HISTÓRICO / TABELA DESKTOP
+       ===================================================== */
+
+    .diff-block {
+        margin-bottom: 40px;
+    }
+
+    .diff-title {
+        font-size: 18px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 6px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        background-color: #e0e0e0;
+    }
+
+    tr.novo      { background-color: #e8f5e9; }
+    tr.removido  { background-color: #ffebee; }
+    tr.alterado  { background-color: #fffde7; }
+
+    tr.expandable {
+        cursor: pointer;
+    }
+
+    tr.details-row td {
+        background-color: #fafafa;
+        text-align: left;
+        padding: 14px 16px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .details-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 10px 24px;
+    }
+
+    .details-grid div {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .details-grid div.alteracoes {
+        grid-column: 1 / -1;
+        margin-top: 6px;
+        padding-top: 6px;
+        border-top: 1px dashed #ccc;
+    }
+
+
+    /* =====================================================
+       MODAL
+       ===================================================== */
+
+    .details-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.5);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        overflow-y: auto;
+    }
+
+    .details-overlay.active {
+        display: flex;
+    }
+
+    .details-modal {
+        background: #fff;
+        width: 700px;
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+        position: relative;
+        box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    }
+
+    .details-close {
+        position: absolute;
+        right: 12px;
+        top: 8px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .search-container {
+        display: block;
+    }
+
+    .search-table-wrapper {
+        max-height: 350px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    table.search-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+
+    table.search-table th,
+    table.search-table td {
+        padding: 8px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+    }
+
+    table.search-table th {
+        background: #eef5ee;
+        color: #1b5e20;
+        position: sticky;
+        top: 0;
+    }
+
+
+    /* =====================================================
+       ROTATE HINT (orientação)
+       ===================================================== */
+
+    .rotate-hint {
+        display: none;
+        font-size: 13px;
+        color: #666;
+        text-align: center;
+        margin: 8px 0 10px;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rotate-arrow {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+    @media (orientation: portrait) {
+        .rotate-hint { display: flex; }
+    }
+
+    @media (orientation: landscape) {
+        .rotate-hint { display: none; }
+    }
+
+
+    /* =====================================================
+       DESKTOP GRANDE
+       ===================================================== */
+
+    @media (min-width: 1024px) {
         .details-modal {
-            background: #fff;
-            width: 700px;
-            max-width: 100%;        /* 🔑 garante ajuste à tela */
-            padding: 20px;
-            border-radius: 12px;
-            position: relative;
-            box-shadow: 0 10px 30px rgba(0,0,0,.3);
-
-            box-sizing: border-box;
-        }
-
-        .details-close {
-            position: absolute;
-            right: 12px;
-            top: 8px;
-            font-size: 18px;
-            cursor: pointer;
-        }
-
-        .search-container {
-            display: none;
-        }
-
-        .details-overlay.active .search-container {
-            display: block;
-        }
-
-        .search-table-wrapper {
-            max-height: 350px;
-            overflow-y: auto;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            width: max-content;
+            max-width: 90vw;
         }
 
         table.search-table {
+            width: max-content;
+            table-layout: auto;
+        }
+    }
+
+
+    /* =====================================================
+       MOBILE
+       ===================================================== */
+
+    @media (max-width: 768px) {
+
+        main { padding: 10px; }
+        .content { padding: 12px; }
+
+        .search-box input,
+        .details-modal input {
+            font-size: 16px;
+        }
+
+        .top-buttons {
+            display: flex;
             width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
+            gap: 8px;
         }
 
-        table.search-table th,
-        table.search-table td {
-            padding: 8px;
-            border-bottom: 1px solid #eee;
-            text-align: center;
-        }
-
-        table.search-table th {
-            background: #eef5ee;
-            color: #1b5e20;
-            position: sticky;
-            top: 0;
-        }
-
-        .rotate-hint {
-            display: none;
-            font-size: 13px;
-            color: #666;
-            text-align: center;
-            margin: 8px 0 10px 0;
-            gap: 6px;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .rotate-arrow {
-            font-size: 18px;
-            opacity: 0.8;
-        }
-
-        @media (min-width: 1024px) {
-            .details-modal {
-                width: max-content;     /* 🔥 abraça a tabela */
-                max-width: 90vw;
-            }
-
-            table.search-table {
-                width: max-content;
-                table-layout: auto;
-            }
-
-        }
-
-        /* =========================
-           MOBILE ONLY (cards)
-           ========================= */
-
-        /* 📱 Mostra SOMENTE em portrait */
-        @media (orientation: portrait) {
-            .rotate-hint {
-                display: flex;
-            }
-        }
-
-        /* 📱 Garante que some em landscape */
-        @media (orientation: landscape) {
-            .rotate-hint {
-                display: none;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .search-box input,
-            .details-modal input {
-                font-size: 16px;
-            }
-
-            .rotate-hint {
-                display: flex;
-            }
-
-            .top-bar {
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-                gap: 8px;
-            }
-
-            .top-buttons {
-                display: flex;
-                width: 100%;
-                justify-content: space-between;
-                gap: 8px;
-            }
-
-            .button {
-                width: auto;
-                flex: 1;
-                text-align: center;
-                white-space: nowrap;
-            }
-
-            .search-box {
-                flex-basis: 100%;
-                max-width: 100%;
-                margin: 10px; /* topo | direita | baixo | esquerda */
-            }
-
-            .details-overlay {
-                padding: 10px;
-                align-items: flex-start; /* 🔑 evita modal cortado embaixo */
-            }
-
-            .details-modal {
-                width: 100%;
-                max-width: 100%;
-                border-radius: 8px;
-                padding: 16px;
-                margin-bottom: 10px;
-            }
-
-            table.search-table {
-                font-size: 14px; /* melhora legibilidade */
-            }
-
-            /* Reduz padding lateral geral */
-
-            main {
-                padding: 10px;
-            }
-
-            .content {
-                padding: 12px;
-            }
-
-            /* ================================
-               📱 TABELA MOBILE — SOMENTE HISTÓRICO
-               ================================ */
-
-            #diff-container table,
-            #diff-container thead,
-            #diff-container tbody,
-            #diff-container tr,
-            #diff-container td {
-                display: block;
-                width: 100%;
-            }
-
-            #diff-container thead {
-                display: none;
-            }
-
-            #diff-container table {
-                border: none;
-            }
-
-            #diff-container tr.expandable {
-                background: #ffffff;
-                margin-bottom: 14px;
-                border-radius: 6px;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-                padding: 12px;
-                width: 100%;
-                border: none;
-            }
-
-            #diff-container tr.expandable td {
-                border: none;
-                padding: 8px 0;
-                text-align: left;
-                width: 100%;
-            }
-
-            #diff-container tr.expandable td::before {
-                content: attr(data-label);
-                font-weight: bold;
-                display: block;
-                font-size: 13px;
-                color: #555;
-                margin-bottom: 2px;
-            }
-
-            #diff-container tr.details-row {
-                display: block;
-                width: 100%;
-            }
-
-            #diff-container tr.details-row td {
-                display: block;
-                border-top: 1px dashed #ccc;
-                margin-top: 8px;
-                padding-top: 8px;
-                width: 100%;
-            }
-
-            /* ================================
-               Toolbar responsiva
-               ================================ */
-
-            .toolbar {
-                flex-direction: column;
-                gap: 8px;
-                align-items: stretch;
-            }
-
-            .toolbar > div {
-                width: 100%;
-            }
-
-            .toolbar a.button {
-                width: 100%;
-                text-align: center;
-                line-height: 1.3;
-                padding: 10px;
-            }
-        }
-    
-        /* Mantém label + select juntos no mobile */
-    
-        .filter-group {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
+        .button {
+            flex: 1;
             white-space: nowrap;
         }
-    
-        .btn-wrapper {
-            position: relative;
-            display: inline-block;
-        }
-    
-        .badge-notify {
-            position: absolute;
-            top: -6px;
-            right: -6px;
-    
-            width: 10px;
-            height: 10px;
-    
-            background-color: #e53935; /* vermelho bonito */
-            border-radius: 50%;
-    
-            border: 2px solid #fff;
-    
-            pointer-events: none; /* não atrapalha clique */
+
+        .search-box {
+            flex-basis: 100%;
+            max-width: 100%;
+            margin: 10px;
         }
 
-        footer {
-            background-color: #1b5e20;
-            color: white;
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
+        .details-overlay {
+            padding: 10px;
+            align-items: flex-start;
         }
 
-        /* Texto central */
-        .footer-text {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px; /* espaço entre texto e ícone */
+        .details-modal {
+            width: 100%;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* ===== HISTÓRICO EM CARDS ===== */
+
+        #diff-container table,
+        #diff-container thead,
+        #diff-container tbody,
+        #diff-container tr,
+        #diff-container td {
+            display: block;
+            width: 100%;
+        }
+
+        #diff-container thead {
+            display: none;
+        }
+
+        #diff-container tr.expandable {
+            background: #fff;
+            margin-bottom: 14px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.08);
+            padding: 12px;
+        }
+
+        #diff-container tr.expandable td {
+            border: none;
+            padding: 8px 0;
+            text-align: left;
+        }
+
+        #diff-container tr.expandable td::before {
+            content: attr(data-label);
             font-weight: bold;
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 2px;
+            display: block;
         }
 
-        /* Link do LinkedIn */
-        .linkedin-link {
-            display: inline-flex;
-            align-items: center;
-            color: white;
-            text-decoration: none;
+        #diff-container tr.details-row td {
+            border-top: 1px dashed #ccc;
+            margin-top: 8px;
+            padding-top: 8px;
         }
+    }
 
-        /* SVG herda o tamanho do texto */
-        .linkedin-link svg {
-            height: 1em;   /* mesma altura do texto */
-            width: auto;
-            fill: currentColor;
-        }
 
-        /* Hover sutil */
-        .linkedin-link:hover {
-            opacity: 0.8;
-        }
+    /* =====================================================
+       FOOTER
+       ===================================================== */
+
+    footer {
+        background-color: #1b5e20;
+        color: white;
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .footer-text {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: bold;
+    }
+
+    .linkedin-link {
+        display: inline-flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+
+    .linkedin-link svg {
+        height: 1em;
+        fill: currentColor;
+    }
+
+    .linkedin-link:hover {
+        opacity: 0.8;
+    }
 
     </style>
 </head>
@@ -580,7 +475,6 @@
                         <a href="estatisticas.html" class="button" id="btn-estatisticas">
                             Estatísticas
                         </a>
-                      <span class="badge-notify"></span>
                     </div>
 
                     <div class="btn-wrapper">
@@ -609,7 +503,16 @@
                         <option value="Desclassificado">Desclassificado</option>
                     </select>
                 </div>
+            </div>
 
+            <!-- LAST_CHECK -->
+            <span id="last-update" style="font-size:14px; color:#333;">
+                Última checagem: carregando...
+            </span>
+        </div>
+
+        <div class="top-bar">
+            <div class="left">
                 <div class="search-box">
                     <input
                         type="text"
@@ -623,12 +526,6 @@
 
                 </div>
             </div>
-            
-            <!-- LAST_CHECK -->
-            <span id="last-update" style="font-size:14px; color:#333;">
-                Última checagem: carregando...
-            </span>
-            
         </div>
 
         <div id="diff-container">
