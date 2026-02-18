@@ -6,7 +6,7 @@
     },
     {
       "range": "6-10",
-      "count": 14
+      "count": 13
     },
     {
       "range": "11-15",
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 14,
+      "convocados": 15,
       "aceitou": 9,
       "contratados": 2,
       "vagas_abertas": 8
@@ -147,7 +147,7 @@
       "opcao": "40000551",
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -157,7 +157,7 @@
       "opcao": "40000648",
       "cargo": "Analista",
       "subarea": "Comunicação",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 3
@@ -197,7 +197,7 @@
       "opcao": "40001028",
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 3
@@ -217,7 +217,7 @@
       "opcao": "40001064",
       "cargo": "Analista",
       "subarea": "Ciência de Alimentos",
-      "convocados": 8,
+      "convocados": 9,
       "aceitou": 5,
       "contratados": 1,
       "vagas_abertas": 1
@@ -233,14 +233,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 6,
-      "aceitou": 5,
+      "convocados": 7,
+      "aceitou": 6,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -341,16 +341,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 6
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002139",
-      "cargo": "Analista",
-      "subarea": "Biologia Avançada e Bioinformática",
-      "convocados": 6,
-      "aceitou": 5,
-      "contratados": 1,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
