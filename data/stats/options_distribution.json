@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 15,
+      "convocados": 16,
       "aceitou": 10,
       "contratados": 2,
       "vagas_abertas": 7
@@ -87,7 +87,7 @@
       "opcao": "40000176",
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 4,
       "contratados": 0,
       "vagas_abertas": 5
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 18,
+      "convocados": 19,
       "aceitou": 10,
       "contratados": 1,
       "vagas_abertas": 48
@@ -117,7 +117,7 @@
       "opcao": "40000432",
       "cargo": "Analista",
       "subarea": "Jornalismo",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -127,7 +127,7 @@
       "opcao": "40000463",
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 5
@@ -167,7 +167,7 @@
       "opcao": "40000724",
       "cargo": "Analista",
       "subarea": "Sanidade e Defesa Vegetal",
-      "convocados": 1,
+      "convocados": 2,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 5
@@ -197,7 +197,7 @@
       "opcao": "40001028",
       "cargo": "Analista",
       "subarea": "Insumos Biológicos",
-      "convocados": 8,
+      "convocados": 9,
       "aceitou": 6,
       "contratados": 1,
       "vagas_abertas": 1
