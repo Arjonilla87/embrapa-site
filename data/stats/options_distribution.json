@@ -6,7 +6,7 @@
     },
     {
       "range": "6-10",
-      "count": 13
+      "count": 12
     },
     {
       "range": "11-15",
@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -143,14 +143,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000551",
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -193,16 +193,6 @@
       "vagas_abertas": 11
     },
     {
-      "bucket": "1-5",
-      "opcao": "40001028",
-      "cargo": "Analista",
-      "subarea": "Insumos Biológicos",
-      "convocados": 9,
-      "aceitou": 6,
-      "contratados": 1,
-      "vagas_abertas": 1
-    },
-    {
       "bucket": "6-10",
       "opcao": "40001045",
       "cargo": "Pesquisador",
@@ -238,9 +228,9 @@
       "cargo": "Analista",
       "subarea": "Inovação Social",
       "convocados": 8,
-      "aceitou": 6,
+      "aceitou": 7,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
