@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,20/02/2026 - 10:54:45
+﻿LAST_UPDATE,20/02/2026 - 11:34:34
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,1,11,12,105%,37,13
@@ -72,7 +72,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000682,Técnico,Gestão da Informação,Tecnologia da Informação,3,0,0,3,100%,6,3
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,5,0,100%,6,1
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,0,3,100%,3,0
-40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,1,0,1,17%,2,0
+40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,0,1,1,33%,2,0
 40000735,Pesquisador,Ciências Agrárias,Pedologia,3,0,1,2,100%,6,3
 40000773,Analista,Ciências Agrárias,Sanidade e Defesa Animal,1,0,0,1,100%,1,0
 40000775,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,5,0,0,5,100%,6,1

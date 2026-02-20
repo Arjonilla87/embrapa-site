@@ -168,9 +168,9 @@
       "cargo": "Analista",
       "subarea": "Sanidade e Defesa Vegetal",
       "convocados": 2,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "6-10",
