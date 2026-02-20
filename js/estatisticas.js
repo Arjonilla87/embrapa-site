@@ -1675,29 +1675,3 @@ async function loadContratando() {
     }
 }
 document.addEventListener("DOMContentLoaded", loadContratando);
-
-// ============================
-// Contador de visualizações
-// ============================
-
-async function updateViewCounter() {
-
-    const workerURL = "https://embrapa-counter.arjonilla-lf.workers.dev/?page=estatisticas";
-
-    try {
-
-        const res = await fetch(workerURL, { cache: "no-store" });
-        const data = await res.json();
-
-        const el = document.getElementById("viewCounter");
-
-        if (el && data.views !== undefined) {
-            el.innerText = data.views;
-        }
-
-    } catch (err) {
-        console.warn("Erro contador:", err);
-    }
-}
-
-document.addEventListener("DOMContentLoaded", updateViewCounter);
