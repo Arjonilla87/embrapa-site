@@ -208,29 +208,3 @@ document.getElementById("search-input").addEventListener("input", function () {
   sortData();       // mantém ordenação atual
   renderTableBody();
 });
-
-// ============================
-// Contador de visualizações
-// ============================
-
-async function updateViewCounter() {
-
-    const workerURL = "https://embrapa-counter.arjonilla-lf.workers.dev/?page=resumo";
-
-    try {
-
-        const res = await fetch(workerURL, { cache: "no-store" });
-        const data = await res.json();
-
-        const el = document.getElementById("viewCounter");
-
-        if (el && data.views !== undefined) {
-            el.innerText = data.views;
-        }
-
-    } catch (err) {
-        console.warn("Erro contador:", err);
-    }
-}
-
-document.addEventListener("DOMContentLoaded", updateViewCounter);
