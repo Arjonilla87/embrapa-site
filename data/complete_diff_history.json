@@ -1,5 +1,18 @@
 [
   {
+    "DATA / HORA": "20/02/2026 - 15:33:57",
+    "COLOCAÇÃO": "29º AC",
+    "NOME": "LEONARDO PEREIRA BARBOSA",
+    "OPÇÃO": "40000035",
+    "CARGO": "Assistente",
+    "SUBÁREA": "Operador de Máquinas Agrícolas e Veículos",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "OPÇÃO: 40000007 → 40000035"
+  },
+  {
     "DATA / HORA": "20/02/2026 - 14:30:48",
     "COLOCAÇÃO": "2º AC",
     "NOME": "AUREA VIEIRA DE ARAUJO BATISTA",
@@ -24,19 +37,6 @@
     "LOTAÇÃO": "Belém",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Aceitou → Desistente"
-  },
-  {
-    "DATA / HORA": "20/02/2026 - 13:27:27",
-    "COLOCAÇÃO": "29º AC",
-    "NOME": "LEONARDO PEREIRA BARBOSA",
-    "OPÇÃO": "40000007",
-    "CARGO": "Assistente",
-    "SUBÁREA": "Manejo Animal",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Desistente"
   },
   {
     "DATA / HORA": "20/02/2026 - 11:34:34",
