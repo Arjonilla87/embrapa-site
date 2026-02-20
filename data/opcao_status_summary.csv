@@ -1,7 +1,7 @@
-﻿LAST_UPDATE,20/02/2026 - 13:27:27
+﻿LAST_UPDATE,20/02/2026 - 14:30:48
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
-40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,11,12,105%,37,14
+40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,37,15
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,4,0,44%,7,2
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,10,1,19%,19,7
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,10,1,19%,19,8
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,6,1,100%,8,1
@@ -52,7 +52,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000404,Pesquisador,Engenharias,Robótica e Sensoriamento,1,0,0,1,100%,1,0
 40000405,Pesquisador,Espectroscopia Aplicada,Instrumentação em Ressonância Magnética Nuclear,1,0,0,1,100%,1,0
 40000408,Analista,Orçamento e Finanças,Orçamento e Finanças,2,0,1,1,100%,3,1
-40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,1,0,1,14%,2,0
+40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,0,0,1,14%,2,1
 40000435,Pesquisador,Ciências Agrárias,Modelagem e Simulação em Sistemas Agrícolas,1,0,0,1,100%,1,0
 40000457,Pesquisador,Ciências Agrárias,Ambiência e Bioclimatologia Animal,2,0,0,2,100%,2,0
 40000458,Pesquisador,Ciências Agrárias,Sistemas de Produção de Leite,1,0,0,1,100%,1,0
