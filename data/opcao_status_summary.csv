@@ -1,11 +1,11 @@
-﻿LAST_UPDATE,21/02/2026 - 19:14:24
+﻿LAST_UPDATE,21/02/2026 - 20:15:42
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,36,14
 40000012,Analista,Gestão de Pessoas,Saúde Ocupacional,1,0,0,1,100%,1,0
 40000013,Analista,Laboratórios e Campos Experimentais,Cultura de Tecidos,3,0,0,3,100%,4,1
 40000015,Pesquisador,Ciências Biológicas,Conservação de Recursos Genéticos Vegetais,1,0,0,1,100%,1,0
-40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,0,13,18,84%,39,8
+40000035,Assistente,"Suprimento, Manutenção e Serviços",Operador de Máquinas Agrícolas e Veículos,37,1,13,18,84%,40,8
 40000042,Analista,Ciências Biológicas,Botânica e Ecologia,1,0,0,1,100%,1,0
 40000043,Pesquisador,Ciências Exatas e da Terra,Geoprocessamento,1,0,0,1,100%,1,0
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
@@ -18,7 +18,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,11,2,68%,16,3
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,11,2,68%,17,3
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,4,0,44%,7,2
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,10,1,19%,19,8
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,10,1,19%,20,8
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,6,1,100%,8,1
@@ -52,11 +52,11 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000404,Pesquisador,Engenharias,Robótica e Sensoriamento,1,0,0,1,100%,1,0
 40000405,Pesquisador,Espectroscopia Aplicada,Instrumentação em Ressonância Magnética Nuclear,1,0,0,1,100%,1,0
 40000408,Analista,Orçamento e Finanças,Orçamento e Finanças,2,0,1,1,100%,3,1
-40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,0,0,1,14%,2,1
+40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,1,0,1,14%,3,1
 40000435,Pesquisador,Ciências Agrárias,Modelagem e Simulação em Sistemas Agrícolas,1,0,0,1,100%,1,0
 40000457,Pesquisador,Ciências Agrárias,Ambiência e Bioclimatologia Animal,2,0,0,2,100%,2,0
 40000458,Pesquisador,Ciências Agrárias,Sistemas de Produção de Leite,1,0,0,1,100%,1,0
-40000463,Analista,Transferência de Tecnologia e Comunicação,Designer Gráfico,6,0,1,1,33%,2,0
+40000463,Analista,Transferência de Tecnologia e Comunicação,Designer Gráfico,6,1,1,1,33%,3,0
 40000464,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental Produção Animal,4,0,1,3,100%,4,0
 40000497,Analista,Transferência de Tecnologia e Comunicação,Gestão da Propriedade Intelectual para a Inovação,5,0,4,1,100%,5,0
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
@@ -72,7 +72,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000682,Técnico,Gestão da Informação,Tecnologia da Informação,3,0,0,3,100%,6,3
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,5,0,100%,6,1
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,0,3,100%,3,0
-40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,0,1,1,33%,2,0
+40000724,Analista,Ciências Agrárias,Sanidade e Defesa Vegetal,6,1,1,1,33%,3,0
 40000735,Pesquisador,Ciências Agrárias,Pedologia,3,0,1,2,100%,6,3
 40000773,Analista,Ciências Agrárias,Sanidade e Defesa Animal,1,0,0,1,100%,1,0
 40000775,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,5,0,0,5,100%,6,1

@@ -37,7 +37,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 39,
+      "convocados": 40,
       "aceitou": 13,
       "contratados": 18,
       "vagas_abertas": 6
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 16,
+      "convocados": 17,
       "aceitou": 11,
       "contratados": 2,
       "vagas_abertas": 6
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 19,
+      "convocados": 20,
       "aceitou": 10,
       "contratados": 1,
       "vagas_abertas": 48
@@ -117,7 +117,7 @@
       "opcao": "40000432",
       "cargo": "Analista",
       "subarea": "Jornalismo",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 6
@@ -127,7 +127,7 @@
       "opcao": "40000463",
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 4
@@ -167,7 +167,7 @@
       "opcao": "40000724",
       "cargo": "Analista",
       "subarea": "Sanidade e Defesa Vegetal",
-      "convocados": 2,
+      "convocados": 3,
       "aceitou": 1,
       "contratados": 1,
       "vagas_abertas": 4
