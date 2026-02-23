@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 16
+      "count": 17
     },
     {
       "range": "6-10",
-      "count": 10
+      "count": 9
     },
     {
       "range": "11-15",
@@ -88,9 +88,9 @@
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 7,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 0,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": ">20",
@@ -313,14 +313,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40002022",
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
       "convocados": 6,
-      "aceitou": 0,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 6
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
