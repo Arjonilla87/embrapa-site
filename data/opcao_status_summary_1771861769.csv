@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,23/02/2026 - 11:02:30
+﻿LAST_UPDATE,23/02/2026 - 12:47:37
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,36,14
@@ -62,13 +62,13 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
 40000519,Pesquisador,Ciências Agrárias,Bacteriologia Vegetal,3,0,0,3,100%,3,0
 40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,0,2,67%,3,1
-40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,0,2,1,43%,3,0
+40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,1,2,1,43%,4,0
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,0,2,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
 40000616,Analista,Gestão Estratégica,Governança Sustentável ESG,2,0,0,2,100%,2,0
 40000632,Pesquisador,Ciências Agrárias,Fitotecnia,6,0,6,0,100%,9,3
 40000642,Analista,Gestão da Informação,Avaliação de Impactos,1,0,0,1,100%,1,0
-40000648,Analista,Transferência de Tecnologia e Comunicação,Comunicação,8,1,4,1,62%,6,0
+40000648,Analista,Transferência de Tecnologia e Comunicação,Comunicação,8,1,4,1,62%,7,1
 40000682,Técnico,Gestão da Informação,Tecnologia da Informação,3,0,0,3,100%,6,3
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,5,0,100%,6,1
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,0,3,100%,3,0
@@ -80,7 +80,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000878,Técnico,"Suprimento, Manutenção e Serviços",Monitoramento Preditivo,4,0,0,4,100%,7,3
 40000894,Pesquisador,Ciências Agrárias,Serviços Ambientais,2,0,0,2,100%,2,0
 40000909,Analista,Gestão da Informação,Gestão da Informação Bibliográfica,2,0,0,2,100%,2,0
-40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,0,8,1,47%,11,2
+40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,1,8,1,47%,12,2
 40000959,Pesquisador,Ciências Agrárias,Sociobiodiversidade,1,0,0,1,100%,1,0
 40000968,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos,5,0,0,5,100%,6,1
 40000980,Pesquisador,Engenharias,Sociologia e Automação e Mecanização,11,0,0,0,0%,0,0
@@ -139,7 +139,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001921,Pesquisador,Ciências Agrárias,Microbiologia e Bioquímica do Solo,4,0,0,4,100%,4,0
 40001925,Técnico,Laboratório e Campos Experimentais,Manejo Florestal,6,0,0,6,100%,6,0
 40002003,Pesquisador,Ciências Ambientais,Gestão Ambiental,1,0,0,1,100%,1,0
-40002022,Pesquisador,Ciências Exatas e da Terra,Ciência de Dados,6,0,0,0,0%,0,0
+40002022,Pesquisador,Ciências Exatas e da Terra,Ciência de Dados,6,6,0,0,0%,6,0
 40002027,Analista,Transferência de Tecnologia e Comunicação,Tecnologia de Alimentos,1,0,0,1,100%,1,0
 40002042,Analista,Ciência e Tecnologia de Alimentos,Análise Sensorial,1,0,0,1,100%,1,0
 40002098,Pesquisador,Engenharias,Recursos Florestais e Engenharia Florestal,1,0,0,1,100%,1,0

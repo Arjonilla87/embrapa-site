@@ -147,7 +147,7 @@
       "opcao": "40000551",
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 4
@@ -157,7 +157,7 @@
       "opcao": "40000648",
       "cargo": "Analista",
       "subarea": "Comunicação",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 4,
       "contratados": 1,
       "vagas_abertas": 3
@@ -177,7 +177,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 11,
+      "convocados": 12,
       "aceitou": 8,
       "contratados": 1,
       "vagas_abertas": 10
@@ -317,7 +317,7 @@
       "opcao": "40002022",
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
-      "convocados": 0,
+      "convocados": 6,
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 6
