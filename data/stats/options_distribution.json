@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 16
     },
     {
       "range": "6-10",
-      "count": 12
+      "count": 10
     },
     {
       "range": "11-15",
@@ -63,14 +63,14 @@
       "vagas_abertas": 101
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 17,
-      "aceitou": 11,
+      "aceitou": 12,
       "contratados": 2,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -113,14 +113,14 @@
       "vagas_abertas": 7
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000432",
       "cargo": "Analista",
       "subarea": "Jornalismo",
       "convocados": 3,
-      "aceitou": 0,
+      "aceitou": 1,
       "contratados": 1,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -147,10 +147,10 @@
       "opcao": "40000551",
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
-      "convocados": 2,
-      "aceitou": 1,
+      "convocados": 3,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -201,16 +201,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 8
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001064",
-      "cargo": "Analista",
-      "subarea": "Ciência de Alimentos",
-      "convocados": 9,
-      "aceitou": 5,
-      "contratados": 1,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
