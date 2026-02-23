@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
       "convocados": 3,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -217,7 +217,7 @@
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 8,
+      "convocados": 9,
       "aceitou": 7,
       "contratados": 1,
       "vagas_abertas": 4
