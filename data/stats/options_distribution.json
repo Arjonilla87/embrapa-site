@@ -57,7 +57,7 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 15,
+      "convocados": 16,
       "aceitou": 1,
       "contratados": 10,
       "vagas_abertas": 101
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 18,
+      "convocados": 19,
       "aceitou": 12,
       "contratados": 2,
       "vagas_abertas": 5
@@ -117,7 +117,7 @@
       "opcao": "40000432",
       "cargo": "Analista",
       "subarea": "Jornalismo",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 4
@@ -127,7 +127,7 @@
       "opcao": "40000463",
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 3,
       "contratados": 1,
       "vagas_abertas": 2
