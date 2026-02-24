@@ -1,11 +1,11 @@
 {
-  "last_update": "24/02/2026 - 06:48:46",
+  "last_update": "24/02/2026 - 07:39:22",
   "business_days_elapsed": 107,
-  "total_convocados": 794,
-  "total_aceitou": 199,
-  "total_contratados": 428,
-  "pct_desistencias": 18.3,
+  "total_convocados": 360,
+  "total_aceitou": 54,
+  "total_contratados": 234,
+  "pct_desistencias": 18.6,
   "convocados_hoje": 0,
-  "media_diaria_mm10": 7,
+  "media_diaria_mm10": 3,
   "avg_days_convocado_to_aceitou": 1.5
 }
