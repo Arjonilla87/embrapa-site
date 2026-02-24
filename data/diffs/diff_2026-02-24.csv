@@ -1,28 +1,42 @@
-﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-24/02/2026 - 18:55:05,4º AC,FILIPE DE MELO GOMES,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPACP - Maranhão,São Luis,NOVO,
-24/02/2026 - 18:55:05,1º PCD,CARLA EMANUELE ALVES DOS SANTOS,40000463,Analista,Designer Gráfico,Aceitou,CNPC - Caprinos,Sobral,NOVO,
-24/02/2026 - 18:55:05,1º PCD,VANDERLEI AFFONSO MARTINS,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CNPMA - Meio Ambiente,Jaguariúna,NOVO,
-24/02/2026 - 18:55:05,10º AC,MARCOS RODOLFO GOETTEN,40000932,Analista,Sistema de Produção Vegetal,Convocado,,,NOVO,
-24/02/2026 - 18:55:05,4º AC,BRUNO GORZYNSKI MEIRELLES,40000432,Analista,Jornalismo,Convocado,,,NOVO,
-24/02/2026 - 18:55:05,7º AC,CAROLINA DA CUNHA ROCHA,40001348,Analista,Inovação Social,Convocado,,,NOVO,
-24/02/2026 - 18:55:05,3º AC,DANIEL MENDES PINTO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAF/AC - Acre,Rio Branco,NOVO,
-24/02/2026 - 18:55:05,1º PPP,LUCIELE DE OLIVEIRA PAULINO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,NOVO,
-24/02/2026 - 18:55:05,12º AC,ANA CAROLINA SILVEIRA RODRIGUES,40000127,Técnico,Suporte à Gestão,Convocado,,,NOVO,
-24/02/2026 - 18:55:05,1º AC,LUIZ FERNANDO SATOLO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAA - Amaz. Ocidental,Manaus,NOVO,
-24/02/2026 - 18:55:05,12º AC,GABRIEL HENRIQUE FERREIRA NUNES,40000084,Técnico,Manejo Vegetal,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,NOVO,
-24/02/2026 - 18:55:05,5º AC,THIAGO JOSE ARRUDA DE OLIVEIRA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CPATSA - Semiárido,Petrolina,NOVO,
-24/02/2026 - 18:55:05,2º AC,RODRIGO DE FREITAS ESPINOZA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAP - Pantanal,Corumbá,NOVO,
-24/02/2026 - 18:55:05,9º AC,LEANDRO BARBOSA PIMENTA,40000932,Analista,Sistema de Produção Vegetal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-24/02/2026 - 18:55:05,6º AC,VITOR AUGUSTO MONTEIRO PELEGRIN,40001348,Analista,Inovação Social,Aceitou,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
-24/02/2026 - 18:55:05,1º PCD,BETINA RAQUEL CUNHA DOS SANTOS,40001592,Pesquisador,Forragicultura,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,2º AC,HENRIQUE BAUAB BRUNETTI,40001592,Pesquisador,Forragicultura,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,1º PPP,TALITA SANTOS BARBOSA,40000432,Analista,Jornalismo,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGC - Gado Corte; LOTAÇÃO:  → Campo Grande
-24/02/2026 - 18:55:05,3º AC,EDMAR AUGUSTO GOMES,40000551,Analista,Gestão da Qualidade Laboratorial,Aceitou,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/RR - Roraima; LOTAÇÃO:  → Boa Vista
-24/02/2026 - 18:55:05,3º AC,TAMIRES SOUZA COUTINHO,40000463,Analista,Designer Gráfico,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
-24/02/2026 - 18:55:05,11º AC,GUILHERME XAVIER LOPES SILVA,40000084,Técnico,Manejo Vegetal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-24/02/2026 - 18:55:05,1º PPP,DARLENA CAROLINE DA CRUZ CORREA,40001592,Pesquisador,Forragicultura,Aceitou,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,11º AC,POLYANA BRANDAO MARCELINO,40000127,Técnico,Suporte à Gestão,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
-24/02/2026 - 18:55:05,5º AC,IGOR LIMA BRETAS,40001592,Pesquisador,Forragicultura,Aceitou,CPAMN - Meio Norte,Parnaiba,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,1º AC,PAOLA PALAURO SPASIANI,40001592,Pesquisador,Forragicultura,Aceitou,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,4º AC,FERNANDO FORSTER FURQUIM,40001592,Pesquisador,Forragicultura,Aceitou,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Convocado → Aceitou
-24/02/2026 - 18:55:05,5º AC,BIBIANA MOREIRA MOURA,40000648,Analista,Comunicação,Aceitou,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Rio Branco
+DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+24/02/2026 - 08:34:25,4º AC,FERNANDO FORSTER FURQUIM,40001592,Pesquisador,Forragicultura,Convocado,CPAP - Pantanal,Corumbá,NOVO,
+24/02/2026 - 08:34:25,5º AC,BIBIANA MOREIRA MOURA,40000648,Analista,Comunicação,Convocado,,,NOVO,
+24/02/2026 - 08:34:25,6º AC,VITOR AUGUSTO MONTEIRO PELEGRIN,40001348,Analista,Inovação Social,Convocado,,,NOVO,
+24/02/2026 - 08:34:25,5º AC,IGOR LIMA BRETAS,40001592,Pesquisador,Forragicultura,Convocado,CPAMN - Meio Norte,Parnaiba,NOVO,
+24/02/2026 - 08:34:25,9º AC,LEANDRO BARBOSA PIMENTA,40000932,Analista,Sistema de Produção Vegetal,Convocado,,,NOVO,
+24/02/2026 - 08:34:25,1º PPP,TALITA SANTOS BARBOSA,40000432,Analista,Jornalismo,Convocado,,,NOVO,
+24/02/2026 - 08:34:25,3º AC,EDMAR AUGUSTO GOMES,40000551,Analista,Gestão da Qualidade Laboratorial,Convocado,,,NOVO,
+24/02/2026 - 08:34:25,2º AC,HENRIQUE BAUAB BRUNETTI,40001592,Pesquisador,Forragicultura,Convocado,CNPC - Caprinos,Sobral,NOVO,
+24/02/2026 - 08:34:25,1º PPP,DARLENA CAROLINE DA CRUZ CORREA,40001592,Pesquisador,Forragicultura,Aceitou,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 08:34:25,3º AC,TAMIRES SOUZA COUTINHO,40000463,Analista,Designer Gráfico,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas
+24/02/2026 - 09:41:23,11º AC,POLYANA BRANDAO MARCELINO,40000127,Técnico,Suporte à Gestão,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+24/02/2026 - 09:41:23,1º AC,PAOLA PALAURO SPASIANI,40001592,Pesquisador,Forragicultura,Aceitou,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 09:41:23,4º AC,FERNANDO FORSTER FURQUIM,40001592,Pesquisador,Forragicultura,Aceitou,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 09:41:23,5º AC,BIBIANA MOREIRA MOURA,40000648,Analista,Comunicação,Aceitou,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/AC - Acre; LOTAÇÃO:  → Rio Branco
+24/02/2026 - 09:41:23,1º PPP,TALITA SANTOS BARBOSA,40000432,Analista,Jornalismo,Aceitou,CNPGC - Gado Corte,Campo Grande,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPGC - Gado Corte; LOTAÇÃO:  → Campo Grande
+24/02/2026 - 11:05:34,6º AC,VITOR AUGUSTO MONTEIRO PELEGRIN,40001348,Analista,Inovação Social,Convocado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
+24/02/2026 - 11:05:34,1º PCD,BETINA RAQUEL CUNHA DOS SANTOS,40001592,Pesquisador,Forragicultura,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 11:05:34,2º AC,HENRIQUE BAUAB BRUNETTI,40001592,Pesquisador,Forragicultura,Aceitou,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 11:05:34,9º AC,LEANDRO BARBOSA PIMENTA,40000932,Analista,Sistema de Produção Vegetal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+24/02/2026 - 12:46:34,6º AC,VITOR AUGUSTO MONTEIRO PELEGRIN,40001348,Analista,Inovação Social,Aceitou,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
+24/02/2026 - 12:46:34,11º AC,GUILHERME XAVIER LOPES SILVA,40000084,Técnico,Manejo Vegetal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+24/02/2026 - 13:56:29,4º AC,FILIPE DE MELO GOMES,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPACP - Maranhão,São Luis,NOVO,
+24/02/2026 - 13:56:29,1º PCD,VANDERLEI AFFONSO MARTINS,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CNPMA - Meio Ambiente,Jaguariúna,NOVO,
+24/02/2026 - 13:56:29,7º AC,CAROLINA DA CUNHA ROCHA,40001348,Analista,Inovação Social,Convocado,,,NOVO,
+24/02/2026 - 13:56:29,3º AC,DANIEL MENDES PINTO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAF/AC - Acre,Rio Branco,NOVO,
+24/02/2026 - 13:56:29,1º PPP,LUCIELE DE OLIVEIRA PAULINO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,NOVO,
+24/02/2026 - 13:56:29,10º AC,MARCOS RODOLFO GOETTEN,40000932,Analista,Sistema de Produção Vegetal,Convocado,,,NOVO,
+24/02/2026 - 13:56:29,1º AC,LUIZ FERNANDO SATOLO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAA - Amaz. Ocidental,Manaus,NOVO,
+24/02/2026 - 13:56:29,2º AC,RODRIGO DE FREITAS ESPINOZA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAP - Pantanal,Corumbá,NOVO,
+24/02/2026 - 13:56:29,5º AC,THIAGO JOSE ARRUDA DE OLIVEIRA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPATSA - Semiárido,Petrolina,NOVO,
+24/02/2026 - 14:52:19,3º AC,EDMAR AUGUSTO GOMES,40000551,Analista,Gestão da Qualidade Laboratorial,Convocado,CPAF/RR - Roraima,Boa Vista,ALTERADO,UNIDADE:  → CPAF/RR - Roraima; LOTAÇÃO:  → Boa Vista
+24/02/2026 - 15:48:40,1º PCD,CARLA EMANUELE ALVES DOS SANTOS,40000463,Analista,Designer Gráfico,Convocado,,,NOVO,
+24/02/2026 - 15:48:40,4º AC,BRUNO GORZYNSKI MEIRELLES,40000432,Analista,Jornalismo,Convocado,,,NOVO,
+24/02/2026 - 15:48:40,12º AC,ANA CAROLINA SILVEIRA RODRIGUES,40000127,Técnico,Suporte à Gestão,Convocado,,,NOVO,
+24/02/2026 - 15:48:40,12º AC,GABRIEL HENRIQUE FERREIRA NUNES,40000084,Técnico,Manejo Vegetal,Convocado,,,NOVO,
+24/02/2026 - 16:44:25,5º AC,THIAGO JOSE ARRUDA DE OLIVEIRA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CPATSA - Semiárido,Petrolina,NOVO,
+24/02/2026 - 16:44:25,3º AC,EDMAR AUGUSTO GOMES,40000551,Analista,Gestão da Qualidade Laboratorial,Aceitou,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPAF/RR - Roraima; LOTAÇÃO:  → Boa Vista
+24/02/2026 - 16:44:25,1º PCD,CARLA EMANUELE ALVES DOS SANTOS,40000463,Analista,Designer Gráfico,Aceitou,CNPC - Caprinos,Sobral,NOVO,
+24/02/2026 - 16:44:25,1º PCD,VANDERLEI AFFONSO MARTINS,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CNPMA - Meio Ambiente,Jaguariúna,NOVO,
+24/02/2026 - 16:44:25,5º AC,IGOR LIMA BRETAS,40001592,Pesquisador,Forragicultura,Aceitou,CPAMN - Meio Norte,Parnaiba,ALTERADO,STATUS: Convocado → Aceitou
+24/02/2026 - 17:25:11,12º AC,GABRIEL HENRIQUE FERREIRA NUNES,40000084,Técnico,Manejo Vegetal,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,NOVO,
