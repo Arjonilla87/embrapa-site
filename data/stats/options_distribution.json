@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 17
+      "count": 18
     },
     {
       "range": "6-10",
-      "count": 9
+      "count": 8
     },
     {
       "range": "11-15",
@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Jornalismo",
       "convocados": 4,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -158,9 +158,9 @@
       "cargo": "Analista",
       "subarea": "Comunicação",
       "convocados": 7,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -243,14 +243,14 @@
       "vagas_abertas": 10
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001592",
       "cargo": "Pesquisador",
       "subarea": "Forragicultura",
       "convocados": 8,
-      "aceitou": 1,
+      "aceitou": 3,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
