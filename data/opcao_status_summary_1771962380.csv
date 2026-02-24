@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,24/02/2026 - 15:48:40
+﻿LAST_UPDATE,24/02/2026 - 16:44:25
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,36,14
@@ -11,7 +11,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
 40000062,Pesquisador,Ciências Agrárias,Entomologia Agrícola,11,0,0,0,0%,0,0
 40000065,Pesquisador,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
-40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,1,1,10,10%,16,4
+40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,0,2,10,11%,16,4
 40000092,Pesquisador,Ciências Agrárias,Sistema de Produção de Tuberosas,1,0,0,1,100%,1,0
 40000113,Pesquisador,Ciências Exatas e da Terra,Sistemas de Informação Geográfica (SIG) e Desenvolvimento Territorial,1,0,0,1,100%,1,0
 40000115,Pesquisador,Ciências Sociais Aplicadas,Desenvolvimento Territorial e Turismo,1,0,0,1,100%,1,0
@@ -56,13 +56,13 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000435,Pesquisador,Ciências Agrárias,Modelagem e Simulação em Sistemas Agrícolas,1,0,0,1,100%,1,0
 40000457,Pesquisador,Ciências Agrárias,Ambiência e Bioclimatologia Animal,2,0,0,2,100%,2,0
 40000458,Pesquisador,Ciências Agrárias,Sistemas de Produção de Leite,1,0,0,1,100%,1,0
-40000463,Analista,Transferência de Tecnologia e Comunicação,Designer Gráfico,6,1,3,1,67%,5,0
+40000463,Analista,Transferência de Tecnologia e Comunicação,Designer Gráfico,6,0,4,1,83%,5,0
 40000464,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental Produção Animal,4,0,1,3,100%,4,0
 40000497,Analista,Transferência de Tecnologia e Comunicação,Gestão da Propriedade Intelectual para a Inovação,5,0,4,1,100%,5,0
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
 40000519,Pesquisador,Ciências Agrárias,Bacteriologia Vegetal,3,0,0,3,100%,3,0
 40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,0,2,67%,3,1
-40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,1,2,1,43%,4,0
+40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,0,3,1,57%,4,0
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,0,2,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
 40000616,Analista,Gestão Estratégica,Governança Sustentável ESG,2,0,0,2,100%,2,0
@@ -120,7 +120,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001496,Analista,Ciências Agrárias,Sensoriamento Remoto,1,0,0,1,100%,2,1
 40001550,Pesquisador,Ciências Agrárias,Nematologia Vegetal,4,0,0,4,100%,4,0
 40001565,Pesquisador,Ciências Agrárias,Fitopatologia,10,0,0,0,0%,0,0
-40001592,Pesquisador,Ciências Agrárias,Forragicultura,8,3,5,0,62%,8,0
+40001592,Pesquisador,Ciências Agrárias,Forragicultura,8,2,6,0,75%,8,0
 40001607,Analista,Ciências Exatas e da Terra,Agricultura e Climatologia,3,0,0,3,100%,5,2
 40001642,Analista,Ciências Exatas e da Terra,Geomática,2,0,0,2,100%,2,0
 40001648,Analista,Transferência de Tecnologia e Comunicação,Análise de Dados,7,0,0,6,86%,9,3
@@ -164,7 +164,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002408,Pesquisador,Ciências Agrárias,Armazenamento de Grãos e Sementes,1,0,0,1,100%,1,0
 40002449,Técnico,Orçamento e Finanças,Contabilidade,1,0,0,1,100%,2,1
 40002490,Analista,Gestão Estratégica,Articulação Político-Institucional Internacional,1,0,0,1,100%,1,0
-40002494,Pesquisador,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,7,7,0,0,0%,7,0
+40002494,Pesquisador,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,7,5,2,0,29%,7,0
 40002503,Pesquisador,Ciências Agrárias,Sanidade e Defesa Animal,5,0,2,3,100%,5,0
 40002541,Pesquisador,Ciências Agrárias,Ciência do Solo,17,0,0,0,0%,0,0
 40002553,Analista,Transferência de Tecnologia e Comunicação,Transferência de Tecnologia,10,0,1,9,100%,13,3

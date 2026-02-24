@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 18
+      "count": 19
     },
     {
       "range": "6-10",
-      "count": 8
+      "count": 7
     },
     {
       "range": "11-15",
@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 16,
-      "aceitou": 1,
+      "aceitou": 2,
       "contratados": 10,
-      "vagas_abertas": 101
+      "vagas_abertas": 100
     },
     {
       "bucket": "1-5",
@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
       "convocados": 5,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -148,9 +148,9 @@
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
       "convocados": 4,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -248,9 +248,9 @@
       "cargo": "Pesquisador",
       "subarea": "Forragicultura",
       "convocados": 8,
-      "aceitou": 5,
+      "aceitou": 6,
       "contratados": 0,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -353,14 +353,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40002494",
       "cargo": "Pesquisador",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 7,
-      "aceitou": 0,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 5
     },
     {
       "bucket": "16-20",
