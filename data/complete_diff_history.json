@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "24/02/2026 - 12:46:34",
+    "COLOCAÇÃO": "6º AC",
+    "NOME": "VITOR AUGUSTO MONTEIRO PELEGRIN",
+    "OPÇÃO": "40001348",
+    "CARGO": "Analista",
+    "SUBÁREA": "Inovação Social",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMF - Mandioca",
+    "LOTAÇÃO": "Cruz das Almas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "24/02/2026 - 12:46:34",
+    "COLOCAÇÃO": "11º AC",
+    "NOME": "GUILHERME XAVIER LOPES SILVA",
+    "OPÇÃO": "40000084",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Manejo Vegetal",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
     "DATA / HORA": "24/02/2026 - 11:05:34",
     "COLOCAÇÃO": "9º AC",
     "NOME": "LEANDRO BARBOSA PIMENTA",
