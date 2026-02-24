@@ -1,28 +1,13 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 ,40000408,Analista,Orçamento e Finanças,ANNA BEATRIZ SOBRAL PINTO,CNPDIA - Instrumentação
-,40000648,Analista,Comunicação,BIBIANA MOREIRA MOURA,CPAF/AC - Acre
-,40000463,Analista,Designer Gráfico,CARLA EMANUELE ALVES DOS SANTOS,CNPC - Caprinos
 ,40002198,Analista,Ciência de Dados,EDILVANDO PEREIRA EUFRAZIO,CPAMT - Agrossilvipastoril
-,40000551,Analista,Gestão da Qualidade Laboratorial,EDMAR AUGUSTO GOMES,CPAF/RR - Roraima
 ,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,GIOVANI GHENO BOMBARDIERI,CPACT - Clima Temp
 ,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,JOSE DA CONCEICAO FERREIRA NETO,CNPASA - Pesca
 ,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
-,40000432,Analista,Jornalismo,TALITA SANTOS BARBOSA,CNPGC - Gado Corte
-,40000463,Analista,Designer Gráfico,TAMIRES SOUZA COUTINHO,CNPMS - Milho e Sorgo
-,40001348,Analista,Inovação Social,VITOR AUGUSTO MONTEIRO PELEGRIN,CNPMF - Mandioca
 ,40000007,Assistente,Manejo Animal,IVANILDO FONTENELE DOS SANTOS,CPATSA - Semiárido
 ,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
 ,40000007,Assistente,Manejo Animal,MARCELO DE SOUZA RUAS,CPACT - Clima Temp
-,40001592,Pesquisador,Forragicultura,BETINA RAQUEL CUNHA DOS SANTOS,CNPC - Caprinos
-,40001592,Pesquisador,Forragicultura,DARLENA CAROLINE DA CRUZ CORREA,CPACP - Maranhão
-,40001592,Pesquisador,Forragicultura,FERNANDO FORSTER FURQUIM,CPAP - Pantanal
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
-,40001592,Pesquisador,Forragicultura,HENRIQUE BAUAB BRUNETTI,CNPC - Caprinos
-,40001592,Pesquisador,Forragicultura,IGOR LIMA BRETAS,CPAMN - Meio Norte
-,40001592,Pesquisador,Forragicultura,PAOLA PALAURO SPASIANI,CPAMT - Agrossilvipastoril
-,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,THIAGO JOSE ARRUDA DE OLIVEIRA,CPATSA - Semiárido
-,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,VANDERLEI AFFONSO MARTINS,CNPMA - Meio Ambiente
-,40000084,Técnico,Manejo Vegetal,GABRIEL HENRIQUE FERREIRA NUNES,CNPMS - Milho e Sorgo
 ,40000084,Técnico,Manejo Vegetal,GUIDO BRANDÃO PIANTA,CNPGL - Gado Leite
 2025-12-18,40000007,Assistente,Manejo Animal,VICTOR GABRIEL COSTA CARVALHO,CPPSE - Pec Sudeste
 2025-12-18,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,LUCIANO JORGE SEREJO DOS ANJOS,CPAF/AP - Amapá
@@ -213,3 +198,18 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-02-23,40002022,Pesquisador,Ciência de Dados,GEORGE FABRICIO SANTOS RODRIGUES,CPPSUL - Pec Sul
 2026-02-23,40002022,Pesquisador,Ciência de Dados,MONIQUE PIRES GRAVINA DE OLIVEIRA,CNPTIA - Agro Digital
 2026-02-23,40000127,Tecnico,Suporte à Gestão,DANIEL DOS SANTOS TEDESCO,CNPUV - Uva
+2026-02-24,40000648,Analista,Comunicação,BIBIANA MOREIRA MOURA,CPAF/AC - Acre
+2026-02-24,40000463,Analista,Designer Gráfico,CARLA EMANUELE ALVES DOS SANTOS,CNPC - Caprinos
+2026-02-24,40000551,Analista,Gestão da Qualidade Laboratorial,EDMAR AUGUSTO GOMES,CPAF/RR - Roraima
+2026-02-24,40000432,Analista,Jornalismo,TALITA SANTOS BARBOSA,CNPGC - Gado Corte
+2026-02-24,40000463,Analista,Designer Gráfico,TAMIRES SOUZA COUTINHO,CNPMS - Milho e Sorgo
+2026-02-24,40001348,Analista,Inovação Social,VITOR AUGUSTO MONTEIRO PELEGRIN,CNPMF - Mandioca
+2026-02-24,40001592,Pesquisador,Forragicultura,BETINA RAQUEL CUNHA DOS SANTOS,CNPC - Caprinos
+2026-02-24,40001592,Pesquisador,Forragicultura,DARLENA CAROLINE DA CRUZ CORREA,CPACP - Maranhão
+2026-02-24,40001592,Pesquisador,Forragicultura,FERNANDO FORSTER FURQUIM,CPAP - Pantanal
+2026-02-24,40001592,Pesquisador,Forragicultura,HENRIQUE BAUAB BRUNETTI,CNPC - Caprinos
+2026-02-24,40001592,Pesquisador,Forragicultura,IGOR LIMA BRETAS,CPAMN - Meio Norte
+2026-02-24,40001592,Pesquisador,Forragicultura,PAOLA PALAURO SPASIANI,CPAMT - Agrossilvipastoril
+2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,THIAGO JOSE ARRUDA DE OLIVEIRA,CPATSA - Semiárido
+2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,VANDERLEI AFFONSO MARTINS,CNPMA - Meio Ambiente
+2026-02-24,40000084,Tecnico,Manejo Vegetal,GABRIEL HENRIQUE FERREIRA NUNES,CNPMS - Milho e Sorgo
