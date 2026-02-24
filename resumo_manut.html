@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard em manutenção - Concurso EMBRAPA 2025</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.ico" sizes="any">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+      
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #eef5ee;
+            border-left: 4px solid #1b5e20;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .nav-button {
+            background-color: #1b5e20;
+            color: white;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .nav-button:hover {
+            background-color: #2e7d32;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            min-height: 60vh;
+        
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .maintenance-box {
+            background: #f8f8f8;
+            border-left: 6px solid #1b5e20;
+            padding: 30px 40px;
+            border-radius: 6px;
+            text-align: center;
+            max-width: 600px;
+        
+            margin: auto; /* centraliza horizontal e vertical no espaço restante */
+        }
+
+        .maintenance-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1b5e20;
+            margin-bottom: 10px;
+        }
+
+        .maintenance-text {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        /* Texto central */
+        .footer-text {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px; /* espaço entre texto e ícone */
+            font-weight: bold;
+        }
+
+        /* Link do LinkedIn */
+        .linkedin-link {
+            display: inline-flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* SVG herda o tamanho do texto */
+        .linkedin-link svg {
+            height: 1em;   /* mesma altura do texto */
+            width: auto;
+            fill: currentColor;
+        }
+
+        /* Hover sutil */
+        .linkedin-link:hover {
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Concurso EMBRAPA 2025</h1>
+</header>
+
+<main>
+    <div class="content">
+      
+          <div class="top-bar">
+            <div class="nav-buttons">
+                <a class="nav-button" href="index.html">Histórico de atualizações</a>
+                <a class="nav-button" href="estatisitcas.html">Estatísticas</a>
+            </div>
+        </div>
+      
+        <div class="maintenance-box">
+            <div class="maintenance-title">
+                Dashboard em manutenção
+            </div>
+            <div class="maintenance-text">
+                Site em manutenção.<br>
+                Em breve os dados estarão disponíveis novamente.
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-text">
+        Desenvolvido por LFAMattos
+        <a
+            href="https://www.linkedin.com/in/luiz-felipe-arjonilla-de-mattos-75325633/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="linkedin-link"
+            aria-label="LinkedIn de Luiz Felipe Mattos"
+        >
+            <!-- SVG LinkedIn -->
+            <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.367-1.85 3.599 0 4.268 2.368 4.268 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM6.813 20.452H3.861V9h2.952v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/>
+            </svg>
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
