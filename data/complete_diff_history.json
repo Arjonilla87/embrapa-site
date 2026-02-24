@@ -1,5 +1,18 @@
 [
   {
+    "DATA / HORA": "24/02/2026 - 17:25:11",
+    "COLOCAÇÃO": "12º AC",
+    "NOME": "GABRIEL HENRIQUE FERREIRA NUNES",
+    "OPÇÃO": "40000084",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Manejo Vegetal",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMS - Milho e Sorgo",
+    "LOTAÇÃO": "Sete Lagoas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "LOTAÇÃO:  → Sete Lagoas"
+  },
+  {
     "DATA / HORA": "24/02/2026 - 16:44:25",
     "COLOCAÇÃO": "1º PCD",
     "NOME": "CARLA EMANUELE ALVES DOS SANTOS",
@@ -63,19 +76,6 @@
     "LOTAÇÃO": "Jaguariúna",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Convocado → Aceitou"
-  },
-  {
-    "DATA / HORA": "24/02/2026 - 16:44:25",
-    "COLOCAÇÃO": "12º AC",
-    "NOME": "GABRIEL HENRIQUE FERREIRA NUNES",
-    "OPÇÃO": "40000084",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Manejo Vegetal",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CNPMS - Milho e Sorgo",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CNPMS - Milho e Sorgo"
   },
   {
     "DATA / HORA": "24/02/2026 - 15:48:40",
