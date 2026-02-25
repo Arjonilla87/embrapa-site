@@ -1,5 +1,57 @@
 [
   {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "4º AC",
+    "NOME": "BRUNO GORZYNSKI MEIRELLES",
+    "OPÇÃO": "40000432",
+    "CARGO": "Analista",
+    "SUBÁREA": "Jornalismo",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "6º AC",
+    "NOME": "IGOR OLIVEIRA SANTOS ROSON",
+    "OPÇÃO": "40000176",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "2º AC",
+    "NOME": "RODRIGO DE FREITAS ESPINOZA",
+    "OPÇÃO": "40002494",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAP - Pantanal",
+    "LOTAÇÃO": "Corumbá",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "4º PCD",
+    "NOME": "ANA CAROLINA DE MACEDO MACARIO",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPAMT - Agrossilvipastoril",
+    "LOTAÇÃO": "Sinop",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Aceitou → Desistente"
+  },
+  {
     "DATA / HORA": "24/02/2026 - 20:22:53",
     "COLOCAÇÃO": "5º AC",
     "NOME": "BIBIANA MOREIRA MOURA",
