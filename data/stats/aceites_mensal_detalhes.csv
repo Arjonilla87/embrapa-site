@@ -7,9 +7,7 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 ,40000007,Assistente,Manejo Animal,IVANILDO FONTENELE DOS SANTOS,CPATSA - Semiárido
 ,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
 ,40000007,Assistente,Manejo Animal,MARCELO DE SOUZA RUAS,CPACT - Clima Temp
-,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,FILIPE DE MELO GOMES,CPACP - Maranhão
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
-,40001592,Pesquisador,Forragicultura,JOSÉ GLEDYSON DA SILVA,CPAF/RO - Rondônia
 ,40000084,Técnico,Manejo Vegetal,GUIDO BRANDÃO PIANTA,CNPGL - Gado Leite
 2025-12-18,40000007,Assistente,Manejo Animal,VICTOR GABRIEL COSTA CARVALHO,CPPSE - Pec Sudeste
 2025-12-18,40001860,Pesquisador,Uso Sustentável de Recursos Naturais,LUCIANO JORGE SEREJO DOS ANJOS,CPAF/AP - Amapá
@@ -214,5 +212,7 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,THIAGO JOSE ARRUDA DE OLIVEIRA,CPATSA - Semiárido
 2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,VANDERLEI AFFONSO MARTINS,CNPMA - Meio Ambiente
 2026-02-24,40000084,Tecnico,Manejo Vegetal,GABRIEL HENRIQUE FERREIRA NUNES,CNPMS - Milho e Sorgo
+2026-02-25,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,FILIPE DE MELO GOMES,CPACP - Maranhão
+2026-02-25,40001592,Pesquisador,Forragicultura,JOSÉ GLEDYSON DA SILVA,CPAF/RO - Rondônia
 2026-02-25,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,RODRIGO DE FREITAS ESPINOZA,CPAP - Pantanal
 2026-02-25,40000127,Tecnico,Suporte à Gestão,ANA CAROLINA SILVEIRA RODRIGUES,CPACT - Clima Temp
