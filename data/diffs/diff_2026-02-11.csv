@@ -12,10 +12,9 @@ DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVE
 11/02/2026 - 15:51:01,28º AC,EDGAR LOPES DOS SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
 11/02/2026 - 15:51:01,5º AC,GABRIEL FUSCO,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,Convocado,,,NOVO,
 11/02/2026 - 15:51:01,17º AC,FELIPE DE QUEIROZ TELLES,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Convocado,,,NOVO,
-11/02/2026 - 15:51:01,1º AC,ANDREIA FERREIRA MACHADO,40000464,Analista,Apoio a Campo Experimental Produção Animal,Contratado,CNPGL - Gado Leite,Coronel Pacheco,ALTERADO,OPÇÃO: 40001484 → 40000464; STATUS: Desistente → Contratado; UNIDADE: CPAMN - Meio Norte → CNPGL - Gado Leite; LOTAÇÃO: Teresina → Coronel Pacheco
 11/02/2026 - 15:51:01,2º AC,GUSTAVO MENEGALDO TURATTI,40000648,Analista,Comunicação,Aceitou,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Convocado → Aceitou
 11/02/2026 - 16:51:22,1º PPP,RODRIGO FELIPE FARIA FERREIRA,40000648,Analista,Comunicação,Convocado,,,NOVO,
 11/02/2026 - 19:21:23,1º PPP,RODRIGO FELIPE FARIA FERREIRA,40000648,Analista,Comunicação,Aceitou,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPT - Trigo; LOTAÇÃO:  → Passo Fundo
 11/02/2026 - 20:23:46,2º AC,GUSTAVO MENEGALDO TURATTI,40000648,Analista,Comunicação,Aceitou,CNPH - Hortaliças,Brasília,ALTERADO,Convocado → Aceitou
-11/02/2026 - 20:23:46,1º AC,ANDREIA FERREIRA MACHADO,40001484,Pesquisador,Nutrição de Ruminantes,Desistente,CPAMN - Meio Norte,Teresina,ALTERADO,Contratado → Desistente | CNPGL - Gado Leite → CPAMN - Meio Norte | Coronel Pacheco → Teresina
 11/02/2026 - 20:23:46,1º PPP,RODRIGO FELIPE FARIA FERREIRA,40000648,Analista,Comunicação,Aceitou,CNPT - Trigo,Passo Fundo,ALTERADO,Convocado → Aceitou |  → CNPT - Trigo |  → Passo Fundo
+

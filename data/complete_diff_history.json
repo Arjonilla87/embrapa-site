@@ -1,45 +1,6 @@
 [
   {
     "DATA / HORA": "25/02/2026 - 15:18:29",
-    "COLOCAÇÃO": "4º AC",
-    "NOME": "BRUNO GORZYNSKI MEIRELLES",
-    "OPÇÃO": "40000432",
-    "CARGO": "Analista",
-    "SUBÁREA": "Jornalismo",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Desistente"
-  },
-  {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
-    "COLOCAÇÃO": "1º PPP",
-    "NOME": "IAN CARLOS BISPO DE CARVALHO",
-    "OPÇÃO": "40000724",
-    "CARGO": "Analista",
-    "SUBÁREA": "Sanidade e Defesa Vegetal",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Desistente"
-  },
-  {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
-    "COLOCAÇÃO": "6º AC",
-    "NOME": "IGOR OLIVEIRA SANTOS ROSON",
-    "OPÇÃO": "40000176",
-    "CARGO": "Analista",
-    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Desistente"
-  },
-  {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
     "COLOCAÇÃO": "3º AC",
     "NOME": "BARBARA LOUISE PACHECO RAMOS",
     "OPÇÃO": "40001592",
@@ -78,7 +39,33 @@
     "ALTERACOES": "STATUS: Convocado → Aceitou"
   },
   {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
+    "DATA / HORA": "25/02/2026 - 14:48:21",
+    "COLOCAÇÃO": "12º AC",
+    "NOME": "ANA CAROLINA SILVEIRA RODRIGUES",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPACT - Clima Temp",
+    "LOTAÇÃO": "Pelotas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 12:53:18",
+    "COLOCAÇÃO": "1º PPP",
+    "NOME": "IAN CARLOS BISPO DE CARVALHO",
+    "OPÇÃO": "40000724",
+    "CARGO": "Analista",
+    "SUBÁREA": "Sanidade e Defesa Vegetal",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 12:53:18",
     "COLOCAÇÃO": "1º AC",
     "NOME": "LUIZ FERNANDO SATOLO",
     "OPÇÃO": "40002494",
@@ -91,7 +78,46 @@
     "ALTERACOES": "STATUS: Convocado → Desistente"
   },
   {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
+    "DATA / HORA": "25/02/2026 - 12:53:18",
+    "COLOCAÇÃO": "12º AC",
+    "NOME": "ANA CAROLINA SILVEIRA RODRIGUES",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPACT - Clima Temp",
+    "LOTAÇÃO": "Pelotas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CPACT - Clima Temp; LOTAÇÃO:  → Pelotas"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "4º AC",
+    "NOME": "BRUNO GORZYNSKI MEIRELLES",
+    "OPÇÃO": "40000432",
+    "CARGO": "Analista",
+    "SUBÁREA": "Jornalismo",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
+    "COLOCAÇÃO": "6º AC",
+    "NOME": "IGOR OLIVEIRA SANTOS ROSON",
+    "OPÇÃO": "40000176",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "25/02/2026 - 09:41:20",
     "COLOCAÇÃO": "2º AC",
     "NOME": "RODRIGO DE FREITAS ESPINOZA",
     "OPÇÃO": "40002494",
@@ -104,7 +130,7 @@
     "ALTERACOES": "STATUS: Convocado → Aceitou"
   },
   {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
+    "DATA / HORA": "25/02/2026 - 09:41:20",
     "COLOCAÇÃO": "4º PCD",
     "NOME": "ANA CAROLINA DE MACEDO MACARIO",
     "OPÇÃO": "40000127",
@@ -115,19 +141,6 @@
     "LOTAÇÃO": "Sinop",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Aceitou → Desistente"
-  },
-  {
-    "DATA / HORA": "25/02/2026 - 15:18:29",
-    "COLOCAÇÃO": "12º AC",
-    "NOME": "ANA CAROLINA SILVEIRA RODRIGUES",
-    "OPÇÃO": "40000127",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Suporte à Gestão",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPACT - Clima Temp",
-    "LOTAÇÃO": "Pelotas",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CPACT - Clima Temp; LOTAÇÃO:  → Pelotas"
   },
   {
     "DATA / HORA": "24/02/2026 - 20:22:53",
@@ -2717,19 +2730,6 @@
     "ALTERACOES": "Convocado → Aceitou |  → CNPT - Trigo |  → Passo Fundo"
   },
   {
-    "DATA / HORA": "11/02/2026 - 20:23:46",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40001484",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Nutrição de Ruminantes",
-    "STATUS": "Desistente",
-    "UNIDADE": "CPAMN - Meio Norte",
-    "LOTAÇÃO": "Teresina",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Contratado → Desistente | CNPGL - Gado Leite → CPAMN - Meio Norte | Coronel Pacheco → Teresina"
-  },
-  {
     "DATA / HORA": "11/02/2026 - 19:21:23",
     "COLOCAÇÃO": "1º PPP",
     "NOME": "RODRIGO FELIPE FARIA FERREIRA",
@@ -2754,19 +2754,6 @@
     "LOTAÇÃO": "",
     "EVENTO": "NOVO",
     "ALTERACOES": ""
-  },
-  {
-    "DATA / HORA": "11/02/2026 - 15:51:01",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40000464",
-    "CARGO": "Analista",
-    "SUBÁREA": "Apoio a Campo Experimental Produção Animal",
-    "STATUS": "Contratado",
-    "UNIDADE": "CNPGL - Gado Leite",
-    "LOTAÇÃO": "Coronel Pacheco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "OPÇÃO: 40001484 → 40000464; STATUS: Desistente → Contratado; UNIDADE: CPAMN - Meio Norte → CNPGL - Gado Leite; LOTAÇÃO: Teresina → Coronel Pacheco"
   },
   {
     "DATA / HORA": "11/02/2026 - 15:51:01",
@@ -4551,19 +4538,6 @@
   },
   {
     "DATA / HORA": "03/02/2026 - 20:20:50",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Contratado",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Contratado |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
-    "DATA / HORA": "03/02/2026 - 20:20:50",
     "COLOCAÇÃO": "1º PPP",
     "NOME": "YURI ALEXANDRINO BANDEIRA",
     "OPÇÃO": "40001348",
@@ -6149,19 +6123,6 @@
     "ALTERACOES": "STATUS: Aceitou → Contratado"
   },
   {
-    "DATA / HORA": "03/02/2026 - 11:02:47",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
-  },
-  {
     "DATA / HORA": "03/02/2026 - 09:37:20",
     "COLOCAÇÃO": "11º AC",
     "NOME": "WELTON CLEBER RIBEIRO",
@@ -7099,19 +7060,6 @@
   },
   {
     "DATA / HORA": "26/01/2026 - 20:14:38",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
-    "DATA / HORA": "26/01/2026 - 20:14:38",
     "COLOCAÇÃO": "19º AC",
     "NOME": "DENIO DE FREITAS MENEZES",
     "OPÇÃO": "40000035",
@@ -7135,19 +7083,6 @@
     "LOTAÇÃO": "Rio Branco",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "Convocado → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
-    "DATA / HORA": "26/01/2026 - 20:14:38",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40001484",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Nutrição de Ruminantes",
-    "STATUS": "Desistente",
-    "UNIDADE": "CPAMN - Meio Norte",
-    "LOTAÇÃO": "Teresina",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Contratado → Desistente | CNPGL - Gado Leite → CPAMN - Meio Norte | Coronel Pacheco → Teresina"
   },
   {
     "DATA / HORA": "26/01/2026 - 20:14:38",
@@ -7593,19 +7528,6 @@
   },
   {
     "DATA / HORA": "26/01/2026 - 05:20:46",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40000464",
-    "CARGO": "Analista",
-    "SUBÁREA": "Apoio a Campo Experimental Produção Animal",
-    "STATUS": "Contratado",
-    "UNIDADE": "CNPGL - Gado Leite",
-    "LOTAÇÃO": "Coronel Pacheco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "OPÇÃO: 40001484 → 40000464; STATUS: Desistente → Contratado; UNIDADE: CPAMN - Meio Norte → CNPGL - Gado Leite; LOTAÇÃO: Teresina → Coronel Pacheco"
-  },
-  {
-    "DATA / HORA": "26/01/2026 - 05:20:46",
     "COLOCAÇÃO": "13º AC",
     "NOME": "WALLACE FERREIRA DA SILVA",
     "OPÇÃO": "40002198",
@@ -7616,19 +7538,6 @@
     "LOTAÇÃO": "",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "COLOCAÇÃO: 2º PPP → 13º AC"
-  },
-  {
-    "DATA / HORA": "26/01/2026 - 05:20:46",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
   },
   {
     "DATA / HORA": "24/01/2026 - 09:23:01",
@@ -8437,32 +8346,6 @@
     "ALTERACOES": "UNIDADE:  → CNPMS - Milho e Sorgo; LOTAÇÃO:  → Sete Lagoas"
   },
   {
-    "DATA / HORA": "21/01/2026 - 22:02:24",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
-  },
-  {
-    "DATA / HORA": "21/01/2026 - 20:17:16",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
     "DATA / HORA": "21/01/2026 - 20:17:16",
     "COLOCAÇÃO": "5º PPP",
     "NOME": "CHARLES ALVES CALIXTO MONTENEGRO",
@@ -8841,19 +8724,6 @@
   },
   {
     "DATA / HORA": "20/01/2026 - 20:13:53",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
-    "DATA / HORA": "20/01/2026 - 20:13:53",
     "COLOCAÇÃO": "4º PCD",
     "NOME": "MAURO FRANKLIN DE OLIVEIRA TAVARES",
     "OPÇÃO": "40000035",
@@ -8864,19 +8734,6 @@
     "LOTAÇÃO": "Teresina",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "Convocado → Aceitou"
-  },
-  {
-    "DATA / HORA": "20/01/2026 - 20:13:53",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40001484",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Nutrição de Ruminantes",
-    "STATUS": "Desistente",
-    "UNIDADE": "CPAMN - Meio Norte",
-    "LOTAÇÃO": "Teresina",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Contratado → Desistente | CNPGL - Gado Leite → CPAMN - Meio Norte | Coronel Pacheco → Teresina"
   },
   {
     "DATA / HORA": "20/01/2026 - 17:06:32",
@@ -8932,19 +8789,6 @@
   },
   {
     "DATA / HORA": "20/01/2026 - 12:22:11",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "ANDREIA FERREIRA MACHADO",
-    "OPÇÃO": "40000464",
-    "CARGO": "Analista",
-    "SUBÁREA": "Apoio a Campo Experimental Produção Animal",
-    "STATUS": "Contratado",
-    "UNIDADE": "CNPGL - Gado Leite",
-    "LOTAÇÃO": "Coronel Pacheco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "OPÇÃO: 40001484 → 40000464; STATUS: Desistente → Contratado; UNIDADE: CPAMN - Meio Norte → CNPGL - Gado Leite; LOTAÇÃO: Teresina → Coronel Pacheco"
-  },
-  {
-    "DATA / HORA": "20/01/2026 - 12:22:11",
     "COLOCAÇÃO": "13º AC",
     "NOME": "WALLACE FERREIRA DA SILVA",
     "OPÇÃO": "40002198",
@@ -8955,19 +8799,6 @@
     "LOTAÇÃO": "",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "COLOCAÇÃO: 2º PPP → 13º AC; STATUS: Desistente → Convocado"
-  },
-  {
-    "DATA / HORA": "20/01/2026 - 12:22:11",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
   },
   {
     "DATA / HORA": "20/01/2026 - 10:39:55",
@@ -9296,19 +9127,6 @@
   },
   {
     "DATA / HORA": "16/01/2026 - 20:45:58",
-    "COLOCAÇÃO": "2º AC",
-    "NOME": "JOAO PEDRO MATIELLO",
-    "OPÇÃO": "40004353",
-    "CARGO": "Analista",
-    "SUBÁREA": "Clínica Veterinária",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Contratado → Desistente | CNPC - Caprinos →  | Sobral →"
-  },
-  {
-    "DATA / HORA": "16/01/2026 - 20:45:58",
     "COLOCAÇÃO": "5º AC",
     "NOME": "JORGE XAVIER DA SILVA",
     "OPÇÃO": "40002688",
@@ -9345,19 +9163,6 @@
     "LOTAÇÃO": "",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "Convocado → Desistente"
-  },
-  {
-    "DATA / HORA": "16/01/2026 - 20:45:58",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
   },
   {
     "DATA / HORA": "16/01/2026 - 20:45:58",
@@ -9514,32 +9319,6 @@
     "LOTAÇÃO": "Belém",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "UNIDADE:  → CPATU - Amaz. Oriental; LOTAÇÃO:  → Belém"
-  },
-  {
-    "DATA / HORA": "16/01/2026 - 16:25:12",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "JOAO PEDRO MATIELLO",
-    "OPÇÃO": "40000457",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Ambiência e Bioclimatologia Animal",
-    "STATUS": "Contratado",
-    "UNIDADE": "CNPC - Caprinos",
-    "LOTAÇÃO": "Sobral",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º AC → 1º AC; OPÇÃO: 40004353 → 40000457; STATUS: Desistente → Contratado; UNIDADE:  → CNPC - Caprinos; LOTAÇÃO:  → Sobral"
-  },
-  {
-    "DATA / HORA": "16/01/2026 - 16:25:12",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
   },
   {
     "DATA / HORA": "16/01/2026 - 15:47:11",
@@ -10426,45 +10205,6 @@
     "ALTERACOES": "Contratado → Desistente | CNPC - Caprinos →  | Sobral →"
   },
   {
-    "DATA / HORA": "10/01/2026 - 20:57:47",
-    "COLOCAÇÃO": "2º PCD",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002223",
-    "CARGO": "Analista",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPAF/AC - Acre",
-    "LOTAÇÃO": "Rio Branco",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco"
-  },
-  {
-    "DATA / HORA": "10/01/2026 - 20:57:47",
-    "COLOCAÇÃO": "2º AC",
-    "NOME": "ABIAS SANTOS SILVA",
-    "OPÇÃO": "40001749",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Sistemas de Produção de Ruminantes",
-    "STATUS": "Contratado",
-    "UNIDADE": "CPAA - Amaz. Ocidental",
-    "LOTAÇÃO": "Manaus",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "Desistente → Contratado | CNPSA - Suinos e Aves → CPAA - Amaz. Ocidental | Concórdia → Manaus"
-  },
-  {
-    "DATA / HORA": "10/01/2026 - 12:29:53",
-    "COLOCAÇÃO": "1º PPP",
-    "NOME": "ABIAS SANTOS SILVA",
-    "OPÇÃO": "40003735",
-    "CARGO": "Analista",
-    "SUBÁREA": "Sistemas de Produção Animal",
-    "STATUS": "Desistente",
-    "UNIDADE": "CNPSA - Suinos e Aves",
-    "LOTAÇÃO": "Concórdia",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º AC → 1º PPP; OPÇÃO: 40001749 → 40003735; STATUS: Contratado → Desistente; UNIDADE: CPAA - Amaz. Ocidental → CNPSA - Suinos e Aves; LOTAÇÃO: Manaus → Concórdia"
-  },
-  {
     "DATA / HORA": "10/01/2026 - 12:29:53",
     "COLOCAÇÃO": "1º AC",
     "NOME": "JOAO PEDRO MATIELLO",
@@ -10476,19 +10216,6 @@
     "LOTAÇÃO": "Sobral",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "COLOCAÇÃO: 2º AC → 1º AC; OPÇÃO: 40004353 → 40000457; STATUS: Desistente → Contratado; UNIDADE:  → CNPC - Caprinos; LOTAÇÃO:  → Sobral"
-  },
-  {
-    "DATA / HORA": "10/01/2026 - 12:29:53",
-    "COLOCAÇÃO": "1º AC",
-    "NOME": "WILLIAM DAVID LIMA DA SILVA",
-    "OPÇÃO": "40002449",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Contabilidade",
-    "STATUS": "Desistente",
-    "UNIDADE": "",
-    "LOTAÇÃO": "",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco →"
   },
   {
     "DATA / HORA": "09/01/2026 - 20:46:21",

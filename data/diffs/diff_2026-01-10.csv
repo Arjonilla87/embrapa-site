@@ -1,7 +1,3 @@
 ﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
-10/01/2026 - 12:29:53,1º PPP,ABIAS SANTOS SILVA,40003735,Analista,Sistemas de Produção Animal,Desistente,CNPSA - Suinos e Aves,Concórdia,ALTERADO,COLOCAÇÃO: 2º AC → 1º PPP; OPÇÃO: 40001749 → 40003735; STATUS: Contratado → Desistente; UNIDADE: CPAA - Amaz. Ocidental → CNPSA - Suinos e Aves; LOTAÇÃO: Manaus → Concórdia
-10/01/2026 - 12:29:53,1º AC,WILLIAM DAVID LIMA DA SILVA,40002449,Técnico,Contabilidade,Desistente,,,ALTERADO,COLOCAÇÃO: 2º PCD → 1º AC; OPÇÃO: 40002223 → 40002449; STATUS: Aceitou → Desistente; UNIDADE: CPAF/AC - Acre → ; LOTAÇÃO: Rio Branco → 
 10/01/2026 - 12:29:53,1º AC,JOAO PEDRO MATIELLO,40000457,Pesquisador,Ambiência e Bioclimatologia Animal,Contratado,CNPC - Caprinos,Sobral,ALTERADO,COLOCAÇÃO: 2º AC → 1º AC; OPÇÃO: 40004353 → 40000457; STATUS: Desistente → Contratado; UNIDADE:  → CNPC - Caprinos; LOTAÇÃO:  → Sobral
-10/01/2026 - 20:57:47,2º AC,ABIAS SANTOS SILVA,40001749,Pesquisador,Sistemas de Produção de Ruminantes,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,Desistente → Contratado | CNPSA - Suinos e Aves → CPAA - Amaz. Ocidental | Concórdia → Manaus
-10/01/2026 - 20:57:47,2º PCD,WILLIAM DAVID LIMA DA SILVA,40002223,Analista,Contabilidade,Aceitou,CPAF/AC - Acre,Rio Branco,ALTERADO,Desistente → Aceitou |  → CPAF/AC - Acre |  → Rio Branco
 10/01/2026 - 20:57:47,2º AC,JOAO PEDRO MATIELLO,40004353,Analista,Clínica Veterinária,Desistente,,,ALTERADO,Contratado → Desistente | CNPC - Caprinos →  | Sobral → 
