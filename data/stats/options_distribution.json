@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 19
+      "count": 23
     },
     {
       "range": "6-10",
@@ -33,14 +33,24 @@
       "vagas_abertas": 6
     },
     {
+      "bucket": "1-5",
+      "opcao": "40000007",
+      "cargo": "Assistente",
+      "subarea": "Manejo Animal",
+      "convocados": 35,
+      "aceitou": 10,
+      "contratados": 11,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "6-10",
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 40,
-      "aceitou": 13,
+      "aceitou": 12,
       "contratados": 18,
-      "vagas_abertas": 6
+      "vagas_abertas": 7
     },
     {
       "bucket": "11-15",
@@ -107,7 +117,7 @@
       "opcao": "40000373",
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
-      "convocados": 7,
+      "convocados": 6,
       "aceitou": 5,
       "contratados": 0,
       "vagas_abertas": 2
@@ -117,10 +127,10 @@
       "opcao": "40000432",
       "cargo": "Analista",
       "subarea": "Jornalismo",
-      "convocados": 6,
-      "aceitou": 3,
+      "convocados": 5,
+      "aceitou": 2,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -167,7 +177,7 @@
       "opcao": "40000724",
       "cargo": "Analista",
       "subarea": "Sanidade e Defesa Vegetal",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 2,
       "contratados": 1,
       "vagas_abertas": 3
@@ -323,6 +333,16 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40002198",
+      "cargo": "Analista",
+      "subarea": "Ciência de Dados",
+      "convocados": 19,
+      "aceitou": 3,
+      "contratados": 8,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": ">20",
       "opcao": "40002271",
       "cargo": "Analista",
@@ -337,10 +357,10 @@
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 24,
+      "convocados": 23,
       "aceitou": 9,
-      "contratados": 6,
-      "vagas_abertas": 1
+      "contratados": 5,
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -363,6 +383,16 @@
       "vagas_abertas": 17
     },
     {
+      "bucket": "1-5",
+      "opcao": "40002553",
+      "cargo": "Analista",
+      "subarea": "Transferência de Tecnologia",
+      "convocados": 12,
+      "aceitou": 1,
+      "contratados": 8,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "16-20",
       "opcao": "40003706",
       "cargo": "Pesquisador",
@@ -371,6 +401,16 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 16
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40004569",
+      "cargo": "Analista",
+      "subarea": "Gestão de Instrumentos de Parcerias e Negócios",
+      "convocados": 13,
+      "aceitou": 0,
+      "contratados": 9,
+      "vagas_abertas": 1
     }
   ]
 }
