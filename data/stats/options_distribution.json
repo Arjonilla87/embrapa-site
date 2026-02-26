@@ -6,7 +6,7 @@
     },
     {
       "range": "6-10",
-      "count": 7
+      "count": 6
     },
     {
       "range": "11-15",
@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 17,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 10,
-      "vagas_abertas": 100
+      "vagas_abertas": 99
     },
     {
       "bucket": "1-5",
@@ -103,14 +103,14 @@
       "vagas_abertas": 48
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000373",
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
-      "convocados": 0,
-      "aceitou": 0,
+      "convocados": 7,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Jornalismo",
       "convocados": 6,
-      "aceitou": 2,
+      "aceitou": 3,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -147,7 +147,7 @@
       "opcao": "40000551",
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
-      "convocados": 4,
+      "convocados": 5,
       "aceitou": 3,
       "contratados": 1,
       "vagas_abertas": 3
@@ -178,9 +178,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 13,
-      "aceitou": 8,
+      "aceitou": 9,
       "contratados": 1,
-      "vagas_abertas": 10
+      "vagas_abertas": 9
     },
     {
       "bucket": "11-15",
@@ -241,16 +241,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 10
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001592",
-      "cargo": "Pesquisador",
-      "subarea": "Forragicultura",
-      "convocados": 8,
-      "aceitou": 7,
-      "contratados": 0,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -318,9 +308,9 @@
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
       "convocados": 6,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 0,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -358,9 +348,9 @@
       "cargo": "Pesquisador",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 7,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 0,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "16-20",

@@ -1,0 +1,16 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+26/02/2026 - 09:41:07,1º PCD,CAMILLA KASSAR BORGES,40000373,Pesquisador,Agricultura e Climatologia,Aceitou,CNPC - Caprinos,Sobral,NOVO,
+26/02/2026 - 09:41:07,2º AC,YASMIN KAORE LAGO KITAGAWA,40000373,Pesquisador,Agricultura e Climatologia,Convocado,CPAA - Amaz. Ocidental,Manaus,NOVO,
+26/02/2026 - 09:41:07,5º AC,BRUCE FRANCISCO PONTES DA SILVA,40000373,Pesquisador,Agricultura e Climatologia,Convocado,CPATSA - Semiárido,Petrolina,NOVO,
+26/02/2026 - 09:41:07,1º AC,FRANK FREIRE CAPUCHINHO,40000373,Pesquisador,Agricultura e Climatologia,Convocado,CPAMT - Agrossilvipastoril,Sinop,NOVO,
+26/02/2026 - 09:41:07,1º PCD,PEDRO ANTONIO PALHANO ARANTES SILVA,40000551,Analista,Gestão da Qualidade Laboratorial,Convocado,,,NOVO,
+26/02/2026 - 09:41:07,4º AC,LENE DA SILVA ANDRADE,40000373,Pesquisador,Agricultura e Climatologia,Aceitou,CPATC - Tabuleiros,Aracaju,NOVO,
+26/02/2026 - 09:41:07,6º AC,DANIEL SCHMITT,40001592,Pesquisador,Forragicultura,Aceitou,CPAF/RO - Rondônia,Porto Velho,NOVO,
+26/02/2026 - 09:41:07,1º PPP,JOSÉ REINALDO DA SILVA CABRAL DE MORAES,40000373,Pesquisador,Agricultura e Climatologia,Convocado,CPACT - Clima Temp,Pelotas,NOVO,
+26/02/2026 - 09:41:07,3º AC,LEONARDO AMARAL MONTEIRO,40000373,Pesquisador,Agricultura e Climatologia,Convocado,CNPMS - Milho e Sorgo,Sete Lagoas,NOVO,
+26/02/2026 - 09:41:07,1º PPP,LUCIELE DE OLIVEIRA PAULINO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Convocado → Aceitou
+26/02/2026 - 09:41:07,30º AC,THIAGO LOPES NOGUEIRA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+26/02/2026 - 09:41:07,3º PPP,FALK ROBERTO DE PAULA ARNOLDO,40000084,Técnico,Manejo Vegetal,Aceitou,CNPA - Algodão,Palmas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPA - Algodão; LOTAÇÃO:  → Palmas
+26/02/2026 - 09:41:07,10º AC,MARCOS RODOLFO GOETTEN,40000932,Analista,Sistema de Produção Vegetal,Aceitou,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPMF - Mandioca; LOTAÇÃO:  → Cruz das Almas
+26/02/2026 - 09:41:07,3º AC,JACKSON MAIKE VEIGA DE ASSIS,40002022,Pesquisador,Ciência de Dados,Aceitou,CNPT - Trigo,Passo fundo,ALTERADO,STATUS: Convocado → Aceitou
+26/02/2026 - 09:41:07,5º AC,IVANNA SOUZA SUZARTE,40000432,Analista,Jornalismo,Aceitou,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPASA - Pesca; LOTAÇÃO:  → Palmas
