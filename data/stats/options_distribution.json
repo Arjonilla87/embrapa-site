@@ -108,9 +108,9 @@
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
       "convocados": 7,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 0,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -148,9 +148,9 @@
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
       "convocados": 5,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
