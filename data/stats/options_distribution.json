@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 18,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 10,
-      "vagas_abertas": 99
+      "vagas_abertas": 98
     },
     {
       "bucket": "1-5",
@@ -108,9 +108,9 @@
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
       "convocados": 7,
-      "aceitou": 5,
+      "aceitou": 6,
       "contratados": 0,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Jornalismo",
       "convocados": 7,
-      "aceitou": 3,
+      "aceitou": 4,
       "contratados": 1,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -148,9 +148,9 @@
       "cargo": "Analista",
       "subarea": "Gestão da Qualidade Laboratorial",
       "convocados": 6,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
