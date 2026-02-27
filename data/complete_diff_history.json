@@ -53,6 +53,19 @@
   },
   {
     "DATA / HORA": "26/02/2026 - 20:21:40",
+    "COLOCAÇÃO": "1º PCD",
+    "NOME": "PEDRO ANTONIO PALHANO ARANTES SILVA",
+    "OPÇÃO": "40000551",
+    "CARGO": "Analista",
+    "SUBÁREA": "Gestão da Qualidade Laboratorial",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAMT - Agrossilvipastoril",
+    "LOTAÇÃO": "Sinop",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou |  → CPAMT - Agrossilvipastoril |  → Sinop"
+  },
+  {
+    "DATA / HORA": "26/02/2026 - 20:21:40",
     "COLOCAÇÃO": "8º AC",
     "NOME": "RICARDO NEIL SCHAFFER",
     "OPÇÃO": "40002278",
@@ -89,6 +102,45 @@
     "LOTAÇÃO": "Corumbá",
     "EVENTO": "NOVO",
     "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "26/02/2026 - 20:21:40",
+    "COLOCAÇÃO": "1º AC",
+    "NOME": "FRANK FREIRE CAPUCHINHO",
+    "OPÇÃO": "40000373",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Agricultura e Climatologia",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAMT - Agrossilvipastoril",
+    "LOTAÇÃO": "Sinop",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "26/02/2026 - 20:21:40",
+    "COLOCAÇÃO": "1º PPP",
+    "NOME": "JOSÉ REINALDO DA SILVA CABRAL DE MORAES",
+    "OPÇÃO": "40000373",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Agricultura e Climatologia",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPACT - Clima Temp",
+    "LOTAÇÃO": "Pelotas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "26/02/2026 - 20:21:40",
+    "COLOCAÇÃO": "3º AC",
+    "NOME": "LEONARDO AMARAL MONTEIRO",
+    "OPÇÃO": "40000373",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Agricultura e Climatologia",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMS - Milho e Sorgo",
+    "LOTAÇÃO": "Sete Lagoas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
   },
   {
     "DATA / HORA": "26/02/2026 - 20:21:40",
