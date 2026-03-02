@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 19
+      "count": 20
     },
     {
       "range": "6-10",
-      "count": 6
+      "count": 5
     },
     {
       "range": "11-15",
@@ -33,14 +33,14 @@
       "vagas_abertas": 6
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 41,
-      "aceitou": 13,
+      "aceitou": 14,
       "contratados": 18,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "11-15",
@@ -217,7 +217,7 @@
       "opcao": "40001348",
       "cargo": "Analista",
       "subarea": "Inovação Social",
-      "convocados": 10,
+      "convocados": 11,
       "aceitou": 8,
       "contratados": 1,
       "vagas_abertas": 3
@@ -307,7 +307,7 @@
       "opcao": "40002022",
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
-      "convocados": 6,
+      "convocados": 7,
       "aceitou": 5,
       "contratados": 0,
       "vagas_abertas": 1
