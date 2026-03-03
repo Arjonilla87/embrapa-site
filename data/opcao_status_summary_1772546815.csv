@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,03/03/2026 - 10:53:11
+﻿LAST_UPDATE,03/03/2026 - 11:04:57
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,10,2,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,10,12,100%,36,14
@@ -25,7 +25,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000141,Analista,Laboratórios e Campos Experimentais,Química,5,0,0,4,80%,5,1
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
-40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,0,5,0,56%,9,4
+40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,1,5,0,56%,10,4
 40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,10,1,19%,20,8
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
@@ -52,7 +52,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000404,Pesquisador,Engenharias,Robótica e Sensoriamento,1,0,0,1,100%,1,0
 40000405,Pesquisador,Espectroscopia Aplicada,Instrumentação em Ressonância Magnética Nuclear,1,0,0,1,100%,1,0
 40000408,Analista,Orçamento e Finanças,Orçamento e Finanças,2,0,1,1,100%,3,1
-40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,0,4,1,71%,8,3
+40000432,Analista,Transferência de Tecnologia e Comunicação,Jornalismo,7,1,4,1,71%,9,3
 40000435,Pesquisador,Ciências Agrárias,Modelagem e Simulação em Sistemas Agrícolas,1,0,0,1,100%,1,0
 40000457,Pesquisador,Ciências Agrárias,Ambiência e Bioclimatologia Animal,2,0,0,2,100%,2,0
 40000458,Pesquisador,Ciências Agrárias,Sistemas de Produção de Leite,1,0,0,1,100%,1,0
@@ -62,13 +62,13 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000502,Pesquisador,Ciências Biológicas,Fisiologia Vegetal,1,0,0,1,100%,1,0
 40000519,Pesquisador,Ciências Agrárias,Bacteriologia Vegetal,3,0,0,3,100%,3,0
 40000528,Pesquisador,Ciências Agrárias,Sistema de Produção de Olerícolas,3,0,0,2,67%,3,1
-40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,0,5,1,86%,6,0
+40000551,Analista,Laboratórios e Campos Experimentais,Gestão da Qualidade Laboratorial,7,1,5,1,86%,7,0
 40000564,Pesquisador,Ciências Sociais Aplicadas,Ciências Econômicas Aplicadas à Agropecuária,2,0,0,2,100%,3,1
 40000605,Analista,Ciências Biológicas,Biologia Sintética e Ciências Ômicas,1,0,0,1,100%,1,0
 40000616,Analista,Gestão Estratégica,Governança Sustentável ESG,2,0,0,2,100%,2,0
 40000632,Pesquisador,Ciências Agrárias,Fitotecnia,6,0,6,0,100%,9,3
 40000642,Analista,Gestão da Informação,Avaliação de Impactos,1,0,0,1,100%,1,0
-40000648,Analista,Transferência de Tecnologia e Comunicação,Comunicação,8,0,5,1,75%,7,1
+40000648,Analista,Transferência de Tecnologia e Comunicação,Comunicação,8,1,5,1,75%,8,1
 40000682,Técnico,Gestão da Informação,Tecnologia da Informação,3,0,0,3,100%,6,3
 40000709,Pesquisador,Ciências Agrárias,Sistemas de Produção de Culturas Anuais,5,0,5,0,100%,6,1
 40000710,Pesquisador,Ciências Agrárias,Fisiologia de Plantas Cultivadas,3,0,0,3,100%,3,0
@@ -80,7 +80,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000878,Técnico,"Suprimento, Manutenção e Serviços",Monitoramento Preditivo,4,0,0,4,100%,7,3
 40000894,Pesquisador,Ciências Agrárias,Serviços Ambientais,2,0,0,2,100%,2,0
 40000909,Analista,Gestão da Informação,Gestão da Informação Bibliográfica,2,0,0,2,100%,2,0
-40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,0,10,1,58%,14,3
+40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,1,10,1,58%,15,3
 40000959,Pesquisador,Ciências Agrárias,Sociobiodiversidade,1,0,0,1,100%,1,0
 40000968,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos,5,0,0,5,100%,6,1
 40000980,Pesquisador,Engenharias,Sociologia e Automação e Mecanização,11,0,0,0,0%,0,0
