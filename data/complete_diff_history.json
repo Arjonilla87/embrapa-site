@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "03/03/2026 - 15:35:54",
+    "COLOCAÇÃO": "8º AC",
+    "NOME": "RAFAEL BREVIGLIERI DE CASTRO FREITAS",
+    "OPÇÃO": "40000176",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "03/03/2026 - 15:35:54",
+    "COLOCAÇÃO": "11º AC",
+    "NOME": "RICARDO ELSO LEÃO",
+    "OPÇÃO": "40000932",
+    "CARGO": "Analista",
+    "SUBÁREA": "Sistema de Produção Vegetal",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMF - Mandioca",
+    "LOTAÇÃO": "Cruz das Almas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
     "DATA / HORA": "03/03/2026 - 13:36:08",
     "COLOCAÇÃO": "11º AC",
     "NOME": "RICARDO ELSO LEÃO",
