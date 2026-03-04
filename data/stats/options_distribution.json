@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 19
+      "count": 20
     },
     {
       "range": "6-10",
-      "count": 5
+      "count": 4
     },
     {
       "range": "11-15",
@@ -183,14 +183,14 @@
       "vagas_abertas": 11
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001045",
       "cargo": "Pesquisador",
       "subarea": "Bioprospecção e Biotecnologia",
       "convocados": 8,
-      "aceitou": 2,
+      "aceitou": 4,
       "contratados": 0,
-      "vagas_abertas": 6
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
