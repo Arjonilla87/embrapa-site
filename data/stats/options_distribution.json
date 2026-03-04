@@ -28,8 +28,8 @@
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
       "convocados": 14,
-      "aceitou": 10,
-      "contratados": 2,
+      "aceitou": 7,
+      "contratados": 5,
       "vagas_abertas": 6
     },
     {
@@ -38,8 +38,8 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 41,
-      "aceitou": 14,
-      "contratados": 18,
+      "aceitou": 11,
+      "contratados": 21,
       "vagas_abertas": 5
     },
     {
@@ -58,8 +58,8 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 19,
-      "aceitou": 4,
-      "contratados": 10,
+      "aceitou": 3,
+      "contratados": 11,
       "vagas_abertas": 98
     },
     {
@@ -68,8 +68,8 @@
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 19,
-      "aceitou": 12,
-      "contratados": 2,
+      "aceitou": 7,
+      "contratados": 7,
       "vagas_abertas": 5
     },
     {
@@ -88,8 +88,8 @@
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 11,
-      "aceitou": 5,
-      "contratados": 0,
+      "aceitou": 4,
+      "contratados": 1,
       "vagas_abertas": 4
     },
     {
@@ -98,8 +98,8 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 20,
-      "aceitou": 10,
-      "contratados": 1,
+      "aceitou": 4,
+      "contratados": 7,
       "vagas_abertas": 48
     },
     {
@@ -118,9 +118,9 @@
       "cargo": "Analista",
       "subarea": "Jornalismo",
       "convocados": 9,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -148,8 +148,8 @@
       "cargo": "Analista",
       "subarea": "Comunicação",
       "convocados": 9,
-      "aceitou": 5,
-      "contratados": 1,
+      "aceitou": 4,
+      "contratados": 2,
       "vagas_abertas": 2
     },
     {
@@ -168,8 +168,8 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 16,
-      "aceitou": 11,
-      "contratados": 1,
+      "aceitou": 6,
+      "contratados": 6,
       "vagas_abertas": 7
     },
     {
@@ -208,9 +208,9 @@
       "cargo": "Analista",
       "subarea": "Inovação Social",
       "convocados": 12,
-      "aceitou": 9,
-      "contratados": 1,
-      "vagas_abertas": 2
+      "aceitou": 8,
+      "contratados": 3,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -318,8 +318,8 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 21,
-      "aceitou": 10,
-      "contratados": 6,
+      "aceitou": 2,
+      "contratados": 14,
       "vagas_abertas": 39
     },
     {
@@ -328,8 +328,8 @@
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
       "convocados": 24,
-      "aceitou": 9,
-      "contratados": 6,
+      "aceitou": 3,
+      "contratados": 12,
       "vagas_abertas": 1
     },
     {
