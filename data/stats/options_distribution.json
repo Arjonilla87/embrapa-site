@@ -6,7 +6,7 @@
     },
     {
       "range": "6-10",
-      "count": 4
+      "count": 3
     },
     {
       "range": "11-15",
@@ -124,16 +124,6 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000463",
-      "cargo": "Analista",
-      "subarea": "Designer Gráfico",
-      "convocados": 7,
-      "aceitou": 4,
-      "contratados": 1,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40000528",
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção de Olerícolas",
@@ -163,14 +153,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 18,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 6,
-      "vagas_abertas": 6
+      "vagas_abertas": 5
     },
     {
       "bucket": "11-15",
