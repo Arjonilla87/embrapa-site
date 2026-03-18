@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 18
+      "count": 16
     },
     {
       "range": "6-10",
@@ -120,26 +120,6 @@
       "convocados": 3,
       "aceitou": 0,
       "contratados": 2,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000648",
-      "cargo": "Analista",
-      "subarea": "Comunicação",
-      "convocados": 11,
-      "aceitou": 5,
-      "contratados": 2,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000724",
-      "cargo": "Analista",
-      "subarea": "Sanidade e Defesa Vegetal",
-      "convocados": 7,
-      "aceitou": 4,
-      "contratados": 1,
       "vagas_abertas": 1
     },
     {
