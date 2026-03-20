@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 16
+      "count": 15
     },
     {
       "range": "6-10",
@@ -239,16 +239,6 @@
       "subarea": "Tecnologia e Utilização de Produtos Florestais",
       "convocados": 1,
       "aceitou": 0,
-      "contratados": 0,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002022",
-      "cargo": "Pesquisador",
-      "subarea": "Ciência de Dados",
-      "convocados": 7,
-      "aceitou": 5,
       "contratados": 0,
       "vagas_abertas": 1
     },
