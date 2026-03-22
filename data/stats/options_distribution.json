@@ -128,9 +128,9 @@
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 19,
-      "aceitou": 8,
+      "aceitou": 9,
       "contratados": 6,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "11-15",
@@ -218,9 +218,9 @@
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 20,
-      "aceitou": 2,
+      "aceitou": 4,
       "contratados": 0,
-      "vagas_abertas": 18
+      "vagas_abertas": 16
     },
     {
       "bucket": "6-10",
