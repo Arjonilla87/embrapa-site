@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 14
     },
     {
       "range": "6-10",
-      "count": 4
+      "count": 5
     },
     {
       "range": "11-15",
@@ -33,14 +33,14 @@
       "vagas_abertas": 6
     },
     {
-      "bucket": "1-5",
+      "bucket": "6-10",
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 41,
-      "aceitou": 11,
+      "aceitou": 10,
       "contratados": 21,
-      "vagas_abertas": 5
+      "vagas_abertas": 6
     },
     {
       "bucket": "11-15",
@@ -57,7 +57,7 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 21,
+      "convocados": 22,
       "aceitou": 5,
       "contratados": 11,
       "vagas_abertas": 96
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 22,
+      "convocados": 23,
       "aceitou": 6,
       "contratados": 7,
       "vagas_abertas": 46
