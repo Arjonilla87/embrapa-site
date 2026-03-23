@@ -2,6 +2,7 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 ,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
 ,40000007,Assistente,Manejo Animal,MAEDSON ADRIANO GOMES DE OLIVEIRA,CPAF/AC - Acre
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
+,40001744,Pesquisador,Sistema de Produção Vegetal,LEANDRO BARBOSA PIMENTA,CPAC - Cerrados
 2025-12-18,40000007,Assistente,Manejo Animal,VICTOR GABRIEL COSTA CARVALHO,CPPSE - Pec Sudeste
 2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
 2026-01-16,40002688,Analista,Ciência do Solo,ANA PAULA CARRARA VINHA,CPAF/RO - Rondônia
@@ -168,5 +169,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-03-22,40000188,Tecnico,Laboratório,RENNAN NEGRAO ASCENCAO,CNPF - Florestas
 2026-03-22,40000084,Tecnico,Manejo Vegetal,VITOR DANIEL DE ALMEIDA BELO,CPACT - Clima Temp
 2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,CARLOS ROBERTO SILVA DE OLIVEIRA,CPATSA - Semiárido
+2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,GUSTAVO DOS SANTOS COTRIM,CNPA - Algodão
 2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,LUIZ GUSTAVO MORETTI DE SOUZA,CPAC - Cerrados
 2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,PEDRO HENRIQUE ASSIS SOUSA,CPAA - Amaz. Ocidental
