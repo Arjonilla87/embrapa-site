@@ -10,11 +10,11 @@
     },
     {
       "range": "11-15",
-      "count": 4
+      "count": 5
     },
     {
       "range": "16-20",
-      "count": 3
+      "count": 2
     },
     {
       "range": ">20",
@@ -213,14 +213,14 @@
       "vagas_abertas": 14
     },
     {
-      "bucket": "16-20",
+      "bucket": "11-15",
       "opcao": "40001744",
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 20,
-      "aceitou": 4,
+      "aceitou": 7,
       "contratados": 0,
-      "vagas_abertas": 16
+      "vagas_abertas": 13
     },
     {
       "bucket": "6-10",
