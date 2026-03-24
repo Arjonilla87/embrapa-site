@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "24/03/2026 - 11:14:28",
+    "COLOCAÇÃO": "10º AC",
+    "NOME": "ILNAR FERNANDES FEITOZA",
+    "OPÇÃO": "40000176",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "24/03/2026 - 11:14:28",
+    "COLOCAÇÃO": "10º AC",
+    "NOME": "MARLON JOCIMAR RODRIGUES DA SILVA",
+    "OPÇÃO": "40001744",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Sistema de Produção Vegetal",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMF - Mandioca",
+    "LOTAÇÃO": "Cruz das Almas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
     "DATA / HORA": "24/03/2026 - 09:47:27",
     "COLOCAÇÃO": "2º PCD",
     "NOME": "WASHINGTON BENEVENUTO DE LIMA",
