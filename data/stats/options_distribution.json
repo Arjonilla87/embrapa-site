@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 23,
-      "aceitou": 6,
+      "aceitou": 7,
       "contratados": 11,
-      "vagas_abertas": 95
+      "vagas_abertas": 94
     },
     {
       "bucket": "1-5",
@@ -98,9 +98,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 24,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 7,
-      "vagas_abertas": 45
+      "vagas_abertas": 44
     },
     {
       "bucket": "1-5",
@@ -127,10 +127,10 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 19,
-      "aceitou": 9,
+      "convocados": 20,
+      "aceitou": 10,
       "contratados": 6,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "11-15",
