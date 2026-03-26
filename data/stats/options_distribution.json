@@ -88,9 +88,9 @@
       "cargo": "Analista",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 13,
-      "aceitou": 4,
+      "aceitou": 5,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": ">20",
@@ -98,9 +98,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 26,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 7,
-      "vagas_abertas": 43
+      "vagas_abertas": 42
     },
     {
       "bucket": "1-5",
@@ -208,9 +208,9 @@
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 20,
-      "aceitou": 13,
+      "aceitou": 14,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
     },
     {
       "bucket": "6-10",
