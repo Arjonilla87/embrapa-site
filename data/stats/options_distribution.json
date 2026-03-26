@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 15
     },
     {
       "range": "6-10",
-      "count": 4
+      "count": 3
     },
     {
       "range": "11-15",
@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 26,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 11,
-      "vagas_abertas": 92
+      "vagas_abertas": 91
     },
     {
       "bucket": "1-5",
@@ -213,14 +213,14 @@
       "vagas_abertas": 5
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001752",
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Agroecológico e Orgânico",
       "convocados": 7,
-      "aceitou": 0,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
