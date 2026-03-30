@@ -67,10 +67,10 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 22,
-      "aceitou": 8,
+      "convocados": 23,
+      "aceitou": 9,
       "contratados": 7,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -97,7 +97,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 28,
+      "convocados": 29,
       "aceitou": 12,
       "contratados": 7,
       "vagas_abertas": 40
