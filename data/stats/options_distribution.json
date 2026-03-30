@@ -68,9 +68,9 @@
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
       "convocados": 22,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 7,
-      "vagas_abertas": 5
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
@@ -218,9 +218,9 @@
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Agroecológico e Orgânico",
       "convocados": 7,
-      "aceitou": 5,
+      "aceitou": 6,
       "contratados": 0,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
