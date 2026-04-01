@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 14
     },
     {
       "range": "6-10",
@@ -83,24 +83,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "1-5",
-      "opcao": "40000176",
-      "cargo": "Analista",
-      "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 16,
-      "aceitou": 7,
-      "contratados": 1,
-      "vagas_abertas": 1
-    },
-    {
       "bucket": ">20",
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 30,
-      "aceitou": 13,
+      "aceitou": 14,
       "contratados": 7,
-      "vagas_abertas": 39
+      "vagas_abertas": 38
     },
     {
       "bucket": "1-5",
