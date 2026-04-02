@@ -1,2 +1,36 @@
 ﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
 02/04/2026 - 13:45:53,14º AC,NELSON DA CRUZ PEREIRA,40000127,Técnico,Suporte à Gestão,Aceitou,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé
+02/04/2026 - 14:42:01,9º AC,LUCAS GABRIEL DA SILVA,40000127,Técnico,Suporte à Gestão,Contratado,CNPH - Hortaliças,Planaltina,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,8º AC,IAGO COSTA DE SA MEDINA,40000127,Técnico,Suporte à Gestão,Contratado,CPAP - Pantanal,Corumbá,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,5º AC,BIBIANA MOREIRA MOURA,40000648,Analista,Comunicação,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º PPP,LUCAS DE JESUS PATRICIO,40001028,Analista,Insumos Biológicos,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º AC,JULIANA PETRINI,40000268,Pesquisador,Melhoramento Genético Animal,Contratado,CNPGL - Gado Leite,Juiz de Fora,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,4º AC,FLAVIO RENATO SILVA SENA,40000383,Analista,Governança e Estratégia,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PCD,ALUISIO JOSE PEREIRA,40002022,Pesquisador,Ciência de Dados,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,12º AC,GABRIEL HENRIQUE FERREIRA NUNES,40000084,Técnico,Manejo Vegetal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PCD,GUILHERME JOSÉ DE CASTRO,40000932,Analista,Sistema de Produção Vegetal,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º PCD,FERDINANDO FRANKLIN ALMEIDA ALIPIO,40000188,Técnico,Laboratório,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,5º AC,MATEUS SCHWANZ KUHN,40000210,Analista,Apoio a Campo Experimental,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,6º AC,DANIEL SCHMITT,40001592,Pesquisador,Forragicultura,Contratado,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PCD,ANA PAULA CARRARA VINHA,40002688,Analista,Ciência do Solo,Contratado,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º PCD,THIAGO CANTISANO ANDRE,40001064,Analista,Ciência de Alimentos,Contratado,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,3º PCD,MAEDSON ADRIANO GOMES DE OLIVEIRA,40000007,Assistente,Manejo Animal,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,7º AC,VALERIA YUKARI ABE,40001028,Analista,Insumos Biológicos,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,26º AC,ARYANE DE PAULA GONDIM REIS,40000007,Assistente,Manejo Animal,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º AC,GILSANE GARCIA MORAIS,40000551,Analista,Gestão da Qualidade Laboratorial,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º AC,TIAGO DO PRADO PAIM,40000268,Pesquisador,Melhoramento Genético Animal,Contratado,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PPP,DARLENA CAROLINE DA CRUZ CORREA,40001592,Pesquisador,Forragicultura,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,5º AC,IVANNA SOUZA SUZARTE,40000432,Analista,Jornalismo,Contratado,CNPASA - Pesca,,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,20º AC,ISRAEL GUSTAVO DE OLIVEIRA ASSIS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,21º AC,JOAO FILOMENO DA SILVA CANHADA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CNPSO - Soja,Londrina,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,11º AC,ELAINE CAMARAO DE SOUSA,40000188,Técnico,Laboratório,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,3º AC,EDMAR AUGUSTO GOMES,40000551,Analista,Gestão da Qualidade Laboratorial,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,5º AC,JOAO ROGERIO BORGES DE AMORIM RODRIGUES,40001064,Analista,Ciência de Alimentos,Contratado,CTAA - Agro Alimentos,Rio de Janeiro,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,10º AC,MARCOS RODOLFO GOETTEN,40000932,Analista,Sistema de Produção Vegetal,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,4º AC,VALDECY APARECIDA ROCHA DA CRUZ,40000268,Pesquisador,Melhoramento Genético Animal,Contratado,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º PCD,LEANDRO BORGES DA SILVEIRA,40000648,Analista,Comunicação,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,2º PPP,JOSÉ GLEDYSON DA SILVA,40001592,Pesquisador,Forragicultura,Contratado,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,4º PPP,AMANDA MARQUES MEDRADO ARAUJO,40000932,Analista,Sistema de Produção Vegetal,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,4º AC,LENE DA SILVA ANDRADE,40000373,Pesquisador,Agricultura e Climatologia,Contratado,CPATC - Tabuleiros,Aracaju,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PPP,LUCIELE DE OLIVEIRA PAULINO,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+02/04/2026 - 14:42:01,1º PPP,THIAGO COSTA VIANA,40002101,Pesquisador,Fertilidade e Química do Solo,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
