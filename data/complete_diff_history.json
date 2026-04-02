@@ -1482,6 +1482,32 @@
     "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé"
   },
   {
+    "DATA / HORA": "01/04/2026 - 20:28:47",
+    "COLOCAÇÃO": "13º AC",
+    "NOME": "JULIANA PAMPANA NICOLAU",
+    "OPÇÃO": "40000176",
+    "CARGO": "Analista",
+    "SUBÁREA": "Ciências Sociais Aplicadas à Agropecuária",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAF/AP - Amapá",
+    "LOTAÇÃO": "Macapá",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou"
+  },
+  {
+    "DATA / HORA": "01/04/2026 - 20:28:47",
+    "COLOCAÇÃO": "3º PCD",
+    "NOME": "DIOGENES DE SOUSA OLIVEIRA",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPMF - Mandioca",
+    "LOTAÇÃO": "Cruz das Almas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "Convocado → Aceitou |  → CNPMF - Mandioca |  → Cruz das Almas"
+  },
+  {
     "DATA / HORA": "01/04/2026 - 17:35:30",
     "COLOCAÇÃO": "13º AC",
     "NOME": "JULIANA PAMPANA NICOLAU",
