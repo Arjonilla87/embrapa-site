@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 24,
+      "convocados": 25,
       "aceitou": 4,
       "contratados": 13,
       "vagas_abertas": 2
@@ -87,10 +87,10 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 30,
-      "aceitou": 10,
+      "convocados": 31,
+      "aceitou": 11,
       "contratados": 11,
-      "vagas_abertas": 38
+      "vagas_abertas": 37
     },
     {
       "bucket": "1-5",
@@ -201,16 +201,6 @@
       "aceitou": 15,
       "contratados": 1,
       "vagas_abertas": 4
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001752",
-      "cargo": "Pesquisador",
-      "subarea": "Sistema de Produção Agroecológico e Orgânico",
-      "convocados": 7,
-      "aceitou": 6,
-      "contratados": 0,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
