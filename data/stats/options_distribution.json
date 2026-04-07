@@ -58,9 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 30,
-      "aceitou": 12,
+      "aceitou": 11,
       "contratados": 12,
-      "vagas_abertas": 88
+      "vagas_abertas": 89
     },
     {
       "bucket": "1-5",
@@ -88,9 +88,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 35,
-      "aceitou": 13,
+      "aceitou": 14,
       "contratados": 11,
-      "vagas_abertas": 35
+      "vagas_abertas": 34
     },
     {
       "bucket": "1-5",
