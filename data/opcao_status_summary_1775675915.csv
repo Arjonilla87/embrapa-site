@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,08/04/2026 - 14:59:24
+﻿LAST_UPDATE,08/04/2026 - 16:16:26
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,1,21,100%,36,14
@@ -11,7 +11,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
 40000062,Pesquisador,Ciências Agrárias,Entomologia Agrícola,11,0,0,0,0%,0,0
 40000065,Pesquisador,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
-40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,0,15,12,24%,33,6
+40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,1,16,12,25%,35,6
 40000092,Pesquisador,Ciências Agrárias,Sistema de Produção de Tuberosas,1,0,0,1,100%,1,0
 40000113,Pesquisador,Ciências Exatas e da Terra,Sistemas de Informação Geográfica (SIG) e Desenvolvimento Territorial,1,0,0,1,100%,1,0
 40000115,Pesquisador,Ciências Sociais Aplicadas,Desenvolvimento Territorial e Turismo,1,0,0,1,100%,1,0
