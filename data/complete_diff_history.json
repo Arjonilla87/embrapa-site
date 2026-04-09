@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "09/04/2026 - 11:55:53",
+    "COLOCAÇÃO": "28º AC",
+    "NOME": "BRUNO MORAES DE OLIVEIRA",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Convocado",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "09/04/2026 - 11:55:53",
+    "COLOCAÇÃO": "27º AC",
+    "NOME": "BRUNO SOUZA DOS SANTOS",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Desistente",
+    "UNIDADE": "",
+    "LOTAÇÃO": "",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
     "DATA / HORA": "09/04/2026 - 10:00:36",
     "COLOCAÇÃO": "8º PCD",
     "NOME": "THIAGO MONTEIRO DA COSTA",
