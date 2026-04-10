@@ -117,7 +117,7 @@
       "opcao": "40000932",
       "cargo": "Analista",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 21,
+      "convocados": 22,
       "aceitou": 5,
       "contratados": 12,
       "vagas_abertas": 2
@@ -177,10 +177,10 @@
       "opcao": "40001672",
       "cargo": "Pesquisador",
       "subarea": "Insumos Biológicos",
-      "convocados": 0,
-      "aceitou": 0,
+      "convocados": 12,
+      "aceitou": 1,
       "contratados": 0,
-      "vagas_abertas": 12
+      "vagas_abertas": 11
     },
     {
       "bucket": "11-15",
