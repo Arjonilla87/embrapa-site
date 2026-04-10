@@ -6,11 +6,11 @@
     },
     {
       "range": "6-10",
-      "count": 3
+      "count": 4
     },
     {
       "range": "11-15",
-      "count": 4
+      "count": 3
     },
     {
       "range": "16-20",
@@ -173,14 +173,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40001672",
       "cargo": "Pesquisador",
       "subarea": "Insumos Biológicos",
       "convocados": 12,
-      "aceitou": 1,
+      "aceitou": 3,
       "contratados": 0,
-      "vagas_abertas": 11
+      "vagas_abertas": 9
     },
     {
       "bucket": "11-15",
@@ -228,8 +228,8 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 21,
-      "aceitou": 2,
-      "contratados": 14,
+      "aceitou": 0,
+      "contratados": 16,
       "vagas_abertas": 39
     },
     {
