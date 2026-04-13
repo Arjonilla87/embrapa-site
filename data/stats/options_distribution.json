@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 14
     },
     {
       "range": "6-10",
-      "count": 4
+      "count": 3
     },
     {
       "range": "11-15",
@@ -173,14 +173,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001672",
       "cargo": "Pesquisador",
       "subarea": "Insumos Biológicos",
       "convocados": 12,
-      "aceitou": 6,
+      "aceitou": 8,
       "contratados": 0,
-      "vagas_abertas": 6
+      "vagas_abertas": 4
     },
     {
       "bucket": "11-15",
