@@ -408,12 +408,12 @@
     {
       "date": "2026-04-13",
       "file": "diff_2026-04-13.csv",
-      "events": 8
+      "events": 9
     },
     {
       "date": "2026-04-14",
       "file": "diff_2026-04-14.csv",
-      "events": 3
+      "events": 4
     }
   ]
 }
