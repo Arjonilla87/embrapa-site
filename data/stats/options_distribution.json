@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 12
+      "count": 13
     },
     {
       "range": "6-10",
@@ -61,6 +61,16 @@
       "aceitou": 16,
       "contratados": 12,
       "vagas_abertas": 84
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 29,
+      "aceitou": 5,
+      "contratados": 13,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
