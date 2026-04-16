@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 12
     },
     {
       "range": "6-10",
@@ -64,16 +64,6 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000127",
-      "cargo": "Técnico",
-      "subarea": "Suporte à Gestão",
-      "convocados": 29,
-      "aceitou": 5,
-      "contratados": 13,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40000141",
       "cargo": "Analista",
       "subarea": "Química",
@@ -88,9 +78,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 37,
-      "aceitou": 14,
+      "aceitou": 15,
       "contratados": 11,
-      "vagas_abertas": 34
+      "vagas_abertas": 33
     },
     {
       "bucket": "1-5",
