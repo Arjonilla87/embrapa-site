@@ -10,11 +10,11 @@
     },
     {
       "range": "11-15",
-      "count": 3
+      "count": 4
     },
     {
       "range": "16-20",
-      "count": 2
+      "count": 1
     },
     {
       "range": ">20",
@@ -243,14 +243,14 @@
       "vagas_abertas": 2
     },
     {
-      "bucket": "16-20",
+      "bucket": "11-15",
       "opcao": "40002541",
       "cargo": "Pesquisador",
       "subarea": "Ciência do Solo",
-      "convocados": 0,
-      "aceitou": 0,
+      "convocados": 17,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 17
+      "vagas_abertas": 15
     },
     {
       "bucket": "16-20",
