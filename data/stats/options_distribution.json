@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 12
     },
     {
       "range": "6-10",
@@ -100,16 +100,6 @@
       "convocados": 3,
       "aceitou": 0,
       "contratados": 2,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000932",
-      "cargo": "Analista",
-      "subarea": "Sistema de Produção Vegetal",
-      "convocados": 24,
-      "aceitou": 6,
-      "contratados": 12,
       "vagas_abertas": 1
     },
     {
@@ -248,9 +238,9 @@
       "cargo": "Pesquisador",
       "subarea": "Ciência do Solo",
       "convocados": 17,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 0,
-      "vagas_abertas": 8
+      "vagas_abertas": 7
     },
     {
       "bucket": "16-20",
