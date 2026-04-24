@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -241,16 +241,6 @@
       "aceitou": 2,
       "contratados": 3,
       "vagas_abertas": 2
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002541",
-      "cargo": "Pesquisador",
-      "subarea": "Ciência do Solo",
-      "convocados": 17,
-      "aceitou": 16,
-      "contratados": 0,
-      "vagas_abertas": 1
     },
     {
       "bucket": "16-20",
