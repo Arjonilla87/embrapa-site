@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 43,
+      "convocados": 44,
       "aceitou": 19,
       "contratados": 11,
       "vagas_abertas": 29
@@ -248,9 +248,9 @@
       "cargo": "Pesquisador",
       "subarea": "Ciência do Solo",
       "convocados": 17,
-      "aceitou": 15,
+      "aceitou": 16,
       "contratados": 0,
-      "vagas_abertas": 2
+      "vagas_abertas": 1
     },
     {
       "bucket": "16-20",
