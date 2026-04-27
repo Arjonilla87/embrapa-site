@@ -57,7 +57,7 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 40,
+      "convocados": 41,
       "aceitou": 20,
       "contratados": 12,
       "vagas_abertas": 80
@@ -87,10 +87,10 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 45,
-      "aceitou": 20,
+      "convocados": 47,
+      "aceitou": 22,
       "contratados": 11,
-      "vagas_abertas": 28
+      "vagas_abertas": 26
     },
     {
       "bucket": "1-5",
