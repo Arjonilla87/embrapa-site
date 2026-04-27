@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,27/04/2026 - 16:27:33
+﻿LAST_UPDATE,27/04/2026 - 17:52:44
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,1,21,100%,36,14
@@ -18,7 +18,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,5,13,95%,30,11
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,5,13,95%,30,12
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -145,7 +145,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002098,Pesquisador,Engenharias,Recursos Florestais e Engenharia Florestal,1,0,0,1,100%,1,0
 40002101,Pesquisador,Ciências Agrárias,Fertilidade e Química do Solo,4,0,0,4,100%,5,1
 40002139,Analista,Ciências Biológicas,Biologia Avançada e Bioinformática,7,0,1,6,100%,7,0
-40002144,Analista,Transferência de Tecnologia e Comunicação,Gestão de Projetos,3,0,0,2,67%,2,0
+40002144,Analista,Transferência de Tecnologia e Comunicação,Gestão de Projetos,3,0,1,2,100%,3,0
 40002166,Analista,Ciências Biológicas,Biologia Avançada e Tecnologia da Informação,1,0,0,1,100%,1,0
 40002180,Analista,Engenharias,Automação e Mecanização,3,0,0,3,100%,3,0
 40002198,Analista,Ciências Exatas e da Terra,Ciência de Dados,12,0,0,12,100%,20,8
