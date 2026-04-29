@@ -18,7 +18,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-02-13,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,EDGAR LOPES DOS SANTOS,CPATU - Amaz. Oriental
 2026-02-18,40001348,Analista,Inovação Social,ACACIO JOSÉ NASCIMENTO FERREIRA,CPATSA - Semiárido
 2026-02-20,40000724,Analista,Sanidade e Defesa Vegetal,JANIELE SACRAMENTO FREITAS,CPAC - Cerrados
-2026-02-23,40002022,Pesquisador,Ciência de Dados,GEORGE FABRICIO SANTOS RODRIGUES,CPPSUL - Pec Sul
 2026-02-24,40001592,Pesquisador,Forragicultura,BETINA RAQUEL CUNHA DOS SANTOS,CNPC - Caprinos
 2026-02-24,40001592,Pesquisador,Forragicultura,HENRIQUE BAUAB BRUNETTI,CNPC - Caprinos
 2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,THIAGO JOSE ARRUDA DE OLIVEIRA,CPATSA - Semiárido
@@ -26,7 +25,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-02-26,40000373,Pesquisador,Agricultura e Climatologia,CAMILLA KASSAR BORGES,CNPC - Caprinos
 2026-02-26,40002022,Pesquisador,Ciência de Dados,JACKSON MAIKE VEIGA DE ASSIS,CNPT - Trigo
 2026-02-26,40000084,Tecnico,Manejo Vegetal,FALK ROBERTO DE PAULA ARNOLDO,CNPA - Algodão
-2026-02-27,40000373,Pesquisador,Agricultura e Climatologia,YASMIN KAORE LAGO KITAGAWA,CPAA - Amaz. Ocidental
 2026-02-27,40000084,Tecnico,Manejo Vegetal,LEANDRO DIAS STINGHEL,CNPAB - Agrobiologia
 2026-03-03,40001348,Analista,Inovação Social,IGOR EICH MAC CORD,CNPAB - Agrobiologia
 2026-03-03,40000724,Analista,Sanidade e Defesa Vegetal,JOILSON SILVA LIMA,CPAA - Amaz. Ocidental
@@ -111,7 +109,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,RANIERI RAMADHAM LINO DE SOUZA MOREIRA,CNPAF - Arroz e Feijão
 2026-04-13,40001672,Pesquisador,Insumos Biológicos,KARINA OLIVEIRA MOTA,CPATC - Tabuleiros
 2026-04-13,40001672,Pesquisador,Insumos Biológicos,SWIANY SILVEIRA LIMA,CNPH - Hortaliças
-2026-04-13,40001672,Pesquisador,Insumos Biológicos,THAYSSA RABELO SCHLEY,CPAA - Amaz. Ocidental
 2026-04-14,40000127,Tecnico,Suporte à Gestão,CAMILA TEODORO DA SILVA,CPPSUL - Pec Sul
 2026-04-15,40001672,Pesquisador,Insumos Biológicos,LUCAS ALEXANDRE BARBOSA DE OLIVEIRA SANTOS,CNPC - Caprinos
 2026-04-16,40000210,Analista,Apoio a Campo Experimental,GEOVANNY BROETTO BESINELLA,CPAMT - Agrossilvipastoril

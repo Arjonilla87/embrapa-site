@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,29/04/2026 - 08:26:23
+﻿LAST_UPDATE,29/04/2026 - 10:23:34
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,1,21,100%,36,14
@@ -11,14 +11,14 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
 40000062,Pesquisador,Ciências Agrárias,Entomologia Agrícola,11,0,0,0,0%,0,0
 40000065,Pesquisador,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
-40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,0,21,12,29%,41,8
+40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,1,21,12,29%,42,8
 40000092,Pesquisador,Ciências Agrárias,Sistema de Produção de Tuberosas,1,0,0,1,100%,1,0
 40000113,Pesquisador,Ciências Exatas e da Terra,Sistemas de Informação Geográfica (SIG) e Desenvolvimento Territorial,1,0,0,1,100%,1,0
 40000115,Pesquisador,Ciências Sociais Aplicadas,Desenvolvimento Territorial e Turismo,1,0,0,1,100%,1,0
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,5,13,95%,31,13
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,5,13,95%,32,13
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -45,7 +45,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000346,Pesquisador,Ciências Exatas e da Terra,Química de Produtos Naturais,1,0,0,1,100%,1,0
 40000353,Analista,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
 40000361,Pesquisador,Ciências Agrárias,Sistemas de Produção de Caprinos e Ovinos,1,0,0,1,100%,1,0
-40000373,Pesquisador,Ciências Exatas e da Terra,Agricultura e Climatologia,7,0,2,4,86%,7,1
+40000373,Pesquisador,Ciências Exatas e da Terra,Agricultura e Climatologia,7,0,1,4,71%,7,2
 40000379,Analista,Ciências Agrárias,Clínica e Cirurgia de Caprinos e Ovinos,1,0,0,1,100%,1,0
 40000383,Analista,Gestão Estratégica,Governança e Estratégia,7,0,0,7,100%,7,0
 40000402,Pesquisador,Ciências Agrárias,Sistemas de Produção Animal,3,0,0,3,100%,3,0
@@ -124,7 +124,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001607,Analista,Ciências Exatas e da Terra,Agricultura e Climatologia,3,0,0,3,100%,5,2
 40001642,Analista,Ciências Exatas e da Terra,Geomática,2,0,0,2,100%,2,0
 40001648,Analista,Transferência de Tecnologia e Comunicação,Análise de Dados,7,0,0,6,86%,9,3
-40001672,Pesquisador,Ciências Biológicas,Insumos Biológicos,12,0,10,0,83%,12,2
+40001672,Pesquisador,Ciências Biológicas,Insumos Biológicos,12,0,9,0,75%,12,3
 40001690,Pesquisador,Ciências Biológicas,Biologia Avançada,14,0,0,0,0%,0,0
 40001733,Pesquisador,Ciências Exatas e da Terra,Geotecnologia,1,0,0,1,100%,1,0
 40001744,Pesquisador,Ciências Agrárias,Sistema de Produção Vegetal,20,0,15,1,80%,20,4
@@ -139,7 +139,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001921,Pesquisador,Ciências Agrárias,Microbiologia e Bioquímica do Solo,4,0,0,4,100%,4,0
 40001925,Técnico,Laboratório e Campos Experimentais,Manejo Florestal,6,0,0,6,100%,6,0
 40002003,Pesquisador,Ciências Ambientais,Gestão Ambiental,1,0,0,1,100%,1,0
-40002022,Pesquisador,Ciências Exatas e da Terra,Ciência de Dados,6,1,2,3,83%,8,2
+40002022,Pesquisador,Ciências Exatas e da Terra,Ciência de Dados,6,1,1,3,67%,8,3
 40002027,Analista,Transferência de Tecnologia e Comunicação,Tecnologia de Alimentos,1,0,0,1,100%,1,0
 40002042,Analista,Ciência e Tecnologia de Alimentos,Análise Sensorial,1,0,0,1,100%,1,0
 40002098,Pesquisador,Engenharias,Recursos Florestais e Engenharia Florestal,1,0,0,1,100%,1,0
