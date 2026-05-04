@@ -77,7 +77,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-03-27,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,DOUGLAS CESAR MARIANO,CPAMT - Agrossilvipastoril
 2026-03-27,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,BRISA CORSO GUIMARAES CABRAL MONTEIRO,CPATC - Tabuleiros
 2026-03-27,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,CARLOS DANIEL BALLA,CNPAB - Agrobiologia
-2026-03-27,40001744,Pesquisador,Sistema de Produção Vegetal,FABRICIO SILVA COELHO,CNPA - Algodão
 2026-03-27,40000188,Tecnico,Laboratório,MARYANA HERMINIO DE CARVALHO,CNPMF - Mandioca
 2026-03-27,40000188,Tecnico,Laboratório,VALDERI JUNIOR GONCALVES,CNPSA - Suinos e Aves
 2026-03-30,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,ELAINE CALIMAN SPOSITO,CPAP - Pantanal
@@ -147,3 +146,5 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-27,40000188,Tecnico,Laboratório,WILLY FORTUNA SANTOS CARVALHO,CENARGEN
 2026-04-29,40000084,Tecnico,Manejo Vegetal,CARLOS MACIEL LIMA DA SILVA CENCI,CPAC - Cerrados
 2026-04-29,40000188,Tecnico,Laboratório,MARIANA DA CRUZ PASSOS,CNPUV - Uva
+2026-05-04,40000084,Tecnico,Manejo Vegetal,LUCIANO ALMEIDA LIMA,CNPMS - Milho e Sorgo
+2026-05-04,40000127,Tecnico,Suporte à Gestão,LUIZ EVALDO BEZERRA,CPAMT - Agrossilvipastoril

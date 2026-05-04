@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,04/05/2026 - 07:06:02
+﻿LAST_UPDATE,04/05/2026 - 09:18:17
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,1,21,100%,36,14
@@ -11,14 +11,14 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000058,Pesquisador,Ciências Agrárias,Virologia Vegetal,3,0,0,3,100%,3,0
 40000062,Pesquisador,Ciências Agrárias,Entomologia Agrícola,11,0,0,0,0%,0,0
 40000065,Pesquisador,Nanotecnologia,Nanotecnologia,2,0,0,2,100%,2,0
-40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,1,21,12,29%,43,9
+40000084,Técnico,Laboratório e Campos Experimentais,Manejo Vegetal,112,0,22,12,30%,43,9
 40000092,Pesquisador,Ciências Agrárias,Sistema de Produção de Tuberosas,1,0,0,1,100%,1,0
 40000113,Pesquisador,Ciências Exatas e da Terra,Sistemas de Informação Geográfica (SIG) e Desenvolvimento Territorial,1,0,0,1,100%,1,0
 40000115,Pesquisador,Ciências Sociais Aplicadas,Desenvolvimento Territorial e Turismo,1,0,0,1,100%,1,0
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,1,5,13,95%,32,13
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,6,13,100%,32,13
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -127,7 +127,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001672,Pesquisador,Ciências Biológicas,Insumos Biológicos,12,0,9,0,75%,12,3
 40001690,Pesquisador,Ciências Biológicas,Biologia Avançada,14,0,0,0,0%,0,0
 40001733,Pesquisador,Ciências Exatas e da Terra,Geotecnologia,1,0,0,1,100%,1,0
-40001744,Pesquisador,Ciências Agrárias,Sistema de Produção Vegetal,20,0,15,1,80%,20,4
+40001744,Pesquisador,Ciências Agrárias,Sistema de Produção Vegetal,20,0,14,1,75%,20,5
 40001749,Pesquisador,Ciências Agrárias,Sistemas de Produção de Ruminantes,3,0,0,3,100%,3,0
 40001752,Pesquisador,Ciências Agrárias,Sistema de Produção Agroecológico e Orgânico,7,0,7,0,100%,8,1
 40001791,Pesquisador,Ciência e Tecnologia de Alimentos,Enologia,1,0,0,1,100%,1,0

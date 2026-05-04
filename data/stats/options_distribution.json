@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -58,19 +58,9 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 43,
-      "aceitou": 21,
+      "aceitou": 22,
       "contratados": 12,
-      "vagas_abertas": 79
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000127",
-      "cargo": "Técnico",
-      "subarea": "Suporte à Gestão",
-      "convocados": 32,
-      "aceitou": 5,
-      "contratados": 13,
-      "vagas_abertas": 1
+      "vagas_abertas": 78
     },
     {
       "bucket": "1-5",
@@ -198,9 +188,9 @@
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 20,
-      "aceitou": 15,
+      "aceitou": 14,
       "contratados": 1,
-      "vagas_abertas": 4
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
