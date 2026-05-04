@@ -1,7 +1,5 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
-,40000464,Analista,Apoio a Campo Experimental Produção Animal,MAYARA COSTA DE MEDEIROS,CPAP - Pantanal
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
-,40001744,Pesquisador,Sistema de Produção Vegetal,LEANDRO BARBOSA PIMENTA,CPAC - Cerrados
 2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
 2026-01-16,40002688,Analista,Ciência do Solo,ANA PAULA CARRARA VINHA,CPAF/RO - Rondônia
 2026-01-20,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,MAURO FRANKLIN DE OLIVEIRA TAVARES,CPAMN - Meio Norte
@@ -9,104 +7,37 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-01-26,40000002,Tecnico,Manejo Animal,MATHEUS MENDES BELO,CNPMS - Milho e Sorgo
 2026-01-28,40000002,Tecnico,Manejo Animal,ISAIAS SILVA CHIANCA,
 2026-01-29,40000127,Tecnico,Suporte à Gestão,ANDERSON DA SILVA BORGES,CNPAB - Agrobiologia
-2026-02-02,40000007,Assistente,Manejo Animal,GILBERTO LUIZ BARBOSA MADEIRO,CPAP - Pantanal
 2026-02-03,40002139,Analista,Biologia Avançada e Bioinformática,RAFAEL RODRIGUES FERRARI,CNPMS - Milho e Sorgo
 2026-02-06,40000632,Pesquisador,Fitotecnia,OSVALDO JOSE FERREIRA JUNIOR,CNPSO - Soja
 2026-02-09,40000002,Tecnico,Manejo Animal,RENATO PERIARD ALVES,CNPSA - Suinos e Aves
 2026-02-11,40001028,Analista,Insumos Biológicos,ALINE CRISTINA WORNATH,CNPAB - Agrobiologia
-2026-02-13,40000497,Analista,Gestão da Propriedade Intelectual para a Inovação,NISIELLY TICIANY SILVA,CNPAT - Agro Tropical
-2026-02-13,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,EDGAR LOPES DOS SANTOS,CPATU - Amaz. Oriental
-2026-02-18,40001348,Analista,Inovação Social,ACACIO JOSÉ NASCIMENTO FERREIRA,CPATSA - Semiárido
-2026-02-20,40000724,Analista,Sanidade e Defesa Vegetal,JANIELE SACRAMENTO FREITAS,CPAC - Cerrados
-2026-02-24,40001592,Pesquisador,Forragicultura,BETINA RAQUEL CUNHA DOS SANTOS,CNPC - Caprinos
-2026-02-24,40001592,Pesquisador,Forragicultura,HENRIQUE BAUAB BRUNETTI,CNPC - Caprinos
 2026-02-24,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,THIAGO JOSE ARRUDA DE OLIVEIRA,CPATSA - Semiárido
-2026-02-25,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,RODRIGO DE FREITAS ESPINOZA,CPAP - Pantanal
-2026-02-26,40000373,Pesquisador,Agricultura e Climatologia,CAMILLA KASSAR BORGES,CNPC - Caprinos
-2026-02-26,40002022,Pesquisador,Ciência de Dados,JACKSON MAIKE VEIGA DE ASSIS,CNPT - Trigo
-2026-02-26,40000084,Tecnico,Manejo Vegetal,FALK ROBERTO DE PAULA ARNOLDO,CNPA - Algodão
-2026-02-27,40000084,Tecnico,Manejo Vegetal,LEANDRO DIAS STINGHEL,CNPAB - Agrobiologia
-2026-03-03,40001348,Analista,Inovação Social,IGOR EICH MAC CORD,CNPAB - Agrobiologia
-2026-03-03,40000724,Analista,Sanidade e Defesa Vegetal,JOILSON SILVA LIMA,CPAA - Amaz. Ocidental
-2026-03-03,40000551,Analista,Gestão da Qualidade Laboratorial,LETICIA CHAGAS VIRGILI FELIPPE,CPPSUL - Pec Sul
-2026-03-03,40000932,Analista,Sistema de Produção Vegetal,RICARDO ELSO LEÃO,CNPMF - Mandioca
-2026-03-04,40001348,Analista,Inovação Social,EDILSON CAVALCANTE DE OLIVEIRA JUNIOR,CPATSA - Semiárido
-2026-03-04,40001045,Pesquisador,Bioprospecção e Biotecnologia,MARIANE SILVA FELICIO,CPAP - Pantanal
 2026-03-06,40001045,Pesquisador,Bioprospecção e Biotecnologia,RAUL ANTONIO SPEROTTO,CNPMS - Milho e Sorgo
-2026-03-06,40001045,Pesquisador,Bioprospecção e Biotecnologia,THIAGO JONAS NAKAYAMA,CPATSA - Semiárido
-2026-03-13,40001348,Analista,Inovação Social,CHARLES NUNES FROES,CPAO - Agro Oeste
-2026-03-13,40000648,Analista,Comunicação,IGOR HOLANDA NANNI,CPAP - Pantanal
-2026-03-16,40000724,Analista,Sanidade e Defesa Vegetal,CARLOS EDUARDO ANSELMO DE MOURA,CPAF/RO - Rondônia
-2026-03-17,40000432,Analista,Jornalismo,ELAINE APARECIDA MANINI,CPAF/RR - Roraima
 2026-03-17,40000932,Analista,Sistema de Produção Vegetal,FABIO FERNANDES MAIA,CPAF/AC - Acre
-2026-03-17,40000463,Analista,Designer Gráfico,MARIANA ARAUJO CARDOSO,CNPT - Trigo
 2026-03-18,40000724,Analista,Sanidade e Defesa Vegetal,FERNANDO RODRIGUES DA SILVA,CPAF/AC - Acre
-2026-03-18,40000648,Analista,Comunicação,IAGO SOUZA VILA NOVA,CPAF/AP - Amapá
-2026-03-18,40000084,Tecnico,Manejo Vegetal,CARMELIA CRISTINA BEIRIGO LOPES,CNPF - Florestas
 2026-03-18,40000188,Tecnico,Laboratório,ÍCARO NOÉ CAIXETA,CENARGEN
-2026-03-22,40000932,Analista,Sistema de Produção Vegetal,LYON MARTIN FLESCHER SOJFER,CPAF/RO - Rondônia
-2026-03-22,40001744,Pesquisador,Sistema de Produção Vegetal,FLÁVIA CONSTANTINO MEIRELLES,CPAMT - Agrossilvipastoril
-2026-03-22,40001744,Pesquisador,Sistema de Produção Vegetal,FRANKLIN DAMASCENO CARVALHO,CNPMF - Mandioca
-2026-03-22,40001744,Pesquisador,Sistema de Produção Vegetal,HELTON DE SOUZA SILVA,CPATSA - Semiárido
-2026-03-22,40001744,Pesquisador,Sistema de Produção Vegetal,THIAGO ALBERTO ORTIZ,CPATSA - Semiárido
-2026-03-22,40000188,Tecnico,Laboratório,RENNAN NEGRAO ASCENCAO,CNPF - Florestas
-2026-03-22,40000084,Tecnico,Manejo Vegetal,VITOR DANIEL DE ALMEIDA BELO,CPACT - Clima Temp
-2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,GUSTAVO DOS SANTOS COTRIM,CNPA - Algodão
-2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,JANDEILSON PEREIRA DOS SANTOS,CPAMT - Agrossilvipastoril
-2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,LUIZ GUSTAVO MORETTI DE SOUZA,CPAC - Cerrados
-2026-03-23,40001744,Pesquisador,Sistema de Produção Vegetal,PEDRO HENRIQUE ASSIS SOUSA,CPAA - Amaz. Ocidental
-2026-03-24,40000932,Analista,Sistema de Produção Vegetal,NINA MACHADO SUZIGAN,CPAF/RO - Rondônia
-2026-03-24,40001744,Pesquisador,Sistema de Produção Vegetal,MARLON JOCIMAR RODRIGUES DA SILVA,CNPMF - Mandioca
 2026-03-24,40001744,Pesquisador,Sistema de Produção Vegetal,WASHINGTON BENEVENUTO DE LIMA,CPATSA - Semiárido
 2026-03-24,40000084,Tecnico,Manejo Vegetal,EDNALDO DE SOUSA,CPATSA - Semiárido
 2026-03-24,40000084,Tecnico,Manejo Vegetal,MURILO CAMPOS PEREIRA,CPAMT - Agrossilvipastoril
-2026-03-24,40000188,Tecnico,Laboratório,RHONYELE MACIEL DA SILVA,CNPS - Solos
 2026-03-24,40000188,Tecnico,Laboratório,VICTOR FERNANDES GREGORI,CENARGEN
 2026-03-25,40001045,Pesquisador,Bioprospecção e Biotecnologia,AMÉRICO JOSÉ CARVALHO VIANA,CPAC - Cerrados
-2026-03-25,40001744,Pesquisador,Sistema de Produção Vegetal,GABRIEL SOARES MIRANDA,CPATU - Amaz. Oriental
 2026-03-25,40000188,Tecnico,Laboratório,LUÍSA VALÉRIO FRANCA,CENARGEN
-2026-03-25,40000084,Tecnico,Manejo Vegetal,SERGIO LIMA DE SOUZA JUNIOR,CPPSUL - Pec Sul
-2026-03-25,40000084,Tecnico,Manejo Vegetal,YANN GABRIEL DOS SANTOS SOUSA,CPAMN - Meio Norte
-2026-03-26,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,WILLIAN MARQUES PIRES,CPAF/RO - Rondônia
 2026-03-26,40001744,Pesquisador,Sistema de Produção Vegetal,ALINE PINTO DOS SANTOS,CPATU - Amaz. Oriental
-2026-03-26,40001744,Pesquisador,Sistema de Produção Vegetal,FELIPE AUGUSTO ALVES BRIGE,CPAMN - Meio Norte
-2026-03-26,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,RAYSSA CAMARGO DE OLIVEIRA,CPATSA - Semiárido
-2026-03-26,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,VICTOR JUNIOR LIMA FELIX,CPATC - Tabuleiros
 2026-03-26,40000084,Tecnico,Manejo Vegetal,CRISTIANO BEZERRA DA SILVA,CPAF/RO - Rondônia
 2026-03-26,40000188,Tecnico,Laboratório,GENIVALDO SILVA DOS SANTOS,CPATC - Tabuleiros
-2026-03-27,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,DOUGLAS CESAR MARIANO,CPAMT - Agrossilvipastoril
-2026-03-27,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,BRISA CORSO GUIMARAES CABRAL MONTEIRO,CPATC - Tabuleiros
 2026-03-27,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,CARLOS DANIEL BALLA,CNPAB - Agrobiologia
-2026-03-27,40000188,Tecnico,Laboratório,MARYANA HERMINIO DE CARVALHO,CNPMF - Mandioca
-2026-03-27,40000188,Tecnico,Laboratório,VALDERI JUNIOR GONCALVES,CNPSA - Suinos e Aves
 2026-03-30,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,ELAINE CALIMAN SPOSITO,CPAP - Pantanal
-2026-03-30,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,GUILHERME WILBERT FERREIRA,CPATU - Amaz. Oriental
-2026-03-30,40000127,Tecnico,Suporte à Gestão,ITALO DE SIQUEIRA LIRA,CNPMF - Mandioca
-2026-03-31,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,BARBARA CAROLINA MEIRA RAMOS,CPAF/AP - Amapá
 2026-03-31,40000188,Tecnico,Laboratório,VITORIA AMORIM DE OLIVEIRA,CPACP - Maranhão
-2026-04-01,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,JULIANA PAMPANA NICOLAU,CPAF/AP - Amapá
-2026-04-01,40000188,Tecnico,Laboratório,DIOGENES DE SOUSA OLIVEIRA,CNPMF - Mandioca
-2026-04-06,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,MARINA BARROS ZACHARIAS,CPAA - Amaz. Ocidental
-2026-04-06,40000188,Tecnico,Laboratório,ANNA FLÁVIA CHAVES E SOUZA,CPAC - Cerrados
 2026-04-06,40000084,Tecnico,Manejo Vegetal,DAVID AQUINO DA COSTA,CPAF/AC - Acre
-2026-04-06,40000188,Tecnico,Laboratório,JENNIFER THAINÁ DA SILVA TAVARES,CPACT - Clima Temp
-2026-04-06,40000127,Tecnico,Suporte à Gestão,YURI DOS SANTOS SANTANA,CNPMF - Mandioca
-2026-04-07,40000084,Tecnico,Manejo Vegetal,EDSON ALMEIDA SILVA,CNPMF - Mandioca
-2026-04-07,40000188,Tecnico,Laboratório,ELISÂNGELA FLÁVIA PIMENTEL,CNPMS - Milho e Sorgo
 2026-04-07,40000188,Tecnico,Laboratório,JULIANA EDELVACY LIMA PINTO,CENARGEN
-2026-04-08,40000084,Tecnico,Manejo Vegetal,FILIPE GOUVEIA PEREIRA,CNPAF - Arroz e Feijão
-2026-04-08,40000084,Tecnico,Manejo Vegetal,JOÃO PAULO GONÇALVES,CNPMF - Mandioca
-2026-04-08,40000084,Tecnico,Manejo Vegetal,LUIS GUSTAVO EURICH,CNPF - Florestas
 2026-04-08,40000084,Tecnico,Manejo Vegetal,MATHEUS GEHRING SCHEER,CNPT - Trigo
 2026-04-10,40001672,Pesquisador,Insumos Biológicos,AMANDA LUCIA ALVES,CPACP - Maranhão
 2026-04-10,40001672,Pesquisador,Insumos Biológicos,ANA LAURA TOPANOTT NUNES,CPAMT - Agrossilvipastoril
 2026-04-10,40001672,Pesquisador,Insumos Biológicos,APARECIDO ALMEIDA CONCEICAO,CNPAB - Agrobiologia
 2026-04-10,40001672,Pesquisador,Insumos Biológicos,JENIELLY DE NORONHA FERREIRA DE CASTRO,CPAF/AP - Amapá
 2026-04-10,40001672,Pesquisador,Insumos Biológicos,LUANA ASSIS SERRA,CNPAE - Agroenergia
-2026-04-10,40001672,Pesquisador,Insumos Biológicos,YASMIN NEVES VIEIRA SABINO,CNPGL - Gado Leite
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,ANDRE NUNES MADUELL,CPACP - Maranhão
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,RANIERI RAMADHAM LINO DE SOUZA MOREIRA,CNPAF - Arroz e Feijão
-2026-04-13,40001672,Pesquisador,Insumos Biológicos,KARINA OLIVEIRA MOTA,CPATC - Tabuleiros
 2026-04-13,40001672,Pesquisador,Insumos Biológicos,SWIANY SILVEIRA LIMA,CNPH - Hortaliças
 2026-04-13,40001672,Pesquisador,Insumos Biológicos,THAYSSA RABELO SCHLEY,CPAA - Amaz. Ocidental
 2026-04-14,40000127,Tecnico,Suporte à Gestão,CAMILA TEODORO DA SILVA,CPPSUL - Pec Sul
@@ -118,7 +49,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-17,40002541,Pesquisador,Ciência do Solo,DAMIAO FERREIRA DA SILVA NETO,CPAA - Amaz. Ocidental
 2026-04-17,40002541,Pesquisador,Ciência do Solo,GABRIEL DOS SANTOS DA CRUZ,CPATC - Tabuleiros
 2026-04-17,40002541,Pesquisador,Ciência do Solo,GUILHERME ROSA DA SILVA,CPAF/AP - Amapá
-2026-04-17,40002541,Pesquisador,Ciência do Solo,IVAN FRANCISCO DE SOUZA,CNPH - Hortaliças
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NATANAEL SANTIAGO PEREIRA,CNPC - Caprinos
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NERICLENES CHAVES MARCANTE,CPATSA - Semiárido
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NIKOLAS DE SOUZA MATEUS,CPAA - Amaz. Ocidental
@@ -149,6 +79,8 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-29,40000188,Tecnico,Laboratório,MARIANA DA CRUZ PASSOS,CNPUV - Uva
 2026-05-04,40000188,Tecnico,Laboratório,ANANDA DE OLIVEIRA DUARTE,CNPH - Hortaliças
 2026-05-04,40000084,Tecnico,Manejo Vegetal,EDIVALDO BARBOSA DA SILVA,CNPA - Algodão
+2026-05-04,40000084,Tecnico,Manejo Vegetal,LOUISIE BARROS ALMEIDA,CPACP - Maranhão
 2026-05-04,40000084,Tecnico,Manejo Vegetal,LUCAS SILVA MONTELO,CNPASA - Pesca
 2026-05-04,40000084,Tecnico,Manejo Vegetal,LUCIANO ALMEIDA LIMA,CNPMS - Milho e Sorgo
 2026-05-04,40000127,Tecnico,Suporte à Gestão,LUIZ EVALDO BEZERRA,CPAMT - Agrossilvipastoril
+2026-05-04,40000084,Tecnico,Manejo Vegetal,PAULO VINICIUS DA SILVA SANTOS,CPAA - Amaz. Ocidental

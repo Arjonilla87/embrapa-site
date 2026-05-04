@@ -38,8 +38,8 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 41,
-      "aceitou": 2,
-      "contratados": 29,
+      "aceitou": 1,
+      "contratados": 30,
       "vagas_abertas": 6
     },
     {
@@ -57,10 +57,10 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 46,
-      "aceitou": 24,
-      "contratados": 12,
-      "vagas_abertas": 76
+      "convocados": 47,
+      "aceitou": 16,
+      "contratados": 22,
+      "vagas_abertas": 74
     },
     {
       "bucket": "1-5",
@@ -78,8 +78,8 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 54,
-      "aceitou": 25,
-      "contratados": 11,
+      "aceitou": 17,
+      "contratados": 19,
       "vagas_abertas": 23
     },
     {
@@ -88,8 +88,8 @@
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
       "convocados": 7,
-      "aceitou": 1,
-      "contratados": 4,
+      "aceitou": 0,
+      "contratados": 5,
       "vagas_abertas": 2
     },
     {
@@ -98,8 +98,8 @@
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
       "convocados": 7,
-      "aceitou": 1,
-      "contratados": 4,
+      "aceitou": 0,
+      "contratados": 5,
       "vagas_abertas": 1
     },
     {
@@ -168,8 +168,8 @@
       "cargo": "Pesquisador",
       "subarea": "Insumos Biológicos",
       "convocados": 12,
-      "aceitou": 10,
-      "contratados": 0,
+      "aceitou": 8,
+      "contratados": 2,
       "vagas_abertas": 2
     },
     {
@@ -188,8 +188,8 @@
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
       "convocados": 20,
-      "aceitou": 14,
-      "contratados": 1,
+      "aceitou": 2,
+      "contratados": 13,
       "vagas_abertas": 5
     },
     {
@@ -208,8 +208,8 @@
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
       "convocados": 8,
-      "aceitou": 1,
-      "contratados": 3,
+      "aceitou": 0,
+      "contratados": 4,
       "vagas_abertas": 2
     },
     {
@@ -238,8 +238,8 @@
       "cargo": "Pesquisador",
       "subarea": "Ciências Sociais Aplicadas à Agropecuária",
       "convocados": 7,
-      "aceitou": 2,
-      "contratados": 3,
+      "aceitou": 1,
+      "contratados": 4,
       "vagas_abertas": 2
     },
     {
