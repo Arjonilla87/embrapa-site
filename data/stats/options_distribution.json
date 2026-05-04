@@ -57,10 +57,10 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 44,
-      "aceitou": 23,
+      "convocados": 46,
+      "aceitou": 24,
       "contratados": 12,
-      "vagas_abertas": 77
+      "vagas_abertas": 76
     },
     {
       "bucket": "1-5",
@@ -77,7 +77,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 53,
+      "convocados": 54,
       "aceitou": 25,
       "contratados": 11,
       "vagas_abertas": 23
@@ -168,9 +168,9 @@
       "cargo": "Pesquisador",
       "subarea": "Insumos Biológicos",
       "convocados": 12,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 0,
-      "vagas_abertas": 3
+      "vagas_abertas": 2
     },
     {
       "bucket": "11-15",
