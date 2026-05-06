@@ -14,11 +14,11 @@
     },
     {
       "range": "16-20",
-      "count": 1
+      "count": 2
     },
     {
       "range": ">20",
-      "count": 3
+      "count": 2
     }
   ],
   "details": [
@@ -57,7 +57,7 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 49,
+      "convocados": 50,
       "aceitou": 18,
       "contratados": 22,
       "vagas_abertas": 72
@@ -73,14 +73,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": ">20",
+      "bucket": "16-20",
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 56,
-      "aceitou": 19,
+      "convocados": 57,
+      "aceitou": 20,
       "contratados": 19,
-      "vagas_abertas": 21
+      "vagas_abertas": 20
     },
     {
       "bucket": "1-5",
