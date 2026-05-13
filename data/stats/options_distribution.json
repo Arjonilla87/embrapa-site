@@ -147,10 +147,10 @@
       "opcao": "40001565",
       "cargo": "Pesquisador",
       "subarea": "Fitopatologia",
-      "convocados": 0,
-      "aceitou": 0,
+      "convocados": 10,
+      "aceitou": 3,
       "contratados": 0,
-      "vagas_abertas": 10
+      "vagas_abertas": 7
     },
     {
       "bucket": "1-5",
