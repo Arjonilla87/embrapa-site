@@ -77,7 +77,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 63,
+      "convocados": 62,
       "aceitou": 21,
       "contratados": 19,
       "vagas_abertas": 19
@@ -147,10 +147,10 @@
       "opcao": "40001565",
       "cargo": "Pesquisador",
       "subarea": "Fitopatologia",
-      "convocados": 10,
-      "aceitou": 3,
+      "convocados": 9,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 8
     },
     {
       "bucket": "1-5",
