@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 14
     },
     {
       "range": "6-10",
-      "count": 3
+      "count": 2
     },
     {
       "range": "11-15",
@@ -143,14 +143,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40001565",
       "cargo": "Pesquisador",
       "subarea": "Fitopatologia",
       "convocados": 9,
-      "aceitou": 4,
+      "aceitou": 6,
       "contratados": 0,
-      "vagas_abertas": 6
+      "vagas_abertas": 4
     },
     {
       "bucket": "1-5",
