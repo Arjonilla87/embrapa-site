@@ -6,11 +6,11 @@
     },
     {
       "range": "6-10",
-      "count": 2
+      "count": 3
     },
     {
       "range": "11-15",
-      "count": 3
+      "count": 2
     },
     {
       "range": "16-20",
@@ -113,14 +113,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40000980",
       "cargo": "Pesquisador",
       "subarea": "Sociologia e Automação e Mecanização",
       "convocados": 11,
-      "aceitou": 0,
+      "aceitou": 2,
       "contratados": 0,
-      "vagas_abertas": 11
+      "vagas_abertas": 9
     },
     {
       "bucket": "1-5",
