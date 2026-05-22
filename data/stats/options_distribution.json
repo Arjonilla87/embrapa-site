@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 14
     },
     {
       "range": "6-10",
@@ -118,9 +118,9 @@
       "cargo": "Pesquisador",
       "subarea": "Sociologia e Automação e Mecanização",
       "convocados": 11,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 0,
-      "vagas_abertas": 4
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -200,16 +200,6 @@
       "convocados": 1,
       "aceitou": 0,
       "contratados": 0,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002022",
-      "cargo": "Pesquisador",
-      "subarea": "Ciência de Dados",
-      "convocados": 9,
-      "aceitou": 1,
-      "contratados": 4,
       "vagas_abertas": 1
     },
     {
