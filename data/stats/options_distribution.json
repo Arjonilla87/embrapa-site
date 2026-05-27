@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 15
     },
     {
       "range": "6-10",
@@ -64,6 +64,16 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 32,
+      "aceitou": 3,
+      "contratados": 15,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40000141",
       "cargo": "Analista",
       "subarea": "Química",
@@ -78,9 +88,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 63,
-      "aceitou": 22,
+      "aceitou": 21,
       "contratados": 19,
-      "vagas_abertas": 18
+      "vagas_abertas": 19
     },
     {
       "bucket": "1-5",
@@ -219,8 +229,8 @@
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
       "convocados": 23,
       "aceitou": 0,
-      "contratados": 14,
-      "vagas_abertas": 2
+      "contratados": 13,
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
