@@ -117,7 +117,7 @@
       "opcao": "40000528",
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção de Olerícolas",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 0,
       "contratados": 2,
       "vagas_abertas": 1
@@ -197,10 +197,10 @@
       "opcao": "40001744",
       "cargo": "Pesquisador",
       "subarea": "Sistema de Produção Vegetal",
-      "convocados": 20,
-      "aceitou": 2,
+      "convocados": 25,
+      "aceitou": 4,
       "contratados": 13,
-      "vagas_abertas": 5
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
