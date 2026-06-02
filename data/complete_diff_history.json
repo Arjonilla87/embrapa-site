@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "02/06/2026 - 08:57:31",
+    "COLOCAÇÃO": "19º AC",
+    "NOME": "DENNIS RICARDO CABRAL CRUZ",
+    "OPÇÃO": "40001744",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Sistema de Produção Vegetal",
+    "STATUS": "Desistente",
+    "UNIDADE": "CNPA - Algodão",
+    "LOTAÇÃO": "Luis Eduardo Magalhaes",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
+    "DATA / HORA": "02/06/2026 - 08:57:31",
+    "COLOCAÇÃO": "18º AC",
+    "NOME": "LEONARDO BALENA",
+    "OPÇÃO": "40001744",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Sistema de Produção Vegetal",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAA - Amaz. Ocidental",
+    "LOTAÇÃO": "Manaus",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
     "DATA / HORA": "28/05/2026 - 12:28:15",
     "COLOCAÇÃO": "17º AC",
     "NOME": "JOANA GRACIELA HANAUER",
