@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 15
+      "count": 14
     },
     {
       "range": "6-10",
@@ -191,16 +191,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 14
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001744",
-      "cargo": "Pesquisador",
-      "subarea": "Sistema de Produção Vegetal",
-      "convocados": 26,
-      "aceitou": 6,
-      "contratados": 13,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
