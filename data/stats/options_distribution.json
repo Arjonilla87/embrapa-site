@@ -38,9 +38,9 @@
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
       "convocados": 41,
-      "aceitou": 1,
+      "aceitou": 0,
       "contratados": 30,
-      "vagas_abertas": 6
+      "vagas_abertas": 7
     },
     {
       "bucket": "11-15",
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 32,
+      "convocados": 33,
       "aceitou": 1,
       "contratados": 17,
       "vagas_abertas": 1
@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 63,
+      "convocados": 64,
       "aceitou": 10,
       "contratados": 30,
       "vagas_abertas": 19
@@ -97,7 +97,7 @@
       "opcao": "40000373",
       "cargo": "Pesquisador",
       "subarea": "Agricultura e Climatologia",
-      "convocados": 7,
+      "convocados": 9,
       "aceitou": 0,
       "contratados": 5,
       "vagas_abertas": 2
@@ -147,7 +147,7 @@
       "opcao": "40001393",
       "cargo": "Técnico",
       "subarea": "Novas Tecnologias",
-      "convocados": 3,
+      "convocados": 4,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 1
