@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 64,
+      "convocados": 65,
       "aceitou": 11,
       "contratados": 30,
       "vagas_abertas": 18
@@ -137,7 +137,7 @@
       "opcao": "40001066",
       "cargo": "Analista",
       "subarea": "Engenharia de Software",
-      "convocados": 7,
+      "convocados": 8,
       "aceitou": 0,
       "contratados": 4,
       "vagas_abertas": 1
@@ -167,7 +167,7 @@
       "opcao": "40001648",
       "cargo": "Analista",
       "subarea": "Análise de Dados",
-      "convocados": 9,
+      "convocados": 10,
       "aceitou": 0,
       "contratados": 6,
       "vagas_abertas": 1
