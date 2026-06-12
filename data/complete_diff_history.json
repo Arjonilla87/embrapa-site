@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "12/06/2026 - 16:53:09",
+    "COLOCAÇÃO": "2º AC",
+    "NOME": "CARLOS MIGUEL SIMOES DA SILVA",
+    "OPÇÃO": "40001887",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Tecnologia e Utilização de Produtos Florestais",
+    "STATUS": "Convocado",
+    "UNIDADE": "CPATU - Amaz. Oriental",
+    "LOTAÇÃO": "Belém",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "12/06/2026 - 16:53:09",
+    "COLOCAÇÃO": "1º PCD",
+    "NOME": "EDIVANIO RODRIGUES DE ARAUJO",
+    "OPÇÃO": "40001565",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Fitopatologia",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPAF/RR - Roraima",
+    "LOTAÇÃO": "Boa Vista",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Reconvocado → Desistente; UNIDADE: CPAF/RO - Rondônia → CPAF/RR - Roraima; LOTAÇÃO: Porto Velho → Boa Vista"
+  },
+  {
     "DATA / HORA": "12/06/2026 - 14:31:34",
     "COLOCAÇÃO": "3º PPP",
     "NOME": "JAZIEL LIMA DE FREITAS",
