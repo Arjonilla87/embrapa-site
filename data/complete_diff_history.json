@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "12/06/2026 - 11:34:54",
+    "COLOCAÇÃO": "5º PPP",
+    "NOME": "VINICIUS SORIANO SANTOS",
+    "OPÇÃO": "40002271",
+    "CARGO": "Analista",
+    "SUBÁREA": "Administrativo, Suprimento, Manutenção e Serviços",
+    "STATUS": "Aceitou subjudice",
+    "UNIDADE": "CNAT - Alimentos",
+    "LOTAÇÃO": "Maceió",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado subjudice → Aceitou subjudice"
+  },
+  {
+    "DATA / HORA": "12/06/2026 - 11:34:54",
+    "COLOCAÇÃO": "7º AC",
+    "NOME": "JEFFERSON DE OLIVEIRA COSTA",
+    "OPÇÃO": "40000373",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Agricultura e Climatologia",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPAA - Amaz. Ocidental",
+    "LOTAÇÃO": "Manaus",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou"
+  },
+  {
     "DATA / HORA": "12/06/2026 - 08:35:19",
     "COLOCAÇÃO": "5º PPP",
     "NOME": "VINICIUS SORIANO SANTOS",
