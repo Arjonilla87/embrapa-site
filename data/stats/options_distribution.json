@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 65,
+      "convocados": 66,
       "aceitou": 11,
       "contratados": 30,
       "vagas_abertas": 18
@@ -161,16 +161,6 @@
       "aceitou": 4,
       "contratados": 4,
       "vagas_abertas": 2
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001648",
-      "cargo": "Analista",
-      "subarea": "Análise de Dados",
-      "convocados": 10,
-      "aceitou": 0,
-      "contratados": 6,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
