@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 13
+      "count": 12
     },
     {
       "range": "6-10",
@@ -91,16 +91,6 @@
       "aceitou": 11,
       "contratados": 30,
       "vagas_abertas": 18
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000373",
-      "cargo": "Pesquisador",
-      "subarea": "Agricultura e Climatologia",
-      "convocados": 9,
-      "aceitou": 1,
-      "contratados": 5,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
