@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,17/06/2026 - 16:16:51
+﻿LAST_UPDATE,17/06/2026 - 18:52:56
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,0,22,100%,36,14
@@ -134,7 +134,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,0,0,10,100%,13,3
 40001834,Pesquisador,Ciências Agrárias,Silvicultura,3,0,0,3,100%,3,0
 40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,0,5,100%,6,1
-40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,1,0,0,0%,2,1
+40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,1,0,100%,2,1
 40001894,Pesquisador,Ciências Agrárias,Apicultura e Meliponicultura,4,0,0,4,100%,4,0
 40001921,Pesquisador,Ciências Agrárias,Microbiologia e Bioquímica do Solo,4,0,0,4,100%,4,0
 40001925,Técnico,Laboratório e Campos Experimentais,Manejo Florestal,6,0,0,6,100%,6,0
