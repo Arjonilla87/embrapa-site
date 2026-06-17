@@ -1,5 +1,44 @@
 [
   {
+    "DATA / HORA": "17/06/2026 - 13:32:57",
+    "COLOCAÇÃO": "16º AC",
+    "NOME": "NEOMAR RODRIGUES MARTINS",
+    "OPÇÃO": "40002271",
+    "CARGO": "Analista",
+    "SUBÁREA": "Administrativo, Suprimento, Manutenção e Serviços",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPAF - Arroz e Feijão",
+    "LOTAÇÃO": "Santo Antônio de Goiás",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "17/06/2026 - 13:32:57",
+    "COLOCAÇÃO": "12º PPP",
+    "NOME": "LARISSA SILVA COUTO",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPASA - Pesca",
+    "LOTAÇÃO": "Palmas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CNPASA - Pesca; LOTAÇÃO:  → Palmas"
+  },
+  {
+    "DATA / HORA": "17/06/2026 - 13:32:57",
+    "COLOCAÇÃO": "21º AC",
+    "NOME": "MAIKE DE OLIVEIRA MEDEIROS",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPPSUL - Pec Sul",
+    "LOTAÇÃO": "Bagé",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
     "DATA / HORA": "16/06/2026 - 19:48:04",
     "COLOCAÇÃO": "21º AC",
     "NOME": "MAIKE DE OLIVEIRA MEDEIROS",

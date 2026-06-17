@@ -88,9 +88,9 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 66,
-      "aceitou": 11,
+      "aceitou": 12,
       "contratados": 30,
-      "vagas_abertas": 18
+      "vagas_abertas": 17
     },
     {
       "bucket": "1-5",
@@ -187,10 +187,10 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 21,
-      "aceitou": 0,
+      "convocados": 22,
+      "aceitou": 1,
       "contratados": 16,
-      "vagas_abertas": 39
+      "vagas_abertas": 38
     },
     {
       "bucket": "1-5",
