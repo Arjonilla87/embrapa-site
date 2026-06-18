@@ -1,5 +1,18 @@
 [
   {
+    "DATA / HORA": "18/06/2026 - 19:52:43",
+    "COLOCAÇÃO": "11º AC",
+    "NOME": "ISABELA VESCOVE PRIMIANO",
+    "OPÇÃO": "40001565",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Fitopatologia",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPAF/RO - Rondônia",
+    "LOTAÇÃO": "Porto Velho",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desistente"
+  },
+  {
     "DATA / HORA": "18/06/2026 - 17:12:33",
     "COLOCAÇÃO": "11º AC",
     "NOME": "ISABELA VESCOVE PRIMIANO",
@@ -24,19 +37,6 @@
     "LOTAÇÃO": "Boa Vista",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Aceitou → Convocado"
-  },
-  {
-    "DATA / HORA": "18/06/2026 - 14:56:24",
-    "COLOCAÇÃO": "11º AC",
-    "NOME": "ISABELA VESCOVE PRIMIANO",
-    "OPÇÃO": "40001565",
-    "CARGO": "Pesquisador",
-    "SUBÁREA": "Fitopatologia",
-    "STATUS": "Desistente",
-    "UNIDADE": "CPAF/RO - Rondônia",
-    "LOTAÇÃO": "Porto Velho",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Desistente"
   },
   {
     "DATA / HORA": "18/06/2026 - 14:56:24",
