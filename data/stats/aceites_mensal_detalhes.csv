@@ -18,12 +18,15 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NERICLENES CHAVES MARCANTE,CPATSA - Semiárido
 2026-04-22,40000932,Analista,Sistema de Produção Vegetal,BRUNA ALANA HAUPT PACINI,CPAF/RO - Rondônia
 2026-04-22,40000084,Tecnico,Manejo Vegetal,ALINE CARVALHO,CPPSE - Pec Sudeste
+2026-04-23,40000188,Tecnico,Laboratório,JULIANA DE OLIVEIRA CARNEIRO BRUM,CNPAB - Agrobiologia
+2026-04-23,40000188,Tecnico,Laboratório,LARISSA DE SOUZA VALLADARES,CTAA - Agro Alimentos
 2026-04-24,40002541,Pesquisador,Ciência do Solo,DENER MARCIO DA SILVA OLIVEIRA,CPATSA - Semiárido
 2026-04-24,40002541,Pesquisador,Ciência do Solo,LAISA GOUVEIA PIMENTEL,CPATSA - Semiárido
 2026-04-27,40000188,Tecnico,Laboratório,CAIO CARVALHO DE LIMA,CNPAF - Arroz e Feijão
 2026-04-29,40000188,Tecnico,Laboratório,MARIANA DA CRUZ PASSOS,CNPUV - Uva
 2026-05-04,40000188,Tecnico,Laboratório,ANANDA DE OLIVEIRA DUARTE,CNPH - Hortaliças
 2026-05-04,40000084,Tecnico,Manejo Vegetal,LOUISIE BARROS ALMEIDA,CPACP - Maranhão
+2026-05-04,40000084,Tecnico,Manejo Vegetal,LUCIANO ALMEIDA LIMA,CNPMS - Milho e Sorgo
 2026-05-05,40000188,Tecnico,Laboratório,JESSICA NAYARA RODRIGUES BEZERRA,CPAO - Agro Oeste
 2026-05-05,40000084,Tecnico,Manejo Vegetal,JOAO VITOR PAZ ENGLEITNER,CNPT - Trigo
 2026-05-05,40000188,Tecnico,Laboratório,RAFAEL AGOSTINHO LEMOS DA SILVA,CNPT - Trigo
@@ -47,6 +50,7 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-05-26,40000188,Tecnico,Laboratório,MARIA CLARA ARMANI FERMIANO DE FREITAS,CNPT - Trigo
 2026-05-27,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,CICERO EVANDRO BARBOSA DA SILVA,CPACP - Maranhão
 2026-05-27,40001744,Pesquisador,Sistema de Produção Vegetal,MARIANA AGUIAR SILVA,CPATU - Amaz. Oriental
+2026-05-27,40001744,Pesquisador,Sistema de Produção Vegetal,RAFAEL SANTIAGO DA COSTA,CPAMN - Meio Norte
 2026-05-28,40001744,Pesquisador,Sistema de Produção Vegetal,JOANA GRACIELA HANAUER,CPATSA - Semiárido
 2026-06-02,40001744,Pesquisador,Sistema de Produção Vegetal,LEONARDO BALENA,CPAA - Amaz. Ocidental
 2026-06-03,40001744,Pesquisador,Sistema de Produção Vegetal,FRANCISCO ANTONELLO MARODIN,CNPA - Algodão
@@ -58,3 +62,10 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-06-17,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,CARLOS MIGUEL SIMOES DA SILVA,CPATU - Amaz. Oriental
 2026-06-17,40000188,Tecnico,Laboratório,LARISSA SILVA COUTO,CNPASA - Pesca
 2026-06-18,40001565,Pesquisador,Fitopatologia,WAGNER VICENTE PEREIRA,CPAF/RR - Roraima
+2026-06-20,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ALMIR RIBEIRO SILVA,CPACP - Maranhão
+2026-06-20,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",NATHALIA MARIA CUSTODIO MARCAL,CNPDIA - Instrumentação
+2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,DANIEL SAAVEDRA DOS SANTOS,CNPC - Caprinos
+2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,HENRIQUE NARDON FERRARESI,CNPSA - Suinos e Aves
+2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,IGOR ARAUJO BARBOSA,CPAC - Cerrados
+2026-06-20,40000188,Tecnico,Laboratório,JULIANA JUNQUEIRA PINELLI,CNPAB - Agrobiologia
+2026-06-20,40000188,Tecnico,Laboratório,YURI VINICIUS DA SILVA,CNPASA - Pesca
