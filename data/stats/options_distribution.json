@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 9
+      "count": 10
     },
     {
       "range": "6-10",
@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 69,
+      "convocados": 68,
       "aceitou": 14,
       "contratados": 30,
       "vagas_abertas": 15
@@ -130,6 +130,16 @@
       "convocados": 5,
       "aceitou": 0,
       "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001565",
+      "cargo": "Pesquisador",
+      "subarea": "Fitopatologia",
+      "convocados": 13,
+      "aceitou": 5,
+      "contratados": 4,
       "vagas_abertas": 1
     },
     {
