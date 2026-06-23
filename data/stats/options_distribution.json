@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 8
+      "count": 11
     },
     {
       "range": "6-10",
@@ -73,6 +73,16 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40000176",
+      "cargo": "Analista",
+      "subarea": "Ciências Sociais Aplicadas à Agropecuária",
+      "convocados": 15,
+      "aceitou": 0,
+      "contratados": 8,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "11-15",
       "opcao": "40000188",
       "cargo": "Técnico",
@@ -104,6 +114,16 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40000648",
+      "cargo": "Analista",
+      "subarea": "Comunicação",
+      "convocados": 10,
+      "aceitou": 0,
+      "contratados": 7,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40001066",
       "cargo": "Analista",
       "subarea": "Engenharia de Software",
@@ -120,6 +140,16 @@
       "convocados": 5,
       "aceitou": 0,
       "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001607",
+      "cargo": "Analista",
+      "subarea": "Agricultura e Climatologia",
+      "convocados": 4,
+      "aceitou": 0,
+      "contratados": 2,
       "vagas_abertas": 1
     },
     {
