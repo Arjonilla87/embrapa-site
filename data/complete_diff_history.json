@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "24/06/2026 - 17:27:45",
+    "COLOCAÇÃO": "2º PCD",
+    "NOME": "NICOLAS SOUSA E SILVA",
+    "OPÇÃO": "40001066",
+    "CARGO": "Analista",
+    "SUBÁREA": "Engenharia de Software",
+    "STATUS": "Desclassificado",
+    "UNIDADE": "CNPTIA - Agro Digital",
+    "LOTAÇÃO": "Balsas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Desclassificado"
+  },
+  {
+    "DATA / HORA": "24/06/2026 - 17:27:45",
+    "COLOCAÇÃO": "9º AC",
+    "NOME": "ALINE APARECIDA SILVA BARBOSA",
+    "OPÇÃO": "40001672",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Insumos Biológicos",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CNPAF - Arroz e Feijão",
+    "LOTAÇÃO": "Santo Antônio de Goias",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
     "DATA / HORA": "24/06/2026 - 07:40:49",
     "COLOCAÇÃO": "20º AC",
     "NOME": "JAQUELINE AGNES PILATTI",

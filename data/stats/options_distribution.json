@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 8
+      "count": 10
     },
     {
       "range": "6-10",
@@ -77,7 +77,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 69,
+      "convocados": 68,
       "aceitou": 14,
       "contratados": 30,
       "vagas_abertas": 15
@@ -104,12 +104,32 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40001064",
+      "cargo": "Analista",
+      "subarea": "Ciência de Alimentos",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40001066",
       "cargo": "Analista",
       "subarea": "Engenharia de Software",
       "convocados": 8,
       "aceitou": 0,
       "contratados": 4,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001151",
+      "cargo": "Analista",
+      "subarea": "Gestão de Parcerias, Portfólios e Negócios para a Inovação",
+      "convocados": 37,
+      "aceitou": 0,
+      "contratados": 32,
       "vagas_abertas": 1
     },
     {
@@ -124,12 +144,12 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40001672",
-      "cargo": "Pesquisador",
-      "subarea": "Insumos Biológicos",
-      "convocados": 13,
-      "aceitou": 2,
-      "contratados": 9,
+      "opcao": "40001648",
+      "cargo": "Analista",
+      "subarea": "Análise de Dados",
+      "convocados": 9,
+      "aceitou": 1,
+      "contratados": 5,
       "vagas_abertas": 1
     },
     {
