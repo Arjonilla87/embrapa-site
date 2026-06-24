@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 14
+      "count": 13
     },
     {
       "range": "6-10",
@@ -27,20 +27,20 @@
       "opcao": "40000002",
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
-      "convocados": 14,
+      "convocados": 13,
       "aceitou": 5,
-      "contratados": 7,
-      "vagas_abertas": 6
+      "contratados": 6,
+      "vagas_abertas": 7
     },
     {
       "bucket": "6-10",
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 41,
+      "convocados": 40,
       "aceitou": 0,
-      "contratados": 30,
-      "vagas_abertas": 7
+      "contratados": 29,
+      "vagas_abertas": 8
     },
     {
       "bucket": "11-15",
@@ -57,10 +57,10 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 50,
-      "aceitou": 8,
+      "convocados": 49,
+      "aceitou": 7,
       "contratados": 32,
-      "vagas_abertas": 72
+      "vagas_abertas": 73
     },
     {
       "bucket": "1-5",
@@ -83,16 +83,6 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "1-5",
-      "opcao": "40000176",
-      "cargo": "Analista",
-      "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 15,
-      "aceitou": 0,
-      "contratados": 8,
-      "vagas_abertas": 1
-    },
-    {
       "bucket": "11-15",
       "opcao": "40000188",
       "cargo": "Técnico",
@@ -101,6 +91,16 @@
       "aceitou": 14,
       "contratados": 30,
       "vagas_abertas": 15
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000288",
+      "cargo": "Técnico",
+      "subarea": "Aquicultura",
+      "convocados": 2,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -124,16 +124,6 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000648",
-      "cargo": "Analista",
-      "subarea": "Comunicação",
-      "convocados": 10,
-      "aceitou": 0,
-      "contratados": 7,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40000786",
       "cargo": "Pesquisador",
       "subarea": "Sistemas de Dados Georreferenciados",
@@ -144,9 +134,9 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40001028",
-      "cargo": "Analista",
-      "subarea": "Insumos Biológicos",
+      "opcao": "40001045",
+      "cargo": "Pesquisador",
+      "subarea": "Bioprospecção e Biotecnologia",
       "convocados": 8,
       "aceitou": 0,
       "contratados": 7,
@@ -167,10 +157,10 @@
       "opcao": "40001151",
       "cargo": "Analista",
       "subarea": "Gestão de Parcerias, Portfólios e Negócios para a Inovação",
-      "convocados": 36,
+      "convocados": 37,
       "aceitou": 0,
-      "contratados": 31,
-      "vagas_abertas": 2
+      "contratados": 32,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
