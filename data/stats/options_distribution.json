@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 9
+      "count": 7
     },
     {
       "range": "6-10",
@@ -77,10 +77,10 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 69,
-      "aceitou": 14,
+      "convocados": 70,
+      "aceitou": 15,
       "contratados": 30,
-      "vagas_abertas": 15
+      "vagas_abertas": 14
     },
     {
       "bucket": "1-5",
@@ -120,26 +120,6 @@
       "convocados": 5,
       "aceitou": 0,
       "contratados": 1,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001648",
-      "cargo": "Analista",
-      "subarea": "Análise de Dados",
-      "convocados": 9,
-      "aceitou": 1,
-      "contratados": 5,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001672",
-      "cargo": "Pesquisador",
-      "subarea": "Insumos Biológicos",
-      "convocados": 13,
-      "aceitou": 2,
-      "contratados": 9,
       "vagas_abertas": 1
     },
     {
