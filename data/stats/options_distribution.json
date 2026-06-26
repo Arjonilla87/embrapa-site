@@ -64,6 +64,16 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 36,
+      "aceitou": 1,
+      "contratados": 17,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40000141",
       "cargo": "Analista",
       "subarea": "Química",
@@ -104,16 +114,6 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40001066",
-      "cargo": "Analista",
-      "subarea": "Engenharia de Software",
-      "convocados": 8,
-      "aceitou": 0,
-      "contratados": 4,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40001393",
       "cargo": "Técnico",
       "subarea": "Novas Tecnologias",
@@ -137,10 +137,10 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 25,
-      "aceitou": 4,
+      "convocados": 26,
+      "aceitou": 5,
       "contratados": 16,
-      "vagas_abertas": 35
+      "vagas_abertas": 34
     },
     {
       "bucket": "1-5",
