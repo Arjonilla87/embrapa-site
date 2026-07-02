@@ -58,8 +58,8 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 51,
-      "aceitou": 8,
-      "contratados": 33,
+      "aceitou": 2,
+      "contratados": 39,
       "vagas_abertas": 71
     },
     {
@@ -88,8 +88,8 @@
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 71,
-      "aceitou": 16,
-      "contratados": 30,
+      "aceitou": 7,
+      "contratados": 39,
       "vagas_abertas": 13
     },
     {
@@ -138,8 +138,8 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 26,
-      "aceitou": 5,
-      "contratados": 16,
+      "aceitou": 4,
+      "contratados": 17,
       "vagas_abertas": 34
     },
     {
@@ -148,8 +148,8 @@
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
       "convocados": 24,
-      "aceitou": 1,
-      "contratados": 14,
+      "aceitou": 0,
+      "contratados": 15,
       "vagas_abertas": 1
     },
     {
