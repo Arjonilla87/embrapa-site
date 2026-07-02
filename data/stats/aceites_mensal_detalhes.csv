@@ -1,12 +1,9 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
-,40001066,Analista,Engenharia de Software,RENAN TOMAZINI,CNPTIA - Agro Digital
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
 2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
-2026-01-23,40000002,Tecnico,Manejo Animal,CLARA PEREIRA SCHAIDT,CENARGEN
 2026-01-26,40000002,Tecnico,Manejo Animal,MATHEUS MENDES BELO,CNPMS - Milho e Sorgo
 2026-01-28,40000002,Tecnico,Manejo Animal,ISAIAS SILVA CHIANCA,
 2026-01-29,40000127,Tecnico,Suporte à Gestão,ANDERSON DA SILVA BORGES,CNPAB - Agrobiologia
-2026-02-03,40002139,Analista,Biologia Avançada e Bioinformática,RAFAEL RODRIGUES FERRARI,CNPMS - Milho e Sorgo
 2026-02-06,40000632,Pesquisador,Fitotecnia,OSVALDO JOSE FERREIRA JUNIOR,CNPSO - Soja
 2026-02-09,40000002,Tecnico,Manejo Animal,RENATO PERIARD ALVES,CNPSA - Suinos e Aves
 2026-03-24,40000084,Tecnico,Manejo Vegetal,MURILO CAMPOS PEREIRA,CPAMT - Agrossilvipastoril
@@ -24,7 +21,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-06-12,40000373,Pesquisador,Agricultura e Climatologia,JEFFERSON DE OLIVEIRA COSTA,CPAA - Amaz. Ocidental
 2026-06-15,40000373,Pesquisador,Agricultura e Climatologia,HENRIQUE BORIOLO DIAS,CPATSA - Semiárido
 2026-06-17,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",NEOMAR RODRIGUES MARTINS,CNPAF - Arroz e Feijão
-2026-06-17,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,CARLOS MIGUEL SIMOES DA SILVA,CPATU - Amaz. Oriental
 2026-06-17,40000188,Tecnico,Laboratório,LARISSA SILVA COUTO,CNPASA - Pesca
 2026-06-18,40001565,Pesquisador,Fitopatologia,WAGNER VICENTE PEREIRA,CPAF/RR - Roraima
 2026-06-20,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",NATHALIA MARIA CUSTODIO MARCAL,CNPDIA - Instrumentação
@@ -40,3 +36,4 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-06-25,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JOSE LAIRTON MENDES JUCA,CNPAT - Agro Tropical
 2026-06-26,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",VITOR AUGUSTO DE CASTRO CALDAS,CNAT - Alimentos
 2026-06-30,40000188,Tecnico,Laboratório,BRUNA ALVES DOS SANTOS BARBOSA,CPACP - Maranhão
+2026-07-02,40000188,Tecnico,Laboratório,YURI ALMEIDA MENDES,CPAA - Amaz. Ocidental
