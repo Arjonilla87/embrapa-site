@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 8
+      "count": 7
     },
     {
       "range": "6-10",
@@ -67,7 +67,7 @@
       "opcao": "40000127",
       "cargo": "Técnico",
       "subarea": "Suporte à Gestão",
-      "convocados": 37,
+      "convocados": 38,
       "aceitou": 1,
       "contratados": 17,
       "vagas_abertas": 1
@@ -87,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 72,
+      "convocados": 74,
       "aceitou": 8,
       "contratados": 39,
       "vagas_abertas": 12
@@ -104,20 +104,10 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000528",
-      "cargo": "Pesquisador",
-      "subarea": "Sistema de Produção de Olerícolas",
-      "convocados": 4,
-      "aceitou": 0,
-      "contratados": 2,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40001393",
       "cargo": "Técnico",
       "subarea": "Novas Tecnologias",
-      "convocados": 5,
+      "convocados": 6,
       "aceitou": 0,
       "contratados": 1,
       "vagas_abertas": 1
@@ -147,10 +137,10 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 30,
-      "aceitou": 7,
+      "convocados": 32,
+      "aceitou": 8,
       "contratados": 17,
-      "vagas_abertas": 31
+      "vagas_abertas": 30
     },
     {
       "bucket": "1-5",
