@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 7
+      "count": 8
     },
     {
       "range": "6-10",
@@ -100,6 +100,16 @@
       "convocados": 7,
       "aceitou": 0,
       "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001066",
+      "cargo": "Analista",
+      "subarea": "Engenharia de Software",
+      "convocados": 9,
+      "aceitou": 0,
+      "contratados": 4,
       "vagas_abertas": 1
     },
     {
