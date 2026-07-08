@@ -1,5 +1,18 @@
 [
   {
+    "DATA / HORA": "08/07/2026 - 20:10:07",
+    "COLOCAÇÃO": "55º AC",
+    "NOME": "BRUNA DO NASCIMENTO BASSI",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Aceitou",
+    "UNIDADE": "CPPSUL - Pec Sul",
+    "LOTAÇÃO": "Bagé",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé"
+  },
+  {
     "DATA / HORA": "08/07/2026 - 19:00:10",
     "COLOCAÇÃO": "55º AC",
     "NOME": "BRUNA DO NASCIMENTO BASSI",
@@ -11,19 +24,6 @@
     "LOTAÇÃO": "",
     "EVENTO": "ALTERADO",
     "ALTERACOES": "STATUS: Aceitou → Convocado; UNIDADE: CPPSUL - Pec Sul → ; LOTAÇÃO: Bagé →"
-  },
-  {
-    "DATA / HORA": "08/07/2026 - 17:56:52",
-    "COLOCAÇÃO": "55º AC",
-    "NOME": "BRUNA DO NASCIMENTO BASSI",
-    "OPÇÃO": "40000188",
-    "CARGO": "Técnico",
-    "SUBÁREA": "Laboratório",
-    "STATUS": "Aceitou",
-    "UNIDADE": "CPPSUL - Pec Sul",
-    "LOTAÇÃO": "Bagé",
-    "EVENTO": "ALTERADO",
-    "ALTERACOES": "STATUS: Convocado → Aceitou; UNIDADE:  → CPPSUL - Pec Sul; LOTAÇÃO:  → Bagé"
   },
   {
     "DATA / HORA": "07/07/2026 - 07:45:45",
