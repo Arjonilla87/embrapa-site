@@ -2,15 +2,15 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 8
+      "count": 7
     },
     {
       "range": "6-10",
-      "count": 2
+      "count": 3
     },
     {
       "range": "11-15",
-      "count": 3
+      "count": 2
     },
     {
       "range": "16-20",
@@ -83,14 +83,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": "11-15",
+      "bucket": "6-10",
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
       "convocados": 75,
-      "aceitou": 9,
+      "aceitou": 10,
       "contratados": 39,
-      "vagas_abertas": 11
+      "vagas_abertas": 10
     },
     {
       "bucket": "1-5",
@@ -100,16 +100,6 @@
       "convocados": 7,
       "aceitou": 0,
       "contratados": 5,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001066",
-      "cargo": "Analista",
-      "subarea": "Engenharia de Software",
-      "convocados": 10,
-      "aceitou": 0,
-      "contratados": 4,
       "vagas_abertas": 1
     },
     {
