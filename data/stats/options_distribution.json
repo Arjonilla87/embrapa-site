@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 7
+      "count": 9
     },
     {
       "range": "6-10",
@@ -31,6 +31,16 @@
       "aceitou": 5,
       "contratados": 7,
       "vagas_abertas": 6
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000007",
+      "cargo": "Assistente",
+      "subarea": "Manejo Animal",
+      "convocados": 35,
+      "aceitou": 0,
+      "contratados": 21,
+      "vagas_abertas": 1
     },
     {
       "bucket": "6-10",
@@ -137,17 +147,17 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 34,
+      "convocados": 33,
       "aceitou": 10,
-      "contratados": 17,
-      "vagas_abertas": 28
+      "contratados": 16,
+      "vagas_abertas": 29
     },
     {
       "bucket": "1-5",
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 24,
+      "convocados": 23,
       "aceitou": 0,
       "contratados": 15,
       "vagas_abertas": 1
@@ -161,6 +171,16 @@
       "aceitou": 0,
       "contratados": 5,
       "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40002553",
+      "cargo": "Analista",
+      "subarea": "Transferência de Tecnologia",
+      "convocados": 12,
+      "aceitou": 0,
+      "contratados": 9,
+      "vagas_abertas": 1
     },
     {
       "bucket": "16-20",
