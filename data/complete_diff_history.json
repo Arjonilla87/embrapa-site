@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "24/07/2026 - 20:55:44",
+    "COLOCAÇÃO": "1º PCD",
+    "NOME": "CARLA EMANUELE ALVES DOS SANTOS",
+    "OPÇÃO": "40000463",
+    "CARGO": "Analista",
+    "SUBÁREA": "Designer Gráfico",
+    "STATUS": "Aceitou subjudice",
+    "UNIDADE": "CNPC - Caprinos",
+    "LOTAÇÃO": "Sobral",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Desclassificado → Aceitou subjudice"
+  },
+  {
+    "DATA / HORA": "24/07/2026 - 20:55:44",
+    "COLOCAÇÃO": "23º AC",
+    "NOME": "RODRIGO MARTINS CANUTO ROCHA",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Desistente",
+    "UNIDADE": "CPPSUL - Pec Sul",
+    "LOTAÇÃO": "Bagé",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "COLOCAÇÃO: 2º PCD → 23º AC; OPÇÃO: 40002271 → 40000127; STATUS: Contratado → Desistente; UNIDADE: CNAT - Alimentos → CPPSUL - Pec Sul; LOTAÇÃO: Maceió → Bagé"
+  },
+  {
     "DATA / HORA": "24/07/2026 - 19:53:32",
     "COLOCAÇÃO": "3º PPP",
     "NOME": "ALEXSSANDRO DE JESUS ROCHA",
