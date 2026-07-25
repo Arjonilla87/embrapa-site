@@ -1,4 +1,5 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
+,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ANA CAROLINA DE SOUZA VERGARA,CENARGEN
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
 2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
 2026-01-23,40000002,Tecnico,Manejo Animal,CLARA PEREIRA SCHAIDT,CENARGEN
@@ -44,6 +45,7 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LEANDRO NUNES AMORIM,CNPAB - Agrobiologia
 2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCUS DANILLO MENDES FURTADO,
 2026-07-07,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",EMERSON JOSE DE ARAUJO,CENARGEN
+2026-07-07,40000528,Pesquisador,Sistema de Produção de Olerícolas,EDGARD HENRIQUE COSTA SILVA,CPAF/RR - Roraima
 2026-07-08,40000188,Tecnico,Laboratório,BRUNA DO NASCIMENTO BASSI,CPPSUL - Pec Sul
 2026-07-10,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",CRISTIANE MARTINS BESERRA,CNPDIA - Instrumentação
 2026-07-10,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",PEDRO PAULO LIMA DE ABREU,CNPMA - Meio Ambiente
@@ -52,5 +54,8 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",CAIO DE SOUZA CHAVES,CNPH - Hortaliças
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JANDRO NUNES SANTOS,CNPH - Hortaliças
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LUIZ HENRIQUE FERNANDES FRANCO,CNPSA - Suinos e Aves
+2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCOS ANTONIO ANGELINO DE OLIVEIRA,CPAC - Cerrados
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",RAISSA PEREIRA SANTOS,CENARGEN
+2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",RUBENS MARQUES OBELAR RAMOS,CPACT - Clima Temp
 2026-07-24,40000127,Tecnico,Suporte à Gestão,FELIPE CABRAL CONDE,CPPSUL - Pec Sul
+2026-07-24,40000188,Tecnico,Laboratório,GUILHERME DOS SANTOS BATALHA,CPACP - Maranhão
