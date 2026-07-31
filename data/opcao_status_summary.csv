@@ -1,4 +1,4 @@
-﻿LAST_UPDATE,31/07/2026 - 19:54:50
+﻿LAST_UPDATE,31/07/2026 - 20:53:50
 OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONTRATADOS,%_PREENCHIDO,TOTAL CONVOCADO,DESISTÊNCIAS / EXCLUSÕES
 40000002,Técnico,Laboratório e Campos Experimentais,Manejo Animal,18,0,5,7,67%,14,2
 40000007,Assistente,Laboratório e Campos Experienciais,Manejo Animal,22,0,0,22,100%,36,14
@@ -18,7 +18,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000116,Pesquisador,Ciências Sociais Aplicadas,Sociologia e Antropologia da Alimentação,2,0,0,2,100%,2,0
 40000118,Pesquisador,Ciências Agrárias,Sistemas Agrícolas Tradicionais (SATs),1,0,0,1,100%,1,0
 40000119,Pesquisador,Ciências Biológicas,Etnobotânica,1,0,0,1,100%,1,0
-40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,2,17,100%,38,19
+40000127,Técnico,"Suprimento, Manutenção e Serviços",Suporte à Gestão,19,0,2,16,95%,37,19
 40000131,Pesquisador,Ciências da Saúde,Nutrição,1,0,0,1,100%,1,0
 40000133,Pesquisador,Ciências Biológicas,Agro sociobiodiversidade e Sementes Crioulas,1,0,0,1,100%,2,1
 40000134,Pesquisador,Ciência e Tecnologia de Alimentos,Tecnologia e Inovação Alimentar para Gastronomia,3,0,0,3,100%,5,2
@@ -26,7 +26,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000150,Analista,Ciência e Tecnologia de Alimentos,Ciência de Alimentos de Origem Animal,1,0,0,1,100%,1,0
 40000175,Pesquisador,Ciências Exatas e da Terra,Engenharia,1,0,0,1,100%,1,0
 40000176,Analista,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas à Agropecuária,9,0,0,9,100%,16,7
-40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,0,11,39,85%,78,28
+40000188,Técnico,Laboratório e Campos Experimentais,Laboratório,59,1,11,39,85%,80,29
 40000202,Analista,Gestão Estratégica,"Riscos, Conformidade e Transparência",2,0,0,2,100%,3,1
 40000205,Analista,Laboratórios e Campos Experimentais,Biofísica Ambiental,1,0,0,1,100%,1,0
 40000210,Analista,Laboratórios e Campos Experimentais,Apoio a Campo Experimental,7,0,0,7,100%,9,2
@@ -80,7 +80,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40000878,Técnico,"Suprimento, Manutenção e Serviços",Monitoramento Preditivo,4,0,0,4,100%,7,3
 40000894,Pesquisador,Ciências Agrárias,Serviços Ambientais,2,0,0,2,100%,2,0
 40000909,Analista,Gestão da Informação,Gestão da Informação Bibliográfica,2,0,0,2,100%,2,0
-40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,0,2,17,100%,24,5
+40000932,Analista,Ciências Agrárias,Sistema de Produção Vegetal,19,0,2,16,95%,23,5
 40000959,Pesquisador,Ciências Agrárias,Sociobiodiversidade,1,0,0,1,100%,1,0
 40000968,Pesquisador,Ciência e Tecnologia de Alimentos,Ciência de Alimentos,5,0,0,5,100%,6,1
 40000980,Pesquisador,Engenharias,Sociologia e Automação e Mecanização,11,0,3,8,100%,14,3
@@ -127,11 +127,11 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40001672,Pesquisador,Ciências Biológicas,Insumos Biológicos,12,0,2,10,100%,14,2
 40001690,Pesquisador,Ciências Biológicas,Biologia Avançada,14,0,0,0,0%,0,0
 40001733,Pesquisador,Ciências Exatas e da Terra,Geotecnologia,1,0,0,1,100%,1,0
-40001744,Pesquisador,Ciências Agrárias,Sistema de Produção Vegetal,20,0,3,17,100%,26,6
+40001744,Pesquisador,Ciências Agrárias,Sistema de Produção Vegetal,20,0,3,17,100%,27,7
 40001749,Pesquisador,Ciências Agrárias,Sistemas de Produção de Ruminantes,3,0,0,3,100%,3,0
 40001752,Pesquisador,Ciências Agrárias,Sistema de Produção Agroecológico e Orgânico,7,0,1,6,100%,8,1
 40001791,Pesquisador,Ciência e Tecnologia de Alimentos,Enologia,1,0,0,1,100%,1,0
-40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,0,0,10,100%,13,3
+40001814,Técnico,Gestão de Pessoas,Segurança e Saúde do Trabalho,10,0,0,10,100%,12,2
 40001834,Pesquisador,Ciências Agrárias,Silvicultura,3,0,0,3,100%,3,0
 40001860,Pesquisador,Ciências Agrárias,Uso Sustentável de Recursos Naturais,5,0,0,5,100%,6,1
 40001887,Pesquisador,Ciências Agrárias,Tecnologia e Utilização de Produtos Florestais,1,0,1,0,100%,2,1
@@ -152,7 +152,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40002220,Analista,Gestão da Informação,Engenharia de Dados,3,0,0,3,100%,6,3
 40002223,Analista,Orçamento e Finanças,Contabilidade,13,0,0,13,100%,16,3
 40002260,Analista,Gestão da Informação,Gestão da Informação Arquivística,1,0,0,1,100%,1,0
-40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,0,17,17,62%,42,8
+40002271,Analista,"Suprimento, Manutenção e Serviços","Administrativo, Suprimento, Manutenção e Serviços",55,0,18,17,64%,47,12
 40002278,Analista,Gestão da Informação,Engenharia de Infraestrutura e Tecnologia da Informação,16,0,0,15,94%,24,9
 40002284,Analista,Gestão de Pessoas,Folha de Pagamento,2,0,0,2,100%,2,0
 40002289,Analista,Gestão de Pessoas,Segurança e Saúde do Trabalho,3,0,0,3,100%,3,0
@@ -180,7 +180,7 @@ OPÇÃO,CARGO,ÁREA,SUBÁREA,TOTAL VAGAS,AGUARDANDO ACEITE,EM CONTRATAÇÃO,CONT
 40004353,Analista,Ciências Agrárias,Clínica Veterinária,3,0,0,3,100%,4,1
 40004381,Técnico,Mecânica,Mecânica de Precisão,1,0,0,1,100%,2,1
 40004441,Analista,"Suprimento, Manutenção e Serviços",Infraestrutura Arquitetura,1,0,0,1,100%,1,0
-40004461,Analista,"Suprimento, Manutenção e Serviços",Infraestrutura Engenharia Civil,6,0,0,6,100%,6,0
+40004461,Analista,"Suprimento, Manutenção e Serviços",Infraestrutura Engenharia Civil,6,0,0,5,83%,5,0
 40004569,Analista,Transferência de Tecnologia e Comunicação,Gestão de Instrumentos de Parcerias e Negócios,10,0,0,10,100%,14,4
 40004576,Pesquisador,Fotônica,Instrumentação em Fotônica,1,0,0,1,100%,1,0
 40005782,Pesquisador,Ciências Exatas e da Terra,Rastreabilidade e Certificação Digital,1,0,0,1,100%,1,0

@@ -18,7 +18,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-05-15,40001565,Pesquisador,Fitopatologia,MARIA LAURA URBANO NASCIMENTO,CPATSA - Semiárido
 2026-05-26,40000188,Tecnico,Laboratório,MARIA CLARA ARMANI FERMIANO DE FREITAS,CNPT - Trigo
 2026-05-28,40001744,Pesquisador,Sistema de Produção Vegetal,JOANA GRACIELA HANAUER,CPATSA - Semiárido
-2026-06-02,40001744,Pesquisador,Sistema de Produção Vegetal,LEONARDO BALENA,CPAA - Amaz. Ocidental
 2026-06-03,40001744,Pesquisador,Sistema de Produção Vegetal,FRANCISCO ANTONELLO MARODIN,CNPA - Algodão
 2026-06-10,40000188,Tecnico,Laboratório,JOSÉ JÚNIOR FERREIRA SOARES,CNPS - Solos
 2026-06-12,40000373,Pesquisador,Agricultura e Climatologia,JEFFERSON DE OLIVEIRA COSTA,CPAA - Amaz. Ocidental
@@ -59,3 +58,5 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",RUBENS MARQUES OBELAR RAMOS,CPACT - Clima Temp
 2026-07-24,40000127,Tecnico,Suporte à Gestão,FELIPE CABRAL CONDE,CPPSUL - Pec Sul
 2026-07-24,40000188,Tecnico,Laboratório,GUILHERME DOS SANTOS BATALHA,CPACP - Maranhão
+2026-07-31,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ANA LÚCIA LEONARDI,CNAT - Alimentos
+2026-07-31,40001744,Pesquisador,Sistema de Produção Vegetal,ISABELA BULEGON PILECCO,CPAA - Amaz. Ocidental

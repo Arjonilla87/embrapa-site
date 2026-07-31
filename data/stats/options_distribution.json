@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 6
+      "count": 9
     },
     {
       "range": "6-10",
@@ -14,11 +14,11 @@
     },
     {
       "range": "16-20",
-      "count": 1
+      "count": 2
     },
     {
       "range": ">20",
-      "count": 2
+      "count": 1
     }
   ],
   "details": [
@@ -64,6 +64,16 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 37,
+      "aceitou": 2,
+      "contratados": 16,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40000141",
       "cargo": "Analista",
       "subarea": "Química",
@@ -77,7 +87,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 78,
+      "convocados": 80,
       "aceitou": 11,
       "contratados": 39,
       "vagas_abertas": 9
@@ -90,6 +100,16 @@
       "convocados": 6,
       "aceitou": 0,
       "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000932",
+      "cargo": "Analista",
+      "subarea": "Sistema de Produção Vegetal",
+      "convocados": 23,
+      "aceitou": 2,
+      "contratados": 16,
       "vagas_abertas": 1
     },
     {
@@ -123,14 +143,14 @@
       "vagas_abertas": 1
     },
     {
-      "bucket": ">20",
+      "bucket": "16-20",
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 42,
-      "aceitou": 17,
+      "convocados": 47,
+      "aceitou": 18,
       "contratados": 17,
-      "vagas_abertas": 21
+      "vagas_abertas": 20
     },
     {
       "bucket": "1-5",
@@ -161,6 +181,16 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 16
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40004461",
+      "cargo": "Analista",
+      "subarea": "Infraestrutura Engenharia Civil",
+      "convocados": 5,
+      "aceitou": 0,
+      "contratados": 5,
+      "vagas_abertas": 1
     }
   ]
 }
