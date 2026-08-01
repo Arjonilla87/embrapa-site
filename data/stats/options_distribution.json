@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 9
+      "count": 6
     },
     {
       "range": "6-10",
@@ -64,16 +64,6 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000127",
-      "cargo": "Técnico",
-      "subarea": "Suporte à Gestão",
-      "convocados": 37,
-      "aceitou": 2,
-      "contratados": 16,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
       "opcao": "40000141",
       "cargo": "Analista",
       "subarea": "Química",
@@ -87,7 +77,7 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 80,
+      "convocados": 82,
       "aceitou": 11,
       "contratados": 39,
       "vagas_abertas": 9
@@ -100,16 +90,6 @@
       "convocados": 6,
       "aceitou": 0,
       "contratados": 5,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000932",
-      "cargo": "Analista",
-      "subarea": "Sistema de Produção Vegetal",
-      "convocados": 23,
-      "aceitou": 2,
-      "contratados": 16,
       "vagas_abertas": 1
     },
     {
@@ -181,16 +161,6 @@
       "aceitou": 0,
       "contratados": 0,
       "vagas_abertas": 16
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40004461",
-      "cargo": "Analista",
-      "subarea": "Infraestrutura Engenharia Civil",
-      "convocados": 5,
-      "aceitou": 0,
-      "contratados": 5,
-      "vagas_abertas": 1
     }
   ]
 }
