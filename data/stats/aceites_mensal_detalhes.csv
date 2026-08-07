@@ -14,19 +14,19 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,ANDRE NUNES MADUELL,CPACP - Maranhão
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NERICLENES CHAVES MARCANTE,CPATSA - Semiárido
 2026-04-22,40000932,Analista,Sistema de Produção Vegetal,BRUNA ALANA HAUPT PACINI,CPAF/RO - Rondônia
+2026-05-28,40001744,Pesquisador,Sistema de Produção Vegetal,JOANA GRACIELA HANAUER,CPATSA - Semiárido
 2026-06-03,40001744,Pesquisador,Sistema de Produção Vegetal,FRANCISCO ANTONELLO MARODIN,CNPA - Algodão
 2026-06-15,40000373,Pesquisador,Agricultura e Climatologia,HENRIQUE BORIOLO DIAS,CPATSA - Semiárido
+2026-06-17,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,CARLOS MIGUEL SIMOES DA SILVA,CPATU - Amaz. Oriental
 2026-06-17,40000188,Tecnico,Laboratório,LARISSA SILVA COUTO,CNPASA - Pesca
+2026-06-20,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",NATHALIA MARIA CUSTODIO MARCAL,CNPDIA - Instrumentação
 2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,DANIEL SAAVEDRA DOS SANTOS,CNPC - Caprinos
-2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,HENRIQUE NARDON FERRARESI,CNPSA - Suinos e Aves
 2026-06-20,40000188,Tecnico,Laboratório,JULIANA JUNQUEIRA PINELLI,CNPAB - Agrobiologia
 2026-06-22,40001565,Pesquisador,Fitopatologia,GUSTAVO BILIBIO DOS SANTOS,CPAF/RO - Rondônia
 2026-06-24,40001672,Pesquisador,Insumos Biológicos,CATHARINE ABREU BOMFIM,CPAC - Cerrados
 2026-06-24,40000188,Tecnico,Laboratório,LUDMILA VITORIA DE OLIVEIRA PEREIRA,CNPAB - Agrobiologia
-2026-06-25,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JOSE LAIRTON MENDES JUCA,CNPAT - Agro Tropical
-2026-06-30,40000188,Tecnico,Laboratório,BRUNA ALVES DOS SANTOS BARBOSA,CPACP - Maranhão
+2026-06-26,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",VITOR AUGUSTO DE CASTRO CALDAS,CNAT - Alimentos
 2026-07-02,40000188,Tecnico,Laboratório,YURI ALMEIDA MENDES,CPAA - Amaz. Ocidental
-2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",FRANCISCA THALIA SOUSA BOTO,CNPC - Caprinos
 2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LEANDRO NUNES AMORIM,CNPAB - Agrobiologia
 2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCUS DANILLO MENDES FURTADO,
 2026-07-07,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",EMERSON JOSE DE ARAUJO,CENARGEN
@@ -34,7 +34,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-07-10,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",CRISTIANE MARTINS BESERRA,CNPDIA - Instrumentação
 2026-07-13,40001066,Analista,Engenharia de Software,BRENO GUEDES MARTINELLI,CNPTIA - Agro Digital
 2026-07-13,40000188,Tecnico,Laboratório,GIULIA SILVA,CNPAB - Agrobiologia
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",CAIO DE SOUZA CHAVES,CNPH - Hortaliças
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JANDRO NUNES SANTOS,CNPH - Hortaliças
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LUIZ HENRIQUE FERNANDES FRANCO,CNPSA - Suinos e Aves
 2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCOS ANTONIO ANGELINO DE OLIVEIRA,CPAC - Cerrados
@@ -44,3 +43,4 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-07-24,40000188,Tecnico,Laboratório,GUILHERME DOS SANTOS BATALHA,CPACP - Maranhão
 2026-07-31,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ANA LÚCIA LEONARDI,CNAT - Alimentos
 2026-07-31,40001744,Pesquisador,Sistema de Produção Vegetal,ISABELA BULEGON PILECCO,CPAA - Amaz. Ocidental
+2026-08-07,40001393,Tecnico,Novas Tecnologias,MARCEL CRIZEL BRAUCH,CPAF/RO - Rondônia
