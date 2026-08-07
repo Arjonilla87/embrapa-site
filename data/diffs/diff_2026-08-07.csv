@@ -1,17 +1,17 @@
 ﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
 07/08/2026 - 17:30:02,35º AC,BRUNO PITTELLA OLIVEIRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Desistente,,,NOVO,
-07/08/2026 - 17:30:02,17º AC,NATHALIA MARIA CUSTODIO MARCAL,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPDIA - Instrumentação,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,17º AC,NATHALIA MARIA CUSTODIO MARCAL,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPDIA - Instrumentação,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,2º PPP,MARIA LAURA URBANO NASCIMENTO,40001565,Pesquisador,Fitopatologia,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
-07/08/2026 - 17:30:02,18º AC,VITOR AUGUSTO DE CASTRO CALDAS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,18º AC,VITOR AUGUSTO DE CASTRO CALDAS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,16º AC,NEOMAR RODRIGUES MARTINS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPAF - Arroz e Feijão,Santo Antônio de Goiás,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,9º  AC,IGOR ARAUJO BARBOSA,40000980,Pesquisador,Sociologia e Automação e Mecanização,Contratado,CPAC - Cerrados,Planaltina,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,47º AC,JOSÉ JÚNIOR FERREIRA SOARES,40000188,Técnico,Laboratório,Contratado,CNPS - Solos,Rio de Janeiro,ALTERADO,STATUS: Aceitou → Contratado
-07/08/2026 - 17:30:02,2º AC,CARLOS MIGUEL SIMOES DA SILVA,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,2º AC,CARLOS MIGUEL SIMOES DA SILVA,40001887,Pesquisador,Tecnologia e Utilização de Produtos Florestais,Contratado,CPATU - Amaz. Oriental,Belém,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,9º AC,ALINE APARECIDA SILVA BARBOSA,40001672,Pesquisador,Insumos Biológicos,Contratado,CNPAF - Arroz e Feijão,Santo Antônio de Goias,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,9º AC,WAGNER VICENTE PEREIRA,40001565,Pesquisador,Fitopatologia,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,1º PCD,CARLOS DANIEL BALLA,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,4º AC,EDGARD HENRIQUE COSTA SILVA,40000528,Pesquisador,Sistema de Produção de Olerícolas,Contratado,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou → Contratado
-07/08/2026 - 17:30:02,17º AC,JOANA GRACIELA HANAUER,40001744,Pesquisador,Sistema de Produção Vegetal,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,17º AC,JOANA GRACIELA HANAUER,40001744,Pesquisador,Sistema de Produção Vegetal,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,48º AC,YURI VINICIUS DA SILVA,40000188,Técnico,Laboratório,Contratado,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,9º PCD,MARIA CLARA ARMANI FERMIANO DE FREITAS,40000188,Técnico,Laboratório,Contratado,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 17:30:02,8º PPP,PEDRO PAULO LIMA DE ABREU,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPMA - Meio Ambiente,Jaguariúna,ALTERADO,STATUS: Aceitou → Contratado
@@ -37,3 +37,22 @@
 07/08/2026 - 19:25:18,10º PPP,CAIO DE SOUZA CHAVES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 19:25:18,7º PPP,FRANCISCA THALIA SOUSA BOTO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
 07/08/2026 - 19:25:18,17º AC,NATHALIA MARIA CUSTODIO MARCAL,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPDIA - Instrumentação,São Carlos,ALTERADO,STATUS: Contratado → Aceitou
+07/08/2026 - 20:25:14,3º PPP,ALEF EDELBRA RODRIGUES DA SILVA,40000007,Assistente,Manejo Animal,Desistente,,,NOVO,
+07/08/2026 - 20:25:14,6º AC,SWIANY SILVEIRA LIMA,40001672,Pesquisador,Insumos Biológicos,Contratado,CNPH - Hortaliças,Brasília,NOVO,
+07/08/2026 - 20:25:14,6º AC,MARINA BARROS ZACHARIAS,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,Contratado,CPAA - Amaz. Ocidental,Manaus,NOVO,
+07/08/2026 - 20:25:14,3º PPP,JOCELANIO WESLEY DE OLIVEIRA,40002198,Analista,Ciência de Dados,Desistente,,,NOVO,
+07/08/2026 - 20:25:14,3º PPP,ANTONIO FRANCISCO DA SILVA JUNIOR,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
+07/08/2026 - 20:25:14,4º AC,LAISA GOUVEIA PIMENTEL,40002541,Pesquisador,Ciência do Solo,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
+07/08/2026 - 20:25:14,6º AC,DENER MARCIO DA SILVA OLIVEIRA,40002541,Pesquisador,Ciência do Solo,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
+07/08/2026 - 20:25:14,3º AC,LAERTE GUSTAVO PIVETTA,40000932,Analista,Sistema de Produção Vegetal,Contratado,CNPSO - Soja,Londrina,NOVO,
+07/08/2026 - 20:25:14,3º AC,MARCOS RODRIGUES,40002101,Pesquisador,Fertilidade e Química do Solo,Contratado,CNPASA - Pesca,Palmas,NOVO,
+07/08/2026 - 20:25:14,4º AC,KARINA OLIVEIRA MOTA,40001672,Pesquisador,Insumos Biológicos,Contratado,CPATC - Tabuleiros,Aracaju,NOVO,
+07/08/2026 - 20:25:14,3º AC,RENAN WILLIAM DOS SANTOS,40000176,Analista,Ciências Sociais Aplicadas à Agropecuária,Desistente,,,NOVO,
+07/08/2026 - 20:25:14,4º AC,GUILHERME WILBERT FERREIRA,40001752,Pesquisador,Sistema de Produção Agroecológico e Orgânico,Contratado,CPATU - Amaz. Oriental,Belém,NOVO,
+07/08/2026 - 20:25:14,14º PCD,LUCAS DE OLIVEIRA BARROS,40000188,Técnico,Laboratório,Aceitou,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Convocado → Aceitou
+07/08/2026 - 20:25:14,12º PPP,LARISSA SILVA COUTO,40000188,Técnico,Laboratório,Contratado,CNPASA - Pesca,Palmas,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,13º AC,GUSTAVO BILIBIO DOS SANTOS,40001565,Pesquisador,Fitopatologia,Contratado,CPAF/RO - Rondônia,Porto Velho,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,13º PPP,YURI ALMEIDA MENDES,40000188,Técnico,Laboratório,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,6º AC,HELMA DE JESUS SOUSA E SILVA,40001393,Técnico,Novas Tecnologias,Desclassificado,CPAF/RO - Rondônia,Vilhena,ALTERADO,STATUS: Convocado → Desclassificado
+07/08/2026 - 20:25:14,20º AC,FRANCISCO ANTONELLO MARODIN,40001744,Pesquisador,Sistema de Produção Vegetal,Contratado,CNPA - Algodão,Luis Eduardo Magalhaes,ALTERADO,STATUS: Aceitou → Contratado
+07/08/2026 - 20:25:14,19º AC,LEANDRO NUNES AMORIM,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
