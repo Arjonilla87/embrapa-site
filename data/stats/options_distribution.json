@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 6
+      "count": 17
     },
     {
       "range": "6-10",
@@ -37,10 +37,10 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 41,
+      "convocados": 40,
       "aceitou": 0,
-      "contratados": 30,
-      "vagas_abertas": 7
+      "contratados": 29,
+      "vagas_abertas": 8
     },
     {
       "bucket": "11-15",
@@ -57,10 +57,20 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 52,
+      "convocados": 51,
       "aceitou": 3,
       "contratados": 39,
       "vagas_abertas": 70
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000116",
+      "cargo": "Pesquisador",
+      "subarea": "Sociologia e Antropologia da Alimentação",
+      "convocados": 1,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -77,19 +87,79 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 85,
+      "convocados": 84,
       "aceitou": 8,
-      "contratados": 45,
-      "vagas_abertas": 6
+      "contratados": 44,
+      "vagas_abertas": 7
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000210",
+      "cargo": "Analista",
+      "subarea": "Apoio a Campo Experimental",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000271",
+      "cargo": "Pesquisador",
+      "subarea": "Manejo e Conservação de Recursos Pesqueiros",
+      "convocados": 1,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
       "opcao": "40000463",
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
-      "convocados": 6,
+      "convocados": 5,
       "aceitou": 0,
-      "contratados": 5,
+      "contratados": 4,
+      "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000648",
+      "cargo": "Analista",
+      "subarea": "Comunicação",
+      "convocados": 9,
+      "aceitou": 0,
+      "contratados": 7,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001348",
+      "cargo": "Analista",
+      "subarea": "Inovação Social",
+      "convocados": 12,
+      "aceitou": 0,
+      "contratados": 11,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001355",
+      "cargo": "Analista",
+      "subarea": "Recursos Pesqueiros e Engenharia de Pesca",
+      "convocados": 1,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001672",
+      "cargo": "Pesquisador",
+      "subarea": "Insumos Biológicos",
+      "convocados": 13,
+      "aceitou": 0,
+      "contratados": 11,
       "vagas_abertas": 1
     },
     {
@@ -98,9 +168,29 @@
       "cargo": "Pesquisador",
       "subarea": "Biologia Avançada",
       "convocados": 11,
-      "aceitou": 7,
+      "aceitou": 8,
       "contratados": 0,
-      "vagas_abertas": 7
+      "vagas_abertas": 6
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001744",
+      "cargo": "Pesquisador",
+      "subarea": "Sistema de Produção Vegetal",
+      "convocados": 25,
+      "aceitou": 1,
+      "contratados": 17,
+      "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001752",
+      "cargo": "Pesquisador",
+      "subarea": "Sistema de Produção Agroecológico e Orgânico",
+      "convocados": 7,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -113,14 +203,34 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40002027",
+      "cargo": "Analista",
+      "subarea": "Tecnologia de Alimentos",
+      "convocados": 0,
+      "aceitou": 0,
+      "contratados": 0,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40002139",
+      "cargo": "Analista",
+      "subarea": "Biologia Avançada e Bioinformática",
+      "convocados": 6,
+      "aceitou": 1,
+      "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "16-20",
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 53,
-      "aceitou": 13,
+      "convocados": 52,
+      "aceitou": 12,
       "contratados": 25,
-      "vagas_abertas": 17
+      "vagas_abertas": 18
     },
     {
       "bucket": "1-5",
