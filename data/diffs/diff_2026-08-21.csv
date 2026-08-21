@@ -12,7 +12,7 @@
 21/08/2026 - 15:22:19,8º AC,EZIO DOS SANTOS PINTO JUNIOR,40002553,Analista,Transferência de Tecnologia,Contratado,CPAF/AC - Acre,Rio Branco,NOVO,
 21/08/2026 - 15:22:19,1º PPP,CLAUDIO SANTOS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Contratado,CNPMF - Mandioca,Cruz das Almas,NOVO,
 21/08/2026 - 15:22:19,1º PPP,EMANOEL LIMA MARTINS,40002688,Analista,Ciência do Solo,Contratado,CNPAT - Agro Tropical,Fortaleza,NOVO,
-21/08/2026 - 17:14:29,7º AC,DIOGO MARTINS DE SA,40001690,Pesquisador,Biologia Avançada,Convocado,CNPAF - Arroz e Feijão,Santo Antônio de Goiás,ALTERADO,STATUS: Aceitou → Convocado
+21/08/2026 - 20:14:21,7º AC,DIOGO MARTINS DE SA,40001690,Pesquisador,Biologia Avançada,Convocado,CNPAF - Arroz e Feijão,Santo Antônio de Goiás,ALTERADO,STATUS: Aceitou → Convocado
 21/08/2026 - 19:13:14,1º AC,IAN CARLOS BISPO DE CARVALHO,40000519,Pesquisador,Bacteriologia Vegetal,Contratado,CNPH - Hortaliças,Brasília,ALTERADO,COLOCAÇÃO: 1º PPP → 1º AC; OPÇÃO: 40000724 → 40000519; STATUS: Desistente → Contratado; UNIDADE:  → CNPH - Hortaliças; LOTAÇÃO:  → Brasília
 21/08/2026 - 17:14:29,5º AC,ACACIO JOSÉ NASCIMENTO FERREIRA,40001348,Analista,Inovação Social,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
 21/08/2026 - 17:14:29,14º AC,PAULO SERGIO MOLINA AZEVEDO,40000084,Técnico,Manejo Vegetal,Não se manifestou,,,NOVO,
@@ -28,7 +28,7 @@
 21/08/2026 - 17:14:29,33º AC,JULIANA DE OLIVEIRA CARNEIRO BRUM,40000188,Técnico,Laboratório,Contratado,CNPAB - Agrobiologia,Seropédica,NOVO,
 21/08/2026 - 17:14:29,6º AC,SWIANY SILVEIRA LIMA,40001672,Pesquisador,Insumos Biológicos,Contratado,CNPH - Hortaliças,Brasília,NOVO,
 21/08/2026 - 19:13:14,4º AC,GUSTAVO PEREIRA VALANI,40002688,Analista,Ciência do Solo,Desistente,,,ALTERADO,COLOCAÇÃO: 9º AC → 4º AC; OPÇÃO: 40002541 → 40002688; STATUS: Contratado → Desistente; UNIDADE: CNPMA - Meio Ambiente → ; LOTAÇÃO: Jaguariúna → 
-21/08/2026 - 17:14:29,1º PPP,IAN CARLOS BISPO DE CARVALHO,40000724,Analista,Sanidade e Defesa Vegetal,Desistente,,,ALTERADO,COLOCAÇÃO: 1º AC → 1º PPP; OPÇÃO: 40000519 → 40000724; STATUS: Contratado → Desistente; UNIDADE: CNPH - Hortaliças → ; LOTAÇÃO: Brasília → 
+21/08/2026 - 20:14:21,1º PPP,IAN CARLOS BISPO DE CARVALHO,40000724,Analista,Sanidade e Defesa Vegetal,Desistente,,,ALTERADO,COLOCAÇÃO: 1º AC → 1º PPP; OPÇÃO: 40000519 → 40000724; STATUS: Contratado → Desistente; UNIDADE: CNPH - Hortaliças → ; LOTAÇÃO: Brasília → 
 21/08/2026 - 18:14:29,1º AC,ROSARIA DA COSTA FARIA MARTINS,40002027,Analista,Tecnologia de Alimentos,Contratado,CTAA - Agro Alimentos,Rio de Janeiro,NOVO,
 21/08/2026 - 18:14:29,9º AC,WAGNER VICENTE PEREIRA,40001565,Pesquisador,Fitopatologia,Contratado,CPAF/RR - Roraima,Boa Vista,NOVO,
 21/08/2026 - 18:14:29,1º AC,CARLOS DE MELO E SILVA NETO,40001084,Pesquisador,Sistema de Produção Integrado,Desistente,CPAF/RR - Roraima,Boa Vista,NOVO,
@@ -39,3 +39,15 @@
 21/08/2026 - 18:14:29,9º AC,ALINE APARECIDA SILVA BARBOSA,40001672,Pesquisador,Insumos Biológicos,Contratado,CNPAF - Arroz e Feijão,Santo Antônio de Goias,NOVO,
 21/08/2026 - 18:14:29,9º AC,GUSTAVO PEREIRA VALANI,40002541,Pesquisador,Ciência do Solo,Contratado,CNPMA - Meio Ambiente,Jaguariúna,ALTERADO,COLOCAÇÃO: 4º AC → 9º AC; OPÇÃO: 40002688 → 40002541; STATUS: Desistente → Contratado; UNIDADE:  → CNPMA - Meio Ambiente; LOTAÇÃO:  → Jaguariúna
 21/08/2026 - 19:13:14,1º PCD,JULIANA JOSÉ,40001690,Pesquisador,Biologia Avançada,Aceitou,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Convocado → Aceitou
+21/08/2026 - 20:14:21,2º AC,DANIELA OLIVEIRA BRANDAO,40000464,Analista,Apoio a Campo Experimental Produção Animal,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
+21/08/2026 - 20:14:21,1º AC,WASHINGTON LUIS DE OLIVEIRA,40000119,Pesquisador,Etnobotânica,Contratado,CNAT - Alimentos,Maceió,NOVO,
+21/08/2026 - 20:14:21,1º PPP,LUCAS ALEX NASCIMENTO,40000141,Analista,Química,Contratado,CPAC - Cerrados,Planaltina,NOVO,
+21/08/2026 - 20:14:21,1º AC,FLAVIA GALVAO CANDIDO,40000131,Pesquisador,Nutrição,Contratado,CNAT - Alimentos,Maceió,NOVO,
+21/08/2026 - 20:14:21,1º PPP,SAMUEL CAVALCANTE DO AMARAL,40001224,Analista,Biologia Avançada e Química,Contratado,CPATSA - Semiárido,Petrolina,NOVO,
+21/08/2026 - 20:14:21,1º AC,NICOLAS AUGUSTO ROSIN,40000735,Pesquisador,Pedologia,Contratado,CNPS - Solos,Rio de Janeiro,NOVO,
+21/08/2026 - 20:14:21,2º AC,DANIEL DUARTE MORAES,40000682,Técnico,Tecnologia da Informação,Contratado,CPACT - Clima Temp,Pelotas,NOVO,
+21/08/2026 - 20:14:21,1º AC,WILLIAN YUITI TAKAHASHI,40001921,Pesquisador,Microbiologia e Bioquímica do Solo,Contratado,CNPAB - Agrobiologia,Seropédica,NOVO,
+21/08/2026 - 20:14:21,2º PPP,LUAN OTÁVIO LOPES SILVA,40001151,Analista,"Gestão de Parcerias, Portfólios e Negócios para a Inovação",Contratado,CNPAB - Agrobiologia,Seropédica,NOVO,
+21/08/2026 - 20:14:21,1º PCD,CESAR FAYER DE CAMPOS,40001814,Técnico,Segurança e Saúde do Trabalho,Contratado,CNPGC - Gado Corte,Campo Grande,NOVO,
+21/08/2026 - 20:14:21,2º PPP,JOSE DA CONCEICAO FERREIRA NETO,40002278,Analista,Engenharia de Infraestrutura e Tecnologia da Informação,Contratado,CNPASA - Pesca,Palmas,NOVO,
+21/08/2026 - 20:14:21,1º PCD,JULIANA JOSÉ,40001690,Pesquisador,Biologia Avançada,Convocado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Convocado
