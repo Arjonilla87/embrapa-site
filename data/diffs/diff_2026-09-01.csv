@@ -1,0 +1,9 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+31/08/2026 - 21:54:12,6º AC,GABRIEL CAYMMI VILELA FERREIRA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CPAF/AC - Acre,Rio Branco,NOVO,
+31/08/2026 - 21:54:12,13º AC,WILLY KELVIN DOS ANJOS CANDEIRA,40000002,Técnico,Manejo Animal,Aceitou,CPPSUL - Pec Sul,Bagé,NOVO,
+31/08/2026 - 21:54:12,7º AC,CLEIDSON NOGUEIRA DIAS,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Convocado,CPAA - Amaz. Ocidental,Manaus,NOVO,
+31/08/2026 - 21:54:12,13º AC,JONATAS FELIPE BARBOSA CALDI,40000002,Técnico,Manejo Animal,Convocado,,,NOVO,
+31/08/2026 - 21:54:12,65º AC,LIDIANE MACEDO ALVES DE LIMA,40000188,Técnico,Laboratório,Convocado,,,NOVO,
+31/08/2026 - 21:54:12,64º AC,PATRÍCIA OLIVEIRA SANTOS,40000188,Técnico,Laboratório,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+31/08/2026 - 21:54:12,12º AC,GUILHERME DE SOUZA LAUD,40000002,Técnico,Manejo Animal,Aceitou,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Convocado → Aceitou; UNIDADE:  → CNPSA - Suinos e Aves; LOTAÇÃO:  → Concórdia
+31/08/2026 - 21:54:12,6º AC,ISAIAS SILVA CHIANCA,40000002,Técnico,Manejo Animal,Aceitou,CPATC - Tabuleiros,Aracajú,ALTERADO,UNIDADE:  → CPATC - Tabuleiros; LOTAÇÃO:  → Aracajú
