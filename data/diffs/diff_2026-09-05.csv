@@ -1,0 +1,36 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+05/09/2026 - 08:28:49,8º AC,MARINA EDUARTE PEREIRA,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Aceitou,CPAA - Amaz. Ocidental,Manaus,NOVO,
+05/09/2026 - 08:28:49,2º PPP,CLEBER DOS SANTOS SIMIAO,40001074,Pesquisador,Sistemas de Produção Aquícola,Aceitou subjudice,CPAF/RR - Roraima,Boa Vista,NOVO,
+05/09/2026 - 08:28:49,29º AC,ELMA CRISTINA TORRES DE AMORIM,40000127,Técnico,Suporte à Gestão,Convocado,CPPSUL - Pec Sul,Bagé,NOVO,
+05/09/2026 - 08:28:49,66º AC,LUCIMARA SUZIN,40000188,Técnico,Laboratório,Aceitou,CPAA - Amaz. Ocidental,Manaus,NOVO,
+05/09/2026 - 08:28:49,8º AC,RENATO PERIARD ALVES,40000002,Técnico,Manejo Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,40º AC,JOHANN PALMA FIGUEIREDO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CNPT - Trigo,Passo Fundo,ALTERADO,COLOCAÇÃO: 2º AC → 40º AC; OPÇÃO: 40001388 → 40002271; STATUS: Contratado → Aceitou; UNIDADE: CPAF/RO - Rondônia → CNPT - Trigo; LOTAÇÃO: Porto Velho → Passo Fundo
+05/09/2026 - 08:28:49,29º AC,RUBENS MARQUES OBELAR RAMOS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CPACT - Clima Temp,Pelotas,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,27º AC,RAISSA PEREIRA SANTOS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,11º PPP,LUCAS DA FRANCA E ARAUJO MONTEIRO DO ROSARIO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,4º PCD,BRENO GUEDES MARTINELLI,40001066,Analista,Engenharia de Software,Contratado,CNPTIA - Agro Digital,Balsas,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,58º AC,GUILHERME DOS SANTOS BATALHA,40000188,Técnico,Laboratório,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,14º PCD,LUCAS DE OLIVEIRA BARROS,40000188,Técnico,Laboratório,Contratado,CPACP - Maranhão,São Luis,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,65º AC,LIDIANE MACEDO ALVES DE LIMA,40000188,Técnico,Laboratório,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+05/09/2026 - 08:28:49,28º AC,FELIPE CABRAL CONDE,40000127,Técnico,Suporte à Gestão,Desistente,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Desistente
+05/09/2026 - 08:28:49,6º AC,HENRIQUE BORIOLO DIAS,40000373,Pesquisador,Agricultura e Climatologia,Contratado,CPATSA - Semiárido,Petrolina,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,26º AC,JANDRO NUNES SANTOS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPH - Hortaliças,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,28º AC,MARCOS ANTONIO ANGELINO DE OLIVEIRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CPAC - Cerrados,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,52º AC,LUDMILA VITORIA DE OLIVEIRA PEREIRA,40000188,Técnico,Laboratório,Contratado,CNPAB - Agrobiologia,Seropedica,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,23º AC,CRISTIANE MARTINS BESERRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPDIA - Instrumentação,São Carlos,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,13º PPP,THIAGO DOS SANTOS CALCAGNO,40000188,Técnico,Laboratório,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,21º AC,DAVID AQUINO DA COSTA,40000084,Técnico,Manejo Vegetal,Contratado,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,56º AC,GIULIA SILVA,40000188,Técnico,Laboratório,Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,7º AC,CLEIDSON NOGUEIRA DIAS,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,Desistente,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Convocado → Desistente
+05/09/2026 - 08:28:49,5º AC,VANESSA DE ALMEIDA BARROS,40001690,Pesquisador,Biologia Avançada,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,8º AC,DANIEL SAAVEDRA DOS SANTOS,40000980,Pesquisador,Sociologia e Automação e Mecanização,Contratado,CNPC - Caprinos,Sobral,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,3º PPP,JARDAS ALVES DE MENESES,40000002,Técnico,Manejo Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,25º AC,LUIZ HENRIQUE FERNANDES FRANCO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,49º AC,JULIANA JUNQUEIRA PINELLI,40000188,Técnico,Laboratório,Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,21º AC,ISABELA BULEGON PILECCO,40001744,Pesquisador,Sistema de Produção Vegetal,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,20º AC,MARCUS DANILLO MENDES FURTADO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,4º PPP,MURILO CAMPOS PEREIRA,40000084,Técnico,Manejo Vegetal,Contratado,CPAMT - Agrossilvipastoril,Sinop,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,22º AC,EMERSON JOSE DE ARAUJO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,32º AC,ANA LÚCIA LEONARDI,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,55º AC,BRUNA DO NASCIMENTO BASSI,40000188,Técnico,Laboratório,Contratado,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Contratado
+05/09/2026 - 08:28:49,39º AC,ALEXANDRE MARTINI,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Desclassificado,,,ALTERADO,STATUS: Convocado → Desclassificado

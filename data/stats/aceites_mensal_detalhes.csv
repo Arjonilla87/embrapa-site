@@ -6,48 +6,19 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-01-28,40000002,Tecnico,Manejo Animal,ISAIAS SILVA CHIANCA,
 2026-01-29,40000127,Tecnico,Suporte à Gestão,ANDERSON DA SILVA BORGES,CNPAB - Agrobiologia
 2026-02-03,40002139,Analista,Biologia Avançada e Bioinformática,RAFAEL RODRIGUES FERRARI,CNPMS - Milho e Sorgo
-2026-02-04,40002139,Analista,Biologia Avançada e Bioinformática,LUIZA CESCA PIVA,CNPAE - Agroenergia
 2026-02-06,40000632,Pesquisador,Fitotecnia,OSVALDO JOSE FERREIRA JUNIOR,CNPSO - Soja
-2026-02-09,40000002,Tecnico,Manejo Animal,RENATO PERIARD ALVES,CNPSA - Suinos e Aves
-2026-03-24,40000084,Tecnico,Manejo Vegetal,MURILO CAMPOS PEREIRA,CPAMT - Agrossilvipastoril
-2026-04-06,40000084,Tecnico,Manejo Vegetal,DAVID AQUINO DA COSTA,CPAF/AC - Acre
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,ANDRE NUNES MADUELL,CPACP - Maranhão
 2026-04-17,40002541,Pesquisador,Ciência do Solo,NERICLENES CHAVES MARCANTE,CPATSA - Semiárido
 2026-04-22,40000932,Analista,Sistema de Produção Vegetal,BRUNA ALANA HAUPT PACINI,CPAF/RO - Rondônia
-2026-06-15,40000373,Pesquisador,Agricultura e Climatologia,HENRIQUE BORIOLO DIAS,CPATSA - Semiárido
-2026-06-20,40000980,Pesquisador,Sociologia e Automação e Mecanização,DANIEL SAAVEDRA DOS SANTOS,CNPC - Caprinos
-2026-06-20,40000188,Tecnico,Laboratório,JULIANA JUNQUEIRA PINELLI,CNPAB - Agrobiologia
-2026-06-24,40000188,Tecnico,Laboratório,LUDMILA VITORIA DE OLIVEIRA PEREIRA,CNPAB - Agrobiologia
-2026-07-03,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCUS DANILLO MENDES FURTADO,
-2026-07-07,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",EMERSON JOSE DE ARAUJO,CENARGEN
-2026-07-08,40000188,Tecnico,Laboratório,BRUNA DO NASCIMENTO BASSI,CPPSUL - Pec Sul
-2026-07-10,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",CRISTIANE MARTINS BESERRA,CNPDIA - Instrumentação
-2026-07-13,40001066,Analista,Engenharia de Software,BRENO GUEDES MARTINELLI,CNPTIA - Agro Digital
-2026-07-13,40000188,Tecnico,Laboratório,GIULIA SILVA,CNPAB - Agrobiologia
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JANDRO NUNES SANTOS,CNPH - Hortaliças
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LUIZ HENRIQUE FERNANDES FRANCO,CNPSA - Suinos e Aves
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",MARCOS ANTONIO ANGELINO DE OLIVEIRA,CPAC - Cerrados
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",RAISSA PEREIRA SANTOS,CENARGEN
-2026-07-24,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",RUBENS MARQUES OBELAR RAMOS,CPACT - Clima Temp
-2026-07-24,40000127,Tecnico,Suporte à Gestão,FELIPE CABRAL CONDE,CPPSUL - Pec Sul
-2026-07-24,40000188,Tecnico,Laboratório,GUILHERME DOS SANTOS BATALHA,CPACP - Maranhão
-2026-07-31,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ANA LÚCIA LEONARDI,CNAT - Alimentos
-2026-07-31,40001744,Pesquisador,Sistema de Produção Vegetal,ISABELA BULEGON PILECCO,CPAA - Amaz. Ocidental
-2026-08-07,40000188,Tecnico,Laboratório,LUCAS DE OLIVEIRA BARROS,CPACP - Maranhão
 2026-08-07,40001393,Tecnico,Novas Tecnologias,MARCEL CRIZEL BRAUCH,CPAF/RO - Rondônia
 2026-08-11,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",STEPHANI LOREN,CNPUV - Uva
 2026-08-11,40000188,Tecnico,Laboratório,SARAH SOUZA HENRIQUES,CPAP - Pantanal
-2026-08-14,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ANA CAROLINA DE SOUZA VERGARA,CENARGEN
 2026-08-14,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LAYS BITTENCOURT ALVES,CNAT - Alimentos
-2026-08-14,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",LUCAS DA FRANCA E ARAUJO MONTEIRO DO ROSARIO,CNAT - Alimentos
 2026-08-14,40001690,Pesquisador,Biologia Avançada,AMANDA FANELLI DE SOUZA,CPPSUL - Pec Sul
 2026-08-14,40001690,Pesquisador,Biologia Avançada,DANIEL DAVID NORIEGA VASQUEZ,CENARGEN
 2026-08-14,40001690,Pesquisador,Biologia Avançada,KARINE RENATA DIAS SILVEIRA,CNPAF - Arroz e Feijão
 2026-08-14,40001690,Pesquisador,Biologia Avançada,MARINA PUPKE MARONE,CNPTIA - Agro Digital
 2026-08-14,40001690,Pesquisador,Biologia Avançada,RODRIGO THEODORO ROCHA,CENARGEN
-2026-08-14,40001690,Pesquisador,Biologia Avançada,VANESSA DE ALMEIDA BARROS,CNPMS - Milho e Sorgo
-2026-08-14,40000002,Tecnico,Manejo Animal,JARDAS ALVES DE MENESES,CNPSA - Suinos e Aves
-2026-08-14,40000188,Tecnico,Laboratório,THIAGO DOS SANTOS CALCAGNO,CPAA - Amaz. Ocidental
 2026-08-19,40001690,Pesquisador,Biologia Avançada,ARIANE FERNANDES BERTONHA DELEZUK,CPAMT - Agrossilvipastoril
 2026-08-19,40000084,Tecnico,Manejo Vegetal,SANDRA REGINA DA SILVA VENTURA,CNPAB - Agrobiologia
 2026-08-21,40001690,Pesquisador,Biologia Avançada,DIOGO MARTINS DE SA,CNPAF - Arroz e Feijão
@@ -58,3 +29,6 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-09-01,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,GABRIEL CAYMMI VILELA FERREIRA,CPAF/AC - Acre
 2026-09-01,40000002,Tecnico,Manejo Animal,GUILHERME DE SOUZA LAUD,CNPSA - Suinos e Aves
 2026-09-01,40000002,Tecnico,Manejo Animal,WILLY KELVIN DOS ANJOS CANDEIRA,CPPSUL - Pec Sul
+2026-09-05,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",JOHANN PALMA FIGUEIREDO,CNPT - Trigo
+2026-09-05,40002494,Pesquisador,Ciências Sociais Aplicadas à Agropecuária,MARINA EDUARTE PEREIRA,CPAA - Amaz. Ocidental
+2026-09-05,40000188,Tecnico,Laboratório,LUCIMARA SUZIN,CPAA - Amaz. Ocidental

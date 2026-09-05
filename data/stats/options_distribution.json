@@ -28,8 +28,8 @@
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
       "convocados": 20,
-      "aceitou": 9,
-      "contratados": 7,
+      "aceitou": 7,
+      "contratados": 9,
       "vagas_abertas": 2
     },
     {
@@ -58,9 +58,19 @@
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
       "convocados": 52,
-      "aceitou": 3,
-      "contratados": 39,
+      "aceitou": 1,
+      "contratados": 41,
       "vagas_abertas": 70
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 39,
+      "aceitou": 1,
+      "contratados": 17,
+      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
@@ -77,10 +87,10 @@
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 88,
-      "aceitou": 10,
-      "contratados": 45,
-      "vagas_abertas": 4
+      "convocados": 89,
+      "aceitou": 4,
+      "contratados": 52,
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
@@ -98,9 +108,9 @@
       "cargo": "Pesquisador",
       "subarea": "Biologia Avançada",
       "convocados": 11,
-      "aceitou": 10,
-      "contratados": 0,
-      "vagas_abertas": 4
+      "aceitou": 8,
+      "contratados": 1,
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -117,9 +127,9 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 53,
-      "aceitou": 13,
-      "contratados": 25,
+      "convocados": 54,
+      "aceitou": 3,
+      "contratados": 35,
       "vagas_abertas": 17
     },
     {
@@ -130,16 +140,6 @@
       "convocados": 24,
       "aceitou": 0,
       "contratados": 15,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40002494",
-      "cargo": "Pesquisador",
-      "subarea": "Ciências Sociais Aplicadas à Agropecuária",
-      "convocados": 9,
-      "aceitou": 1,
-      "contratados": 5,
       "vagas_abertas": 1
     },
     {
