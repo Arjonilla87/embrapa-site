@@ -1,5 +1,31 @@
 [
   {
+    "DATA / HORA": "02/10/2026 - 20:25:23",
+    "COLOCAÇÃO": "2º AC",
+    "NOME": "RAFAEL RODRIGUES FERRARI",
+    "OPÇÃO": "40002139",
+    "CARGO": "Analista",
+    "SUBÁREA": "Biologia Avançada e Bioinformática",
+    "STATUS": "Contratado",
+    "UNIDADE": "CNPMS - Milho e Sorgo",
+    "LOTAÇÃO": "Sete Lagoas",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Aceitou → Contratado"
+  },
+  {
+    "DATA / HORA": "02/10/2026 - 20:25:23",
+    "COLOCAÇÃO": "2º PPP",
+    "NOME": "ANDERSON DA SILVA BORGES",
+    "OPÇÃO": "40000127",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Suporte à Gestão",
+    "STATUS": "Contratado",
+    "UNIDADE": "CNPAB - Agrobiologia",
+    "LOTAÇÃO": "Seropédica",
+    "EVENTO": "ALTERADO",
+    "ALTERACOES": "STATUS: Aceitou → Contratado"
+  },
+  {
     "DATA / HORA": "01/10/2026 - 20:41:02",
     "COLOCAÇÃO": "5º AC",
     "NOME": "IAN MONTEIRO NUNES",
