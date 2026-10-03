@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 6
+      "count": 7
     },
     {
       "range": "6-10",
@@ -27,7 +27,7 @@
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 41,
+      "convocados": 43,
       "aceitou": 0,
       "contratados": 30,
       "vagas_abertas": 7
@@ -38,8 +38,8 @@
       "cargo": "Pesquisador",
       "subarea": "Entomologia Agrícola",
       "convocados": 7,
-      "aceitou": 6,
-      "contratados": 0,
+      "aceitou": 3,
+      "contratados": 3,
       "vagas_abertas": 5
     },
     {
@@ -47,10 +47,10 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 52,
+      "convocados": 56,
       "aceitou": 1,
-      "contratados": 41,
-      "vagas_abertas": 70
+      "contratados": 42,
+      "vagas_abertas": 69
     },
     {
       "bucket": "1-5",
@@ -60,6 +60,16 @@
       "convocados": 5,
       "aceitou": 0,
       "contratados": 4,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000188",
+      "cargo": "Técnico",
+      "subarea": "Laboratório",
+      "convocados": 95,
+      "aceitou": 4,
+      "contratados": 54,
       "vagas_abertas": 1
     },
     {
@@ -78,8 +88,8 @@
       "cargo": "Pesquisador",
       "subarea": "Biologia Avançada",
       "convocados": 11,
-      "aceitou": 8,
-      "contratados": 1,
+      "aceitou": 2,
+      "contratados": 7,
       "vagas_abertas": 5
     },
     {
@@ -98,8 +108,8 @@
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
       "convocados": 63,
-      "aceitou": 8,
-      "contratados": 35,
+      "aceitou": 4,
+      "contratados": 39,
       "vagas_abertas": 12
     },
     {

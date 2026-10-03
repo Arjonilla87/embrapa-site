@@ -1,0 +1,31 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+03/10/2026 - 09:51:43,10º PPP,GISELY MOREIRA VITALINO,40000084,Técnico,Manejo Vegetal,Aceitou,CPATSA - Semiárido,Petrolina,NOVO,
+03/10/2026 - 09:51:43,71º AC,LETÍCIA FONSECA BARBOSA,40000188,Técnico,Laboratório,Convocado,CPAA - Amaz. Ocidental,Manaus,NOVO,
+03/10/2026 - 09:51:43,9º PPP,CRISTIANE FERNANDES PEREIRA,40000084,Técnico,Manejo Vegetal,Desistente,,,NOVO,
+03/10/2026 - 09:51:43,41º AC,MATEUS DOS SANTOS GOMES,40000084,Técnico,Manejo Vegetal,Convocado,,,NOVO,
+03/10/2026 - 09:51:43,32º AC,TIAGO DA FONSECA FERREIRA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,,,NOVO,
+03/10/2026 - 09:51:43,33º AC,MARLON DOS SANTOS CABRAL,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Convocado,,,NOVO,
+03/10/2026 - 09:51:43,43º AC,ANDERSON MOTA PEREIRA,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,7º AC,MARCEL CRIZEL BRAUCH,40001393,Técnico,Novas Tecnologias,Contratado,CPAF/RO - Rondônia,Vilhena,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,11º AC,MARCOS FELIPE PEREIRA DA SILVA,40000002,Técnico,Manejo Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,6º AC,MARINA PUPKE MARONE,40001690,Pesquisador,Biologia Avançada,Contratado,CNPTIA - Agro Digital,Campinas,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,38 º AC,LAYS BITTENCOURT ALVES,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNAT - Alimentos,Maceió,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,69º AC,LETÍCIA DE CÁSSIA RIBEIRO DE ARAÚJO,40000188,Técnico,Laboratório,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,66º AC,LUCIMARA SUZIN,40000188,Técnico,Laboratório,Desclassificado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Desclassificado
+03/10/2026 - 09:51:43,37º AC,STEPHANI LOREN,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPUV - Uva,Bento Gonçalves,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,61º AC,REBECA TRICIA OLIVEIRA LOUREIRO,40000188,Técnico,Laboratório,Contratado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,7º AC,DIOGO MARTINS DE SA,40001690,Pesquisador,Biologia Avançada,Contratado,CNPAF - Arroz e Feijão,Santo Antônio de Goiás,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,4º AC,RODRIGO THEODORO ROCHA,40001690,Pesquisador,Biologia Avançada,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,40º AC,POLLYANNA CAPOBIANGO DA FONSECA,40000084,Técnico,Manejo Vegetal,Desistente,,,ALTERADO,COLOCAÇÃO: 1º AC → 40º AC; OPÇÃO: 40000724 → 40000084; STATUS: Contratado → Desistente; UNIDADE: CNPGC - Gado Corte → ; LOTAÇÃO: Campo Grande → 
+03/10/2026 - 09:51:43,1º AC,EDUARDO CARLOS COSTANTIN,40000062,Pesquisador,Entomologia Agrícola,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,1º PCD,FREDERICO HICKMANN,40000062,Pesquisador,Entomologia Agrícola,Contratado,CNPMF - Mandioca,Cruz das Almas,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,5º AC,CLARA PEREIRA SCHAIDT,40000002,Técnico,Manejo Animal,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,40º AC,JOHANN PALMA FIGUEIREDO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Contratado,CNPT - Trigo,Passo Fundo,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,1º PPP,KARINE RENATA DIAS SILVEIRA,40001690,Pesquisador,Biologia Avançada,Contratado,CNPAF - Arroz e Feijão,Santo Antônio de Goiás,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,39º AC,SANDRA REGINA DA SILVA VENTURA,40000084,Técnico,Manejo Vegetal,Contratado,CNPAB - Agrobiologia,Seropédica,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,2º PPP,MATHEUS MENDES BELO,40000002,Técnico,Manejo Animal,Contratado,CNPMS - Milho e Sorgo,Sete Lagoas,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,1º AC,DANIEL DAVID NORIEGA VASQUEZ,40001690,Pesquisador,Biologia Avançada,Contratado,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,12º AC,GUILHERME DE SOUZA LAUD,40000002,Técnico,Manejo Animal,Contratado,CNPSA - Suinos e Aves,Concórdia,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,1º PPP,VALDEIR CELESTINO DOS SANTOS JUNIOR,40000062,Pesquisador,Entomologia Agrícola,Contratado,CPAF/RR - Roraima,Boa vista,ALTERADO,STATUS: Aceitou → Contratado
+03/10/2026 - 09:51:43,2º PPP,CLEBER DOS SANTOS SIMIAO,40001074,Pesquisador,Sistemas de Produção Aquícola,Contratado subjudice,CPAF/RR - Roraima,Boa Vista,ALTERADO,STATUS: Aceitou subjudice → Contratado subjudice
+03/10/2026 - 09:51:43,3º AC,AMANDA FANELLI DE SOUZA,40001690,Pesquisador,Biologia Avançada,Contratado,CPPSUL - Pec Sul,Bagé,ALTERADO,STATUS: Aceitou → Contratado
