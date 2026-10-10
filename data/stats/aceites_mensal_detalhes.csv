@@ -1,6 +1,5 @@
 DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 ,40001001,Pesquisador,Sanidade Aquícola,GUSTAVO CLAUDIANO,CNPASA - Pesca
-2026-01-15,40000002,Tecnico,Manejo Animal,RUDNEY DA SILVA MAIA JUNIOR,CPAF/RO - Rondônia
 2026-01-28,40000002,Tecnico,Manejo Animal,ISAIAS SILVA CHIANCA,
 2026-02-06,40000632,Pesquisador,Fitotecnia,OSVALDO JOSE FERREIRA JUNIOR,CNPSO - Soja
 2026-04-13,40000932,Analista,Sistema de Produção Vegetal,ANDRE NUNES MADUELL,CPACP - Maranhão
@@ -25,3 +24,8 @@ DATA,OPÇÃO,CARGO,SUBÁREA,NOME,UNIDADE
 2026-09-26,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",ERICK TIBURCIO DA PAZ,CPAP - Pantanal
 2026-09-26,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",GUILHERME SILVA SANTOS,CPAF/RR - Roraima
 2026-10-03,40000084,Tecnico,Manejo Vegetal,GISELY MOREIRA VITALINO,CPATSA - Semiárido
+2026-10-10,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,CARLOS FABIAN GONCALVES PEJES,CPAMN - Meio Norte
+2026-10-10,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,DANILO CARDOSO LAVARDA,CNPGC - Gado Corte
+2026-10-10,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,MARLON DOS SANTOS CABRAL,
+2026-10-10,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,MATHEUS DOS SANTOS SANTOS,CPATSA - Semiárido
+2026-10-10,40000188,Tecnico,Laboratório,JONATHAN EZEQUIEL DE SOUZA BAZILIO,CPAA - Amaz. Ocidental
