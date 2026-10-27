@@ -1,0 +1,9 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+26/10/2026 - 21:08:45,12º PPP,LETICIA SILVA DE JESUS,40000084,Técnico,Manejo Vegetal,Convocado,,,NOVO,
+26/10/2026 - 21:08:45,11º PPP,MATHEUS ARANTES DA SILVA,40000084,Técnico,Manejo Vegetal,Desistente,,,NOVO,
+26/10/2026 - 21:08:45,8º PCD,CLAYTON FABIAN MARINHO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CPAF/RR - Roraima,Boa Vista,NOVO,
+26/10/2026 - 21:08:45,2º PPP,MANOEL AFONSO ASSUNCAO SERRA,40000932,Analista,Sistema de Produção Vegetal,Contratado,CNPAF - Arroz e Feijão,Sinop,ALTERADO,COLOCAÇÃO: 4º PPP → 2º PPP; OPÇÃO: 40001744 → 40000932; STATUS: Desistente → Contratado; UNIDADE: CPAMN - Meio Norte → CNPAF - Arroz e Feijão; LOTAÇÃO: Teresina → Sinop
+26/10/2026 - 21:08:45,2º AC,LUIZA CESCA PIVA,40001690,Pesquisador,Biologia Avançada,Desclassificado,CPAA - Amaz. Ocidental,Manaus,ALTERADO,COLOCAÇÃO: 3º AC → 2º AC; OPÇÃO: 40002139 → 40001690; STATUS: Contratado → Desclassificado; UNIDADE: CNPAE - Agroenergia → CPAA - Amaz. Ocidental; LOTAÇÃO: Brasília → Manaus
+26/10/2026 - 21:08:45,7º PCD,BEATRIZ LOPES MENDONCA DE FREITAS,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Desistente,CENARGEN,Brasília,ALTERADO,STATUS: Aceitou → Desistente
+26/10/2026 - 21:08:45,41º AC,MATEUS DOS SANTOS GOMES,40000084,Técnico,Manejo Vegetal,Desistente,,,ALTERADO,STATUS: Convocado → Desistente
+26/10/2026 - 21:08:45,1º PPP,ABIAS SANTOS SILVA,40003735,Analista,Sistemas de Produção Animal,Desistente,CNPSA - Suinos e Aves,Concórdia,ALTERADO,COLOCAÇÃO: 2º AC → 1º PPP; OPÇÃO: 40001749 → 40003735; STATUS: Contratado → Desistente; UNIDADE: CPAA - Amaz. Ocidental → CNPSA - Suinos e Aves; LOTAÇÃO: Manaus → Concórdia
