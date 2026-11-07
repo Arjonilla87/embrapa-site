@@ -2,11 +2,11 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 8
+      "count": 9
     },
     {
       "range": "6-10",
-      "count": 3
+      "count": 1
     },
     {
       "range": "11-15",
@@ -28,8 +28,8 @@
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
       "convocados": 21,
-      "aceitou": 4,
-      "contratados": 13,
+      "aceitou": 0,
+      "contratados": 17,
       "vagas_abertas": 1
     },
     {
@@ -43,23 +43,23 @@
       "vagas_abertas": 3
     },
     {
-      "bucket": "6-10",
+      "bucket": "1-5",
       "opcao": "40000062",
       "cargo": "Pesquisador",
       "subarea": "Entomologia Agrícola",
-      "convocados": 6,
-      "aceitou": 3,
-      "contratados": 2,
-      "vagas_abertas": 6
+      "convocados": 7,
+      "aceitou": 1,
+      "contratados": 5,
+      "vagas_abertas": 5
     },
     {
       "bucket": ">20",
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 62,
-      "aceitou": 5,
-      "contratados": 42,
+      "convocados": 63,
+      "aceitou": 4,
+      "contratados": 43,
       "vagas_abertas": 65
     },
     {
@@ -74,12 +74,12 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000224",
-      "cargo": "Pesquisador",
-      "subarea": "Energias Renováveis",
-      "convocados": 0,
-      "aceitou": 0,
-      "contratados": 0,
+      "opcao": "40000188",
+      "cargo": "Técnico",
+      "subarea": "Laboratório",
+      "convocados": 96,
+      "aceitou": 2,
+      "contratados": 56,
       "vagas_abertas": 1
     },
     {
@@ -94,23 +94,13 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000502",
-      "cargo": "Pesquisador",
-      "subarea": "Fisiologia Vegetal",
-      "convocados": 0,
-      "aceitou": 0,
-      "contratados": 0,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "6-10",
       "opcao": "40001690",
       "cargo": "Pesquisador",
       "subarea": "Biologia Avançada",
-      "convocados": 10,
+      "convocados": 11,
       "aceitou": 1,
-      "contratados": 7,
-      "vagas_abertas": 6
+      "contratados": 8,
+      "vagas_abertas": 5
     },
     {
       "bucket": "1-5",
@@ -127,10 +117,10 @@
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 68,
-      "aceitou": 5,
-      "contratados": 40,
-      "vagas_abertas": 10
+      "convocados": 72,
+      "aceitou": 2,
+      "contratados": 45,
+      "vagas_abertas": 8
     },
     {
       "bucket": "1-5",
