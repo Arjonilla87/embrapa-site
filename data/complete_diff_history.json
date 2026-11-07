@@ -1,5 +1,57 @@
 [
   {
+    "DATA / HORA": "06/11/2026 - 22:27:00",
+    "COLOCAÇÃO": "1º AC",
+    "NOME": "ALANA MARIA MENEZES DI CALACA",
+    "OPÇÃO": "40001749",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Sistemas de Produção de Ruminantes",
+    "STATUS": "Contratado",
+    "UNIDADE": "CPATSA - Semiárido",
+    "LOTAÇÃO": "Petrolina",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "06/11/2026 - 22:27:00",
+    "COLOCAÇÃO": "1º AC",
+    "NOME": "NATALIA PAZIN ALMEIDA",
+    "OPÇÃO": "40000175",
+    "CARGO": "Pesquisador",
+    "SUBÁREA": "Engenharia",
+    "STATUS": "Contratado",
+    "UNIDADE": "CNPAE - Agroenergia",
+    "LOTAÇÃO": "Brasília",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "06/11/2026 - 22:27:00",
+    "COLOCAÇÃO": "21º AC",
+    "NOME": "DAVID AQUINO DA COSTA",
+    "OPÇÃO": "40000084",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Manejo Vegetal",
+    "STATUS": "Contratado",
+    "UNIDADE": "CPAF/AC - Acre",
+    "LOTAÇÃO": "Rio Branco",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
+    "DATA / HORA": "06/11/2026 - 22:27:00",
+    "COLOCAÇÃO": "21º AC",
+    "NOME": "GENIVALDO SILVA DOS SANTOS",
+    "OPÇÃO": "40000188",
+    "CARGO": "Técnico",
+    "SUBÁREA": "Laboratório",
+    "STATUS": "Contratado",
+    "UNIDADE": "CPATC - Tabuleiros",
+    "LOTAÇÃO": "Aracaju",
+    "EVENTO": "NOVO",
+    "ALTERACOES": ""
+  },
+  {
     "DATA / HORA": "06/11/2026 - 18:20:01",
     "COLOCAÇÃO": "11º PPP",
     "NOME": "ERICK TIBURCIO DA PAZ",

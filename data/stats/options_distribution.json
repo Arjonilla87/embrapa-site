@@ -2,7 +2,7 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 9
+      "count": 8
     },
     {
       "range": "6-10",
@@ -57,10 +57,10 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 61,
+      "convocados": 62,
       "aceitou": 5,
-      "contratados": 41,
-      "vagas_abertas": 66
+      "contratados": 42,
+      "vagas_abertas": 65
     },
     {
       "bucket": "1-5",
@@ -74,22 +74,12 @@
     },
     {
       "bucket": "1-5",
-      "opcao": "40000175",
+      "opcao": "40000224",
       "cargo": "Pesquisador",
-      "subarea": "Engenharia",
+      "subarea": "Energias Renováveis",
       "convocados": 0,
       "aceitou": 0,
       "contratados": 0,
-      "vagas_abertas": 1
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40000188",
-      "cargo": "Técnico",
-      "subarea": "Laboratório",
-      "convocados": 95,
-      "aceitou": 5,
-      "contratados": 53,
       "vagas_abertas": 1
     },
     {
@@ -103,6 +93,16 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40000502",
+      "cargo": "Pesquisador",
+      "subarea": "Fisiologia Vegetal",
+      "convocados": 0,
+      "aceitou": 0,
+      "contratados": 0,
+      "vagas_abertas": 1
+    },
+    {
       "bucket": "6-10",
       "opcao": "40001690",
       "cargo": "Pesquisador",
@@ -111,16 +111,6 @@
       "aceitou": 1,
       "contratados": 7,
       "vagas_abertas": 6
-    },
-    {
-      "bucket": "1-5",
-      "opcao": "40001749",
-      "cargo": "Pesquisador",
-      "subarea": "Sistemas de Produção de Ruminantes",
-      "convocados": 2,
-      "aceitou": 0,
-      "contratados": 2,
-      "vagas_abertas": 1
     },
     {
       "bucket": "1-5",
