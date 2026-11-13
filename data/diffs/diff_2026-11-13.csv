@@ -1,0 +1,5 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+13/11/2026 - 18:44:27,54º AC,IRIANA LOVATO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Convocado,,,NOVO,
+13/11/2026 - 18:44:27,6º PCD,MARLON ANTONIO DEBRINO,40000084,Técnico,Manejo Vegetal,Aceitou,CNPSO - Soja,Ponta Grossa,NOVO,
+13/11/2026 - 18:44:27,2º PPP,VALDECY APARECIDA ROCHA DA CRUZ,40002220,Analista,Engenharia de Dados,Desistente,,,ALTERADO,COLOCAÇÃO: 4º AC → 2º PPP; OPÇÃO: 40000268 → 40002220; STATUS: Contratado → Desistente; UNIDADE: CPPSUL - Pec Sul → ; LOTAÇÃO: Bagé → 
+13/11/2026 - 18:44:27,53º AC,RAPHAEL NARCIZO,40002271,Analista,"Administrativo, Suprimento, Manutenção e Serviços",Aceitou,CENARGEN,Brasília,ALTERADO,STATUS: Convocado → Aceitou
