@@ -1,0 +1,16 @@
+﻿DATA / HORA,COLOCAÇÃO,NOME,OPÇÃO,CARGO,SUBÁREA,STATUS,UNIDADE,LOTAÇÃO,EVENTO,ALTERACOES
+27/11/2026 - 21:50:39,2º PPP,ELENILDO DOS SANTOS OLIVEIRA,40003706,Pesquisador,Melhoramento Genético Vegetal,Aceitou,CNPC - Caprinos,Sobral,NOVO,
+27/11/2026 - 21:50:39,1º PPP,DANILO ARAUJO GOMES,40003706,Pesquisador,Melhoramento Genético Vegetal,Aceitou,CNPAT - Agro Tropical,Fortaleza,NOVO,
+27/11/2026 - 21:50:39,40º AC,RONALDO PAIVA COSTA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CPAMN - Meio Norte,Teresina,NOVO,
+27/11/2026 - 21:50:39,41º AC,CLEIDIR DE SANTANA SOUZA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Aceitou,CPAF/AP - Amapá,Macapá,NOVO,
+27/11/2026 - 21:50:39,39º AC,BRUNO RAFAEL MACHADO PEREIRA,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,,,NOVO,
+27/11/2026 - 21:50:39,57º AC,RAPHAELA CARVALHO PANIAGO,40000084,Técnico,Manejo Vegetal,Aceitou,CNPAT - Agro Tropical,Fortaleza,NOVO,
+27/11/2026 - 21:50:39,5º AC,WILLAME DOS SANTOS CANDIDO,40003706,Pesquisador,Melhoramento Genético Vegetal,Aceitou,CNPH - Hortaliças,Brasília,NOVO,
+27/11/2026 - 21:50:39,7º PCD,RAFAEL DE LIMA ERAZO,40000084,Técnico,Manejo Vegetal,Convocado,,,NOVO,
+27/11/2026 - 21:50:39,58º AC,ALEF NEVES VITORIO,40000084,Técnico,Manejo Vegetal,Aceitou,CPATU - Amaz. Oriental,Belém,NOVO,
+27/11/2026 - 21:50:39,38º AC,FABIO DE MESQUITA BUSS,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,,,NOVO,
+27/11/2026 - 21:50:39,36º AC,CARLOS FABIAN GONCALVES PEJES,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,CPAMN - Meio Norte,Teresina,ALTERADO,STATUS: Aceitou → Desistente
+27/11/2026 - 21:50:39,13º AC,WALLACE FERREIRA DA SILVA,40002198,Analista,Ciência de Dados,Desistente,,,ALTERADO,COLOCAÇÃO: 2º PPP → 13º AC
+27/11/2026 - 21:50:39,4º AC,GUSTAVO PEREIRA VALANI,40002688,Analista,Ciência do Solo,Desistente,,,ALTERADO,COLOCAÇÃO: 9º AC → 4º AC; OPÇÃO: 40002541 → 40002688; STATUS: Contratado → Desistente; UNIDADE: CNPMA - Meio Ambiente → ; LOTAÇÃO: Jaguariúna → 
+27/11/2026 - 21:50:39,5º AC,LEANDRO BARBOSA PIMENTA,40001744,Pesquisador,Sistema de Produção Vegetal,Contratado,CPAC - Cerrados,Planaltina,ALTERADO,COLOCAÇÃO: 9º AC → 5º AC; OPÇÃO: 40000932 → 40001744; STATUS: Desistente → Contratado; UNIDADE:  → CPAC - Cerrados; LOTAÇÃO:  → Planaltina
+27/11/2026 - 21:50:39,37º AC,THIAGO DA SILVA GOMES,40000035,Assistente,Operador de Máquinas Agrícolas e Veículos,Desistente,CPAF/AC - Acre,Rio Branco,ALTERADO,STATUS: Convocado → Desistente

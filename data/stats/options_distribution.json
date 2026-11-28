@@ -2,19 +2,19 @@
   "buckets": [
     {
       "range": "1-5",
-      "count": 9
+      "count": 47
     },
     {
       "range": "6-10",
-      "count": 1
+      "count": 4
     },
     {
       "range": "11-15",
-      "count": 0
+      "count": 1
     },
     {
       "range": "16-20",
-      "count": 1
+      "count": 0
     },
     {
       "range": ">20",
@@ -27,20 +27,30 @@
       "opcao": "40000002",
       "cargo": "Técnico",
       "subarea": "Manejo Animal",
-      "convocados": 21,
+      "convocados": 18,
       "aceitou": 0,
-      "contratados": 17,
-      "vagas_abertas": 1
+      "contratados": 15,
+      "vagas_abertas": 3
     },
     {
       "bucket": "1-5",
+      "opcao": "40000007",
+      "cargo": "Assistente",
+      "subarea": "Manejo Animal",
+      "convocados": 30,
+      "aceitou": 0,
+      "contratados": 18,
+      "vagas_abertas": 4
+    },
+    {
+      "bucket": "6-10",
       "opcao": "40000035",
       "cargo": "Assistente",
       "subarea": "Operador de Máquinas Agrícolas e Veículos",
-      "convocados": 48,
-      "aceitou": 4,
-      "contratados": 30,
-      "vagas_abertas": 3
+      "convocados": 45,
+      "aceitou": 5,
+      "contratados": 25,
+      "vagas_abertas": 7
     },
     {
       "bucket": "1-5",
@@ -57,10 +67,30 @@
       "opcao": "40000084",
       "cargo": "Técnico",
       "subarea": "Manejo Vegetal",
-      "convocados": 67,
-      "aceitou": 9,
-      "contratados": 43,
-      "vagas_abertas": 60
+      "convocados": 61,
+      "aceitou": 11,
+      "contratados": 35,
+      "vagas_abertas": 66
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000127",
+      "cargo": "Técnico",
+      "subarea": "Suporte à Gestão",
+      "convocados": 35,
+      "aceitou": 0,
+      "contratados": 15,
+      "vagas_abertas": 4
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000134",
+      "cargo": "Pesquisador",
+      "subarea": "Tecnologia e Inovação Alimentar para Gastronomia",
+      "convocados": 3,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
@@ -74,22 +104,292 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40000150",
+      "cargo": "Analista",
+      "subarea": "Ciência de Alimentos de Origem Animal",
+      "convocados": 0,
+      "aceitou": 0,
+      "contratados": 0,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "6-10",
       "opcao": "40000188",
       "cargo": "Técnico",
       "subarea": "Laboratório",
-      "convocados": 96,
-      "aceitou": 2,
-      "contratados": 56,
+      "convocados": 76,
+      "aceitou": 1,
+      "contratados": 48,
+      "vagas_abertas": 10
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000210",
+      "cargo": "Analista",
+      "subarea": "Apoio a Campo Experimental",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 6,
       "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000262",
+      "cargo": "Técnico",
+      "subarea": "Bioquímica e Biologia Molecular",
+      "convocados": 0,
+      "aceitou": 0,
+      "contratados": 0,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000332",
+      "cargo": "Analista",
+      "subarea": "Recursos Genéticos e Melhoramento Genético Vegetal",
+      "convocados": 4,
+      "aceitou": 0,
+      "contratados": 3,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000373",
+      "cargo": "Pesquisador",
+      "subarea": "Agricultura e Climatologia",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000432",
+      "cargo": "Analista",
+      "subarea": "Jornalismo",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 5,
+      "vagas_abertas": 2
     },
     {
       "bucket": "1-5",
       "opcao": "40000463",
       "cargo": "Analista",
       "subarea": "Designer Gráfico",
+      "convocados": 5,
+      "aceitou": 0,
+      "contratados": 4,
+      "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000497",
+      "cargo": "Analista",
+      "subarea": "Gestão da Propriedade Intelectual para a Inovação",
+      "convocados": 4,
+      "aceitou": 0,
+      "contratados": 4,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000528",
+      "cargo": "Pesquisador",
+      "subarea": "Sistema de Produção de Olerícolas",
+      "convocados": 3,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000551",
+      "cargo": "Analista",
+      "subarea": "Gestão da Qualidade Laboratorial",
+      "convocados": 6,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000564",
+      "cargo": "Pesquisador",
+      "subarea": "Ciências Econômicas Aplicadas à Agropecuária",
+      "convocados": 2,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000682",
+      "cargo": "Técnico",
+      "subarea": "Tecnologia da Informação",
+      "convocados": 5,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000710",
+      "cargo": "Pesquisador",
+      "subarea": "Fisiologia de Plantas Cultivadas",
+      "convocados": 2,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000724",
+      "cargo": "Analista",
+      "subarea": "Sanidade e Defesa Vegetal",
       "convocados": 6,
       "aceitou": 0,
       "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000878",
+      "cargo": "Técnico",
+      "subarea": "Monitoramento Preditivo",
+      "convocados": 6,
+      "aceitou": 0,
+      "contratados": 3,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40000932",
+      "cargo": "Analista",
+      "subarea": "Sistema de Produção Vegetal",
+      "convocados": 21,
+      "aceitou": 1,
+      "contratados": 16,
+      "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001042",
+      "cargo": "Analista",
+      "subarea": "Tecnologia de Sementes",
+      "convocados": 1,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001045",
+      "cargo": "Pesquisador",
+      "subarea": "Bioprospecção e Biotecnologia",
+      "convocados": 8,
+      "aceitou": 0,
+      "contratados": 7,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001064",
+      "cargo": "Analista",
+      "subarea": "Ciência de Alimentos",
+      "convocados": 7,
+      "aceitou": 0,
+      "contratados": 6,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001066",
+      "cargo": "Analista",
+      "subarea": "Engenharia de Software",
+      "convocados": 9,
+      "aceitou": 0,
+      "contratados": 4,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001098",
+      "cargo": "Analista",
+      "subarea": "Administração de Pessoas",
+      "convocados": 5,
+      "aceitou": 0,
+      "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "6-10",
+      "opcao": "40001151",
+      "cargo": "Analista",
+      "subarea": "Gestão de Parcerias, Portfólios e Negócios para a Inovação",
+      "convocados": 32,
+      "aceitou": 0,
+      "contratados": 27,
+      "vagas_abertas": 6
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001484",
+      "cargo": "Pesquisador",
+      "subarea": "Nutrição de Ruminantes",
+      "convocados": 4,
+      "aceitou": 0,
+      "contratados": 3,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001550",
+      "cargo": "Pesquisador",
+      "subarea": "Nematologia Vegetal",
+      "convocados": 3,
+      "aceitou": 0,
+      "contratados": 3,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001565",
+      "cargo": "Pesquisador",
+      "subarea": "Fitopatologia",
+      "convocados": 13,
+      "aceitou": 0,
+      "contratados": 9,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001607",
+      "cargo": "Analista",
+      "subarea": "Agricultura e Climatologia",
+      "convocados": 4,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001648",
+      "cargo": "Analista",
+      "subarea": "Análise de Dados",
+      "convocados": 6,
+      "aceitou": 0,
+      "contratados": 3,
+      "vagas_abertas": 4
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001672",
+      "cargo": "Pesquisador",
+      "subarea": "Insumos Biológicos",
+      "convocados": 13,
+      "aceitou": 0,
+      "contratados": 11,
       "vagas_abertas": 1
     },
     {
@@ -104,6 +404,36 @@
     },
     {
       "bucket": "1-5",
+      "opcao": "40001744",
+      "cargo": "Pesquisador",
+      "subarea": "Sistema de Produção Vegetal",
+      "convocados": 24,
+      "aceitou": 0,
+      "contratados": 18,
+      "vagas_abertas": 2
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001814",
+      "cargo": "Técnico",
+      "subarea": "Segurança e Saúde do Trabalho",
+      "convocados": 12,
+      "aceitou": 0,
+      "contratados": 9,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40001834",
+      "cargo": "Pesquisador",
+      "subarea": "Silvicultura",
+      "convocados": 2,
+      "aceitou": 0,
+      "contratados": 2,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
       "opcao": "40002022",
       "cargo": "Pesquisador",
       "subarea": "Ciência de Dados",
@@ -113,34 +443,114 @@
       "vagas_abertas": 1
     },
     {
+      "bucket": "1-5",
+      "opcao": "40002198",
+      "cargo": "Analista",
+      "subarea": "Ciência de Dados",
+      "convocados": 16,
+      "aceitou": 0,
+      "contratados": 11,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40002223",
+      "cargo": "Analista",
+      "subarea": "Contabilidade",
+      "convocados": 13,
+      "aceitou": 0,
+      "contratados": 11,
+      "vagas_abertas": 2
+    },
+    {
       "bucket": "6-10",
       "opcao": "40002271",
       "cargo": "Analista",
       "subarea": "Administrativo, Suprimento, Manutenção e Serviços",
-      "convocados": 73,
+      "convocados": 67,
       "aceitou": 3,
-      "contratados": 45,
-      "vagas_abertas": 7
+      "contratados": 42,
+      "vagas_abertas": 10
     },
     {
       "bucket": "1-5",
       "opcao": "40002278",
       "cargo": "Analista",
       "subarea": "Engenharia de Infraestrutura e Tecnologia da Informação",
-      "convocados": 24,
+      "convocados": 19,
       "aceitou": 0,
-      "contratados": 15,
+      "contratados": 13,
+      "vagas_abertas": 3
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40002541",
+      "cargo": "Pesquisador",
+      "subarea": "Ciência do Solo",
+      "convocados": 16,
+      "aceitou": 0,
+      "contratados": 16,
       "vagas_abertas": 1
     },
     {
-      "bucket": "16-20",
+      "bucket": "1-5",
+      "opcao": "40002553",
+      "cargo": "Analista",
+      "subarea": "Transferência de Tecnologia",
+      "convocados": 9,
+      "aceitou": 0,
+      "contratados": 7,
+      "vagas_abertas": 3
+    },
+    {
+      "bucket": "11-15",
       "opcao": "40003706",
       "cargo": "Pesquisador",
       "subarea": "Melhoramento Genético Vegetal",
-      "convocados": 0,
-      "aceitou": 0,
+      "convocados": 4,
+      "aceitou": 3,
       "contratados": 0,
-      "vagas_abertas": 16
+      "vagas_abertas": 13
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40004461",
+      "cargo": "Analista",
+      "subarea": "Infraestrutura Engenharia Civil",
+      "convocados": 5,
+      "aceitou": 0,
+      "contratados": 5,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40004569",
+      "cargo": "Analista",
+      "subarea": "Gestão de Instrumentos de Parcerias e Negócios",
+      "convocados": 9,
+      "aceitou": 0,
+      "contratados": 7,
+      "vagas_abertas": 3
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40006431",
+      "cargo": "Pesquisador",
+      "subarea": "Inovação Social",
+      "convocados": 2,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
+    },
+    {
+      "bucket": "1-5",
+      "opcao": "40009493",
+      "cargo": "Analista",
+      "subarea": "Tecnologia e Inovação Alimentar para Gastronomia",
+      "convocados": 1,
+      "aceitou": 0,
+      "contratados": 1,
+      "vagas_abertas": 1
     }
   ]
 }
